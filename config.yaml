@@ -28,6 +28,10 @@ profile:
     - ["venture|start-?ups?|incubat|accelerator|corporate development|new ventures?|entrepreneur|investments?\\b|innovation|emerging (tech|technology)|due diligence", 25]
     # Public-sector leadership titles
     - ["(division|deputy|assistant|associate) director|director of (operations|programs?|strategy|administration|business|policy)|(strategic|policy|senior) advisor|administrative services (manager|director)|operations (manager|administrator)|program (administrator|supervisor)|contracts? (manager|administrator)|procurement (manager|director)|chief (operating|administrative|deputy) |business (manager|services)|(project|program)[/ ]+(program|project) manager|deputy (chief|county|city)", 30]
+    # Mergers & acquisitions / integration programs (Dan's favorite kind of role: e.g. Stripe "Project Manager, People M&A")
+    - ['\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?|\bPMI\b|integration (program|project|management|manager|lead|director|planning)|(program|project) manager.{0,30}integration', 35]
+    # Startup accelerator / ecosystem programs (Dan's favorite: e.g. Plug and Play "Program Manager", Seattle)
+    - ['(programs?|project|operations|partnerships?|community)\b.{0,40}\b(accelerat\w*|incubat\w*|start-?ups?|ventures?|founders?|ecosystem)|(accelerat\w*|incubat\w*|start-?ups?|ventures?|founders?|ecosystem)\b.{0,40}\b(programs?|project|operations|partnerships?|community)', 40]
     # Adjacent
     - ["product (operations|strategy)|go[- ]to[- ]market|\\bGTM\\b|growth (operations|strategy)", 15]
     - ["project (manager|management)", 10]
@@ -39,6 +43,12 @@ profile:
     - ["manager", 10]
     - ["director|head of|principal|staff", 9]
     - ["vice president|\\bVP\\b|chief", 3]
+
+  # The two kinds of role Dan says he loves (he just applied to one of each). They get bonus points, a louder
+  # phone alert and a "like his favorites" note. [label, title regex, bonus points]
+  favorites:
+    - ["M&A / integration program", '\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?|integration (program|project|management|manager|lead|director|planning)', 10, '\bM&A\b|mergers?\b|post[- ]merger|acquired (compan|team)|acquisition integration|integration workstreams?|divestitures?', 3]
+    - ["startup accelerator / ecosystem program", '(programs?|project|operations|partnerships?|community)\b.{0,40}\b(accelerat\w*|incubat\w*|start-?ups?|ventures?|founders?|ecosystem)|(accelerat\w*|incubat\w*|start-?ups?|ventures?|founders?|ecosystem)\b.{0,40}\b(programs?|project|operations|partnerships?|community)', 10, 'accelerator|incubator|cohorts?\b|start-?ups?|founders?|demo day|mentors?\b|venture capital', 5]
 
   # Evidence of Dan's real experience in the job text (title + description). [label, regex, points];
   # each counts once, total capped at 30. This is what turns "sounds similar" into a validated match.
@@ -55,6 +65,8 @@ profile:
     - ["startup / venture", 'start-?ups?|founders?|ventures?|entrepreneur|0-to-1|zero[- ]to[- ]one|new business|incubat|due diligence|corporate development', 6]
     - ["operations leadership", 'operational excellence|process (improvement|optimization)|operating model|business operations|scal(e|ing) (the )?(business|operations|teams?)', 4]
     - ["telecom / customer", 'telecom|wireless|carrier|customer experience|retail|airline|travel', 2]
+    - ["M&A / integration", 'acquisitions?\b|\bM&A\b|mergers?\b|post[- ]merger|integration (planning|workstreams?|program)|day[- ]?1|divestitures?|separation', 5]
+    - ["accelerator / startup ecosystem", 'accelerator|incubator|cohort|portfolio compan(y|ies)|demo day|startup ecosystem|mentors?\b|venture capital|\bVCs?\b', 5]
     - ["AI / automation", 'automation|generative ai|machine learning|\bAI\b|digital transformation|\bITSM\b', 3]
 
   description_penalties:    # things in the job text that make it a poor fit for Dan
@@ -72,7 +84,7 @@ profile:
     - ["\\b(engineering|software|hardware|silicon|firmware|devops|SRE|infrastructure|machine learning|ML|data platform|network|systems)\\b", -12]   # engineering-flavoured: fine, but ranked lower
 
   # whole-word matches only (so "Copilot" is not "pilot", "Mechanical" is not "mechanic")
-  reject_title: '\b(intern|interns|internship|co-?op|apprentice|barista|technician|mechanic|pilot|first officer|flight attendant|ramp|agents?|drivers?|nurse|physician|attorney|counsel|recruiter|designer|SDE|coffeehouse|cashier|stocker|pharmacist|engineers?|psycholog\w*|social worker|clinical|scientific|infusion|patient|therapy|therapist|construction|EPC|civil|transportation|environmental|biodiversity|coach|forward deployed)\b|store manager|shift supervisor|district manager|sales (executive|representative)|account executive|data scientist|mental (health|well)'
+  reject_title: '\btalent acquisition|\b(intern|interns|internship|co-?op|apprentice|barista|technician|mechanic|pilot|first officer|flight attendant|ramp|agents?|drivers?|nurse|physician|attorney|counsel|recruiter|designer|SDE|coffeehouse|cashier|stocker|pharmacist|engineers?|psycholog\w*|social worker|clinical|scientific|infusion|patient|therapy|therapist|construction|EPC|civil|transportation|environmental|biodiversity|coach|forward deployed)\b|store manager|shift supervisor|district manager|sales (executive|representative)|account executive|data scientist|mental (health|well)'
 
 # ---- Where a job is allowed to be ------------------------------------------
 locations:
@@ -86,7 +98,10 @@ locations:
 # type: jobsyn      Alaska / Horizon / Hawaiian (careers.alaskaair.com)  [verified]
 # type: amazon      amazon.jobs                                          [verified]
 # type: workday     any *.myworkdayjobs.com site                         [T-Mobile verified]
-# type: greenhouse  boards-api.greenhouse.io                             [Okta verified]
+# type: greenhouse  boards-api.greenhouse.io  (many company boards at once)  [Okta, Airbnb verified]
+# type: lever       api.lever.co  (many company boards at once)             [format verified]
+# type: ashby       api.ashbyhq.com  (many company boards at once)
+# type: bamboohr    <company>.bamboohr.com career pages                     [Plug and Play verified]
 # type: linkedin    LinkedIn public job search (covers everyone else)    [verified]
 # type: neogov      governmentjobs.com city/county jobs                  [verified: King Co, Seattle, Snohomish, Tacoma]
 # type: indeed      Indeed public search (optional / best effort)        [NOT verified - may be blocked]
@@ -99,7 +114,7 @@ sources:
     host: apply.careers.microsoft.com
     domain: microsoft.com
     locations: ["Washington, United States"]
-    queries: ["", "program manager", "business operations", "strategy", "partnerships", "director"]
+    queries: ["", "program manager", "business operations", "strategy", "partnerships", "director", "mergers acquisitions integration", "startups accelerator ventures", "corporate development"]
     max_pages: 3
 
   - name: Starbucks
@@ -118,7 +133,7 @@ sources:
 
   - name: Amazon
     type: amazon
-    queries: ["program manager", "business operations", "strategy operations", "partnerships", "vendor management", "venture"]
+    queries: ["program manager", "business operations", "strategy operations", "partnerships", "vendor management", "venture", "mergers acquisitions integration", "accelerator startups", "corporate development"]
     locations: ["Seattle, Washington, USA", "Bellevue, Washington, USA"]
 
   - name: T-Mobile
@@ -173,12 +188,95 @@ sources:
     max_pages: 6
     enabled: true
 
-  - name: Okta
+  # --- Company job boards. One request per company; a company whose board name is wrong or has no
+  # --- openings is skipped quietly (the run log names it), so this list is safe to grow.
+  # --- Stripe is here because Dan just applied to its "Project Manager, People M&A" role.
+  - name: Company boards (Greenhouse)
     type: greenhouse
-    board: okta
-  - name: Airbnb
-    type: greenhouse
-    board: airbnb
+    boards:
+      Stripe: stripe
+      Okta: okta
+      Airbnb: airbnb
+      Databricks: databricks
+      Dropbox: dropbox
+      Pinterest: pinterest
+      Affirm: affirm
+      Remitly: remitly
+      Outreach: outreach
+      Highspot: highspot
+      Samsara: samsara
+      Brex: brex
+      Figma: figma
+      Discord: discord
+      Coinbase: coinbase
+      Robinhood: robinhood
+      Instacart: instacart
+      Lyft: lyft
+      Reddit: reddit
+      Twilio: twilio
+      Cloudflare: cloudflare
+      Datadog: datadog
+      MongoDB: mongodb
+      GitLab: gitlab
+      Asana: asana
+      Anthropic: anthropic
+      Roblox: roblox
+      Toast: toast
+      Chime: chime
+      Gusto: gusto
+      Carta: carta
+      Opendoor: opendoor
+      Flexport: flexport
+      Squarespace: squarespace
+      Duolingo: duolingo
+      Elastic: elastic
+      Unity: unity3d
+      Zoox: zoox
+      Rubrik: rubrik
+      Twitch: twitch
+      Sonos: sonos
+      Tableau: tableau
+      Pioneer Square Labs: pioneersquarelabs
+      Techstars: techstars
+
+  - name: Company boards (Lever)
+    type: lever
+    boards:
+      Plaid: plaid
+      Palantir: palantir
+      Zoox: zoox
+      Outreach: outreach
+      Highspot: highspot
+      Attentive: attentive
+      Weride: weride
+      Whoop: whoop
+      Hive: hive
+      Kong: kong
+
+  - name: Company boards (Ashby)
+    type: ashby
+    boards:
+      OpenAI: openai
+      Ramp: ramp
+      Notion: notion
+      Deel: deel
+      Vanta: vanta
+      Replit: replit
+      Benchling: benchling
+      Mercury: mercury
+      Retool: retool
+      Watershed: watershed
+      Linear: linear
+      Cohere: cohere
+      Snowflake: snowflake
+      Lattice: lattice
+      Anduril: anduril
+
+  # Startup accelerators / venture platforms that publish on BambooHR (Plug and Play: Dan's second favorite type).
+  - name: Accelerators (BambooHR)
+    type: bamboohr
+    boards:
+      Plug and Play: plugandplaytechcenter
 
   # LinkedIn's public search. Also covers Google, Meta, Apple, Costco, REI, Delta, Verizon,
   # AT&T, Uber, Palo Alto Networks, Zscaler, Seattle VCs and startup studios, etc.
@@ -197,6 +295,15 @@ sources:
       - keywords: '("venture" OR "startup" OR "corporate development" OR "incubator" OR "accelerator" OR "innovation") AND (director OR manager OR lead OR partner OR principal)'
         locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
       - keywords: '("program manager" OR "business operations" OR "strategy and operations") AND remote'
+        locations: ["United States"]
+      # Dan's favorites: M&A / integration programs and startup-accelerator programs
+      - keywords: '("M&A" OR "mergers and acquisitions" OR "acquisition integration" OR "post-merger integration" OR "corporate development") AND ("program" OR "project" OR "integration" OR "operations")'
+        locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
+      - keywords: '("M&A" OR "mergers and acquisitions" OR "integration program" OR "post-merger integration") AND ("program manager" OR "project manager" OR "integration manager")'
+        locations: ["United States"]
+      - keywords: '("accelerator" OR "incubator" OR "startup program" OR "startup ecosystem" OR "founder programs") AND ("program manager" OR "program director" OR "operations" OR "partnerships")'
+        locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
+      - keywords: '("accelerator" OR "incubator" OR "startup ecosystem" OR "venture studio") AND ("program manager" OR "program director" OR "head of programs")'
         locations: ["United States"]
 
   # Government, non-tech, pay top-of-range >= $150k a year. Uses governmentjobs.com (NEOGOV); the
