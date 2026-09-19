@@ -526,6 +526,10 @@ def cmd_run(args) -> int:
     notifier = Notifier()
     matcher = Matcher(cfg)
     print(f"jobwatch run @ {NOW:%Y-%m-%d %H:%M}Z  (notifications {'ON' if notifier.enabled else 'OFF'})")
+    if not notifier.enabled and not args.dry_run:
+        # Without a topic nobody would be told about anything, so do not mark jobs as seen.
+        print("NTFY_TOPIC is not set: add it as a repository secret. Skipping this run (nothing saved).")
+        return 0
     jobs, errors, ran = collect(cfg, force=args.all or args.dry_run)
 
     # ---- health tracking (alert once when a source has been down for a while)
