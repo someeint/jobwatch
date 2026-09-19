@@ -61,6 +61,7 @@ class Job:
     needs_enrich: bool = False
     matched_location: str = ""        # the office/remote option that satisfied the location filter
     fetch_detail: Optional[Callable[["Job"], None]] = None   # lazy: load the full job description
+    favorite: str = ""                # set by the matcher when the role looks like the kind Dan loves
 
     @property
     def key(self) -> str:
@@ -293,16 +294,124 @@ def fetch_workday(src: dict, http: Http) -> list[Job]:
     return list(out.values())
 
 
-def fetch_greenhouse(src: dict, http: Http) -> list[Job]:
-    r = http.get(f"https://boards-api.greenhouse.io/v1/boards/{src['board']}/jobs")
-    out = []
-    for j in r.json().get("jobs") or []:
-        loc = (j.get("location") or {}).get("name") or ""
-        out.append(Job(source=src["name"], company=src["name"], job_id=str(j["id"]),
-                       title=(j.get("title") or "").strip(), url=j.get("absolute_url") or "",
-                       locations=[loc] if loc else [],
-                       posted=from_iso(j.get("first_published") or j.get("updated_at"))))
+def _boards(src: dict, key: str = "boards") -> dict:
+    """{display name: slug}. A source may list many company boards at once."""
+    b = src.get(key)
+    if b:
+        return dict(b)
+    return {src["name"]: src[src.get("slug_key", "board")]} if src.get("board") else {}
+
+
+def _multi(src: dict, per_board: Callable[[str, str], list[Job]]) -> list[Job]:
+    """Run one fetch per company board. A board that does not exist (HTTP 404) is skipped quietly;
+    the source only counts as broken when every board failed."""
+    out: list[Job] = []
+    errs: list[str] = []
+    boards = _boards(src)
+    for name, slug in boards.items():
+        try:
+            out.extend(per_board(name, slug))
+        except SourceError as e:
+            errs.append(f"{name}: {e}")
+        except Exception as e:
+            errs.append(f"{name}: {type(e).__name__}: {e}")
+    if errs and len(errs) == len(boards):
+        raise SourceError("; ".join(errs[:3]))
+    if errs:
+        print(f"    {src['name']}: {len(errs)}/{len(boards)} boards unavailable ({', '.join(e.split(':')[0] for e in errs)})",
+              file=sys.stderr)
     return out
+
+
+def fetch_greenhouse(src: dict, http: Http) -> list[Job]:
+    """Greenhouse job boards (Stripe, Okta, Airbnb ...). One request per company; the full description
+    is loaded lazily, only for postings that look like a fit."""
+    def one(name: str, slug: str) -> list[Job]:
+        r = http.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs")
+
+        def detail(job: Job, gid: str = "") -> None:
+            d = http.get(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{gid}").json()
+            job.description = strip_html(d.get("content") or "", 5000)
+
+        out = []
+        for j in r.json().get("jobs") or []:
+            loc = (j.get("location") or {}).get("name") or ""
+            out.append(Job(source=src["name"], company=name, job_id=f"{slug}-{j['id']}",
+                           title=(j.get("title") or "").strip(), url=j.get("absolute_url") or "",
+                           locations=[loc] if loc else [],
+                           posted=from_iso(j.get("first_published") or j.get("updated_at")),
+                           fetch_detail=(lambda job, gid=str(j["id"]): detail(job, gid))))
+        return out
+    return _multi(src, one)
+
+
+def fetch_lever(src: dict, http: Http) -> list[Job]:
+    """Lever job boards (api.lever.co). The list already carries the full description."""
+    def one(name: str, slug: str) -> list[Job]:
+        r = http.get(f"https://api.lever.co/v0/postings/{slug}", params={"mode": "json"})
+        data = r.json()
+        if not isinstance(data, list):
+            raise SourceError("unexpected response")
+        out = []
+        for j in data:
+            cat = j.get("categories") or {}
+            locs = [l for l in ([cat.get("location")] + list(cat.get("allLocations") or [])) if l]
+            body = [j.get("descriptionPlain") or ""]
+            body += [f"{x.get('text', '')} {strip_html(x.get('content') or '', 3000)}" for x in j.get("lists") or []]
+            body.append(j.get("additionalPlain") or "")
+            out.append(Job(source=src["name"], company=name, job_id=f"{slug}-{j['id']}",
+                           title=(j.get("text") or "").strip(), url=j.get("hostedUrl") or "",
+                           locations=list(dict.fromkeys(locs)), posted=from_epoch((j.get("createdAt") or 0) / 1000) if j.get("createdAt") else None,
+                           description=" ".join(body)[:5000], remote=(j.get("workplaceType") == "remote")))
+        return out
+    return _multi(src, one)
+
+
+def fetch_ashby(src: dict, http: Http) -> list[Job]:
+    """Ashby job boards (api.ashbyhq.com). The list already carries the full description."""
+    def one(name: str, slug: str) -> list[Job]:
+        r = http.get(f"https://api.ashbyhq.com/posting-api/job-board/{slug}")
+        out = []
+        for j in r.json().get("jobs") or []:
+            if j.get("isListed") is False:
+                continue
+            locs = [j.get("location")] + [x.get("location") if isinstance(x, dict) else x
+                                          for x in j.get("secondaryLocations") or []]
+            out.append(Job(source=src["name"], company=name, job_id=f"{slug}-{j['id']}",
+                           title=(j.get("title") or "").strip(), url=j.get("jobUrl") or "",
+                           locations=[l for l in dict.fromkeys(locs) if l], posted=from_iso(j.get("publishedAt")),
+                           description=(j.get("descriptionPlain") or strip_html(j.get("descriptionHtml") or "", 5000))[:5000],
+                           remote=bool(j.get("isRemote"))))
+        return out
+    return _multi(src, one)
+
+
+def fetch_bamboohr(src: dict, http: Http) -> list[Job]:
+    """BambooHR career pages (<company>.bamboohr.com), e.g. Plug and Play. The list has no dates or
+    descriptions; both come from the per-job detail call, made only for postings that look like a fit."""
+    def one(name: str, slug: str) -> list[Job]:
+        base = f"https://{slug}.bamboohr.com/careers"
+        hdr = {"Accept": "application/json"}
+        out = []
+        for j in http.get(f"{base}/list", headers=hdr).json().get("result") or []:
+            loc = j.get("location") or {}
+            place = ", ".join(x for x in (loc.get("city"), loc.get("state")) if x)
+            jid = str(j["id"])
+
+            def detail(job: Job, jid=jid) -> None:
+                d = (http.get(f"{base}/{jid}/detail", headers=hdr).json().get("result") or {}).get("jobOpening") or {}
+                job.description = strip_html(d.get("description") or "", 5000)
+                job.posted = from_iso(d.get("datePosted")) or job.posted
+                pay = d.get("compensation")
+                if pay:
+                    job.description += f" Compensation: {pay}"
+
+            out.append(Job(source=src["name"], company=name, job_id=f"{slug}-{jid}",
+                           title=(j.get("jobOpeningName") or "").replace("\xa0", " ").strip(),
+                           url=f"{base}/{jid}", locations=[place] if place else [],
+                           remote=bool(j.get("isRemote")), fetch_detail=detail))
+        return out
+    return _multi(src, one)
 
 
 def fetch_linkedin(src: dict, http: Http) -> list[Job]:
@@ -501,7 +610,8 @@ def fetch_neogov(src: dict, http: Http) -> list[Job]:
 
 
 ADAPTERS = {"pcsx": fetch_pcsx, "jobsyn": fetch_jobsyn, "amazon": fetch_amazon, "workday": fetch_workday,
-            "greenhouse": fetch_greenhouse, "linkedin": fetch_linkedin, "indeed": fetch_indeed, "neogov": fetch_neogov}
+            "greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby,
+            "bamboohr": fetch_bamboohr, "linkedin": fetch_linkedin, "indeed": fetch_indeed, "neogov": fetch_neogov}
 
 
 # --------------------------------------------------------------------------- scoring
@@ -521,8 +631,15 @@ class Matcher:
         self.experience = [(lab, re.compile(rx, re.I), pts) for lab, rx, pts in p.get("experience", [])]
         self.desc_penalties = [(re.compile(rx, re.I), w) for rx, w in p.get("description_penalties", [])]
         self.min_desc = int(p.get("min_description_chars", 200))
+        # roles Dan told us he loves (e.g. M&A program manager, startup-accelerator program manager):
+        # [label, title regex, bonus points]. They are ranked up and flagged in the alert.
+        # An entry can also carry a description regex + minimum hit count, for roles whose TITLE is bare
+        # ("Program Manager") but whose text is clearly an accelerator / M&A job.
+        self.favorites = [(f[0], re.compile(f[1], re.I), int(f[2]),
+                           re.compile(f[3], re.I) if len(f) > 3 else None, int(f[4]) if len(f) > 4 else 3)
+                          for f in p.get("favorites", [])]
         # a job we could only judge by title can still gain this many points once its description is read
-        self.headroom = 30 - 8
+        self.headroom = 30 - 8 + (max((f[2] for f in self.favorites), default=0) if self.favorites else 0)
 
     def _parts(self, job: Job) -> Optional[tuple[float, float, float, list[str]]]:
         t = job.title
@@ -577,11 +694,18 @@ class Matcher:
         ev_pts = float(sum(p for p, _ in ev))
         exp = min(30.0, ev_pts) if verified else min(20.0, 8.0 + ev_pts)
         dpen = float(sum(w for rx, w in self.desc_penalties if rx.search(job.description))) if verified else 0.0
+        fav_pts = 0.0
+        job.favorite = ""
+        for lab, rx, pts, drx, need in self.favorites:
+            if rx.search(job.title) or (drx and verified and len(drx.findall(job.description)) >= need):
+                fav_pts, job.favorite = float(pts), lab
+                reasons.insert(0, f"like his favorites: {lab}")
+                break
         if ev:
             reasons.append(" / ".join(lab for _, lab in ev[:3]))
         if not verified:
             reasons.append("title only")
-        return max(0, min(100, round(role + level + pen + exp + dpen))), reasons
+        return max(0, min(100, round(role + level + pen + exp + dpen + fav_pts))), reasons
 
 
 # --------------------------------------------------------------------------- state
@@ -829,8 +953,8 @@ def cmd_run(args) -> int:
             continue
         fresh = is_fresh(job)
         if notifier.send(("NEW: " if fresh else "") + title, msg, job.url,
-                         priority=4 if score >= strong else 3,
-                         tags=["star"] if score >= strong else (["briefcase"] if fresh else ["hourglass"]),
+                         priority=4 if (score >= strong or job.favorite) else 3,
+                         tags=["heart"] if job.favorite else (["star"] if score >= strong else (["briefcase"] if fresh else ["hourglass"])),
                          topic=notifier.topic_for(job)):
             sent_keys.add(job.key)
             state["alerts"].append({"t": NOW.isoformat(), "s": score})
