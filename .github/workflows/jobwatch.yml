@@ -37,6 +37,7 @@ jobs:
         if: github.event_name == 'workflow_dispatch' && inputs.mode == 'test-notify'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC_OLDER: ${{ secrets.NTFY_TOPIC_OLDER }}
         run: python crawler.py test-notify
 
       - name: Self-test every source (no alerts, nothing saved)
@@ -47,6 +48,7 @@ jobs:
         if: github.event_name == 'schedule' || inputs.mode == 'run'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC_OLDER: ${{ secrets.NTFY_TOPIC_OLDER }}
         run: python crawler.py run ${{ github.event_name == 'workflow_dispatch' && '--all' || '' }}
 
       - name: Save state
