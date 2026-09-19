@@ -703,7 +703,7 @@ def collect(cfg: dict, force: bool, only: Optional[str] = None) -> tuple[list[Jo
     return jobs, errors, ran
 
 
-def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher, detail_budget: int = 30
+def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher, detail_budget: int = 60
              ) -> list[tuple[int, Job, list[str]]]:
     """Return NEW jobs whose match % clears the threshold, as (score, job, reasons), best first.
 
