@@ -611,6 +611,8 @@ def save_state(st: dict) -> None:
 class Notifier:
     def __init__(self) -> None:
         self.topic = os.environ.get("NTFY_TOPIC", "").strip()
+        # optional second topic for postings that have been open for a while ("days long")
+        self.topic_older = os.environ.get("NTFY_TOPIC_OLDER", "").strip() or self.topic
         self.server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
         self.token = os.environ.get("NTFY_TOKEN", "").strip()
 
@@ -618,11 +620,15 @@ class Notifier:
     def enabled(self) -> bool:
         return bool(self.topic)
 
-    def send(self, title: str, message: str, url: str = "", priority: int = 3, tags: list[str] | None = None) -> bool:
+    def topic_for(self, job: Job) -> str:
+        return self.topic if is_fresh(job) else self.topic_older
+
+    def send(self, title: str, message: str, url: str = "", priority: int = 3, tags: list[str] | None = None,
+             topic: str = "") -> bool:
         if not self.enabled:
             print(f"[notify:disabled] {title} | {message}")
             return False
-        body: dict = {"topic": self.topic, "title": title[:250], "message": message[:1800],
+        body: dict = {"topic": topic or self.topic, "title": title[:250], "message": message[:1800],
                       "priority": priority, "tags": tags or ["briefcase"]}
         if url:
             body["click"] = url
@@ -655,12 +661,28 @@ def salary_text(job: Job) -> str:
     return f"{lo}-{hi}"
 
 
+FRESH_HOURS = 24
+
+
+def is_fresh(job: Job) -> bool:
+    """Just posted (last 24 hours, or date unknown) vs open for days."""
+    return not job.posted or NOW - job.posted <= timedelta(hours=FRESH_HOURS)
+
+
+def age_label(job: Job) -> str:
+    if not job.posted:
+        return "recently posted"
+    days = (NOW - job.posted).days
+    if days < 1:
+        return "posted today"
+    return "posted yesterday" if days == 1 else f"open {days} days"
+
+
 def describe(job: Job, score: int, reasons: list[str]) -> tuple[str, str]:
     loc = job.matched_location or next((l for l in job.locations if l), "") or ("Remote" if job.remote else "")
-    when = job.posted.strftime("%b %d") if job.posted else "recent"
     title = f"{job.title} - {job.company}"
     pay = salary_text(job)
-    msg = f"{score}% match | {loc} | posted {when}" + (f" | pay {pay}" if pay else "") + f"\nWhy: {', '.join(r for r in reasons if r)}\nvia {job.source}"
+    msg = f"{score}% match | {loc} | {age_label(job)}" + (f" | pay {pay}" if pay else "") + f"\nWhy: {', '.join(r for r in reasons if r)}\nvia {job.source}"
     return title, msg
 
 
@@ -805,8 +827,11 @@ def cmd_run(args) -> int:
         print(f"    [{score:>3}] {title}  ({job.matched_location or job.locations[:1]})  {job.url}")
         if args.dry_run:
             continue
-        if notifier.send(title, msg, job.url, priority=4 if score >= strong else 3,
-                         tags=["star"] if score >= strong else ["briefcase"]):
+        fresh = is_fresh(job)
+        if notifier.send(("NEW: " if fresh else "") + title, msg, job.url,
+                         priority=4 if score >= strong else 3,
+                         tags=["star"] if score >= strong else (["briefcase"] if fresh else ["hourglass"]),
+                         topic=notifier.topic_for(job)):
             sent_keys.add(job.key)
             state["alerts"].append({"t": NOW.isoformat(), "s": score})
         elif not notifier.enabled:
@@ -814,12 +839,17 @@ def cmd_run(args) -> int:
         time.sleep(0.4)
 
     if rest and not args.dry_run:
-        lines = "\n".join(f"{s}% {j.title} - {j.company}" for s, j, _ in rest[:8])
-        label = "More current matches" if first_run else "More new matches"
-        if notifier.send(f"jobwatch: {len(rest)} {label.lower()}", lines, priority=3, tags=["memo"]):
-            sent_keys.update(j.key for _, j, _ in rest)
-        elif not notifier.enabled:
-            sent_keys.update(j.key for _, j, _ in rest)
+        label = "more current matches" if first_run else "more new matches"
+        for is_new, group in ((True, [t for t in rest if is_fresh(t[1])]), (False, [t for t in rest if not is_fresh(t[1])])):
+            if not group:
+                continue
+            lines = "\n".join(f"{sc}% {j.title} - {j.company} ({age_label(j)})" for sc, j, _ in group[:8])
+            tag = "just posted" if is_new else "open for days"
+            if notifier.send(f"jobwatch: {len(group)} {label} ({tag})", lines, priority=3, tags=["memo"],
+                             topic=notifier.topic if is_new else notifier.topic_older):
+                sent_keys.update(j.key for _, j, _ in group)
+            elif not notifier.enabled:
+                sent_keys.update(j.key for _, j, _ in group)
 
     if not args.dry_run:
         for score, job, _ in new:
@@ -845,9 +875,10 @@ def cmd_selftest(args) -> int:
     jobs, errors, _ = collect(cfg, force=True, only=args.only)
     scratch = {"seen": {}, "skip": {}}
     fits = evaluate(cfg, jobs, scratch, matcher)
-    print(f"\n{len(jobs)} postings scanned -> {len(fits)} fit the profile. Top 15:")
-    for score, job, reasons in fits[:15]:
-        print(f"  [{score:>3}] {job.title} - {job.company} | {(job.locations or [''])[0]} | {job.source}")
+    print(f"\n{len(jobs)} postings scanned -> {len(fits)} fit the profile (match >= {cfg['profile']['notify_threshold']}%):")
+    for score, job, reasons in fits:
+        print(f"  [{score:>3}] {job.title} - {job.company} | {job.matched_location or (job.locations or [''])[0]} | "
+              f"{job.source} | {'JUST POSTED' if is_fresh(job) else age_label(job)} | {job.url}")
     if errors:
         print("\nSources with problems:")
         for n, e in errors.items():
@@ -860,8 +891,11 @@ def cmd_test_notify(_args) -> int:
     if not n.enabled:
         print("NTFY_TOPIC is not set.")
         return 1
-    ok = n.send("jobwatch test", "If you can read this on your phone, alerts are working.",
+    ok = n.send("jobwatch test: just posted", "If you can read this on your phone, alerts are working.",
                 url="https://careers.microsoft.com", priority=3, tags=["tada"])
+    if n.topic_older != n.topic:
+        ok = n.send("jobwatch test: open for days", "This topic will receive jobs that have been open for a few days.",
+                    url="https://careers.microsoft.com", priority=3, tags=["tada"], topic=n.topic_older) and ok
     print("sent" if ok else "FAILED to send")
     return 0 if ok else 1
 
