@@ -1,0 +1,64 @@
+name: jobwatch
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"          # every 10 minutes (GitHub may delay a run by a few minutes at busy times)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to do"
+        type: choice
+        default: run
+        options: [run, selftest, test-notify]
+
+# Never let two runs overlap (state file is committed back to the repo).
+concurrency:
+  group: jobwatch
+  cancel-in-progress: false
+
+permissions:
+  contents: write                    # lets the workflow save state/seen.json
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Send a test push to my phone
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'test-notify'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python crawler.py test-notify
+
+      - name: Self-test every source (no alerts, nothing saved)
+        if: github.event_name == 'workflow_dispatch' && inputs.mode == 'selftest'
+        run: python crawler.py selftest
+
+      - name: Check for new jobs
+        if: github.event_name == 'schedule' || inputs.mode == 'run'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python crawler.py run ${{ github.event_name == 'workflow_dispatch' && '--all' || '' }}
+
+      - name: Save state
+        if: github.event_name == 'schedule' || inputs.mode == 'run'
+        run: |
+          git config user.name  "jobwatch-bot"
+          git config user.email "jobwatch-bot@users.noreply.github.com"
+          git add state/seen.json
+          if git diff --cached --quiet; then
+            echo "No new state."
+          else
+            git commit -m "jobwatch: update state"
+            git pull --rebase --autostash
+            git push
+          fi
