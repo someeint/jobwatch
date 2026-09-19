@@ -11,8 +11,17 @@ Salesforce, Adobe, Nordstrom, Zillow, Boeing, CrowdStrike, Okta, Airbnb, plus **
 strategy, vendor/partner strategy, and startup/venture/corporate-development roles, in the Seattle-Bellevue
 area or explicitly remote. Everything is tunable in `config.yaml`.
 
-Each alert looks like: *Director, Strategic Partnerships - Starbucks* / *Fit 75/100 - Seattle, WA - posted Sep 18*,
+**Only strong matches get through.** Every job gets a *match %* against Dan's real background (senior program / delivery
+management, vendor and stakeholder work, Zero Trust and cloud rollouts, Salesforce, operations, startup experience). It is
+built from role fit (0-50), level fit (0-15) and evidence of his experience in the job description (0-30), minus penalties
+for technical or engineering-heavy roles and for levels above his track record. Only **75% and higher** is sent to your phone.
+The description is read before alerting; if it cannot be loaded the alert says "title only".
+
+Each alert looks like: *Senior Program Manager - Microsoft* / *82% match | Redmond, WA | posted Sep 18 | pay $150,000-$190,000*,
 and tapping it opens the job posting.
+
+**Also watched:** Indeed (best effort, may be blocked from cloud servers, failures are silent), and government jobs paying
+$150k+ a year at the top of the range (King County, City of Seattle, Snohomish County, City of Tacoma via governmentjobs.com).
 
 ---
 
@@ -46,9 +55,8 @@ then **Run workflow**, and run these in order:
 ## What you will and will not get
 
 * You are alerted **once per role**, even when it shows up on both the company site and LinkedIn.
-* Score 65+ arrives as high priority; 45-64 as normal. Change either number in `config.yaml`.
-* Expect on the order of 10 alerts a day at the default setting (a test on 48 hours of real LinkedIn results found 25 fits
-  among 92 postings). Too chatty? Raise `notify_threshold` from 45 to 55. Too quiet? Lower it to 40.
+* 85% and up arrives as high priority; 75-84% as normal. Change either number in `config.yaml`.
+* Expect only a handful of alerts a week. That is deliberate: 75% is a high bar. Too quiet? Lower `notify_threshold` to 70.
 * If a source breaks (site changed, blocked), you get one combined "sources failing" alert after about an hour instead of silence.
 * Every Monday morning a quiet "jobwatch is running" message confirms it is alive.
 
@@ -81,12 +89,13 @@ a list of companies, and your topic stays hidden in the secret. If you prefer pr
 | To change...                         | Edit                                                                 |
 |--------------------------------------|----------------------------------------------------------------------|
 | How picky the alerts are             | `profile.notify_threshold` (lower = more alerts)                      |
+| What counts as Dan's experience      | `profile.experience` (label, regex, points)                           |
 | What titles count as a fit           | `profile.title_patterns` (regex and weight)                           |
 | Titles to never show                 | `profile.reject_title`                                                |
 | Seniority preference                 | `profile.seniority_bonus`, `profile.penalties`                        |
 | Cities / remote rules                | `locations.allow_regex`, `locations.deny_regex`                       |
 | Companies watched                    | `sources`                                                             |
-| Companies that get a score boost     | `profile.priority_companies`                                          |
+| Government pay floor                 | `min_salary` on each `neogov` source                                  |
 
 ## Running it yourself (optional)
 

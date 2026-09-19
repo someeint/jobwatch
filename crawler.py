@@ -59,6 +59,8 @@ class Job:
     remote: bool = False
     enrich: Optional[Callable[["Job"], None]] = None   # lazy detail fetch (Workday)
     needs_enrich: bool = False
+    matched_location: str = ""        # the office/remote option that satisfied the location filter
+    fetch_detail: Optional[Callable[["Job"], None]] = None   # lazy: load the full job description
 
     @property
     def key(self) -> str:
@@ -138,6 +140,25 @@ def strip_html(s: str | None, limit: int = 4000) -> str:
     return BeautifulSoup(html.unescape(s), "html.parser").get_text(" ", strip=True)[:limit]
 
 
+def longest_text(obj, hint: str = "description") -> str:
+    """Longest string stored under a key containing `hint` anywhere in a JSON document."""
+    best = ""
+
+    def walk(o, hinted=False):
+        nonlocal best
+        if isinstance(o, dict):
+            for k, v in o.items():
+                walk(v, hinted or hint in str(k).lower())
+        elif isinstance(o, list):
+            for v in o:
+                walk(v, hinted)
+        elif isinstance(o, str) and hinted and len(o) > len(best):
+            best = o
+
+    walk(obj)
+    return strip_html(best, 5000)
+
+
 def slugify(s: str) -> str:
     return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", s.lower())).strip("-")
 
@@ -146,6 +167,12 @@ def slugify(s: str) -> str:
 def fetch_pcsx(src: dict, http: Http) -> list[Job]:
     """Eightfold 'PCSX' careers API (Microsoft, Starbucks)."""
     out: dict[str, Job] = {}
+
+    def detail(job: Job, pid: str) -> None:
+        r = http.get(f"https://{src['host']}/api/pcsx/position_details",
+                     params={"position_id": pid, "domain": src["domain"], "hl": "en"})
+        job.description = longest_text(r.json()) or job.description
+
     for loc in src.get("locations", [""]):
         for q in src.get("queries", [""]):
             for page in range(src.get("max_pages", 3)):
@@ -167,6 +194,7 @@ def fetch_pcsx(src: dict, http: Http) -> list[Job]:
                         locations=locs + (["Remote"] if remote else []),
                         posted=from_epoch(p.get("postedTs") or p.get("creationTs")),
                         description=p.get("department") or "", remote=remote)
+                    out[jid].fetch_detail = (lambda j, pid=jid: detail(j, pid))
                 if len(positions) < 10:
                     break
     return list(out.values())
@@ -281,6 +309,14 @@ def fetch_linkedin(src: dict, http: Http) -> list[Job]:
     """LinkedIn's public (logged-out) job-search fragments. Gentle: few queries, 1s apart."""
     out: dict[str, Job] = {}
     blocked: Optional[str] = None
+
+    def detail(job: Job) -> None:
+        time.sleep(1.0)
+        r = http.get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{job.job_id}")
+        soup = BeautifulSoup(r.text, "html.parser")
+        node = soup.select_one(".show-more-less-html__markup") or soup.select_one(".description__text")
+        job.description = node.get_text(" ", strip=True)[:5000] if node else job.description
+
     tpr = f"r{int(src.get('within_seconds', 172800))}"
     for s in src.get("searches", []):
         for loc in s.get("locations", []):
@@ -310,7 +346,7 @@ def fetch_linkedin(src: dict, http: Http) -> list[Job]:
                                    job_id=jid, title=t.get_text(strip=True), url=a["href"].split("?")[0],
                                    locations=[lo_text] if lo_text else [],
                                    posted=from_iso(tm.get("datetime")) if tm else None,
-                                   remote="remote" in lo_text.lower())
+                                   remote="remote" in lo_text.lower(), fetch_detail=detail)
                 if len(cards) < 10:
                     break
             if blocked:
@@ -322,8 +358,150 @@ def fetch_linkedin(src: dict, http: Http) -> list[Job]:
     return list(out.values())
 
 
+def parse_indeed(html_text: str, src_name: str) -> list[Job]:
+    """Indeed search page -> jobs. Reads the embedded 'mosaic' job-card JSON, falls back to card anchors."""
+    out: dict[str, Job] = {}
+    m = re.search(r'window\.mosaic\.providerData\["mosaic-provider-jobcards"\]\s*=\s*(\{.*?\});\s*(?:window\.|</script>)',
+                  html_text, re.S)
+    rows: list[dict] = []
+    if m:
+        try:
+            rows = (((json.loads(m.group(1)).get("metaData") or {}).get("mosaicProviderJobCardsModel") or {})
+                    .get("results") or [])
+        except json.JSONDecodeError:
+            rows = []
+    for r in rows:
+        jk = r.get("jobkey")
+        if not jk or jk in out:
+            continue
+        loc = r.get("formattedLocation") or ""
+        out[jk] = Job(source=src_name, company=(r.get("company") or "").strip(), job_id=jk,
+                      title=(r.get("displayTitle") or r.get("title") or "").strip(),
+                      url=f"https://www.indeed.com/viewjob?jk={jk}",
+                      locations=[loc] if loc else [], posted=from_epoch((r.get("pubDate") or 0) / 1000 or None),
+                      description=strip_html(r.get("snippet"), 600),
+                      remote=bool(r.get("remoteLocation")) or "remote" in loc.lower())
+    if not out:                                            # fallback: plain result cards
+        soup = BeautifulSoup(html_text, "html.parser")
+        for a in soup.select("a[data-jk]"):
+            jk = a["data-jk"]
+            t = a.select_one("span[title]") or a.select_one("h2")
+            card = a.find_parent(class_=re.compile("job_seen_beacon|result")) or a
+            co = card.select_one("[data-testid='company-name']")
+            lo = card.select_one("[data-testid='text-location']")
+            if jk in out or not t:
+                continue
+            lo_text = lo.get_text(strip=True) if lo else ""
+            out[jk] = Job(source=src_name, company=co.get_text(strip=True) if co else "", job_id=jk,
+                          title=t.get_text(strip=True), url=f"https://www.indeed.com/viewjob?jk={jk}",
+                          locations=[lo_text] if lo_text else [], remote="remote" in lo_text.lower())
+    return list(out.values())
+
+
+def fetch_indeed(src: dict, http: Http) -> list[Job]:
+    """Indeed public search pages. Best effort: Indeed often blocks cloud servers, so this source is
+    marked `optional` in the config (failures are logged, never alerted)."""
+    out: dict[str, Job] = {}
+    blocked: Optional[str] = None
+
+    def detail(job: Job) -> None:
+        time.sleep(1.5)
+        node = BeautifulSoup(http.get(job.url).text, "html.parser").select_one("#jobDescriptionText")
+        job.description = node.get_text(" ", strip=True)[:5000] if node else job.description
+
+    for q in src.get("searches", []):
+        time.sleep(2.0)
+        try:
+            r = http.get("https://www.indeed.com/jobs", params={
+                "q": q["q"], "l": q.get("l", "Seattle, WA"), "radius": q.get("radius", 35),
+                "fromage": src.get("fromage", 2), "sort": "date"})
+        except SourceError as e:
+            blocked = str(e)
+            break
+        for j in parse_indeed(r.text, src["name"]):
+            j.fetch_detail = detail
+            out.setdefault(j.job_id, j)
+    if blocked and not out:
+        raise SourceError(blocked)
+    return list(out.values())
+
+
+PAY_RX = re.compile(r"\$\s?([\d,]+(?:\.\d+)?)\s*-\s*\$\s?([\d,]+(?:\.\d+)?)\s*(Annually|Hourly|Monthly|Biweekly|Bi-weekly|Weekly)?", re.I)
+PAY_FACTOR = {"annually": 1, "hourly": 2080, "monthly": 12, "biweekly": 26, "bi-weekly": 26, "weekly": 52}
+
+
+def parse_pay(text: str) -> Optional[tuple[float, float]]:
+    """'$131,007.34 - $166,615.70 Annually' -> (131007.34, 166615.70) as yearly amounts."""
+    m = PAY_RX.search(text or "")
+    if not m:
+        return None
+    k = PAY_FACTOR.get((m.group(3) or "annually").lower(), 1)
+    return float(m.group(1).replace(",", "")) * k, float(m.group(2).replace(",", "")) * k
+
+
+def parse_neogov(html_text: str, src: dict) -> list[Job]:
+    """NEOGOV / governmentjobs.com listing fragment -> jobs (verified live for King County, Seattle,
+    Snohomish County, Tacoma). Keeps only postings whose top pay reaches `min_salary` a year."""
+    agency, min_salary = src["agency"], float(src.get("min_salary", 0))
+    reject = re.compile(src["title_reject"], re.I) if src.get("title_reject") else None
+    out: list[Job] = []
+    for li in BeautifulSoup(html_text, "html.parser").select("li.list-item"):
+        a = li.select_one("a.item-details-link")
+        if not a or not li.get("data-job-id"):
+            continue
+        title = a.get_text(" ", strip=True)
+        if reject and reject.search(title):
+            continue
+        metas = [x.get_text(" ", strip=True) for x in li.select("ul.list-meta > li")]
+        pay_line = next((m for m in metas if "$" in m), "")
+        pay = parse_pay(pay_line)
+        if not pay or pay[1] < min_salary:
+            continue
+        loc = next((m for m in metas if "$" not in m and not re.match(r"^(Category|Department|Division):", m)), "")
+        loc = loc or src.get("default_location", "")
+        posted_txt = li.get_text(" ", strip=True)
+        pm = re.search(r"Posted\s+(\d+)\s+(day|week|month)s?\s+ago|Posted\s+(today|yesterday)", posted_txt, re.I)
+        posted = None
+        if pm:
+            if pm.group(3):
+                posted = NOW - timedelta(days=1 if pm.group(3).lower() == "yesterday" else 0)
+            else:
+                posted = NOW - timedelta(days=int(pm.group(1)) * {"day": 1, "week": 7, "month": 30}[pm.group(2).lower()])
+        summary = li.select_one(".list-entry")
+        out.append(Job(
+            source=src["name"], company=src.get("company", src["name"]), job_id=li["data-job-id"], title=title,
+            url=f"https://www.governmentjobs.com{a['href']}", locations=[loc] if loc else [], posted=posted,
+            description=f"Pay ${pay[0]:,.0f} - ${pay[1]:,.0f} a year. " + (summary.get_text(" ", strip=True)[:300] if summary else "")))
+    return out
+
+
+def fetch_neogov(src: dict, http: Http) -> list[Job]:
+    """governmentjobs.com (NEOGOV): city / county / agency jobs in Washington. Government postings always
+    list their pay, so `min_salary` (default $150k a year, top of range) can be enforced here."""
+    out: dict[str, Job] = {}
+
+    def detail(job: Job) -> None:
+        time.sleep(0.5)
+        node = BeautifulSoup(http.get(job.url).text, "html.parser").select_one("#details-info")
+        if node:
+            job.description = job.description.split(". ", 1)[0] + ". " + node.get_text(" ", strip=True)[:5000]
+
+    for page in range(1, src.get("max_pages", 15) + 1):
+        r = http.get("https://www.governmentjobs.com/careers/home/index", params={
+            "agency": src["agency"], "sort": "PostingDate", "isDescendingSort": "true", "page": page},
+            headers={"X-Requested-With": "XMLHttpRequest"})
+        raw = BeautifulSoup(r.text, "html.parser").select("li.list-item")
+        for j in parse_neogov(r.text, src):
+            j.fetch_detail = detail
+            out.setdefault(j.job_id, j)
+        if len(raw) < 10:
+            break
+        time.sleep(0.5)
+    return list(out.values())
+
+
 ADAPTERS = {"pcsx": fetch_pcsx, "jobsyn": fetch_jobsyn, "amazon": fetch_amazon, "workday": fetch_workday,
-            "greenhouse": fetch_greenhouse, "linkedin": fetch_linkedin}
+            "greenhouse": fetch_greenhouse, "linkedin": fetch_linkedin, "indeed": fetch_indeed, "neogov": fetch_neogov}
 
 
 # --------------------------------------------------------------------------- scoring
@@ -335,15 +513,18 @@ class Matcher:
         self.seniority = [(re.compile(rx, re.I), w) for rx, w in p["seniority_bonus"]]
         self.penalties = [(re.compile(rx, re.I), w) for rx, w in p["penalties"]]
         self.reject = re.compile(p["reject_title"], re.I)
-        self.domain = [(kw, re.compile(rf"\b{re.escape(kw)}\b", re.I)) for kw in p["domain_bonus"]["keywords"]]
-        self.priority = [c.lower() for c in p.get("priority_companies", [])]
         self.allow = re.compile(cfg["locations"]["allow_regex"], re.I)
         self.deny = re.compile(cfg["locations"]["deny_regex"], re.I)
         self.remote_title = re.compile(cfg["locations"].get("remote_title_regex", r"$^"), re.I)
         self.max_age = timedelta(days=p.get("max_age_days", 30))
+        # Dan's real experience: [label, regex, points]. Evidence in the job text is what validates the match.
+        self.experience = [(lab, re.compile(rx, re.I), pts) for lab, rx, pts in p.get("experience", [])]
+        self.desc_penalties = [(re.compile(rx, re.I), w) for rx, w in p.get("description_penalties", [])]
+        self.min_desc = int(p.get("min_description_chars", 200))
+        # a job we could only judge by title can still gain this many points once its description is read
+        self.headroom = 30 - 8
 
-    def title_gate(self, job: Job) -> Optional[tuple[float, list[str]]]:
-        """Cheap first pass: does the TITLE look like a fit at all?"""
+    def _parts(self, job: Job) -> Optional[tuple[float, float, float, list[str]]]:
         t = job.title
         if not t or self.reject.search(t):
             return None
@@ -351,36 +532,56 @@ class Matcher:
         if not hits:
             return None
         base = min(60.0, hits[0][0] + 0.3 * sum(w for w, _ in hits[1:]))
+        role = min(50.0, base * 50 / 45)                       # 0-50: is this the kind of role Dan does?
         reasons = [h[1].lower() for h in hits[:2]]
+        level = 0.0                                             # 0-15: is it at his level?
         sen = [(w, m.group(0)) for rx, w in self.seniority if (m := rx.search(t))]
         if sen:
-            w, txt = max(sen)
-            base += w
-            if w >= 12:
+            level, txt = max(sen)
+            if level >= 12:
                 reasons.append(txt.lower())
-        base += sum(w for rx, w in self.penalties if rx.search(t))
-        return base, reasons
+        pen = float(sum(w for rx, w in self.penalties if rx.search(t)))
+        return role, level, pen, reasons
+
+    def title_gate(self, job: Job) -> Optional[tuple[float, list[str]]]:
+        """Cheap first pass: does the TITLE look like a fit at all?"""
+        p = self._parts(job)
+        if p is None:
+            return None
+        role, level, pen, reasons = p
+        return role + level + pen, reasons
 
     def location_ok(self, job: Job) -> bool:
         cands = list(job.locations) + (["Remote"] if job.remote else [])
         if self.remote_title.search(job.title):
             job.remote = True
+            job.matched_location = "Remote"
             return not self.deny.search(job.title)
-        return any(self.allow.search(l) and not self.deny.search(l) for l in cands if l)
+        for l in cands:
+            if l and self.allow.search(l) and not self.deny.search(l):
+                job.matched_location = l
+                return True
+        return False
 
     def score(self, job: Job) -> Optional[tuple[int, list[str]]]:
-        g = self.title_gate(job)
-        if g is None:
+        """Match % against Dan's profile: role fit (0-50) + level fit (0-15) + evidence of his
+        actual experience in the job text (0-30, only when the description was read; otherwise a
+        capped benefit of the doubt) - mismatch penalties."""
+        parts = self._parts(job)
+        if parts is None:
             return None
-        s, reasons = g
-        if any(c in job.company.lower() for c in self.priority):
-            s += 8
+        role, level, pen, reasons = parts
+        verified = len(job.description) >= self.min_desc
         hay = f"{job.title} {job.description}"
-        dom = [kw for kw, rx in self.domain if rx.search(hay)]
-        if dom:
-            s += min(15, 3 * len(dom))
-            reasons.append("/".join(dom[:3]))
-        return max(0, min(100, round(s))), reasons
+        ev = sorted(((pts, lab) for lab, rx, pts in self.experience if rx.search(hay)), reverse=True)
+        ev_pts = float(sum(p for p, _ in ev))
+        exp = min(30.0, ev_pts) if verified else min(20.0, 8.0 + ev_pts)
+        dpen = float(sum(w for rx, w in self.desc_penalties if rx.search(job.description))) if verified else 0.0
+        if ev:
+            reasons.append(" / ".join(lab for _, lab in ev[:3]))
+        if not verified:
+            reasons.append("title only")
+        return max(0, min(100, round(role + level + pen + exp + dpen))), reasons
 
 
 # --------------------------------------------------------------------------- state
@@ -438,11 +639,28 @@ class Notifier:
             return False
 
 
+SALARY_RX = re.compile(r"\$\s?(\d{2,3}(?:,\d{3})+|\d{2,3}\s?[kK])\s*(?:-|\u2013|\u2014|to|and)\s*\$?\s?(\d{2,3}(?:,\d{3})+|\d{2,3}\s?[kK])")
+
+
+def salary_text(job: Job) -> str:
+    """Pay range quoted in the posting (Washington law requires one), e.g. '$140,000-$185,000'."""
+    m = SALARY_RX.search(job.description or "")
+    if not m:
+        return ""
+
+    def fmt(v: str) -> str:
+        v = v.replace(" ", "")
+        return f"${int(v[:-1]) * 1000:,}" if v[-1] in "kK" else f"${v}"
+    lo, hi = fmt(m.group(1)), fmt(m.group(2))
+    return f"{lo}-{hi}"
+
+
 def describe(job: Job, score: int, reasons: list[str]) -> tuple[str, str]:
-    loc = next((l for l in job.locations if l), "") or ("Remote" if job.remote else "")
+    loc = job.matched_location or next((l for l in job.locations if l), "") or ("Remote" if job.remote else "")
     when = job.posted.strftime("%b %d") if job.posted else "recent"
     title = f"{job.title} - {job.company}"
-    msg = f"Fit {score}/100 | {loc} | posted {when}\nWhy: {', '.join(r for r in reasons if r)}\nvia {job.source}"
+    pay = salary_text(job)
+    msg = f"{score}% match | {loc} | posted {when}" + (f" | pay {pay}" if pay else "") + f"\nWhy: {', '.join(r for r in reasons if r)}\nvia {job.source}"
     return title, msg
 
 
@@ -485,13 +703,16 @@ def collect(cfg: dict, force: bool, only: Optional[str] = None) -> tuple[list[Jo
     return jobs, errors, ran
 
 
-def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher
+def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher, detail_budget: int = 30
              ) -> list[tuple[int, Job, list[str]]]:
-    """Return NEW matching jobs as (score, job, reasons), best first."""
+    """Return NEW jobs whose match % clears the threshold, as (score, job, reasons), best first.
+
+    Pass 1 judges by title/location and keeps only jobs that could still reach the threshold.
+    Pass 2 reads the full description of the best candidates (when the source can supply it) so the
+    final percentage is checked against Dan's experience, not just the title."""
     threshold = cfg["profile"]["notify_threshold"]
     seen, skip = state["seen"], state["skip"]
-    found: list[tuple[int, Job, list[str]]] = []
-    batch_fp: set[str] = set()
+    cands: list[tuple[int, Job]] = []
     for job in jobs:
         if job.key in seen or job.key in skip:
             continue
@@ -508,7 +729,26 @@ def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher
             skip[job.key] = NOW.isoformat()
             continue
         res = matcher.score(job)
-        if not res or res[0] < threshold:
+        if res and res[0] + matcher.headroom >= threshold:
+            cands.append((res[0], job))
+    cands.sort(key=lambda t: t[0], reverse=True)
+
+    found: list[tuple[int, Job, list[str]]] = []
+    batch_fp: set[str] = set()
+    for _, job in cands:
+        if len(job.description) < matcher.min_desc and job.fetch_detail and detail_budget > 0:
+            detail_budget -= 1
+            try:
+                job.fetch_detail(job)
+            except Exception as e:
+                print(f"    description lookup failed for {job.key}: {type(e).__name__}: {e}", file=sys.stderr)
+            time.sleep(0.3)
+        res = matcher.score(job)
+        if not res:
+            continue
+        if res[0] < threshold:
+            if len(job.description) >= matcher.min_desc:      # judged on the full text: no need to look again
+                skip[job.key] = NOW.isoformat()
             continue
         fp = job.fingerprint
         if fp in seen or fp in batch_fp:
@@ -540,7 +780,8 @@ def cmd_run(args) -> int:
         if name in errors:
             h["fails"] = h.get("fails", 0) + 1
             h["last_error"] = errors[name][:200]
-            if h["fails"] == hcfg["down_after_failures"]:
+            optional = any(x["name"] == name and x.get("optional") for x in cfg["sources"])
+            if h["fails"] == hcfg["down_after_failures"] and not optional:
                 newly_down.append(name)
         else:
             state["health"].pop(name, None)
@@ -561,7 +802,7 @@ def cmd_run(args) -> int:
     sent_keys = set()
     for score, job, reasons in to_send:
         title, msg = describe(job, score, reasons)
-        print(f"    [{score:>3}] {title}  ({job.locations[:1]})  {job.url}")
+        print(f"    [{score:>3}] {title}  ({job.matched_location or job.locations[:1]})  {job.url}")
         if args.dry_run:
             continue
         if notifier.send(title, msg, job.url, priority=4 if score >= strong else 3,
@@ -573,7 +814,7 @@ def cmd_run(args) -> int:
         time.sleep(0.4)
 
     if rest and not args.dry_run:
-        lines = "\n".join(f"{s} {j.title} - {j.company}" for s, j, _ in rest[:8])
+        lines = "\n".join(f"{s}% {j.title} - {j.company}" for s, j, _ in rest[:8])
         label = "More current matches" if first_run else "More new matches"
         if notifier.send(f"jobwatch: {len(rest)} {label.lower()}", lines, priority=3, tags=["memo"]):
             sent_keys.update(j.key for _, j, _ in rest)

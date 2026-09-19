@@ -7,13 +7,14 @@
 # ---- Who we are looking for -----------------------------------------------
 # A job is only alerted if its TITLE matches at least one title_pattern
 # (so random "Barista" or "Software Engineer" roles never get through).
-# Score = best title match + 30% of the other matches (capped) + seniority
-# bonus + company bonus + domain bonus - penalties.  0-100.
+# Match % = role fit from the title (0-50) + level fit (0-15) + evidence of Dan's own
+# experience in the job description (0-30) - penalties.  Only >= notify_threshold alerts.
 profile:
-  notify_threshold: 45      # alert at or above this score
-  strong_threshold: 65      # high-priority alert (phone buzzes louder)
+  notify_threshold: 75      # only alert when the estimated match with Dan's profile is at least this %
+  strong_threshold: 85      # high-priority alert (phone buzzes louder)
   first_run_notify: 8       # on the very first run, push only the top N current matches
   max_age_days: 30          # ignore postings older than this (when the date is known)
+  min_description_chars: 200
 
   title_patterns:           # [regex, weight] - matched case-insensitively against the title
     # Senior program leadership (not the weeds of project management)
@@ -23,45 +24,55 @@ profile:
     - ["(director|head|vp|vice president|senior manager|sr\\.? manager)[, ]+(of )?(business |global |strategic |corporate )?operations|operations (director|program)|general manager|chief operating|\\bCOO\\b", 30]
     - ["business (operations|strategy|planning|development|transformation)|strategy (and|&|/) (operations|planning)|strategic (operations|initiatives|programs|partnerships|planning)|chief of staff", 35]
     - ["(vendor|supplier|third[- ]party|partner(ship)?s?|alliances?) (management|manager|program|risk|strategy|development|operations)|partnerships?|alliances?", 30]
-    # Startup / venture vetting
-    - ["venture|start-?ups?|incubat|accelerator|corporate development|new ventures?|entrepreneur|investments?\\b|innovation|emerging (tech|technology)|due diligence", 35]
+    # Startup / venture vetting (a stretch for Dan: no investing track record, so weighted lower)
+    - ["venture|start-?ups?|incubat|accelerator|corporate development|new ventures?|entrepreneur|investments?\\b|innovation|emerging (tech|technology)|due diligence", 25]
+    # Public-sector leadership titles
+    - ["(division|deputy|assistant|associate) director|director of (operations|programs?|strategy|administration|business|policy)|(strategic|policy|senior) advisor|administrative services (manager|director)|operations (manager|administrator)|program (administrator|supervisor)|contracts? (manager|administrator)|procurement (manager|director)|chief (operating|administrative|deputy) |business (manager|services)|(project|program)[/ ]+(program|project) manager|deputy (chief|county|city)", 30]
     # Adjacent
     - ["product (operations|strategy)|go[- ]to[- ]market|\\bGTM\\b|growth (operations|strategy)", 15]
     - ["project (manager|management)", 10]
 
-  seniority_bonus:          # best match wins
-    - ["director|head of|vice president|\\bVP\\b|principal|chief", 20]
-    - ["senior|\\bsr\\b\\.?|staff|lead\\b", 15]
-    - ["manager", 5]
+  # Level fit, max 15; best match wins. Dan is a senior program / delivery manager, so that is the sweet spot.
+  # Director and Principal are a stretch (worth seeing, but they need strong evidence to reach 75%).
+  seniority_bonus:
+    - ["senior|\\bsr\\b\\.?|lead\\b", 15]
+    - ["manager", 10]
+    - ["director|head of|principal|staff", 9]
+    - ["vice president|\\bVP\\b|chief", 3]
 
-  domain_bonus:             # searched in title + description/department, 3 pts each, max 15
-    keywords: ["cybersecurity", "security", "zero trust", "salesforce", "cloud", "AI", "automation",
-               "vendor", "stakeholder", "agile", "scrum", "enterprise", "saas", "startup", "venture",
-               "go-to-market", "customer experience", "strategy", "partnerships", "governance"]
+  # Evidence of Dan's real experience in the job text (title + description). [label, regex, points];
+  # each counts once, total capped at 30. This is what turns "sounds similar" into a validated match.
+  # If a description cannot be loaded, the job gets at most 20 of the 30 and is flagged "title only".
+  experience:
+    - ["zero trust / security", 'zero[- ]trust|\bZTNA\b|\bSASE\b|secure (web |enterprise )?browser|cyber-?security|information security|identity and access|\bIAM\b|endpoint security', 7]
+    - ["Salesforce / CRM", 'salesforce|\bCRM\b', 5]
+    - ["cloud", '\bcloud\b|\bazure\b|\baws\b|center of excellence|\bCoE\b|cloud migration', 4]
+    - ["vendor / partner mgmt", 'vendors?\b|suppliers?\b|third[- ]party|partnerships?\b|alliances?\b|contract negotiation', 5]
+    - ["executive stakeholders", 'stakeholders?|executives?|c-suite|senior leadership|cross-functional|steering committee', 4]
+    - ["enterprise rollout / transformation", 'rollout|roll-out|large[- ]scale|enterprise[- ]wide|transformation|change management|adoption|deployment programs?|implementation', 5]
+    - ["agile / scrum", 'agile|scrum|\bSAFe\b|kanban|\bCSM\b', 3]
+    - ["budget / P&L / roadmap", 'budgets?\b|\bP&L\b|forecast|roadmaps?\b|business case|\bOKRs?\b|\bKPIs?\b', 3]
+    - ["startup / venture", 'start-?ups?|founders?|ventures?|entrepreneur|0-to-1|zero[- ]to[- ]one|new business|incubat|due diligence|corporate development', 6]
+    - ["operations leadership", 'operational excellence|process (improvement|optimization)|operating model|business operations|scal(e|ing) (the )?(business|operations|teams?)', 4]
+    - ["telecom / customer", 'telecom|wireless|carrier|customer experience|retail|airline|travel', 2]
+    - ["AI / automation", 'automation|generative ai|machine learning|\bAI\b|digital transformation|\bITSM\b', 3]
+
+  description_penalties:    # things in the job text that make it a poor fit for Dan
+    - ["write (production )?code|hands-on (coding|programming|engineering)|proficiency in (python|java|c\\+\\+)|software development experience", -10]
+    - ["security clearance|ts/sci|active clearance", -15]
+    - ["technical background|engineering degree|computer science|bachelor.{0,20}in (computer|engineering)|software development life ?cycle|\\bSDLC\\b|\\bAPIs?\\b|architecture (review|design)|code review|hands-on technical|technical (depth|expertise|acumen)", -12]
+    - ["\\b(clinical|patient care|manufacturing plant|aircraft maintenance|construction site)\\b", -12]
 
   penalties:                # [regex, points] applied to the title
     - ["coordinator|assistant|associate|analyst|specialist|clerk|administrator", -25]
     - ["junior|entry[- ]level|\\bI\\b$", -15]
-    - ["technical (infrastructure )?program|\\bTPM\\b|\\btech program", -8]   # engineering-flavoured: fine, but ranked lower
+    - ["vice president|\\bS?VP\\b|senior director|executive director|group program manager|managing director", -15]   # above Dan's realistic level
+    # Dan is a business-side program leader, not an engineer: technical roles are a poor place for him to sell himself
+    - ["technical|\\bTPM\\b|\\btech program", -20]
+    - ["\\b(engineering|software|hardware|silicon|firmware|devops|SRE|infrastructure|machine learning|ML|data platform|network|systems)\\b", -12]   # engineering-flavoured: fine, but ranked lower
 
   # whole-word matches only (so "Copilot" is not "pilot", "Mechanical" is not "mechanic")
   reject_title: '\b(intern|interns|internship|co-?op|apprentice|barista|technician|mechanic|pilot|first officer|flight attendant|ramp|agents?|drivers?|nurse|physician|attorney|counsel|recruiter|designer|SDE|coffeehouse|cashier|stocker|pharmacist|engineers?|psycholog\w*|social worker|clinical|scientific|infusion|patient|therapy|therapist|construction|EPC|civil|transportation|environmental|biodiversity|coach|forward deployed)\b|store manager|shift supervisor|district manager|sales (executive|representative)|account executive|data scientist|mental (health|well)'
-
-  priority_companies:       # +8 points when the company matches (case-insensitive substring)
-    - Microsoft
-    - Starbucks
-    - Alaska
-    - Horizon Air
-    - Hawaiian Airlines
-    - LinkedIn
-    - Amazon
-    - T-Mobile
-    - Salesforce
-    - Nordstrom
-    - Costco
-    - Zillow
-    - Expedia
-    - Boeing
 
 # ---- Where a job is allowed to be ------------------------------------------
 locations:
@@ -77,6 +88,8 @@ locations:
 # type: workday     any *.myworkdayjobs.com site                         [T-Mobile verified]
 # type: greenhouse  boards-api.greenhouse.io                             [Okta verified]
 # type: linkedin    LinkedIn public job search (covers everyone else)    [verified]
+# type: neogov      governmentjobs.com city/county jobs                  [verified: King Co, Seattle, Snohomish, Tacoma]
+# type: indeed      Indeed public search (optional / best effort)        [NOT verified - may be blocked]
 #
 # every_n_runs: run this source only every Nth 10-minute slot (be gentle with LinkedIn).
 # Any source that fails 6 times in a row triggers ONE "source is down" alert.
@@ -185,6 +198,54 @@ sources:
         locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
       - keywords: '("program manager" OR "business operations" OR "strategy and operations") AND remote'
         locations: ["United States"]
+
+  # Government, non-tech, pay top-of-range >= $150k a year. Uses governmentjobs.com (NEOGOV); the
+  # King County, City of Seattle, Snohomish County and Tacoma feeds were verified live. Government pay is
+  # always posted, so the salary filter is exact. Engineering, public-safety, clinical and trades titles are dropped.
+  - name: King County (gov)
+    type: neogov
+    agency: kingcounty
+    company: King County
+    min_salary: 150000
+    max_pages: 15
+    title_reject: &gov_reject '\b(engineer\w*|police|sheriff|fire\w*|corrections?|custodian|librarian|judge|prosecut\w*|attorney|counsel|nurse|physician|psychiatr\w*|clinical|clinician|wastewater|utility|electric\w*|mechanic|operator|technician|surveyor|inspector|planner|scientist|analyst|developer|software|information technology|cyber\w*|network|database|architect|paralegal|dentist|pharmac\w*)\b|\bIT (manager|director|supervisor)'
+  - name: City of Seattle (gov)
+    type: neogov
+    agency: seattle
+    company: City of Seattle
+    min_salary: 150000
+    max_pages: 12
+    title_reject: *gov_reject
+  - name: Snohomish County (gov)
+    type: neogov
+    agency: snohomish
+    company: Snohomish County
+    default_location: "Everett, WA"
+    min_salary: 150000
+    max_pages: 5
+    title_reject: *gov_reject
+  - name: City of Tacoma (gov)
+    type: neogov
+    agency: tacoma
+    company: City of Tacoma
+    min_salary: 150000
+    max_pages: 5
+    title_reject: *gov_reject
+
+  # Indeed's public search. Best effort: Indeed often blocks cloud servers, so this is marked optional
+  # (a failure is written to the run log but never sends you an alert). Checked about hourly.
+  - name: Indeed
+    type: indeed
+    optional: true
+    every_n_runs: 6
+    fromage: 2                       # postings from the last 2 days
+    searches:
+      - {q: 'senior program manager', l: 'Seattle, WA'}
+      - {q: 'program manager', l: 'Bellevue, WA'}
+      - {q: 'delivery manager', l: 'Seattle, WA'}
+      - {q: 'business operations manager', l: 'Seattle, WA'}
+      - {q: 'vendor manager OR partnerships manager', l: 'Seattle, WA'}
+      - {q: 'senior program manager remote', l: 'Washington State'}
 
 # ---- Health / housekeeping ---------------------------------------------------
 health:
