@@ -31,8 +31,8 @@ profile:
     - ["venture|start-?ups?|incubat|accelerator|corporate development|new ventures?|entrepreneur|investments?\\b|innovation|emerging (tech|technology)|due diligence", 25]
     # Public-sector leadership titles
     - ["(division|deputy|assistant|associate) director|director of (operations|programs?|strategy|administration|business|policy)|(strategic|policy|senior) advisor|administrative services (manager|director)|operations (manager|administrator)|program (administrator|supervisor)|contracts? (manager|administrator)|procurement (manager|director)|chief (operating|administrative|deputy) |business (manager|services)|(project|program)[/ ]+(program|project) manager|deputy (chief|county|city)", 30]
-    # Mergers & acquisitions / integration programs (Dan's favorite kind of role: e.g. Stripe "Project Manager, People M&A")
-    - ['\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?|\bPMI\b', 35]
+    # M&A words alone are only a weak signal: Dan has not done M&A work, so they must not drive a match
+    - ['\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?|\bPMI\b', 10]
     # Startup accelerator / ecosystem programs (Dan's favorite: e.g. Plug and Play "Program Manager", Seattle)
     - ['accelerators?\b|incubat\w*|venture studio|start-?ups?\b.{0,20}\b(programs?|ecosystem|community|partnerships?)|founders?\b.{0,20}\b(programs?|community|success)|programs?\b.{0,20}\b(for|with|to)\b.{0,10}start-?ups?', 40]
     # Adjacent
@@ -47,10 +47,10 @@ profile:
     - ["director|head of|principal|staff", 9]
     - ["vice president|\\bVP\\b|chief", 3]
 
-  # The two kinds of role Dan says he loves (he just applied to one of each). They get bonus points, a louder
-  # phone alert and a "like his favorites" note. [label, title regex, bonus points]
+  # A kind of role Dan says he loves (startup-accelerator / ecosystem programs, like the Plug and Play one he applied to).
+  # It gets bonus points, a louder phone alert and a "like his favorites" note. [label, title regex, bonus points, ...]
+  # (M&A is deliberately NOT here: he applied to a Stripe M&A role but has not done M&A work.)
   favorites:
-    - ["M&A / integration program", '\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?', 10, '\bM&A\b|mergers?\b|post[- ]merger|acquired (compan|team)|acquisition integration|integration workstreams?|divestitures?', 3]
     - ["startup accelerator / ecosystem program", 'accelerators?\b|incubat\w*|venture studio|start-?ups?\b.{0,20}\b(programs?|ecosystem|community|partnerships?)|founders?\b.{0,20}\b(programs?|community|success)|programs?\b.{0,20}\b(for|with|to)\b.{0,10}start-?ups?', 10, 'accelerator|incubator|cohorts?\b|start-?ups?|founders?|demo day|mentors?\b|venture capital', 5]
 
   # Evidence of Dan's real experience in the job text (title + description). [label, regex, points];
@@ -68,7 +68,6 @@ profile:
     - ["startup / venture", 'start-?ups?|founders?|ventures?|entrepreneur|0-to-1|zero[- ]to[- ]one|new business|incubat|due diligence|corporate development', 6]
     - ["operations leadership", 'operational excellence|process (improvement|optimization)|operating model|business operations|scal(e|ing) (the )?(business|operations|teams?)', 4]
     - ["telecom / customer", 'telecom|wireless|carrier|customer experience|retail|airline|travel', 2]
-    - ["M&A / integration", 'acquisitions?\b|\bM&A\b|mergers?\b|post[- ]merger|integration (planning|workstreams?|program)|day[- ]?1|divestitures?|separation', 5]
     - ["accelerator / startup ecosystem", 'accelerator|incubator|cohort|portfolio compan(y|ies)|demo day|startup ecosystem|mentors?\b|venture capital|\bVCs?\b', 5]
     - ["AI / automation", 'automation|generative ai|machine learning|\bAI\b|digital transformation|\bITSM\b', 3]
 
@@ -121,7 +120,7 @@ sources:
     host: apply.careers.microsoft.com
     domain: microsoft.com
     locations: ["Washington, United States"]
-    queries: ["", "program manager", "business operations", "strategy", "partnerships", "director", "mergers acquisitions integration", "startups accelerator ventures", "corporate development"]
+    queries: ["", "program manager", "business operations", "strategy", "partnerships", "director", "startups accelerator ventures"]
     max_pages: 3
 
   - name: Starbucks
@@ -140,7 +139,7 @@ sources:
 
   - name: Amazon
     type: amazon
-    queries: ["program manager", "business operations", "strategy operations", "partnerships", "vendor management", "venture", "mergers acquisitions integration", "accelerator startups", "corporate development"]
+    queries: ["program manager", "business operations", "strategy operations", "partnerships", "vendor management", "venture", "accelerator startups"]
     locations: ["Seattle, Washington, USA", "Bellevue, Washington, USA"]
 
   - name: T-Mobile
@@ -303,11 +302,7 @@ sources:
         locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
       - keywords: '("program manager" OR "business operations" OR "strategy and operations") AND remote'
         locations: ["United States"]
-      # Dan's favorites: M&A / integration programs and startup-accelerator programs
-      - keywords: '("M&A" OR "mergers and acquisitions" OR "acquisition integration" OR "post-merger integration" OR "corporate development") AND ("program" OR "project" OR "integration" OR "operations")'
-        locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
-      - keywords: '("M&A" OR "mergers and acquisitions" OR "integration program" OR "post-merger integration") AND ("program manager" OR "project manager" OR "integration manager")'
-        locations: ["United States"]
+      # Startup-accelerator / ecosystem programs (the kind of role Dan loves)
       - keywords: '("accelerator" OR "incubator" OR "startup program" OR "startup ecosystem" OR "founder programs") AND ("program manager" OR "program director" OR "operations" OR "partnerships")'
         locations: ["Seattle, Washington, United States", "Bellevue, Washington, United States"]
       - keywords: '("accelerator" OR "incubator" OR "startup ecosystem" OR "venture studio") AND ("program manager" OR "program director" OR "head of programs")'
