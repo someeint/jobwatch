@@ -105,6 +105,10 @@
   "Indeed": {
    "fails": 4,
    "last_error": "HTTP 403 from https://www.indeed.com/jobs"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
