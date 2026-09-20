@@ -860,9 +860,12 @@ def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher, detail_b
     final percentage is checked against Dan's experience, not just the title."""
     threshold = cfg["profile"]["notify_threshold"]
     seen, skip = state["seen"], state["skip"]
+    applied = [x for x in cfg["profile"].get("already_applied", []) if x]
     cands: list[tuple[int, Job]] = []
     for job in jobs:
         if job.key in seen or job.key in skip:
+            continue
+        if any(x in job.url for x in applied):      # roles Dan has already applied to
             continue
         if matcher.title_gate(job) is None:
             continue
