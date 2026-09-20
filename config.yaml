@@ -15,6 +15,9 @@ profile:
   first_run_notify: 8       # on the very first run, push only the top N current matches
   max_age_days: 30          # ignore postings older than this (when the date is known)
   min_description_chars: 200
+  already_applied:          # never alert on these (any part of the job link); Dan has applied to both
+    - "plugandplaytechcenter.bamboohr.com/careers/1527"     # Plug and Play, Program Manager (Seattle)
+    - "8175644"                                             # Stripe, Project Manager, People M&A
 
   title_patterns:           # [regex, weight] - matched case-insensitively against the title
     # Senior program leadership (not the weeds of project management)
