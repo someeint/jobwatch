@@ -367,6 +367,13 @@ def fetch_lever(src: dict, http: Http) -> list[Job]:
     return _multi(src, one)
 
 
+def _ashby_remote(j: dict) -> bool:
+    """Ashby sets isRemote on hybrid jobs too (a hybrid Menlo Park role says isRemote=true), so trust
+    workplaceType when it is given."""
+    wt = (j.get("workplaceType") or "").strip().lower()
+    return wt == "remote" if wt else bool(j.get("isRemote"))
+
+
 def fetch_ashby(src: dict, http: Http) -> list[Job]:
     """Ashby job boards (api.ashbyhq.com). The list already carries the full description."""
     def one(name: str, slug: str) -> list[Job]:
@@ -381,7 +388,7 @@ def fetch_ashby(src: dict, http: Http) -> list[Job]:
                            title=(j.get("title") or "").strip(), url=j.get("jobUrl") or "",
                            locations=[l for l in dict.fromkeys(locs) if l], posted=from_iso(j.get("publishedAt")),
                            description=(j.get("descriptionPlain") or strip_html(j.get("descriptionHtml") or "", 5000))[:5000],
-                           remote=bool(j.get("isRemote"))))
+                           remote=_ashby_remote(j)))
         return out
     return _multi(src, one)
 
