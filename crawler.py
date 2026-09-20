@@ -670,6 +670,8 @@ class Matcher:
 
     def location_ok(self, job: Job) -> bool:
         cands = list(job.locations) + (["Remote"] if job.remote else [])
+        if self.deny.search(job.title):        # e.g. "Strategy & Operations Lead - India" listed as Remote
+            return False
         if self.remote_title.search(job.title):
             job.remote = True
             job.matched_location = "Remote"
@@ -1011,7 +1013,7 @@ def cmd_selftest(args) -> int:
     if summary:      # a readable table on the run page (the raw log viewer hides long output)
         rows = ["| Match | Job | Company | Where | Posted | Link |", "|---|---|---|---|---|---|"]
         for score, job, _ in fits:
-            where = job.matched_location or (job.locations or [""])[0]
+            where = (job.matched_location or (job.locations or [""])[0]).replace("|", "/")
             fav = " (favorite)" if job.favorite else ""
             rows.append(f"| {score}% | {job.title.replace('|', '/')}{fav} | {job.company} | {where} | "
                         f"{'just posted' if is_fresh(job) else age_label(job)} | [open]({job.url}) |")
