@@ -1007,6 +1007,17 @@ def cmd_selftest(args) -> int:
         print("\nSources with problems:")
         for n, e in errors.items():
             print(f"  {n}: {e}")
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:      # a readable table on the run page (the raw log viewer hides long output)
+        rows = ["| Match | Job | Company | Where | Posted | Link |", "|---|---|---|---|---|---|"]
+        for score, job, _ in fits:
+            where = job.matched_location or (job.locations or [""])[0]
+            fav = " (favorite)" if job.favorite else ""
+            rows.append(f"| {score}% | {job.title.replace('|', '/')}{fav} | {job.company} | {where} | "
+                        f"{'just posted' if is_fresh(job) else age_label(job)} | [open]({job.url}) |")
+        with open(summary, "a", encoding="utf-8") as fh:
+            fh.write(f"### {len(jobs)} postings scanned, {len(fits)} fit (>= {cfg['profile']['notify_threshold']}%)\n\n"
+                     + "\n".join(rows) + "\n")
     return 1 if errors and len(errors) == len([s for s in cfg['sources'] if s.get('enabled', True)]) else 0
 
 
