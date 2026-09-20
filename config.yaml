@@ -31,7 +31,7 @@ profile:
     # Mergers & acquisitions / integration programs (Dan's favorite kind of role: e.g. Stripe "Project Manager, People M&A")
     - ['\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?|\bPMI\b', 35]
     # Startup accelerator / ecosystem programs (Dan's favorite: e.g. Plug and Play "Program Manager", Seattle)
-    - ['(programs?|project|operations|community)\b.{0,40}\b(accelerat\w*|incubat\w*|start-?ups?|founders?|venture studio)|(accelerat\w*|incubat\w*|start-?ups?|founders?|venture studio)\b.{0,40}\b(programs?|project|operations|community)', 40]
+    - ['accelerat\w*|incubat\w*|venture studio|start-?ups?\b.{0,20}\b(programs?|ecosystem|community|partnerships?)|founders?\b.{0,20}\b(programs?|community|success)|programs?\b.{0,20}\b(for|with|to)\b.{0,10}start-?ups?', 40]
     # Adjacent
     - ["product (operations|strategy)|go[- ]to[- ]market|\\bGTM\\b|growth (operations|strategy)", 15]
     - ["project (manager|management)", 10]
@@ -48,7 +48,7 @@ profile:
   # phone alert and a "like his favorites" note. [label, title regex, bonus points]
   favorites:
     - ["M&A / integration program", '\bM\s?&\s?A\b|mergers?\b|(?<!talent )(?<!customer )(?<!user )(?<!data )(?<!lead )acquisitions?\b|post[- ]merger|divestitures?', 10, '\bM&A\b|mergers?\b|post[- ]merger|acquired (compan|team)|acquisition integration|integration workstreams?|divestitures?', 3]
-    - ["startup accelerator / ecosystem program", '(programs?|project|operations|community)\b.{0,40}\b(accelerat\w*|incubat\w*|start-?ups?|founders?|venture studio)|(accelerat\w*|incubat\w*|start-?ups?|founders?|venture studio)\b.{0,40}\b(programs?|project|operations|community)', 10, 'accelerator|incubator|cohorts?\b|start-?ups?|founders?|demo day|mentors?\b|venture capital', 5]
+    - ["startup accelerator / ecosystem program", 'accelerat\w*|incubat\w*|venture studio|start-?ups?\b.{0,20}\b(programs?|ecosystem|community|partnerships?)|founders?\b.{0,20}\b(programs?|community|success)|programs?\b.{0,20}\b(for|with|to)\b.{0,10}start-?ups?', 10, 'accelerator|incubator|cohorts?\b|start-?ups?|founders?|demo day|mentors?\b|venture capital', 5]
 
   # Evidence of Dan's real experience in the job text (title + description). [label, regex, points];
   # each counts once, total capped at 30. This is what turns "sounds similar" into a validated match.
@@ -85,7 +85,7 @@ profile:
     # other functions Dan has not worked in: finance, marketing / sales, HR, consulting billables
     - ["\\b(finance|financial|fp&a|marketing|sales|revenue|demand gen\\w*|brand|advertis\\w*|mobility|talent|people partner|hrbp|benefits|compensation|payroll)\\b", -20]
     - ["consultant|advisory", -10]
-    - ["\\b(engineering|software|hardware|silicon|firmware|devops|SRE|infrastructure|machine learning|ML|data platform|network|systems)\\b", -12]   # engineering-flavoured: fine, but ranked lower
+    - ["\\b(engineering|software|hardware|silicon|firmware|devops|SRE|infrastructure|machine learning|ML|data platform|network|systems|IT)\\b", -12]   # engineering-flavoured: fine, but ranked lower
 
   # whole-word matches only (so "Copilot" is not "pilot", "Mechanical" is not "mechanic")
   reject_title: '\btalent acquisition|\b(accounting|accountants?|tax|audit\w*|treasur\w*|controller|actuar\w*|underwrit\w*|paralegal)\b|\b(intern|interns|internship|co-?op|apprentice|barista|technician|mechanic|pilot|first officer|flight attendant|ramp|agents?|drivers?|nurse|physician|attorney|counsel|recruiter|designer|SDE|coffeehouse|cashier|stocker|pharmacist|engineers?|psycholog\w*|social worker|clinical|scientific|infusion|patient|therapy|therapist|construction|EPC|civil|transportation|environmental|biodiversity|coach|forward deployed)\b|store manager|shift supervisor|district manager|sales (executive|representative)|account executive|data scientist|mental (health|well)'
