@@ -2,7 +2,9 @@ name: jobwatch
 
 on:
   schedule:
-    - cron: "*/10 * * * *"          # every 10 minutes (GitHub may delay a run by a few minutes at busy times)
+    - cron: "3,13,23,33,43,53 * * * *"   # every 10 minutes, offset off :00 to dodge the crowd of jobs everyone
+                                          # schedules on the exact 10-minute mark (GitHub still delays "schedule"
+                                          # runs on its own, sometimes by hours on a free/public repo - see README)
   workflow_dispatch:
     inputs:
       mode:
