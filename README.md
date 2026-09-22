@@ -20,7 +20,7 @@ The description is read before alerting; if it cannot be loaded the alert says "
 Each alert looks like: *Senior Program Manager - Microsoft* / *82% match | Redmond, WA | posted Sep 18 | pay $150,000-$190,000*,
 and tapping it opens the job posting.
 
-**Also watched:** Indeed (best effort, may be blocked from cloud servers, failures are silent), and government jobs paying
+**Also watched:** Indeed (via a Cowork task that runs a real browser on Olia's computer every hour, since Indeed blocks GitHub's own servers outright - see data/indeed_raw.json), and government jobs paying
 $150k+ a year at the top of the range (King County, City of Seattle, Snohomish County, City of Tacoma via governmentjobs.com).
 
 ---
