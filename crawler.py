@@ -829,6 +829,8 @@ def salary_text(job: Job) -> str:
 
 
 FRESH_HOURS = 24
+HOT_HOURS = 3    # posted this recently -> flagged HOT so Dan sees it before the crowd does
+HOT_EMOJI = "\U0001F525"
 
 
 def is_fresh(job: Job) -> bool:
@@ -836,18 +838,36 @@ def is_fresh(job: Job) -> bool:
     return not job.posted or NOW - job.posted <= timedelta(hours=FRESH_HOURS)
 
 
+def is_hot(job: Job) -> bool:
+    """Posted so recently it's worth jumping on right now. Only true when we actually KNOW the
+    posted time - an unknown date is never HOT, it's just unknown, so this never over-claims."""
+    return bool(job.posted) and NOW - job.posted <= timedelta(hours=HOT_HOURS)
+
+
 def age_label(job: Job) -> str:
+    """A precise, honest posted-date line: the actual calendar date plus how long ago that was,
+    so every alert says exactly when the job went up instead of a vague 'recently'."""
     if not job.posted:
-        return "recently posted"
-    days = (NOW - job.posted).days
-    if days < 1:
-        return "posted today"
-    return "posted yesterday" if days == 1 else f"open {days} days"
+        return "posting date unknown"
+    date_str = job.posted.strftime("%b %d").replace(" 0", " ")   # "Sep 22", not "Sep 02"
+    delta = NOW - job.posted
+    minutes = delta.total_seconds() / 60
+    if minutes < 5:
+        rel = "just now"
+    elif minutes < 60:
+        rel = f"{round(minutes)}m ago"
+    elif minutes < 60 * 24:
+        rel = f"{round(minutes / 60)}h ago"
+    elif delta.days == 1:
+        rel = "yesterday"
+    else:
+        rel = f"{delta.days} days ago"
+    return f"posted {date_str} ({rel})"
 
 
 def describe(job: Job, score: int, reasons: list[str]) -> tuple[str, str]:
     loc = job.matched_location or next((l for l in job.locations if l), "") or ("Remote" if job.remote else "")
-    title = f"{job.title} - {job.company}"
+    title = (f"{HOT_EMOJI} HOT: " if is_hot(job) else "") + f"{job.title} - {job.company}"
     pay = salary_text(job)
     msg = f"{score}% match | {loc} | {age_label(job)}" + (f" | pay {pay}" if pay else "") + f"\nWhy: {', '.join(r for r in reasons if r)}\nvia {job.source}"
     return title, msg
@@ -998,9 +1018,14 @@ def cmd_run(args) -> int:
         if args.dry_run:
             continue
         fresh = is_fresh(job)
-        if notifier.send(("NEW: " if fresh else "") + title, msg, job.url,
-                         priority=4 if (score >= strong or job.favorite) else 3,
-                         tags=["heart"] if job.favorite else (["star"] if score >= strong else (["briefcase"] if fresh else ["hourglass"])),
+        hot = is_hot(job)
+        prefix = "" if hot else ("NEW: " if fresh else "")   # title already says "HOT:" when hot
+        tags = ["heart"] if job.favorite else (["star"] if score >= strong else (["briefcase"] if fresh else ["hourglass"]))
+        if hot:
+            tags = ["fire"] + tags
+        if notifier.send(prefix + title, msg, job.url,
+                         priority=4 if (score >= strong or job.favorite or hot) else 3,
+                         tags=tags,
                          topic=notifier.topic_for(job)):
             sent_keys.add(job.key)
             state["alerts"].append({"t": NOW.isoformat(), "s": score})
@@ -1013,7 +1038,8 @@ def cmd_run(args) -> int:
         for is_new, group in ((True, [t for t in rest if is_fresh(t[1])]), (False, [t for t in rest if not is_fresh(t[1])])):
             if not group:
                 continue
-            lines = "\n".join(f"{sc}% {j.title} - {j.company} ({age_label(j)})" for sc, j, _ in group[:8])
+            lines = "\n".join(f"{HOT_EMOJI + ' ' if is_hot(j) else ''}{sc}% {j.title} - {j.company} ({age_label(j)})"
+                             for sc, j, _ in group[:8])
             tag = "just posted" if is_new else "open for days"
             if notifier.send(f"jobwatch: {len(group)} {label} ({tag})", lines, priority=3, tags=["memo"],
                              topic=notifier.topic if is_new else notifier.topic_older):
@@ -1047,8 +1073,9 @@ def cmd_selftest(args) -> int:
     fits = evaluate(cfg, jobs, scratch, matcher)
     print(f"\n{len(jobs)} postings scanned -> {len(fits)} fit the profile (match >= {cfg['profile']['notify_threshold']}%):")
     for score, job, reasons in fits:
+        hot = f" {HOT_EMOJI}HOT" if is_hot(job) else ""
         print(f"  [{score:>3}] {job.title} - {job.company} | {job.matched_location or (job.locations or [''])[0]} | "
-              f"{job.source} | {'JUST POSTED' if is_fresh(job) else age_label(job)} | {job.url}")
+              f"{job.source} | {age_label(job)}{hot} | {job.url}")
     if errors:
         print("\nSources with problems:")
         for n, e in errors.items():
@@ -1059,8 +1086,9 @@ def cmd_selftest(args) -> int:
         for score, job, _ in fits:
             where = (job.matched_location or (job.locations or [""])[0]).replace("|", "/")
             fav = " (favorite)" if job.favorite else ""
+            hot = f" {HOT_EMOJI}HOT" if is_hot(job) else ""
             rows.append(f"| {score}% | {job.title.replace('|', '/')}{fav} | {job.company} | {where} | "
-                        f"{'just posted' if is_fresh(job) else age_label(job)} | [open]({job.url}) |")
+                        f"{age_label(job)}{hot} | [open]({job.url}) |")
         with open(summary, "a", encoding="utf-8") as fh:
             fh.write(f"### {len(jobs)} postings scanned, {len(fits)} fit (>= {cfg['profile']['notify_threshold']}%)\n\n"
                      + "\n".join(rows) + "\n")
