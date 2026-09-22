@@ -110,7 +110,7 @@ locations:
 # type: bamboohr    <company>.bamboohr.com career pages                     [Plug and Play verified]
 # type: linkedin    LinkedIn public job search (covers everyone else)    [verified]
 # type: neogov      governmentjobs.com city/county jobs                  [verified: King Co, Seattle, Snohomish, Tacoma]
-# type: indeed      Indeed public search (optional / best effort)        [NOT verified - may be blocked]
+# type: indeed_feed Indeed, relayed via a browser on Olia's computer (GitHub's IPs are 403'd)  [see data/indeed_raw.json]
 #
 # every_n_runs: run this source only every Nth 10-minute slot (be gentle with LinkedIn).
 # Any source that fails 6 times in a row triggers ONE "source is down" alert.
@@ -341,20 +341,16 @@ sources:
     max_pages: 5
     title_reject: *gov_reject
 
-  # Indeed's public search. Best effort: Indeed often blocks cloud servers, so this is marked optional
-  # (a failure is written to the run log but never sends you an alert). Checked about hourly.
+  # Indeed blocks GitHub's runner IPs outright (HTTP 403), so this doesn't hit indeed.com directly.
+  # A Cowork task running on Olia's own computer does the actual Indeed search in a real browser
+  # (not blocked there) and commits what it finds to data/indeed_raw.json. This just reads that file.
+  # optional: a stale/missing feed (her computer's been offline a while) is logged, never alerted -
+  # same as the old direct-request version, so it stays consistent with what she's used to.
   - name: Indeed
-    type: indeed
+    type: indeed_feed
     optional: true
-    every_n_runs: 6
-    fromage: 2                       # postings from the last 2 days
-    searches:
-      - {q: 'senior program manager', l: 'Seattle, WA'}
-      - {q: 'program manager', l: 'Bellevue, WA'}
-      - {q: 'delivery manager', l: 'Seattle, WA'}
-      - {q: 'business operations manager', l: 'Seattle, WA'}
-      - {q: 'vendor manager OR partnerships manager', l: 'Seattle, WA'}
-      - {q: 'senior program manager remote', l: 'Washington State'}
+    file: data/indeed_raw.json
+    max_age_hours: 6                 # relay runs ~hourly; treat data older than this as not-fresh
 
 # ---- Health / housekeeping ---------------------------------------------------
 health:
