@@ -542,6 +542,39 @@ def fetch_indeed(src: dict, http: Http) -> list[Job]:
     return list(out.values())
 
 
+def fetch_indeed_feed(src: dict, http: Http) -> list[Job]:
+    """Indeed, via a relay instead of a direct request: GitHub's runners get an HTTP 403 from Indeed
+    (it blocks cloud/datacenter IPs), so a browser running on Olia's own computer does the actual
+    Indeed search and commits the results to a JSON file in this repo. This adapter makes no network
+    call at all - it just reads that file, which is already on disk because actions/checkout ran.
+    If the relay hasn't run recently, that's surfaced as a normal source failure (not silently stale)."""
+    path = ROOT / src.get("file", "data/indeed_raw.json")
+    if not path.exists():
+        raise SourceError(f"{path.name} not found - the browser relay on Olia's computer hasn't run yet")
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise SourceError(f"{path.name} is not valid JSON: {e}")
+    gen = from_iso(data.get("generated_at"))
+    max_age = timedelta(hours=float(src.get("max_age_hours", 6)))
+    if not gen:
+        raise SourceError(f"{path.name} has no generated_at timestamp")
+    if NOW - gen > max_age:
+        age_h = round((NOW - gen).total_seconds() / 3600, 1)
+        raise SourceError(f"relay data is {age_h}h old (>{src.get('max_age_hours', 6)}h) - "
+                           f"Olia's computer/Claude app needs to be online for this to refresh")
+    out = []
+    for j in data.get("jobs", []):
+        loc = (j.get("location") or "").strip()
+        out.append(Job(source=src["name"], company=(j.get("company") or "").strip(),
+                       job_id=str(j.get("id") or j.get("url") or ""),
+                       title=(j.get("title") or "").strip(), url=j.get("url") or "",
+                       locations=[loc] if loc else [], posted=from_iso(j.get("posted")),
+                       description=(j.get("snippet") or "")[:2000],
+                       remote=bool(j.get("remote")) or "remote" in loc.lower()))
+    return [j for j in out if j.job_id and j.title]
+
+
 PAY_RX = re.compile(r"\$\s?([\d,]+(?:\.\d+)?)\s*-\s*\$\s?([\d,]+(?:\.\d+)?)\s*(Annually|Hourly|Monthly|Biweekly|Bi-weekly|Weekly)?", re.I)
 PAY_FACTOR = {"annually": 1, "hourly": 2080, "monthly": 12, "biweekly": 26, "bi-weekly": 26, "weekly": 52}
 
@@ -618,7 +651,8 @@ def fetch_neogov(src: dict, http: Http) -> list[Job]:
 
 ADAPTERS = {"pcsx": fetch_pcsx, "jobsyn": fetch_jobsyn, "amazon": fetch_amazon, "workday": fetch_workday,
             "greenhouse": fetch_greenhouse, "lever": fetch_lever, "ashby": fetch_ashby,
-            "bamboohr": fetch_bamboohr, "linkedin": fetch_linkedin, "indeed": fetch_indeed, "neogov": fetch_neogov}
+            "bamboohr": fetch_bamboohr, "linkedin": fetch_linkedin, "indeed": fetch_indeed,
+            "indeed_feed": fetch_indeed_feed, "neogov": fetch_neogov}
 
 
 # --------------------------------------------------------------------------- scoring
