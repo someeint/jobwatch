@@ -158,9 +158,9 @@
   }
  ],
  "health": {
-  "Alaska Air Group": {
+  "Microsoft": {
    "fails": 1,
-   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -835,6 +835,7 @@
   "Company boards (Greenhouse):anthropic-5426933008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5427570008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5427834008": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):anthropic-5428790008": "2026-09-22T23:17:44.453774+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
