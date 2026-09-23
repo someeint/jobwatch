@@ -15,6 +15,15 @@ profile:
   first_run_notify: 8       # on the very first run, push only the top N current matches
   max_age_days: 30          # ignore postings older than this (when the date is known)
   min_description_chars: 200
+  # how many postings get their FULL description read per run, out of the ~12,000+ scanned every time
+  # (only ~44 Greenhouse boards alone add up to ~8,000). Anything past this budget is judged on title
+  # alone (a lower, capped score) and just gets re-tried next run - it is never permanently rejected,
+  # but a mid-scoring title can lose that lottery for days if the budget is too small relative to how
+  # many strong-titled postings exist across every source. Raised from 60 -> 250 on 2026-09-23 after a
+  # real 77%-match Stripe posting (title score 67, solidly mid-pack) sat unevaluated for 9 days; the
+  # description-fetch step only took ~21s of the workflow's 8-minute timeout at budget 60, so there was
+  # a lot of headroom. Each unit costs roughly 0.3-0.5s (a request + a polite time.sleep(0.3)).
+  detail_budget: 250
   already_applied:          # never alert on these (any part of the job link); Dan has applied to both
     - "plugandplaytechcenter.bamboohr.com/careers/1527"     # Plug and Play, Program Manager (Seattle)
     - "8175644"                                             # Stripe, Project Manager, People M&A
