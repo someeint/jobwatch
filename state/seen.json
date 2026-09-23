@@ -183,7 +183,7 @@
  ],
  "health": {
   "Alaska Air Group": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
   }
  },
