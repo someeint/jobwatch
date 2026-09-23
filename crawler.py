@@ -918,7 +918,17 @@ def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher, detail_b
 
     Pass 1 judges by title/location and keeps only jobs that could still reach the threshold.
     Pass 2 reads the full description of the best candidates (when the source can supply it) so the
-    final percentage is checked against Dan's experience, not just the title."""
+    final percentage is checked against Dan's experience, not just the title.
+
+    detail_budget is almost always smaller than the number of candidates that clear pass 1 (thousands
+    of postings across ~90 companies vs. a budget in the low hundreds), so who gets read THIS run matters:
+    candidates are read freshest-posted-first, not highest-title-score-first. Highest-score-first sounds
+    right but starves genuinely new postings behind a large, fairly stable pool of older, high-title-
+    scoring ones that never happen to win the budget lottery - a real posting (Stripe "Campaign Strategy
+    & Operations Manager", 2026-09-23) sat unevaluated for 9 days this way despite a real 77% match. A job
+    with no known posted date sorts last (title score alone still breaks ties within same-freshness/unknown
+    groups), so a source that doesn't supply dates isn't starved outright, just no longer favoured over one
+    that proves it's new."""
     threshold = cfg["profile"]["notify_threshold"]
     seen, skip = state["seen"], state["skip"]
     applied = [x for x in cfg["profile"].get("already_applied", []) if x]
@@ -943,7 +953,14 @@ def evaluate(cfg: dict, jobs: list[Job], state: dict, matcher: Matcher, detail_b
         res = matcher.score(job)
         if res and res[0] + matcher.headroom >= threshold:
             cands.append((res[0], job))
-    cands.sort(key=lambda t: t[0], reverse=True)
+    # freshest posted date first (unknown dates sort last), title-only score as the tiebreaker within
+    # a freshness tier - see the "detail_budget" note in the docstring above for why.
+    very_old = datetime.min.replace(tzinfo=timezone.utc)
+    cands.sort(key=lambda t: (t[1].posted or very_old, t[0]), reverse=True)
+    need_detail = sum(1 for _, j in cands if len(j.description) < matcher.min_desc)
+    print(f"    {len(cands)} candidates cleared the title/location gate ({need_detail} need a fresh "
+          f"description read; this run's budget covers {min(detail_budget, need_detail)} of them, "
+          "freshest-posted first)")
 
     found: list[tuple[int, Job, list[str]]] = []
     batch_fp: set[str] = set()
