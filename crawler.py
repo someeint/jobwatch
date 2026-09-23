@@ -1004,7 +1004,7 @@ def cmd_run(args) -> int:
                       f"Down for about an hour: {', '.join(newly_down)}. {detail}{more}",
                       priority=2, tags=["warning"])
 
-    new = evaluate(cfg, jobs, state, matcher)
+    new = evaluate(cfg, jobs, state, matcher, detail_budget=cfg["profile"].get("detail_budget", 60))
     first_run = not state["initialized"]
     strong = cfg["profile"]["strong_threshold"]
     print(f"  -> {len(jobs)} postings scanned, {len(new)} new fits" + ("  (first run: baselining)" if first_run else ""))
@@ -1070,7 +1070,7 @@ def cmd_selftest(args) -> int:
     print("jobwatch self-test (no alerts sent, nothing saved)\n")
     jobs, errors, _ = collect(cfg, force=True, only=args.only)
     scratch = {"seen": {}, "skip": {}}
-    fits = evaluate(cfg, jobs, scratch, matcher)
+    fits = evaluate(cfg, jobs, scratch, matcher, detail_budget=cfg["profile"].get("detail_budget", 60))
     print(f"\n{len(jobs)} postings scanned -> {len(fits)} fit the profile (match >= {cfg['profile']['notify_threshold']}%):")
     for score, job, reasons in fits:
         hot = f" {HOT_EMOJI}HOT" if is_hot(job) else ""
