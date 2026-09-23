@@ -182,9 +182,9 @@
   }
  ],
  "health": {
-  "Microsoft": {
+  "Alaska Air Group": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
   }
  },
  "initialized": true,
@@ -732,6 +732,7 @@
   "Amazon:10558222": "2026-09-23T19:53:36.704875+00:00",
   "Amazon:10558313": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10558314": "2026-09-23T21:08:34.650540+00:00",
+  "Amazon:10558386": "2026-09-23T22:08:17.527950+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026516676": "2026-09-22T20:05:39.582823+00:00",
   "Boeing:JR2026516711": "2026-09-19T18:31:08.637985+00:00",
@@ -786,6 +787,7 @@
   "Company boards (Ashby):openai-5ce0931f-aba7-4c7d-9fca-1e278bf75473": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Ashby):openai-5f3a6397-47ac-4ef0-9ca9-cd358851a6b9": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-7495a0fe-be5a-42b4-bded-77870a122776": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-76583c87-78ea-4886-906d-81b0a9c05bfe": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Ashby):openai-7aee5d38-6543-4fd7-b110-8cdb609c5c9e": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Ashby):openai-7bdb15f0-1e3b-4352-b948-47fb35f25d71": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-83ac3381-99c0-46a0-897c-abcd8699b466": "2026-09-20T01:42:03.941384+00:00",
@@ -1091,6 +1093,7 @@
   "Company boards (Greenhouse):stripe-8212325": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8212667": "2026-09-22T23:08:21.166019+00:00",
   "Company boards (Greenhouse):stripe-8212674": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):stripe-8213951": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Greenhouse):toast-8177800": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8201051": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):twitch-8779882002": "2026-09-20T01:42:03.941384+00:00",
@@ -1343,6 +1346,8 @@
   "Microsoft:1970393557000196": "2026-09-23T01:32:42.632579+00:00",
   "Microsoft:1970393557000215": "2026-09-21T22:49:19.178128+00:00",
   "Microsoft:1970393557000220": "2026-09-23T01:32:42.632579+00:00",
+  "Microsoft:1970393557001415": "2026-09-23T22:08:17.527950+00:00",
+  "Microsoft:1970393557001418": "2026-09-23T22:08:17.527950+00:00",
   "Microsoft:1970393557002379": "2026-09-22T20:05:39.582823+00:00",
   "Microsoft:1970393557002663": "2026-09-23T19:53:36.704875+00:00",
   "Microsoft:1970393557006519": "2026-09-23T05:08:45.781503+00:00",
