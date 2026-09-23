@@ -173,7 +173,12 @@
    "t": "2026-09-23T16:08:13.756169+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -951,6 +956,7 @@
   "Company boards (Greenhouse):gitlab-8784056002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gitlab-8784185002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gitlab-8784553002": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):gitlab-8811842002": "2026-09-23T16:36:11.059151+00:00",
   "Company boards (Greenhouse):gitlab-8822279002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8022501": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148547": "2026-09-20T01:42:03.941384+00:00",
