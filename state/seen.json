@@ -169,12 +169,7 @@
    "t": "2026-09-23T05:08:45.781503+00:00"
   }
  ],
- "health": {
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
