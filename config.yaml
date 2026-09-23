@@ -77,6 +77,10 @@ profile:
     - ["technical background|engineering degree|computer science|bachelor.{0,20}in (computer|engineering)|software development life ?cycle|\\bSDLC\\b|\\bAPIs?\\b|architecture (review|design)|code review|hands-on technical|technical (depth|expertise|acumen)", -12]
     - ["\\b(CPA|investment banking|financial modeling|valuation|GAAP|chartered accountant|billable|utilization target)\\b", -12]
     - ["\\b(clinical|patient care|manufacturing plant|aircraft maintenance|construction site)\\b", -12]
+    # a legal or compliance credential is required to even qualify - Dan has neither, so these are a hard poor fit
+    # regardless of how good the title looked (catches "Program Manager" postings that turn out to need a law degree
+    # or a named compliance certification once the actual description is read)
+    - ["\\b(J\\.?D\\.?|juris doctor|bar admission|admitted to the bar|licensed attorney|active law license|paralegal certificat\\w*|CCEP|CRCM|CAMS|CFCS|CFE)\\b|certified compliance( and ethics)? professional|certified regulatory compliance manager|certified anti-money laundering specialist|certified fraud examiner|compliance certificat\\w*|GRC certificat\\w*", -30]
 
   penalties:                # [regex, points] applied to the title
     - ["coordinator|assistant|associate|analyst|specialist|clerk|administrator", -25]
@@ -88,9 +92,16 @@ profile:
     - ["\\b(finance|financial|fp&a|marketing|sales|revenue|demand gen\\w*|brand|advertis\\w*|mobility|talent|people partner|hrbp|benefits|compensation|payroll)\\b", -20]
     - ["consultant|advisory", -10]
     - ["\\b(engineering|software|hardware|silicon|firmware|devops|SRE|infrastructure|machine learning|ML|data platform|network|systems|IT)\\b", -12]   # engineering-flavoured: fine, but ranked lower
+    # compliance-titled roles often expect a compliance certification or regulatory-affairs background Dan doesn't
+    # have; not an outright reject (a "GRC/rollout" security-program title is still a real sweet spot for him per his
+    # T-Mobile Zero Trust work), but it needs strong other evidence to clear the bar - the description_penalties
+    # entry above is what actually disqualifies a posting that names a required certification.
+    - ["\\bcompliance\\b|regulatory (compliance|affairs)", -25]
 
   # whole-word matches only (so "Copilot" is not "pilot", "Mechanical" is not "mechanic")
-  reject_title: '\btalent acquisition|\b(accounting|accountants?|tax|audit\w*|treasur\w*|controller|actuar\w*|underwrit\w*|paralegal)\b|\b(intern|interns|internship|co-?op|apprentice|barista|technician|mechanic|pilot|first officer|flight attendant|ramp|agents?|drivers?|nurse|physician|attorney|counsel|recruiter|designer|SDE|coffeehouse|cashier|stocker|pharmacist|engineers?|psycholog\w*|social worker|clinical|scientific|infusion|patient|therapy|therapist|construction|EPC|civil|transportation|environmental|biodiversity|coach|forward deployed)\b|store manager|shift supervisor|district manager|sales (executive|representative)|account executive|data scientist|mental (health|well)'
+  # lawyer/attorney/counsel/paralegal and compliance-OFFICER titles are rejected outright: these ARE the legal/
+  # compliance professional, not adjacent to it, so no amount of other evidence should let one through.
+  reject_title: '\btalent acquisition|\b(accounting|accountants?|tax|audit\w*|treasur\w*|controller|actuar\w*|underwrit\w*|paralegal|lawyer|attorneys?)\b|\b(intern|interns|internship|co-?op|apprentice|barista|technician|mechanic|pilot|first officer|flight attendant|ramp|agents?|drivers?|nurse|physician|attorney|counsel|recruiter|designer|SDE|coffeehouse|cashier|stocker|pharmacist|engineers?|psycholog\w*|social worker|clinical|scientific|infusion|patient|therapy|therapist|construction|EPC|civil|transportation|environmental|biodiversity|coach|forward deployed)\b|store manager|shift supervisor|district manager|sales (executive|representative)|account executive|data scientist|mental (health|well)|compliance officer|chief compliance officer|\bCCO\b|general counsel|corporate counsel|chief legal officer|\bCLO\b'
 
 # ---- Where a job is allowed to be ------------------------------------------
 locations:
