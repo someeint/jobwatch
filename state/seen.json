@@ -185,7 +185,12 @@
    "t": "2026-09-23T23:08:40.574206+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 8.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -771,6 +776,7 @@
   "Company boards (Ashby):openai-0d8019ec-e034-49ad-8f6b-29abb459b98f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-137e3df0-2bd4-4ad4-8edb-8455a7fdc912": "2026-09-23T06:10:12.713496+00:00",
   "Company boards (Ashby):openai-152e4908-bc1f-4970-833a-a6a9c46f6a81": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-1dade0fb-23c9-4a85-927e-9e8030826303": "2026-09-24T11:14:33.924382+00:00",
   "Company boards (Ashby):openai-2df4df3a-7ac6-42f2-b8ec-d471627a80c8": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-2e645639-3362-42f7-b0b9-e99380c48d29": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-32905f5c-9405-4073-bc65-c57fcf55a83d": "2026-09-20T01:42:03.941384+00:00",
@@ -1388,6 +1394,7 @@
   "Okta:8205101": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR264377": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR331240": "2026-09-22T12:05:43.805270+00:00",
+  "Salesforce:JR334734": "2026-09-24T11:14:33.924382+00:00",
   "Salesforce:JR347678": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR350254": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR350925": "2026-09-22T16:55:36.047014+00:00",
@@ -1399,6 +1406,7 @@
   "Salesforce:JR358428": "2026-09-24T08:49:25.461986+00:00",
   "Salesforce:JR359415": "2026-09-23T19:53:36.704875+00:00",
   "Salesforce:JR359630": "2026-09-22T20:55:33.197184+00:00",
+  "Salesforce:JR360050": "2026-09-24T11:14:33.924382+00:00",
   "Salesforce:JR360251": "2026-09-19T19:35:30.555713+00:00",
   "Salesforce:JR360276": "2026-09-23T15:08:39.594354+00:00",
   "Salesforce:JR360847": "2026-09-22T01:21:27.831526+00:00",
