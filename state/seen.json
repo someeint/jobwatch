@@ -199,7 +199,7 @@
  ],
  "health": {
   "Microsoft": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1043,6 +1043,7 @@
   "Company boards (Greenhouse):mongodb-8211464": "2026-09-21T22:49:19.178128+00:00",
   "Company boards (Greenhouse):mongodb-8212133": "2026-09-21T22:49:19.178128+00:00",
   "Company boards (Greenhouse):mongodb-8212146": "2026-09-21T22:49:19.178128+00:00",
+  "Company boards (Greenhouse):mongodb-8231579": "2026-09-24T19:59:22.841309+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8158010": "2026-09-20T01:42:03.941384+00:00",
