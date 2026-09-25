@@ -197,7 +197,12 @@
    "t": "2026-09-24T19:31:20.122338+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Alaska Air Group": {
+   "fails": 1,
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
