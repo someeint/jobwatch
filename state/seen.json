@@ -221,12 +221,7 @@
    "t": "2026-09-25T21:43:34.260220+00:00"
   }
  ],
- "health": {
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1121,6 +1116,7 @@
   "Company boards (Greenhouse):reddit-8195634": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8196990": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8212175": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):robinhood-7804542": "2026-09-26T00:52:41.416610+00:00",
   "Company boards (Greenhouse):robinhood-8164884": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):robinhood-8167971": "2026-09-25T19:26:16.685539+00:00",
   "Company boards (Greenhouse):roblox-8048000": "2026-09-24T19:31:20.122338+00:00",
@@ -1215,6 +1211,7 @@
   "Company boards (Lever):zoox-29783182-a9c1-444b-bfc4-74cad9a32476": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-300e20c4-8c4b-4325-90aa-473e7d4abe52": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-4258cd55-95e1-424e-9fe6-edbec8235281": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Lever):zoox-42bb084b-e5a0-47d7-bdf7-90a24026e4c5": "2026-09-26T00:52:41.416610+00:00",
   "Company boards (Lever):zoox-83967e5c-bfb4-4b3d-974a-fd0fefe4a168": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-92aa7d9b-2a89-4e3e-b48e-7b2fc5fa1e9e": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-baeb5af5-65b7-433b-99e8-44e61901ae9b": "2026-09-20T01:42:03.941384+00:00",
@@ -1536,6 +1533,7 @@
   "LinkedIn:4472093075": "2026-09-25T21:43:34.260220+00:00",
   "LinkedIn:4472095491": "2026-09-25T21:43:34.260220+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
+  "Microsoft:1970393556977315": "2026-09-26T00:52:41.416610+00:00",
   "Microsoft:1970393556979387": "2026-09-24T20:08:57.797024+00:00",
   "Microsoft:1970393556982542": "2026-09-25T15:26:19.805489+00:00",
   "Microsoft:1970393556984940": "2026-09-24T20:08:57.797024+00:00",
