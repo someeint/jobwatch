@@ -238,13 +238,9 @@
   }
  ],
  "health": {
-  "CrowdStrike": {
-   "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 6.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 2,
+   "last_error": "relay data is 12.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
