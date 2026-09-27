@@ -239,8 +239,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 17.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 4,
+   "last_error": "relay data is 20.1h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -829,6 +829,7 @@
   "Amazon:10560541": "2026-09-25T17:09:31.865848+00:00",
   "Amazon:10560572": "2026-09-25T18:09:34.891854+00:00",
   "Amazon:10560598": "2026-09-25T18:09:34.891854+00:00",
+  "Amazon:10561041": "2026-09-27T20:22:44.336533+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
   "Boeing:JR2026516676": "2026-09-22T20:05:39.582823+00:00",
