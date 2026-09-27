@@ -237,7 +237,16 @@
    "t": "2026-09-26T21:08:50.038419+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "CrowdStrike": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 6.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1639,6 +1648,7 @@
   "Okta:8196226": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8205101": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR264377": "2026-09-19T18:31:08.637985+00:00",
+  "Salesforce:JR327797": "2026-09-27T07:04:51.904322+00:00",
   "Salesforce:JR331240": "2026-09-22T12:05:43.805270+00:00",
   "Salesforce:JR334734": "2026-09-24T11:14:33.924382+00:00",
   "Salesforce:JR345317": "2026-09-24T15:50:46.636267+00:00",
