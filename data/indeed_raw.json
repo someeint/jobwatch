@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T16:08:34+00:00",
+  "generated_at": "2026-09-28T16:13:51+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -8,7 +8,7 @@
       "company": "Google",
       "url": "https://www.indeed.com/viewjob?jk=b608e8200f3e8787",
       "location": "Kirkland, WA",
-      "snippet": "2 years of experience in program management. The application window will be open until at least October 12, 2026. Benefits for this role include:",
+      "snippet": "2 years of experience in program management. Health, dental, vision, life, disability insurance. Retirement Benefits: 401(k) with company match.",
       "remote": false
     },
     {
@@ -35,7 +35,7 @@
       "company": "US AMR-Jones Lang LaSalle Americas, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=b633eabe3c06a63c",
       "location": "Seattle, WA 98158",
-      "snippet": "JLL empowers you to shape a brighter way. Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory…",
+      "snippet": "Experience with furniture dealerships and vendor management. Project Management Professional (PMP) or equivalent certification.",
       "remote": false
     },
     {
@@ -44,7 +44,16 @@
       "company": "Google",
       "url": "https://www.indeed.com/viewjob?jk=7a8ca6d98c324d8c",
       "location": "Kirkland, WA",
-      "snippet": "5 years of experience in program or project management. 5 years of experience managing programs and processes across distributed systems.",
+      "snippet": "Bachelor's degree or equivalent practical experience. 5 years of experience in program or project management. 5 years of experience managing cross-functional or…",
+      "remote": false
+    },
+    {
+      "id": "dacc324c33f3d4cb",
+      "title": "Continuous Improvement & Governance Associate Manager",
+      "company": "Altria",
+      "url": "https://www.indeed.com/viewjob?jk=dacc324c33f3d4cb",
+      "location": "United States",
+      "snippet": "Facilitating cross-functional meetings to gather business requirements and align business partners for continuous improvement efforts supported by data and…",
       "remote": false
     },
     {
@@ -89,7 +98,7 @@
       "company": "Microsoft",
       "url": "https://www.indeed.com/viewjob?jk=53794b37b93942da",
       "location": "Redmond, WA 98052",
-      "snippet": "Ability to independently deliver results for senior leaders and manage global programs simultaneously. Coordinate continuous planning collaboration with key…",
+      "snippet": "Coordinate continuous planning collaboration with key stakeholders and execute business plans with program managers to ensure alignment and business continuity…",
       "remote": false
     },
     {
@@ -120,15 +129,6 @@
       "remote": false
     },
     {
-      "id": "5cec56934b4be5ee",
-      "title": "manager, program management – Facilities Performance",
-      "company": "Starbucks",
-      "url": "https://www.indeed.com/viewjob?jk=5cec56934b4be5ee",
-      "location": "Seattle, WA 98134",
-      "snippet": "Minimum of 6 years of experience mentoring other project managers in program and project management. The Facilities Services organization is seeking a highly…",
-      "remote": false
-    },
-    {
       "id": "ee988502bf36664e",
       "title": "Senior Product Manager",
       "company": "US AMR-Jones Lang LaSalle Americas, Inc.",
@@ -147,21 +147,21 @@
       "remote": false
     },
     {
+      "id": "5cec56934b4be5ee",
+      "title": "manager, program management – Facilities Performance",
+      "company": "Starbucks",
+      "url": "https://www.indeed.com/viewjob?jk=5cec56934b4be5ee",
+      "location": "Seattle, WA 98134",
+      "snippet": "Minimum of 6 years of experience mentoring other project managers in program and project management. The Facilities Services organization is seeking a highly…",
+      "remote": false
+    },
+    {
       "id": "63514438e46e2f7d",
       "title": "Program Compliance Administrator",
       "company": "Washington State Health Care Authority",
       "url": "https://www.indeed.com/viewjob?jk=63514438e46e2f7d",
       "location": "Seattle, WA",
       "snippet": "Deep familiarity with the House Key state bond loan program , including compliance loan calculations of household income, the Home Advantage program , and down…",
-      "remote": false
-    },
-    {
-      "id": "3cb2c67d1ec6330b",
-      "title": "PROJECT MANAGER AEROSPACE",
-      "company": "ROYELL MANUFACTURING INC.",
-      "url": "https://www.indeed.com/viewjob?jk=3cb2c67d1ec6330b",
-      "location": "Everett, WA 98201",
-      "snippet": "For ITAR purposes, U.S. citizenship is required*. As our Project Manager , you'll partner with leadership and teams across the organization to design, implement,…",
       "remote": false
     },
     {
@@ -174,21 +174,21 @@
       "remote": false
     },
     {
-      "id": "d0163eb0f7f91eb3",
-      "title": "Teamcenter Developer",
-      "company": "Experis",
-      "url": "https://www.indeed.com/viewjob?jk=d0163eb0f7f91eb3",
-      "location": "Bellevue, WA 98008",
-      "snippet": "As a Teamcenter Developer, you will be part of the Engineering Support Department supporting the Product Lifecycle Management (PLM) team.",
-      "remote": false
-    },
-    {
       "id": "bfa059477565d091",
       "title": "Producer 3",
       "company": "Experis",
       "url": "https://www.indeed.com/viewjob?jk=bfa059477565d091",
       "location": "Redmond, WA 98052",
       "snippet": "Bachelor's Degree and 2+ years of experience in engineering, product/technical program management, or related fields. Medical and Prescription Drug Plans.",
+      "remote": false
+    },
+    {
+      "id": "d0163eb0f7f91eb3",
+      "title": "Teamcenter Developer",
+      "company": "Experis",
+      "url": "https://www.indeed.com/viewjob?jk=d0163eb0f7f91eb3",
+      "location": "Bellevue, WA 98008",
+      "snippet": "As a Teamcenter Developer, you will be part of the Engineering Support Department supporting the Product Lifecycle Management (PLM) team.",
       "remote": false
     },
     {
@@ -242,7 +242,16 @@
       "company": "Alside",
       "url": "https://www.indeed.com/viewjob?jk=d6ffeee102ccdaef",
       "location": "Tukwila, WA 98188",
-      "snippet": "The Field Project Manager will spend their time on construction and job sites ensuring projects are on-track, ensuring customer service, safety and overall…",
+      "snippet": "College Degree Preferred and/or 2-4 years of industry experience. The Field Project Manager will spend their time on construction and job sites ensuring…",
+      "remote": false
+    },
+    {
+      "id": "3cb2c67d1ec6330b",
+      "title": "PROJECT MANAGER AEROSPACE",
+      "company": "ROYELL MANUFACTURING INC.",
+      "url": "https://www.indeed.com/viewjob?jk=3cb2c67d1ec6330b",
+      "location": "Everett, WA 98201",
+      "snippet": "For ITAR purposes, U.S. citizenship is required*. As our Project Manager , you'll partner with leadership and teams across the organization to design, implement,…",
       "remote": false
     },
     {
@@ -255,21 +264,12 @@
       "remote": false
     },
     {
-      "id": "e44b3262ea86c987",
-      "title": "Program Coordinator I: Provider Deployment and Advanced Practice Provider Programs",
-      "company": "Fred Hutchinson Cancer Center",
-      "url": "https://www.indeed.com/viewjob?jk=e44b3262ea86c987",
-      "location": "Seattle, WA 98109",
-      "snippet": "Actively participates in upholding and increasing program morale and team building. Supports the maintenance of policies, data tracking, and program documents.",
-      "remote": false
-    },
-    {
       "id": "d79a62ae551b286f",
       "title": "Front Office Spa Manager",
       "company": "Medical Spa",
       "url": "https://www.indeed.com/viewjob?jk=d79a62ae551b286f",
       "location": "Woodinville, WA 98072",
-      "snippet": "Oversee calendar management for spa appointments, events, and special programs to maximize operational efficiency. Create a weekly content calendar.",
+      "snippet": "Handle vendor management tasks such as ordering supplies, coordinating deliveries, and maintaining vendor relationships. Create a weekly content calendar.",
       "remote": false
     },
     {
@@ -278,7 +278,16 @@
       "company": "Kaiser Permanente",
       "url": "https://www.indeed.com/viewjob?jk=d07755af053cb541",
       "location": "Seattle, WA 98127",
-      "snippet": "Manages care delivery operations and programs within a twenty-four-hours-a-day, seven-days-a-week operational environment by: supporting large and/or complex…",
+      "snippet": "Associates degree or higher in a Business, Nursing, Health Care, or directly related field AND minimum two (2) years of experience in business operations,…",
+      "remote": false
+    },
+    {
+      "id": "876b11e80c9229ba",
+      "title": "Traveling Construction Superintendent",
+      "company": "Engtal",
+      "url": "https://www.indeed.com/viewjob?jk=876b11e80c9229ba",
+      "location": "United States",
+      "snippet": "Proven experience managing ground-up and/or renovation projects. Coordinate and supervise subcontractors, vendors , and field personnel.",
       "remote": false
     },
     {
@@ -287,7 +296,7 @@
       "company": "Medical Spa",
       "url": "https://www.indeed.com/viewjob?jk=7b22abec3187480a",
       "location": "Woodinville, WA 98072",
-      "snippet": "This role is pivotal in shaping the perception of our spa, driving engagement across multiple channels, and developing strategic marketing initiatives that…",
+      "snippet": "Drive digital brand management initiatives including e-commerce platforms, social media advertising, public relations efforts, and multichannel marketing…",
       "remote": false
     },
     {
@@ -309,6 +318,15 @@
       "remote": false
     },
     {
+      "id": "e44b3262ea86c987",
+      "title": "Program Coordinator I: Provider Deployment and Advanced Practice Provider Programs",
+      "company": "Fred Hutchinson Cancer Center",
+      "url": "https://www.indeed.com/viewjob?jk=e44b3262ea86c987",
+      "location": "Seattle, WA 98109",
+      "snippet": "Actively participates in upholding and increasing program morale and team building. Supports the maintenance of policies, data tracking, and program documents.",
+      "remote": false
+    },
+    {
       "id": "53db85e5c25b5da2",
       "title": "Program Supervisor 1",
       "company": "Lutheran Community Services Northwest",
@@ -323,7 +341,7 @@
       "company": "Friends of Youth",
       "url": "https://www.indeed.com/viewjob?jk=6adf079c55eb889d",
       "location": "Issaquah, WA 98027",
-      "snippet": "Support the delivery of high-quality, culturally responsive, trauma-informed, and client-centered services. In this role, you will mentor and support clinical…",
+      "snippet": "At least one year of supervisory, lead, or management experience. Experience partnering with schools, community organizations, or multidisciplinary service…",
       "remote": false
     },
     {
@@ -332,7 +350,7 @@
       "company": "Kaiser Permanente",
       "url": "https://www.indeed.com/viewjob?jk=cf10c980d746c3a7",
       "location": "Bellevue, WA 98009",
-      "snippet": "Collaborates with managers in completing the process for self and colleague/team performance reviews. Coordinate and facilitate Health Care services for the…",
+      "snippet": "Primary nursing or case-management experience. Collaborates with managers in completing the process for self and colleague/team performance reviews.",
       "remote": false
     },
     {
@@ -350,26 +368,8 @@
       "company": "Crunch Fitness",
       "url": "https://www.indeed.com/viewjob?jk=c4634d825c6b2d67",
       "location": "Tacoma, WA 98404",
-      "snippet": "Presale Manager *leads the charge in pre-sale success by executing community outreach, generating leads, and closing memberships that set the foundation for a…",
+      "snippet": "Proven leadership experience in a multi-location fitness business. Execute lead-generation strategies through community outreach, local events, and partnerships…",
       "remote": false
-    },
-    {
-      "id": "5c24c6fc65f72cb7",
-      "title": "Manager Care Management RN",
-      "company": "Providence Health and Services",
-      "url": "https://www.indeed.com/viewjob?jk=5c24c6fc65f72cb7",
-      "location": "Everett, WA 98201",
-      "snippet": "The Manager RN Case Management is responsible for the daily management and organization of all activities and staff within the Case Management Department…",
-      "remote": false
-    },
-    {
-      "id": "857bfa984f107ec4",
-      "title": "RN Call Center Advice Line Nurse Must Live in Washington or Idaho 1.0 FTE Remote.",
-      "company": "Kaiser Permanente",
-      "url": "https://www.indeed.com/viewjob?jk=857bfa984f107ec4",
-      "location": "Renton, WA 98056",
-      "snippet": "Collaborates with managers in completing the process for self and colleague/team performance reviews. Coordinate and facilitate Health Care services for the…",
-      "remote": true
     },
     {
       "id": "bb3b41bc35f84ffa",
@@ -386,7 +386,7 @@
       "company": "Greystar Real Estate Partners LLC",
       "url": "https://www.indeed.com/viewjob?jk=54ccb1c138861f7d",
       "location": "Seattle, WA 98144",
-      "snippet": "Proficiency in internet, word processing, spreadsheet, and database management programs in order to maintain records of information and develop and provide…",
+      "snippet": "Many factors go into determining employee pay within the posted range including business requirements, prior experience, current skills and geographical…",
       "remote": false
     },
     {
@@ -422,7 +422,7 @@
       "company": "Deloitte",
       "url": "https://www.indeed.com/viewjob?jk=128cc2d72aa32e26",
       "location": "Seattle, WA",
-      "snippet": "Proven ability to translate technical signals into business and sales opportunities. 4+ years fostering and driving relationships within your alliance's…",
+      "snippet": "8+ years of professional experience, with at least 4 years in alliance management or equivalent vendor experience.",
       "remote": false
     },
     {
@@ -489,6 +489,15 @@
       "remote": false
     },
     {
+      "id": "0669b8cc969fcf41",
+      "title": "Commodity Manager",
+      "company": "MI Windows and Doors LLC",
+      "url": "https://www.indeed.com/viewjob?jk=0669b8cc969fcf41",
+      "location": "Tacoma, WA 98402",
+      "snippet": "CPM, CPIM or CSCP certification preferred. Establish supplier relationships (strategic, critical or tactical). Acquire, maintain, and communicate market trends.",
+      "remote": false
+    },
+    {
       "id": "d439793d1f597ad9",
       "title": "Office- Ordering department",
       "company": "Roxie Glass Inc.",
@@ -512,7 +521,16 @@
       "company": "Lutheran Community Services Northwest",
       "url": "https://www.indeed.com/viewjob?jk=79da71a319146616",
       "location": "SeaTac, WA 98188",
-      "snippet": "Bachelor’s degree in business administration, finance, accounting, logistics/supply chain or a related field, or an equivalent combination of education and…",
+      "snippet": "Bachelor's degree in business administration, finance, accounting, logistics/supply chain or a related field, or an equivalent combination of education and…",
+      "remote": false
+    },
+    {
+      "id": "9bdcc1dcdf0cebf6",
+      "title": "Travel Registered Nurse-Medical Surgical, Medical Surgical Telemetry Unit-Up to$37,500 per 13 weeks",
+      "company": "Health Carousel",
+      "url": "https://www.indeed.com/viewjob?jk=9bdcc1dcdf0cebf6",
+      "location": "United States",
+      "snippet": "Day or night shift depending on facility. Experience in fast-paced or high-acuity step-down settings. We are seeking a dedicated Travel Registered Nurse to…",
       "remote": false
     },
     {
@@ -534,6 +552,24 @@
       "remote": false
     },
     {
+      "id": "c4476f8b1caaabac",
+      "title": "Principal Technical Program Manager, Last Mile Execution Planning",
+      "company": "Amazon.com Services LLC",
+      "url": "https://www.indeed.com/viewjob?jk=c4476f8b1caaabac",
+      "location": "Bellevue, WA 98009",
+      "snippet": "Your days involve running programs that require collaborative efforts across a distributed and heterogeneous software stack, working with engineering leaders…",
+      "remote": false
+    },
+    {
+      "id": "e51c1143274547fb",
+      "title": "Sr. Technical Program Manager, Twitch Advertising",
+      "company": "Amazon.com Services LLC",
+      "url": "https://www.indeed.com/viewjob?jk=e51c1143274547fb",
+      "location": "Seattle, WA 98127",
+      "snippet": "As Sr TPM, you will interact with product managers , software development managers , developers, and senior leaders across partner teams in the ads organization…",
+      "remote": false
+    },
+    {
       "id": "26bbf464af3a0cfe",
       "title": "Voice of the Member Program Manager",
       "company": "GESA CREDIT UNION",
@@ -543,21 +579,12 @@
       "remote": false
     },
     {
-      "id": "afb95af8b697acbf",
-      "title": "Principal Tech Program Manager, Measurement, Ad Tech, and Data Science",
-      "company": "Amazon.com Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=afb95af8b697acbf",
-      "location": "Seattle, WA 98127",
-      "snippet": "7+ years of technical product or program management experience. Experience managing programs across cross functional teams, building processes and coordinating…",
-      "remote": false
-    },
-    {
-      "id": "c4476f8b1caaabac",
-      "title": "Principal Technical Program Manager, Last Mile Execution Planning",
-      "company": "Amazon.com Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=c4476f8b1caaabac",
-      "location": "Bellevue, WA 98009",
-      "snippet": "Your days involve running programs that require collaborative efforts across a distributed and heterogeneous software stack, working with engineering leaders…",
+      "id": "8f01f77367aff491",
+      "title": "Project/Program Manager",
+      "company": "Horizontal Talent",
+      "url": "https://www.indeed.com/viewjob?jk=8f01f77367aff491",
+      "location": "Seattle, WA",
+      "snippet": "Join a dynamic team supporting impactful research programs through a blend of program management, Salesforce administration, data organization, and stakeholder…",
       "remote": false
     }
   ]
