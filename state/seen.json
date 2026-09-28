@@ -243,12 +243,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 7,
-   "last_error": "relay data is 31.4h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 8,
+   "last_error": "relay data is 39.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -798,6 +794,7 @@
   "Adobe:R171494": "2026-09-20T01:42:03.941384+00:00",
   "Adobe:R171536": "2026-09-24T08:49:25.461986+00:00",
   "Adobe:R171555": "2026-09-22T12:05:43.805270+00:00",
+  "Adobe:R171683": "2026-09-28T15:55:49.931317+00:00",
   "Adobe:R171802": "2026-09-28T07:36:22.833456+00:00",
   "Adobe:R171804": "2026-09-21T22:49:19.178128+00:00",
   "Adobe:R171812": "2026-09-20T01:42:03.941384+00:00",
@@ -1279,6 +1276,7 @@
   "King County (gov):5481351": "2026-09-19T19:35:30.555713+00:00",
   "King County (gov):5486711": "2026-09-20T01:42:03.941384+00:00",
   "King County (gov):5490335": "2026-09-22T06:42:21.712138+00:00",
+  "King County (gov):5493518": "2026-09-28T15:55:49.931317+00:00",
   "LinkedIn:3877161266": "2026-09-19T19:35:30.555713+00:00",
   "LinkedIn:4242222700": "2026-09-20T07:07:10.258753+00:00",
   "LinkedIn:4373193361": "2026-09-21T19:34:41.546264+00:00",
