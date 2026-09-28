@@ -247,8 +247,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 9,
-   "last_error": "relay data is 39.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 10,
+   "last_error": "relay data is 39.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
