@@ -253,7 +253,12 @@
    "t": "2026-09-28T21:36:51.568421+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Alaska Air Group": {
+   "fails": 1,
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -950,6 +955,7 @@
   "Company boards (Ashby):openai-e25e56a3-88f0-4994-9ae7-3d6d85c1501b": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-e5c39e03-6121-47be-8bd3-f6128557b38f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-ecd7b6d6-cf20-4e14-a90a-8501cd460557": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-f9c64ecf-d52a-44f0-9d9f-99575ae80d7f": "2026-09-29T01:14:43.318649+00:00",
   "Company boards (Ashby):ramp-081dbe29-8a06-4cb2-bda5-4b0bfb35c2e8": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-196e4e25-c452-430d-8b2f-36a40f88a2ae": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-2d2c336c-16e7-4f27-b0cd-5bb6055cdf21": "2026-09-20T18:03:35.867206+00:00",
@@ -1065,6 +1071,7 @@
   "Company boards (Greenhouse):cloudflare-8212368": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):cloudflare-8214726": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
   "Company boards (Greenhouse):databricks-7803651002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):databricks-8571578002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):databricks-8586857002": "2026-09-20T01:42:03.941384+00:00",
