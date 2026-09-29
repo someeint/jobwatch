@@ -132,7 +132,9 @@ locations:
 # type: neogov      governmentjobs.com city/county jobs                  [verified: King Co, Seattle, Snohomish, Tacoma]
 # type: indeed_feed Indeed, relayed via a browser on Olia's computer (GitHub's IPs are 403'd)  [see data/indeed_raw.json]
 #
-# every_n_runs: run this source only every Nth 10-minute slot (be gentle with LinkedIn).
+# every_n_runs: run this source only every Nth 10-minute slot. Currently unused by any source - it was
+# removed from LinkedIn on 2026-09-29 because it caused silent multi-hour blind spots once real runs
+# moved from every 10 min to roughly hourly (see the LinkedIn entry below for the story).
 # Any source that fails 6 times in a row triggers ONE "source is down" alert.
 sources:
   - name: Microsoft
@@ -306,10 +308,18 @@ sources:
 
   # LinkedIn's public search. Also covers Google, Meta, Apple, Costco, REI, Delta, Verizon,
   # AT&T, Uber, Palo Alto Networks, Zscaler, Seattle VCs and startup studios, etc.
-  # Runs every 3rd slot (~30 min) to stay under LinkedIn's radar.
+  # Scanned every run (every_n_runs removed 2026-09-29): this used to run only "every 3rd 10-minute
+  # slot" to stay gentle on LinkedIn, back when the native GitHub schedule was expected to fire every
+  # 10 minutes. It compares wall-clock time mod 30 min, so once real runs became roughly hourly (via
+  # the "jobwatch GitHub nudge" Cowork task, GitHub's own schedule: cron being unreliable), consecutive
+  # runs kept landing on the SAME 30-min phase - meaning LinkedIn was either scanned every run or
+  # skipped every run, with no in-between, purely depending on what minute the nudge happened to fire
+  # at. Confirmed live: a native schedule-triggered run at 13:55Z on 2026-09-29 skipped LinkedIn
+  # entirely, logging nothing. LinkedIn produces most of Dan's real alerts, so this was a silent,
+  # unbounded blind spot - directly why some alerts showed jobs already ~17h old. A handful of guest-
+  # search requests once an hour is gentle enough on its own; no throttle needed.
   - name: LinkedIn
     type: linkedin
-    every_n_runs: 3
     within_seconds: 172800          # last 48 hours (dedupe means repeats are never re-alerted)
     searches:
       - keywords: '("program manager" OR "program director" OR "head of program" OR "program lead")'
