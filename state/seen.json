@@ -273,7 +273,16 @@
    "t": "2026-09-30T00:09:24.227503+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Alaska Air Group": {
+   "fails": 1,
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1307,6 +1316,7 @@
   "Company boards (Greenhouse):stripe-8224620": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):stripe-8230564": "2026-09-25T03:37:55.351898+00:00",
   "Company boards (Greenhouse):stripe-8237244": "2026-09-29T17:08:45.517828+00:00",
+  "Company boards (Greenhouse):stripe-8238747": "2026-09-30T03:08:11.466216+00:00",
   "Company boards (Greenhouse):toast-8177800": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8201051": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8224334": "2026-09-24T21:08:28.838967+00:00",
@@ -1822,6 +1832,7 @@
   "LinkedIn:4473534981": "2026-09-29T22:09:00.261713+00:00",
   "LinkedIn:4473567292": "2026-09-30T00:09:24.227503+00:00",
   "LinkedIn:4473576089": "2026-09-30T00:09:24.227503+00:00",
+  "LinkedIn:4473579843": "2026-09-30T03:08:11.466216+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
   "Microsoft:1970393556977315": "2026-09-26T00:52:41.416610+00:00",
