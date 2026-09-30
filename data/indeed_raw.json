@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:56:13+00:00",
+  "generated_at": "2026-09-30T19:13:10+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -192,15 +192,6 @@
       "remote": false
     },
     {
-      "id": "7f4eb449a81ef3b2",
-      "title": "Wholesale Sales Manager (5+ yrs exp, full time)",
-      "company": "Confidential",
-      "url": "https://www.indeed.com/viewjob?jk=7f4eb449a81ef3b2",
-      "location": "United States",
-      "snippet": "Type: Full time, salaried, exempt. Availability: Core hours during business hours (Eastern Time). Location: *Remote within the U.S. (excluding Washington…",
-      "remote": false
-    },
-    {
       "id": "34674ca948e19b33",
       "title": "Toddler Assistant Teacher",
       "company": "The Goddard School located in Snohomish/Mill Creek",
@@ -224,7 +215,16 @@
       "company": "The Goddard School of Bothell",
       "url": "https://www.indeed.com/viewjob?jk=133cf2e0dfd4a2f0",
       "location": "Bothell, WA 98011",
-      "snippet": "Ensure an effective program , which is responsive to children's needs. Teachers construct their own lesson plan using Frog Street and utilize additional…",
+      "snippet": "Ensure an effective program , which is responsive to children’s needs. Teachers construct their own lesson plan using Frog Street and utilize additional…",
+      "remote": false
+    },
+    {
+      "id": "dfc194bcf7e86b1e",
+      "title": "Job Coach - Everett - Up to $2,000 in Sign-on Bonuses!!!",
+      "company": "Redwood Family Care Network",
+      "url": "https://www.indeed.com/viewjob?jk=dfc194bcf7e86b1e",
+      "location": "Edmonds, WA 98020",
+      "snippet": "Working Advantage employee discount program. Promotes and facilitates social integration between clients and other employees in collaboration with supervisors/…",
       "remote": false
     },
     {
@@ -251,7 +251,7 @@
       "company": "TRF Pacific",
       "url": "https://www.indeed.com/viewjob?jk=d871178959cabdbb",
       "location": "Seattle, WA 98121",
-      "snippet": "Work with property managers on budgets. Provide clear updates to leadership, property managers , and team members. 10 years' minimum experience in accounting.",
+      "snippet": "Work with property managers on budgets. Provide clear updates to leadership, property managers , and team members. 10 years’ minimum experience in accounting.",
       "remote": false
     },
     {
@@ -264,21 +264,12 @@
       "remote": false
     },
     {
-      "id": "dc4ecf5f1cfaa7c5",
-      "title": "Floating Community Consultant",
-      "company": "American Property Management",
-      "url": "https://www.indeed.com/viewjob?jk=dc4ecf5f1cfaa7c5",
-      "location": "Tacoma, WA 98444",
-      "snippet": "High school diploma or GED required. Prepare and maintain reports for managers. Those who advance will participate in additional virtual and/or on-site…",
-      "remote": false
-    },
-    {
-      "id": "1523fa3329f2b8ac",
-      "title": "Move Coordinator - Amazon",
-      "company": "Northwest Center",
-      "url": "https://www.indeed.com/viewjob?jk=1523fa3329f2b8ac",
-      "location": "Seattle, WA 98109",
-      "snippet": "Opportunity for career development with our NWC Mentorship Match program. Utilize industry-specific computer programs to create, verify, and format move lists,…",
+      "id": "0e7d9182e2f9b125",
+      "title": "Operations Coordinator",
+      "company": "Immanuel Presbyterian Church Tacoma",
+      "url": "https://www.indeed.com/viewjob?jk=0e7d9182e2f9b125",
+      "location": "Tacoma, WA 98403",
+      "snippet": "The Operations Coordinator at Immanuel Presbyterian Church (IPC) is a pivotal role that provides operations coordination/management, and communication services…",
       "remote": false
     },
     {
@@ -288,6 +279,15 @@
       "url": "https://www.indeed.com/viewjob?jk=4dc191f9ef7412a9",
       "location": "Seattle, WA 98127",
       "snippet": "Communicate professionally with homeowners, project managers , and field leadership. Full-time schedule averaging 40-45 hours per week.",
+      "remote": false
+    },
+    {
+      "id": "b7b8aa7b7155e183",
+      "title": "Mechanical Design Engineer - Industrial Systems",
+      "company": "RHI Magnesita",
+      "url": "https://www.indeed.com/viewjob?jk=b7b8aa7b7155e183",
+      "location": "United States",
+      "snippet": "This position plays a critical role in designing, improving, and supporting mechanical systems used in demanding steel manufacturing environments.",
       "remote": false
     },
     {
@@ -417,30 +417,30 @@
       "remote": false
     },
     {
-      "id": "a626ed55dec4ce83",
-      "title": "Mechanical Engineer-On-Site at US Embassy Moscow (Relocation Required)",
-      "company": "MEC Energy Services, LLC",
-      "url": "https://www.indeed.com/viewjob?jk=a626ed55dec4ce83",
-      "location": "United States",
-      "snippet": "This could include works as journeyman, project engineer, superintendent, or project manager. Performs inspections of safety repairs for compliance with DOS…",
-      "remote": false
-    },
-    {
-      "id": "74b5da041455caed",
-      "title": "Registered Nurse & Allergist",
-      "company": "Ear Nose Throat Facial Plastic Surgery & Allergy of WW",
-      "url": "https://www.indeed.com/viewjob?jk=74b5da041455caed",
-      "location": "Bonney Lake, WA 98391",
-      "snippet": "Using critical thinking, performs allergy tests and educates patients on the results and immunotherapy in general. Covers the Lead Allergist during absences.",
-      "remote": false
-    },
-    {
       "id": "e02e39d6fc5b7516",
       "title": "Operations Manager",
       "company": "ACT 2 Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=e02e39d6fc5b7516",
       "location": "Burien, WA 98148",
-      "snippet": "Manages facility operations to reduce costs, improve operational effectiveness, and meet service-level expectations.",
+      "snippet": "Warehouse, Logistics or Operations Management: 3 years (Required). Minimum 3 years of experience in warehouses, logistics, or operations management.",
+      "remote": false
+    },
+    {
+      "id": "0cdadfa07d8a677c",
+      "title": "CDL Class B Driver - Redmond WA",
+      "company": "Central Welding Supply Inc",
+      "url": "https://www.indeed.com/viewjob?jk=0cdadfa07d8a677c",
+      "location": "Redmond, WA 98052",
+      "snippet": "Daily deliveries , as scheduled by store staff. Family owned and operated business of 50+ years looking for a Class B CDL driver for Redmond location.",
+      "remote": false
+    },
+    {
+      "id": "28c5d6af32bea4b6",
+      "title": "Operations Coordinator (2 yrs exp REQ)",
+      "company": "Seattle Glove Incorporated",
+      "url": "https://www.indeed.com/viewjob?jk=28c5d6af32bea4b6",
+      "location": "Mukilteo, WA 98275",
+      "snippet": "We are a full line glove company (leather, cotton, PVC, latex, nitrile and vinyl disposable, Neoprene, cut protection and anti-fatigue gloves).",
       "remote": false
     },
     {
@@ -462,12 +462,12 @@
       "remote": false
     },
     {
-      "id": "77b7474bd793b983",
-      "title": "Warehouse Manager",
-      "company": "TAK Broadband",
-      "url": "https://www.indeed.com/viewjob?jk=77b7474bd793b983",
-      "location": "Tacoma, WA",
-      "snippet": "TAK Broadband is a leading end-to-end U.S. fiber broadband network construction contractor operating in 42 states. Holidays: 6 paid holidays per calendar year.",
+      "id": "cf9badebf70ba6c1",
+      "title": "Senior Contract Administrator",
+      "company": "System One",
+      "url": "https://www.indeed.com/viewjob?jk=cf9badebf70ba6c1",
+      "location": "Bellevue, WA 98008",
+      "snippet": "Issue subcontracts or other agreements to suppliers and monitor order progress for on-time delivery. Perform sourcing, evaluating, price reasonableness,…",
       "remote": false
     },
     {
@@ -485,16 +485,16 @@
       "company": "Confidential",
       "url": "https://www.indeed.com/viewjob?jk=bf9fd23284223547",
       "location": "Redmond, WA 98033",
-      "snippet": "We are looking for a candidate with experience as an automotive sales manager for OEM stores. The Sales Manager will oversee day-to-day sales operations, coach…",
+      "snippet": "Automotive sales or management experience required. We are looking for a candidate with experience as an automotive sales manager for OEM stores.",
       "remote": false
     },
     {
-      "id": "a90346da16220bcc",
-      "title": "Pastry Cook / Baker",
-      "company": "SheChill Patisserie",
-      "url": "https://www.indeed.com/viewjob?jk=a90346da16220bcc",
-      "location": "Woodinville, WA 98072",
-      "snippet": "Assist with deliveries as needed. Monitor ingredient inventory and communicate restocking needs to the kitchen manager.",
+      "id": "74b5da041455caed",
+      "title": "Registered Nurse & Allergist",
+      "company": "Ear Nose Throat Facial Plastic Surgery & Allergy of WW",
+      "url": "https://www.indeed.com/viewjob?jk=74b5da041455caed",
+      "location": "Bonney Lake, WA 98391",
+      "snippet": "Using critical thinking, performs allergy tests and educates patients on the results and immunotherapy in general. Covers the Lead Allergist during absences.",
       "remote": false
     },
     {
@@ -525,11 +525,11 @@
       "remote": false
     },
     {
-      "id": "d5a973cf7f842774",
+      "id": "0387dd6aeef08d48",
       "title": "HR Reinvention Consulting Manager/Senior Manager, Consumer Goods & Services, Retail & Travel",
       "company": "Accenture",
-      "url": "https://www.indeed.com/viewjob?jk=d5a973cf7f842774",
-      "location": "Seattle, WA 98101",
+      "url": "https://www.indeed.com/viewjob?jk=0387dd6aeef08d48",
+      "location": "Kirkland, WA 98033",
       "snippet": "Support business growth by working closely with senior leadership on strategic business development initiatives, offerings, and cultivating a pipeline of…",
       "remote": false
     },
@@ -543,11 +543,11 @@
       "remote": false
     },
     {
-      "id": "96a27a5b683f4653",
+      "id": "da427291cd96058b",
       "title": "P&C Management Consulting Manager",
       "company": "Accenture",
-      "url": "https://www.indeed.com/viewjob?jk=96a27a5b683f4653",
-      "location": "Seattle, WA 98101",
+      "url": "https://www.indeed.com/viewjob?jk=da427291cd96058b",
+      "location": "Kirkland, WA 98033",
       "snippet": "Develop transformation roadmaps aligned to strategic business outcomes. Translate ambiguous business problems into practical, scalable solutions that deliver…",
       "remote": false
     },
@@ -687,15 +687,6 @@
       "remote": false
     },
     {
-      "id": "31768bbf9dcd46ee",
-      "title": "Janitorial Cleaner",
-      "company": "ABM Industries",
-      "url": "https://www.indeed.com/viewjob?jk=31768bbf9dcd46ee",
-      "location": "Bremerton, WA 98312",
-      "snippet": "We are looking for a reliable and experienced Janitorial Cleaner to perform a variety of cleaning duties to ensure a clean, safe, and orderly environment across…",
-      "remote": false
-    },
-    {
       "id": "b803ca65003c5008",
       "title": "Life Insurance Management Consulting Senior Manager",
       "company": "Accenture",
@@ -719,7 +710,7 @@
       "company": "Amazon Development Center U.S., Inc.",
       "url": "https://www.indeed.com/viewjob?jk=c6a15df7b196a547",
       "location": "Seattle, WA 98127",
-      "snippet": "Own the product roadmap and end-to-end delivery for specific RTC features and capabilities (e.g., turnkey RTC apps like voicemail, co-browse, screen recording;…",
+      "snippet": "5+ years of technical product management with internet business experience. Knowledge of engineering practices and patterns for the full software/hardware/…",
       "remote": false
     },
     {
@@ -738,6 +729,15 @@
       "url": "https://www.indeed.com/viewjob?jk=42da9849c60a740e",
       "location": "Bellevue, WA 98006",
       "snippet": "At least 7 years of strategic sourcing experience (10+ years preferred), with strong capability to lead sourcing of moderate complexity and support complex or…",
+      "remote": false
+    },
+    {
+      "id": "3bd5d7501fc71e4d",
+      "title": "Career Advisor, Adult/Dislocated Worker",
+      "company": "Career Team Enterprises",
+      "url": "https://www.indeed.com/viewjob?jk=3bd5d7501fc71e4d",
+      "location": "Everett, WA",
+      "snippet": "(1) Comply with all applicable laws and regulations; (2) Recruit and evaluate job applicants and candidates for employment; (3) Conduct background checks; (4)…",
       "remote": false
     },
     {
@@ -864,6 +864,15 @@
       "url": "https://www.indeed.com/viewjob?jk=cd33073b93ecc8ba",
       "location": "Seattle, WA",
       "snippet": "Experience in public procurement in the state of Washington, local government, or public higher education, especially in a facilities or construction…",
+      "remote": false
+    },
+    {
+      "id": "894480929c8a01ec",
+      "title": "Senior Staff Field Applications Engineer",
+      "company": "Applied Optoelectronics, Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=894480929c8a01ec",
+      "location": "Seattle, WA 98101",
+      "snippet": "Bachelor's or advanced degree in Fiber Optics, Electrical Engineering, or related field. Must be willing to relocate to Seattle, WA or San Francisco Bay Area.",
       "remote": false
     },
     {
