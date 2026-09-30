@@ -297,7 +297,12 @@
    "t": "2026-09-30T18:53:00.441731+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Alaska Air Group": {
+   "fails": 1,
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -972,6 +977,7 @@
   "Company boards (Ashby):notion-7ec83090-7c5b-4691-bf20-e11e892cede1": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-be994bb4-c680-4f57-b3bd-7e689175317f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-c5c69246-74db-4960-a0e0-7945be6c30ae": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
   "Company boards (Ashby):openai-002c6146-f1bf-4653-8929-8112b577837b": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-063d1957-23f0-4976-b8bd-93a0d4a31cfb": "2026-09-24T15:50:46.636267+00:00",
   "Company boards (Ashby):openai-08e8d03a-df94-46af-8664-cd9aab1af445": "2026-09-20T01:42:03.941384+00:00",
