@@ -327,12 +327,8 @@
  ],
  "health": {
   "Alaska Air Group": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1192,6 +1188,7 @@
   "Company boards (Greenhouse):anthropic-5433952008": "2026-09-25T19:26:16.685539+00:00",
   "Company boards (Greenhouse):anthropic-5436196008": "2026-09-29T18:09:04.357837+00:00",
   "Company boards (Greenhouse):anthropic-5439844008": "2026-10-01T08:49:15.274454+00:00",
+  "Company boards (Greenhouse):anthropic-5441387008": "2026-10-01T22:08:44.884574+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -1326,6 +1323,7 @@
   "Company boards (Greenhouse):mongodb-8173625": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8173798": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8180105": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):mongodb-8201176": "2026-10-01T22:08:44.884574+00:00",
   "Company boards (Greenhouse):mongodb-8205445": "2026-09-21T14:13:46.061280+00:00",
   "Company boards (Greenhouse):mongodb-8211464": "2026-09-21T22:49:19.178128+00:00",
   "Company boards (Greenhouse):mongodb-8212133": "2026-09-21T22:49:19.178128+00:00",
@@ -2038,9 +2036,11 @@
   "LinkedIn:4474511915": "2026-10-01T20:34:35.890371+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
+  "Microsoft:1970393556955022": "2026-10-01T22:08:44.884574+00:00",
   "Microsoft:1970393556958329": "2026-10-01T15:43:50.514781+00:00",
   "Microsoft:1970393556958332": "2026-10-01T15:43:50.514781+00:00",
   "Microsoft:1970393556977315": "2026-09-26T00:52:41.416610+00:00",
+  "Microsoft:1970393556977327": "2026-10-01T22:08:44.884574+00:00",
   "Microsoft:1970393556979387": "2026-09-24T20:08:57.797024+00:00",
   "Microsoft:1970393556982542": "2026-09-25T15:26:19.805489+00:00",
   "Microsoft:1970393556984940": "2026-09-24T20:08:57.797024+00:00",
