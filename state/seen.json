@@ -326,9 +326,9 @@
   }
  ],
  "health": {
-  "Alaska Air Group": {
-   "fails": 2,
-   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -922,6 +922,7 @@
   "Adobe:R170694": "2026-09-19T18:31:08.637985+00:00",
   "Adobe:R170800": "2026-09-19T18:31:08.637985+00:00",
   "Adobe:R170949": "2026-09-19T18:31:08.637985+00:00",
+  "Adobe:R171012": "2026-10-01T23:09:21.400666+00:00",
   "Adobe:R171192": "2026-09-19T18:31:08.637985+00:00",
   "Adobe:R171494": "2026-09-20T01:42:03.941384+00:00",
   "Adobe:R171536": "2026-09-24T08:49:25.461986+00:00",
@@ -1225,6 +1226,7 @@
   "Company boards (Greenhouse):cloudflare-8214726": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):cloudflare-8232768": "2026-09-29T13:55:16.417993+00:00",
   "Company boards (Greenhouse):cloudflare-8234270": "2026-09-29T18:29:42.364371+00:00",
+  "Company boards (Greenhouse):cloudflare-8244876": "2026-10-01T23:09:21.400666+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
