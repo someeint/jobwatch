@@ -323,14 +323,13 @@
   {
    "s": 88,
    "t": "2026-10-01T20:34:35.890371+00:00"
+  },
+  {
+   "s": 80,
+   "t": "2026-10-02T00:09:16.487928+00:00"
   }
  ],
- "health": {
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -382,6 +381,7 @@
   "29528d91f8d7c19e": "2026-10-01T15:43:50.514781+00:00",
   "29ef5ecf88c0d881": "2026-09-19T18:31:08.637985+00:00",
   "2c616ec5cc8a4af3": "2026-09-19T18:31:08.637985+00:00",
+  "2c6238637fa04c4d": "2026-10-02T00:09:16.487928+00:00",
   "2ca130abf0335923": "2026-09-19T18:31:08.637985+00:00",
   "2d163681e01733d1": "2026-09-20T07:07:10.258753+00:00",
   "2f7743a3812c55f8": "2026-10-01T19:08:49.260098+00:00",
@@ -668,6 +668,7 @@
   "CrowdStrike:R29950": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R29967": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R29968": "2026-09-19T18:31:08.637985+00:00",
+  "Indeed:02476287c6263b2e": "2026-10-02T00:09:16.487928+00:00",
   "Indeed:1161dca7f05cc609": "2026-09-26T18:00:53.245317+00:00",
   "Indeed:21a6b59f2a285e0e": "2026-09-22T23:08:21.166019+00:00",
   "Indeed:3d8c3246b9151eeb": "2026-09-26T18:00:53.245317+00:00",
@@ -1019,6 +1020,7 @@
   "City of Seattle (gov):5467501": "2026-09-20T01:42:03.941384+00:00",
   "City of Tacoma (gov):5111125": "2026-09-28T21:36:51.568421+00:00",
   "Company boards (Ashby):benchling-49454722-ea62-41da-80f8-864ff06e9265": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):benchling-febb0539-70a3-49f4-b649-92d254f7c223": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Ashby):cohere-01a34bc3-6421-4af2-bf5b-f42e98155dda": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-0342fd5f-3760-4dcb-b026-333c7b63fc8d": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-1a31d80f-0d8b-475a-a60a-b13393ba8687": "2026-09-20T01:42:03.941384+00:00",
@@ -1298,6 +1300,7 @@
   "Company boards (Greenhouse):gitlab-8784553002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gitlab-8811842002": "2026-09-23T16:36:11.059151+00:00",
   "Company boards (Greenhouse):gitlab-8822279002": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):gitlab-8859694002": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):gusto-8022501": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148547": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148634": "2026-09-20T01:42:03.941384+00:00",
@@ -1318,6 +1321,7 @@
   "Company boards (Greenhouse):lyft-8831199002": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):lyft-8831340002": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):lyft-8831404002": "2026-09-23T15:08:39.594354+00:00",
+  "Company boards (Greenhouse):lyft-8838923002": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):lyft-8839156002": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):lyft-8860284002": "2026-10-01T20:34:35.890371+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
@@ -1341,6 +1345,7 @@
   "Company boards (Greenhouse):okta-8196226": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8205101": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8212003": "2026-09-25T14:10:32.176299+00:00",
+  "Company boards (Greenhouse):okta-8213755": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):okta-8220226": "2026-09-22T16:55:36.047014+00:00",
   "Company boards (Greenhouse):okta-8226936": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):okta-8239973": "2026-09-29T18:29:42.364371+00:00",
