@@ -335,16 +335,16 @@
   {
    "s": 78,
    "t": "2026-10-02T16:42:22.792146+00:00"
+  },
+  {
+   "s": 82,
+   "t": "2026-10-02T17:09:12.474791+00:00"
   }
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 13.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 3,
+   "last_error": "relay data is 13.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -459,6 +459,7 @@
   "5b97fb950f3397df": "2026-10-01T19:08:49.260098+00:00",
   "5d7a1ffe07182e3a": "2026-09-19T18:31:08.637985+00:00",
   "5dad4a3a1384fb60": "2026-09-19T18:31:08.637985+00:00",
+  "5db7e625594788c8": "2026-10-02T17:09:12.474791+00:00",
   "5e4a7b57474885d2": "2026-09-19T18:31:08.637985+00:00",
   "61d2421ac5439edd": "2026-09-21T07:09:53.992684+00:00",
   "62fcd4d4846117c4": "2026-09-19T18:31:08.637985+00:00",
@@ -674,6 +675,7 @@
   "Company boards (Ashby):snowflake-452349cf-7114-4234-9fa5-1b5d0e8e7ce6": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-ffdee1c4-c463-4e6f-a98a-ef8240e34868": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5391184008": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):anthropic-5441832008": "2026-10-02T17:09:12.474791+00:00",
   "Company boards (Greenhouse):chime-8790458002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8198059": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):instacart-8205692": "2026-09-20T01:42:03.941384+00:00",
@@ -1018,6 +1020,7 @@
   "Amazon:10567131": "2026-10-01T20:34:35.890371+00:00",
   "Amazon:10567297": "2026-10-01T20:34:35.890371+00:00",
   "Amazon:10568006": "2026-10-02T16:42:22.792146+00:00",
+  "Amazon:10568054": "2026-10-02T17:09:12.474791+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
   "Boeing:JR2026516676": "2026-09-22T20:05:39.582823+00:00",
