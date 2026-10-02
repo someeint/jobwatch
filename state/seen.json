@@ -357,7 +357,12 @@
    "t": "2026-10-02T19:09:02.722183+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1153,6 +1158,7 @@
   "Company boards (Ashby):openai-e5c39e03-6121-47be-8bd3-f6128557b38f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-ecd7b6d6-cf20-4e14-a90a-8501cd460557": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-f9c64ecf-d52a-44f0-9d9f-99575ae80d7f": "2026-09-29T01:14:43.318649+00:00",
+  "Company boards (Ashby):openai-fe7039ce-51e2-4cfa-9ea5-507eb7a0eee1": "2026-10-02T20:09:46.624972+00:00",
   "Company boards (Ashby):ramp-081dbe29-8a06-4cb2-bda5-4b0bfb35c2e8": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-196e4e25-c452-430d-8b2f-36a40f88a2ae": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-2d2c336c-16e7-4f27-b0cd-5bb6055cdf21": "2026-09-20T18:03:35.867206+00:00",
@@ -1260,6 +1266,8 @@
   "Company boards (Greenhouse):brex-8803642002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):brex-8803649002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):brex-8832353002": "2026-09-25T21:43:34.260220+00:00",
+  "Company boards (Greenhouse):brex-8864643002": "2026-10-02T20:09:46.624972+00:00",
+  "Company boards (Greenhouse):brex-8864648002": "2026-10-02T20:09:46.624972+00:00",
   "Company boards (Greenhouse):carta-7866565003": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):carta-7918311003": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):carta-7984370003": "2026-09-20T01:42:03.941384+00:00",
@@ -1283,6 +1291,7 @@
   "Company boards (Greenhouse):cloudflare-8234270": "2026-09-29T18:29:42.364371+00:00",
   "Company boards (Greenhouse):cloudflare-8239352": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Greenhouse):cloudflare-8244876": "2026-10-01T23:09:21.400666+00:00",
+  "Company boards (Greenhouse):cloudflare-8248873": "2026-10-02T20:09:46.624972+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
@@ -2105,6 +2114,7 @@
   "LinkedIn:4473277639": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4473281044": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4473291123": "2026-09-29T17:08:45.517828+00:00",
+  "LinkedIn:4473381510": "2026-10-02T20:09:46.624972+00:00",
   "LinkedIn:4473534981": "2026-09-29T22:09:00.261713+00:00",
   "LinkedIn:4473567292": "2026-09-30T00:09:24.227503+00:00",
   "LinkedIn:4473576089": "2026-09-30T00:09:24.227503+00:00",
