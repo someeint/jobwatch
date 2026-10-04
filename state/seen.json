@@ -378,13 +378,13 @@
   }
  ],
  "health": {
-  "Indeed": {
+  "Alaska Air Group": {
    "fails": 1,
-   "last_error": "relay data is 6.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
   },
-  "Microsoft": {
+  "Indeed": {
    "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "relay data is 7.4h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -1760,6 +1760,7 @@
   "LinkedIn:4456473707": "2026-10-02T16:42:22.792146+00:00",
   "LinkedIn:4456603428": "2026-10-03T10:31:37.687707+00:00",
   "LinkedIn:4456614341": "2026-10-03T21:27:34.924165+00:00",
+  "LinkedIn:4456616369": "2026-10-04T01:08:51.816298+00:00",
   "LinkedIn:4456765589": "2026-10-03T18:20:38.809405+00:00",
   "LinkedIn:4457094114": "2026-09-23T12:06:38.430577+00:00",
   "LinkedIn:4458035354": "2026-09-19T18:31:08.637985+00:00",
@@ -2231,6 +2232,7 @@
   "LinkedIn:4475008167": "2026-10-02T18:09:10.774871+00:00",
   "LinkedIn:4475015116": "2026-10-02T20:59:08.692661+00:00",
   "LinkedIn:4475040420": "2026-10-02T22:09:11.154537+00:00",
+  "LinkedIn:4475048024": "2026-10-04T01:08:51.816298+00:00",
   "LinkedIn:4475050405": "2026-10-03T00:15:39.452085+00:00",
   "LinkedIn:4475062202": "2026-10-03T21:27:34.924165+00:00",
   "LinkedIn:4475064622": "2026-10-03T01:08:55.857527+00:00",
