@@ -379,8 +379,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 7,
-   "last_error": "relay data is 25.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 8,
+   "last_error": "relay data is 28.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
