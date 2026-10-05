@@ -383,12 +383,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 11,
-   "last_error": "relay data is 44.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 12,
+   "last_error": "relay data is 45.4h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -1343,6 +1339,7 @@
   "Company boards (Greenhouse):cloudflare-8239352": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Greenhouse):cloudflare-8244876": "2026-10-01T23:09:21.400666+00:00",
   "Company boards (Greenhouse):cloudflare-8248873": "2026-10-02T20:09:46.624972+00:00",
+  "Company boards (Greenhouse):cloudflare-8250114": "2026-10-05T15:09:15.678909+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
@@ -2257,6 +2254,7 @@
   "LinkedIn:4473630525": "2026-10-05T14:28:22.130549+00:00",
   "LinkedIn:4473638159": "2026-10-05T14:28:22.130549+00:00",
   "LinkedIn:4473647568": "2026-10-05T14:28:22.130549+00:00",
+  "LinkedIn:4473655313": "2026-10-05T15:09:15.678909+00:00",
   "LinkedIn:4473702330": "2026-09-30T04:08:43.339051+00:00",
   "LinkedIn:4473705245": "2026-09-30T04:08:43.339051+00:00",
   "LinkedIn:4473790328": "2026-09-30T15:09:05.432295+00:00",
@@ -2313,6 +2311,7 @@
   "LinkedIn:4475305890": "2026-10-05T06:08:17.320649+00:00",
   "LinkedIn:4475311615": "2026-10-04T15:31:01.497479+00:00",
   "LinkedIn:4475319186": "2026-10-04T18:44:59.701329+00:00",
+  "LinkedIn:4475593985": "2026-10-05T15:09:15.678909+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
   "Microsoft:1970393556955022": "2026-10-01T22:08:44.884574+00:00",
