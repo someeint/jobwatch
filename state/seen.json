@@ -429,7 +429,12 @@
    "t": "2026-10-06T22:09:37.971260+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1393,6 +1398,7 @@
   "Company boards (Greenhouse):anthropic-5442157008": "2026-10-02T21:08:40.269911+00:00",
   "Company boards (Greenhouse):anthropic-5443902008": "2026-10-06T21:09:29.745691+00:00",
   "Company boards (Greenhouse):anthropic-5444778008": "2026-10-06T20:09:13.575994+00:00",
+  "Company boards (Greenhouse):anthropic-5445366008": "2026-10-06T23:08:55.375212+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -2645,6 +2651,7 @@
   "T-Mobile:REQ370624": "2026-09-24T15:50:46.636267+00:00",
   "T-Mobile:REQ373367": "2026-09-23T01:32:42.632579+00:00",
   "T-Mobile:REQ374629": "2026-10-06T01:52:31.710162+00:00",
+  "T-Mobile:REQ375940": "2026-10-06T23:08:55.375212+00:00",
   "Zillow:P751127": "2026-10-04T18:44:59.701329+00:00",
   "Zillow:P751300": "2026-09-19T18:31:08.637985+00:00",
   "Zillow:P751305": "2026-10-05T14:28:22.130549+00:00",
