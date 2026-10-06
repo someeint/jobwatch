@@ -427,7 +427,7 @@
  ],
  "health": {
   "Microsoft": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1186,6 +1186,7 @@
   "Boeing:JR2026524396": "2026-09-19T18:31:08.637985+00:00",
   "Boeing:JR2026524413": "2026-09-22T12:05:43.805270+00:00",
   "Boeing:JR2026524491": "2026-09-24T22:41:19.303548+00:00",
+  "Boeing:JR2026524532": "2026-10-06T21:09:29.745691+00:00",
   "Boeing:JR2026524585": "2026-10-02T16:42:22.792146+00:00",
   "Boeing:JR2026525087": "2026-09-24T17:08:34.169066+00:00",
   "Boeing:JR2026525105": "2026-09-25T15:26:19.805489+00:00",
@@ -1250,6 +1251,7 @@
   "Company boards (Ashby):openai-5ca9ca8a-c859-4857-a259-1caedfe06134": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-5ce0931f-aba7-4c7d-9fca-1e278bf75473": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Ashby):openai-5f3a6397-47ac-4ef0-9ca9-cd358851a6b9": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-6351bb6b-992d-4c4e-983d-612d91ede046": "2026-10-06T21:09:29.745691+00:00",
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
   "Company boards (Ashby):openai-7495a0fe-be5a-42b4-bded-77870a122776": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-76583c87-78ea-4886-906d-81b0a9c05bfe": "2026-09-23T22:08:17.527950+00:00",
@@ -1387,6 +1389,7 @@
   "Company boards (Greenhouse):anthropic-5440535008": "2026-10-03T02:08:39.488403+00:00",
   "Company boards (Greenhouse):anthropic-5441387008": "2026-10-01T22:08:44.884574+00:00",
   "Company boards (Greenhouse):anthropic-5442157008": "2026-10-02T21:08:40.269911+00:00",
+  "Company boards (Greenhouse):anthropic-5443902008": "2026-10-06T21:09:29.745691+00:00",
   "Company boards (Greenhouse):anthropic-5444778008": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
@@ -2592,6 +2595,7 @@
   "Salesforce:JR360020": "2026-09-25T20:09:29.632362+00:00",
   "Salesforce:JR360049": "2026-10-02T11:19:57.899671+00:00",
   "Salesforce:JR360050": "2026-09-24T11:14:33.924382+00:00",
+  "Salesforce:JR360243": "2026-10-06T21:09:29.745691+00:00",
   "Salesforce:JR360251": "2026-09-19T19:35:30.555713+00:00",
   "Salesforce:JR360276": "2026-09-23T15:08:39.594354+00:00",
   "Salesforce:JR360321": "2026-09-25T15:26:19.805489+00:00",
