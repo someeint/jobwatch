@@ -429,7 +429,12 @@
    "t": "2026-10-06T22:09:37.971260+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 10.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1468,6 +1473,8 @@
   "Company boards (Greenhouse):databricks-8818577002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):databricks-8821953002": "2026-10-02T20:59:08.692661+00:00",
   "Company boards (Greenhouse):databricks-8823880002": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):databricks-8824179002": "2026-10-07T09:22:56.318458+00:00",
+  "Company boards (Greenhouse):databricks-8843892002": "2026-10-07T09:22:56.318458+00:00",
   "Company boards (Greenhouse):databricks-8859666002": "2026-10-06T05:10:10.201438+00:00",
   "Company boards (Greenhouse):databricks-8863020002": "2026-10-05T14:28:22.130549+00:00",
   "Company boards (Greenhouse):databricks-8864290002": "2026-10-02T19:09:02.722183+00:00",
@@ -1590,6 +1597,7 @@
   "Company boards (Greenhouse):okta-8247018": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Greenhouse):okta-8258400": "2026-10-06T15:09:34.366357+00:00",
   "Company boards (Greenhouse):pinterest-8209845": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):pinterest-8209905": "2026-10-07T09:22:56.318458+00:00",
   "Company boards (Greenhouse):reddit-8077785": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8186447": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8187521": "2026-10-02T18:09:10.774871+00:00",
@@ -2519,6 +2527,8 @@
   "LinkedIn:4476512598": "2026-10-07T02:47:40.902067+00:00",
   "LinkedIn:4476522855": "2026-10-07T02:47:40.902067+00:00",
   "LinkedIn:4476526728": "2026-10-07T02:47:40.902067+00:00",
+  "LinkedIn:4476552625": "2026-10-07T09:22:56.318458+00:00",
+  "LinkedIn:4476553615": "2026-10-07T09:22:56.318458+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
   "Microsoft:1970393556955022": "2026-10-01T22:08:44.884574+00:00",
