@@ -447,12 +447,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 7.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 2,
+   "last_error": "relay data is 10.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -1144,6 +1140,7 @@
   "Amazon:10528857": "2026-09-21T19:34:41.546264+00:00",
   "Amazon:10541234": "2026-09-22T16:55:36.047014+00:00",
   "Amazon:10547072": "2026-09-23T21:08:34.650540+00:00",
+  "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
   "Amazon:10554562": "2026-09-21T19:34:41.546264+00:00",
   "Amazon:10554958": "2026-09-21T19:34:41.546264+00:00",
   "Amazon:10555129": "2026-09-21T19:34:41.546264+00:00",
@@ -1215,6 +1212,7 @@
   "Boeing:JR2026516037": "2026-10-05T14:28:22.130549+00:00",
   "Boeing:JR2026516676": "2026-09-22T20:05:39.582823+00:00",
   "Boeing:JR2026516711": "2026-09-19T18:31:08.637985+00:00",
+  "Boeing:JR2026517182": "2026-10-08T07:30:05.026771+00:00",
   "Boeing:JR2026517715": "2026-09-28T21:36:51.568421+00:00",
   "Boeing:JR2026518622": "2026-10-02T20:59:08.692661+00:00",
   "Boeing:JR2026519118": "2026-10-05T22:06:21.141746+00:00",
@@ -1399,6 +1397,7 @@
   "Company boards (Greenhouse):airbnb-8209984": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):airbnb-8231416": "2026-09-24T22:41:19.303548+00:00",
   "Company boards (Greenhouse):airbnb-8231975": "2026-10-06T20:09:13.575994+00:00",
+  "Company boards (Greenhouse):airbnb-8242459": "2026-10-08T07:30:05.026771+00:00",
   "Company boards (Greenhouse):airbnb-8242793": "2026-09-30T14:09:29.947538+00:00",
   "Company boards (Greenhouse):airbnb-8243710": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):airbnb-8259920": "2026-10-07T19:06:50.961237+00:00",
