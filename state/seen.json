@@ -447,11 +447,11 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 17.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 4,
+   "last_error": "relay data is 18.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1377,6 +1377,7 @@
   "Company boards (Ashby):snowflake-5fb9e0f1-f654-4551-9b1e-3d56435a5e4a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-6871df54-d22b-4417-bf49-322deea4ad29": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-79fccbd7-b0c6-4854-b288-7ecf5b1d58c3": "2026-10-07T16:41:18.237442+00:00",
+  "Company boards (Ashby):snowflake-9ba51355-d486-4d17-bc41-e1c1ed57e93d": "2026-10-08T15:10:10.573545+00:00",
   "Company boards (Ashby):snowflake-b323bb6e-011a-4a5b-9c02-08252518ed86": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-bf452bd0-2959-4110-8cf5-c6dfe69e92fa": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-d5aa496c-cd9b-4af0-be4d-76ed8bf38ba3": "2026-09-20T01:42:03.941384+00:00",
