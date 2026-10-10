@@ -483,23 +483,23 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Boeing": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "CrowdStrike": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "T-Mobile": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Zillow": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   }
  },
