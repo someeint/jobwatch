@@ -481,28 +481,7 @@
    "t": "2026-10-10T01:08:28.915148+00:00"
   }
  ],
- "health": {
-  "Adobe": {
-   "fails": 2,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "Boeing": {
-   "fails": 2,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "CrowdStrike": {
-   "fails": 2,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "T-Mobile": {
-   "fails": 2,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "Zillow": {
-   "fails": 2,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -2764,6 +2743,7 @@
   "LinkedIn:4476876614": "2026-10-10T02:08:38.187573+00:00",
   "LinkedIn:4476876940": "2026-10-10T03:52:29.725920+00:00",
   "LinkedIn:4476890298": "2026-10-10T02:08:38.187573+00:00",
+  "LinkedIn:4476892833": "2026-10-10T08:08:52.068083+00:00",
   "LinkedIn:4476896246": "2026-10-10T05:08:35.263429+00:00",
   "LinkedIn:4476912315": "2026-10-07T21:09:26.560531+00:00",
   "LinkedIn:4476928041": "2026-10-07T21:09:26.560531+00:00",
