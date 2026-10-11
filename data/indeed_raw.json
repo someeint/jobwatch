@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:12:03+00:00",
+  "generated_at": "2026-10-11T15:12:53+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -156,6 +156,15 @@
       "remote": false
     },
     {
+      "id": "0cf6799afc65d6a3",
+      "title": "Board-Certified Behavior Analyst",
+      "company": "Action Behavior Centers",
+      "url": "https://www.indeed.com/viewjob?jk=0cf6799afc65d6a3",
+      "location": "Seattle, WA 98168",
+      "snippet": "Monthly Performance Bonuses: Bonuses are uncapped and reflect both the quality of care you provide and your overall impact, so your earning potential grows…",
+      "remote": false
+    },
+    {
       "id": "a63cb63cc2377481",
       "title": "Job Coach - Shoreline - Up to $2,000 in retention bonuses!!",
       "company": "Redwood Family Care Network",
@@ -192,15 +201,6 @@
       "remote": false
     },
     {
-      "id": "bab27b2689572021",
-      "title": "RN/LPN Wellness Director Memory Care",
-      "company": "Brookdale Senior Living Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=bab27b2689572021",
-      "location": "Gig Harbor, WA 98332",
-      "snippet": "Temporary associates are not benefits eligible but may participate in the company’s 401(k) program. WA RN or LPN License required.",
-      "remote": false
-    },
-    {
       "id": "20d68ef643b4c8e3",
       "title": "Caregiver - NOC Shift - Assisted Living",
       "company": "Regency Newcastle",
@@ -210,12 +210,12 @@
       "remote": false
     },
     {
-      "id": "d4b227e6364cba88",
-      "title": "ServiceNow SPM Technical Consultant - Public Trust Clearance needed - Remote working USA",
-      "company": "Platform 6 Ltd",
-      "url": "https://www.indeed.com/viewjob?jk=d4b227e6364cba88",
-      "location": "United States",
-      "snippet": "You must have Public Trust clearance (PTP) to apply. Excellent communication or consultancy skills. ServiceNow certified - CSA, CAD, CIS certifications x 2 -…",
+      "id": "d541ed2b3a49f342",
+      "title": "Life Enrichment / Activities Specialist",
+      "company": "eliseo",
+      "url": "https://www.indeed.com/viewjob?jk=d541ed2b3a49f342",
+      "location": "Tacoma, WA 98406",
+      "snippet": "1+ years social or recreational program experience in a health care setting. All qualified applicants are encouraged to apply. eliseo participates in the…",
       "remote": false
     },
     {
@@ -234,6 +234,15 @@
       "url": "https://www.indeed.com/viewjob?jk=325a8dd4504638e9",
       "location": "Seattle, WA 98101",
       "snippet": "Must-Have skills for the role: Technical Writing, Technical Documentation, Content Governance. AWS Boost is the integrated product data center operations teams…",
+      "remote": false
+    },
+    {
+      "id": "3055f6c5e6724edc",
+      "title": "Senior Project Manager - Solar / Renewables",
+      "company": "Rise Technical Recruitment Limited",
+      "url": "https://www.indeed.com/viewjob?jk=3055f6c5e6724edc",
+      "location": "United States",
+      "snippet": "$150,000 - $180,000 + Progression + Training + Hybrid Work + Bonus + 401(k) + PTO + Full Benefits. This is a rare opportunity to step into a newly created…",
       "remote": false
     },
     {
@@ -291,6 +300,15 @@
       "remote": false
     },
     {
+      "id": "d4b227e6364cba88",
+      "title": "ServiceNow SPM Technical Consultant - Public Trust Clearance needed - Remote working USA",
+      "company": "Platform 6 Ltd",
+      "url": "https://www.indeed.com/viewjob?jk=d4b227e6364cba88",
+      "location": "United States",
+      "snippet": "You must have Public Trust clearance (PTP) to apply. Excellent communication or consultancy skills. ServiceNow certified - CSA, CAD, CIS certifications x 2 -…",
+      "remote": false
+    },
+    {
       "id": "4eae0ce261b59610",
       "title": "ServiceNow ITAM Technical Consultant / Architect - Public Trust Clearance needed - remote USA",
       "company": "Platform 6 Ltd",
@@ -300,10 +318,10 @@
       "remote": false
     },
     {
-      "id": "d0546241c555a4f6",
-      "title": "Crisis Outreach Clinical Shift Supervisor - Swing Shift, MRRCT - $5K SIGNING BONUS",
+      "id": "b43e4ab7ea7b0545",
+      "title": "Crisis Outreach Clinical Shift Supervisor - Night Shift, MRRCT - $5K SIGNING BONUS",
       "company": "Downtown Emergency Service Center",
-      "url": "https://www.indeed.com/viewjob?jk=d0546241c555a4f6",
+      "url": "https://www.indeed.com/viewjob?jk=b43e4ab7ea7b0545",
       "location": "Seattle, WA 98104",
       "snippet": "Oversee maintenance and upkeep of employee files and records for compliance to program requirements. Ability to work flexible hours as required by program and…",
       "remote": false
@@ -345,21 +363,21 @@
       "remote": false
     },
     {
-      "id": "df801693877f53c5",
-      "title": "Supported Living Quality Assurance Program Mananger",
-      "company": "Life Force Services, Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=df801693877f53c5",
-      "location": "Lakewood, WA 98499",
-      "snippet": "This position ensures the delivery of high-quality care while adhering to federal, state, and local regulations, as well as Life Force Services policies and…",
-      "remote": false
-    },
-    {
       "id": "45d25deeda44f851",
       "title": "Kitchen Manager",
       "company": "SPADA FARMHOUSE BREWERY",
       "url": "https://www.indeed.com/viewjob?jk=45d25deeda44f851",
       "location": "Snohomish, WA 98290",
       "snippet": "We’re looking for a hands-on Kitchen Manager to lead our kitchen team and help keep daily operations running smoothly.",
+      "remote": false
+    },
+    {
+      "id": "df801693877f53c5",
+      "title": "Supported Living Quality Assurance Program Mananger",
+      "company": "Life Force Services, Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=df801693877f53c5",
+      "location": "Lakewood, WA 98499",
+      "snippet": "This position ensures the delivery of high-quality care while adhering to federal, state, and local regulations, as well as Life Force Services policies and…",
       "remote": false
     },
     {
@@ -372,12 +390,12 @@
       "remote": false
     },
     {
-      "id": "e87aa764a478c096",
-      "title": "Housing Stability Specialist",
-      "company": "Vine Maple Place",
-      "url": "https://www.indeed.com/viewjob?jk=e87aa764a478c096",
-      "location": "Kent, WA 98030",
-      "snippet": "Our programs focus on preventing homelessness or assisting families off the streets to become safe, stable, and equipped with new skills to permanently leave…",
+      "id": "a48a775f9cae7ea5",
+      "title": "Senior Manager, Inpatient Pharmacy Operations",
+      "company": "Tech Observer",
+      "url": "https://www.indeed.com/viewjob?jk=a48a775f9cae7ea5",
+      "location": "Seattle, WA 98101",
+      "snippet": "This leadership role is vital in ensuring the safe, efficient, and compliant delivery of pharmacy operations to support patient care.",
       "remote": false
     },
     {
@@ -417,30 +435,21 @@
       "remote": false
     },
     {
+      "id": "6f4e22c3d255f0f6",
+      "title": "Sr. Manager, FP&A",
+      "company": "TalentoHCM",
+      "url": "https://www.indeed.com/viewjob?jk=6f4e22c3d255f0f6",
+      "location": "United States",
+      "snippet": "This is a highly visible role partnering with executive leadership and department heads, with a real opportunity to build and scale FP&amp;A processes as the…",
+      "remote": false
+    },
+    {
       "id": "6912c4c5bd75c46c",
       "title": "Store Sales Representative",
       "company": "The Hillman Group",
       "url": "https://www.indeed.com/viewjob?jk=6912c4c5bd75c46c",
       "location": "Tacoma, WA",
       "snippet": "The job you have been looking for. As a Store Sales Representative, you’ll own your territory and be the face of Hillman in your stores.",
-      "remote": false
-    },
-    {
-      "id": "d2b0d7b2eeef09ff",
-      "title": "Store Sales Representative",
-      "company": "The Hillman Group",
-      "url": "https://www.indeed.com/viewjob?jk=d2b0d7b2eeef09ff",
-      "location": "Tacoma, WA",
-      "snippet": "The job you have been looking for. As a Store Sales Representative, you’ll own your territory and be the face of Hillman in your stores.",
-      "remote": false
-    },
-    {
-      "id": "73d0a27e76728e40",
-      "title": "Café Manager",
-      "company": "The Muse Whiskey & Coffee",
-      "url": "https://www.indeed.com/viewjob?jk=73d0a27e76728e40",
-      "location": "Everett, WA 98201",
-      "snippet": "The Cafe Manager will focus on innovative hospitality and creating the cafe experience to support operational excellence. Work on-site for 35-40 hours weekly.",
       "remote": false
     },
     {
@@ -507,15 +516,6 @@
       "remote": false
     },
     {
-      "id": "f42ea6653a913531",
-      "title": "Manager, Strategic Operations and SCM~ Bellevue, WA",
-      "company": "Samsung",
-      "url": "https://www.indeed.com/viewjob?jk=f42ea6653a913531",
-      "location": "Bellevue, WA",
-      "snippet": "A minimum of 6 years of experience in supply chain management, operations , or a similar role. Responsibilities include managing purchase orders, tracking…",
-      "remote": false
-    },
-    {
       "id": "3c82882d1bb5d9d2",
       "title": "Automotive Service Manager",
       "company": "405 Motors",
@@ -534,6 +534,15 @@
       "remote": false
     },
     {
+      "id": "e6cd3a71c7c699d6",
+      "title": "Billing Specialist",
+      "company": "The Salvation Army",
+      "url": "https://www.indeed.com/viewjob?jk=e6cd3a71c7c699d6",
+      "location": "Queen Anne, WA 98109",
+      "snippet": "Flag inefficiencies or gaps in the billing process and work to streamline operations through process improvements. STATUS: *REGULAR FULL-TIME (HOURLY).",
+      "remote": false
+    },
+    {
       "id": "81161173c9bf5cff",
       "title": "Personnel & Asset Manager",
       "company": "All Around Fence Company & Brookdale Lumber Company",
@@ -543,12 +552,12 @@
       "remote": false
     },
     {
-      "id": "638bbd6f746eea41",
-      "title": "District Manager",
-      "company": "Kizuki Ramen",
-      "url": "https://www.indeed.com/viewjob?jk=638bbd6f746eea41",
-      "location": "Bellevue, WA 98007",
-      "snippet": "Direct mentorship and professional development from senior operations leadership. Oversee daily operations and performance across assigned Supreme Dumplings…",
+      "id": "f42ea6653a913531",
+      "title": "Manager, Strategic Operations and SCM~ Bellevue, WA",
+      "company": "Samsung",
+      "url": "https://www.indeed.com/viewjob?jk=f42ea6653a913531",
+      "location": "Bellevue, WA",
+      "snippet": "A minimum of 6 years of experience in supply chain management, operations , or a similar role. Responsibilities include managing purchase orders, tracking…",
       "remote": false
     },
     {
@@ -579,12 +588,12 @@
       "remote": false
     },
     {
-      "id": "e04bd3df49085033",
-      "title": "Janitorial Cleaner",
-      "company": "ABM Industries",
-      "url": "https://www.indeed.com/viewjob?jk=e04bd3df49085033",
-      "location": "Redmond, WA 98052",
-      "snippet": "We are looking for a reliable and experienced Janitorial Cleaner to perform a variety of cleaning duties to ensure a clean, safe, and orderly environment across…",
+      "id": "638bbd6f746eea41",
+      "title": "District Manager",
+      "company": "Kizuki Ramen",
+      "url": "https://www.indeed.com/viewjob?jk=638bbd6f746eea41",
+      "location": "Bellevue, WA 98007",
+      "snippet": "Direct mentorship and professional development from senior operations leadership. Oversee daily operations and performance across assigned Supreme Dumplings…",
       "remote": false
     },
     {
@@ -594,15 +603,6 @@
       "url": "https://www.indeed.com/viewjob?jk=81b992bd641d296b",
       "location": "Redmond, WA 98052",
       "snippet": "Experience supporting restaurant openings and multi market operations. Oversee daily operations and performance across assigned Supreme Dumplings locations…",
-      "remote": false
-    },
-    {
-      "id": "8b7e646bde855f8b",
-      "title": "STELLA Restaurant Manager- Hotel Sorrento",
-      "company": "ASH People LLC",
-      "url": "https://www.indeed.com/viewjob?jk=8b7e646bde855f8b",
-      "location": "Seattle, WA 98104",
-      "snippet": "Strong business acumen with knowledge of inventory systems, labor forecasting, scheduling, and budgeting. Lead daily operations across STELLA, the Fireside Room…",
       "remote": false
     },
     {
@@ -642,12 +642,12 @@
       "remote": false
     },
     {
-      "id": "b166263652a4c60d",
-      "title": "Ophthalmic Technician",
-      "company": "Washington Eye Surgeons PLLC",
-      "url": "https://www.indeed.com/viewjob?jk=b166263652a4c60d",
+      "id": "8b7e646bde855f8b",
+      "title": "STELLA Restaurant Manager- Hotel Sorrento",
+      "company": "ASH People LLC",
+      "url": "https://www.indeed.com/viewjob?jk=8b7e646bde855f8b",
       "location": "Seattle, WA 98104",
-      "snippet": "Job duties include collecting medical history, assisting with the ophthalmic exam including visual acuity, refraction, intraocular pressure measurement, and…",
+      "snippet": "Strong business acumen with knowledge of inventory systems, labor forecasting, scheduling, and budgeting. Lead daily operations across STELLA, the Fireside Room…",
       "remote": false
     },
     {
@@ -666,15 +666,6 @@
       "url": "https://www.indeed.com/viewjob?jk=e8df99adc7cd8038",
       "location": "Everett, WA",
       "snippet": "Manage a shift and/or segment of guarding operations at multiple sites, including supervision of subordinate officers and supervisory staff.",
-      "remote": false
-    },
-    {
-      "id": "875712f7caaa78b6",
-      "title": "Sr Manager Operations",
-      "company": "North Sky Communications, LLC",
-      "url": "https://www.indeed.com/viewjob?jk=875712f7caaa78b6",
-      "location": "Seattle, WA 98101",
-      "snippet": "Operations Leadership: Lead field and back-office operations across underground, aerial, splicing, engineering, and maintenance teams. 401(k) w/ Company Match.",
       "remote": false
     },
     {
@@ -729,15 +720,6 @@
       "url": "https://www.indeed.com/viewjob?jk=e4ab9f3c4af052cb",
       "location": "Seattle, WA",
       "snippet": "Worked with suppliers or production lines. Quality Assurance: Conduct on-site audits to root cause supplier quality issues or performance challenges.",
-      "remote": false
-    },
-    {
-      "id": "37ff89a33f493c67",
-      "title": "Canvassing Manager",
-      "company": "Pacific Exteriors LLC",
-      "url": "https://www.indeed.com/viewjob?jk=37ff89a33f493c67",
-      "location": "Lake Forest Park, WA 98155",
-      "snippet": "Previous management, canvassing, recruiting, sales, or leadership experience preferred. As the Canvassing Manager , you will be responsible for recruiting,…",
       "remote": false
     },
     {
@@ -809,7 +791,7 @@
       "company": "Kaiser Permanente",
       "url": "https://www.indeed.com/viewjob?jk=bce53e565385b328",
       "location": "Seattle, WA 98127",
-      "snippet": "The location also features a strong Primary Care residency program spanning FMOB, Pediatrics, Family Medicine, and Internal Medicine, creating an exciting…",
+      "snippet": "Ensures standardized care delivery by: developing strategic partnerships with physicians and subject matter experts and service area leaders and overseeing…",
       "remote": false
     },
     {
@@ -827,16 +809,7 @@
       "company": "Amazon Web Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=5465bfab907b41b2",
       "location": "Seattle, WA 98127",
-      "snippet": "Owning and managing program communications, including delivering program status reports, metrics reports, and business reviews. We value work-life harmony.",
-      "remote": false
-    },
-    {
-      "id": "e7ad105f58734487",
-      "title": "Operations Manager - Seattle",
-      "company": "TRAFFIC MANAGEMENT, LLC",
-      "url": "https://www.indeed.com/viewjob?jk=e7ad105f58734487",
-      "location": "Auburn, WA 98001",
-      "snippet": "The Operations Manager provides direct support to both Branch and Regional Managers, assisting with key operational responsibilities.",
+      "snippet": "Owning and managing program communications, including delivering program status reports, metrics reports, and business reviews.",
       "remote": false
     },
     {
