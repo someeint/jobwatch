@@ -489,16 +489,7 @@
    "t": "2026-10-10T11:37:45.840967+00:00"
   }
  ],
- "health": {
-  "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1908,6 +1899,7 @@
   "CrowdStrike:R30286": "2026-10-05T06:08:17.320649+00:00",
   "Indeed:45d82a33d7e8675e": "2026-10-06T16:11:58.127634+00:00",
   "Indeed:5c4bf31c6ecb9ee2": "2026-10-09T00:09:06.497235+00:00",
+  "Indeed:7524795326fa55f2": "2026-10-11T09:08:39.390562+00:00",
   "Indeed:793cb6f762e7041f": "2026-09-26T20:59:42.840350+00:00",
   "Indeed:8257a815864f48c4": "2026-09-23T06:35:29.712988+00:00",
   "Indeed:84baf8ae23ce90cf": "2026-10-06T06:09:39.604887+00:00",
