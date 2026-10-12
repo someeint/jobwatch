@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:20:12+00:00",
+  "generated_at": "2026-10-12T08:37:14+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -30,15 +30,6 @@
       "remote": false
     },
     {
-      "id": "864af2c6e5ae477b",
-      "title": "Project Administrative Assistant / Project Coordinator",
-      "company": "Cumming Group",
-      "url": "https://www.indeed.com/viewjob?jk=864af2c6e5ae477b",
-      "location": "Seattle, WA",
-      "snippet": "The Project Administrative Assistant provides essential administrative and operational support to project teams and office leadership, helping ensure projects…",
-      "remote": false
-    },
-    {
       "id": "bce53e565385b328",
       "title": "Operations Manager II, Ambulatory",
       "company": "Kaiser Permanente",
@@ -48,30 +39,39 @@
       "remote": false
     },
     {
-      "id": "c798f26ef6769b7d",
-      "title": "Program Manager",
-      "company": "Experis",
-      "url": "https://www.indeed.com/viewjob?jk=c798f26ef6769b7d",
-      "location": "Redmond, WA 98052",
-      "snippet": "Provide day-to-day program and technical project/program management support across multiple HR technology workstreams during implementation and launch.",
-      "remote": false
-    },
-    {
-      "id": "380a6d3e883a1f20",
-      "title": "Director, Financial Planning & Analysis",
-      "company": "ThriftBooks",
-      "url": "https://www.indeed.com/viewjob?jk=380a6d3e883a1f20",
-      "location": "Seattle, WA 98188",
-      "snippet": "The Director of Financial Planning &amp; Analysis reports to the CFO and is responsible for leading financial analysis that improves business decision making across…",
-      "remote": false
-    },
-    {
       "id": "2c51cad7847c248e",
       "title": "Business Development Manager - Strategic Corporate End User Accounts",
       "company": "Lutron Electronics Co., Inc",
       "url": "https://www.indeed.com/viewjob?jk=2c51cad7847c248e",
       "location": "Seattle, WA",
       "snippet": "Proven experience working with senior decision-makers and stakeholders within corporate Real Estate, Design &amp; Construction, Development, Operations, Facilities,…",
+      "remote": false
+    },
+    {
+      "id": "8e8da6b336602b8b",
+      "title": "Director, Thought Leader Engagement (H&N) - West",
+      "company": "Genmab",
+      "url": "https://www.indeed.com/viewjob?jk=8e8da6b336602b8b",
+      "location": "Seattle, WA 98109",
+      "snippet": "Demonstrated experience building credible, productive relationships with Key Opinion Leaders, Medical Experts, or other senior external stakeholders.",
+      "remote": false
+    },
+    {
+      "id": "7ac8d42e8ed81de0",
+      "title": "Sr. Manager, Wealth Advisor - Schwab Wealth Advisory",
+      "company": "Charles Schwab",
+      "url": "https://www.indeed.com/viewjob?jk=7ac8d42e8ed81de0",
+      "location": "Bellevue, WA",
+      "snippet": "Coachability: Demonstrates a senior learning mindset by seeking input from peers and leaders, integrating feedback into measurable behavior changes, and sharing…",
+      "remote": false
+    },
+    {
+      "id": "2b5637a0a57a8434",
+      "title": "Program Director",
+      "company": "Volunteers Of America Western Washington",
+      "url": "https://www.indeed.com/viewjob?jk=2b5637a0a57a8434",
+      "location": "Everett, WA 98201",
+      "snippet": "Ability to travel to program sites, meetings, and community locations and respond to program needs as appropriate. 403(b) Retirement Plan matching.",
       "remote": false
     },
     {
@@ -93,21 +93,48 @@
       "remote": false
     },
     {
-      "id": "34d81a073d61c6a8",
-      "title": "Animal Research Technician",
-      "company": "Actalent",
-      "url": "https://www.indeed.com/viewjob?jk=34d81a073d61c6a8",
-      "location": "Everett, WA 98201",
-      "snippet": "Benefits are subject to change and may be subject to specific elections, plan, or program terms. Company is offering relocation assistant to candidates who are…",
-      "remote": false
-    },
-    {
       "id": "b0527b6063f62f6a",
       "title": "Care Partner",
       "company": "Quail Park",
       "url": "https://www.indeed.com/viewjob?jk=b0527b6063f62f6a",
       "location": "Seattle, WA 98116",
       "snippet": "3 weeks of PTO (non-manager annual amount). Pay range of $22.66-25/hour depending on experience. Medical, Dental &amp; Vision Insurance (full-time).",
+      "remote": false
+    },
+    {
+      "id": "30fffcd1dddf6001",
+      "title": "Layout Designer",
+      "company": "Actalent",
+      "url": "https://www.indeed.com/viewjob?jk=30fffcd1dddf6001",
+      "location": "Bellevue, WA 98004",
+      "snippet": "Benefits are subject to change and may be subject to specific elections, plan, or program terms. The Layout Designer provides CAD drafting and design support…",
+      "remote": false
+    },
+    {
+      "id": "94ca707f467ed851",
+      "title": "Environmental Health And Safety Specialist",
+      "company": "Actalent",
+      "url": "https://www.indeed.com/viewjob?jk=94ca707f467ed851",
+      "location": "Redmond, WA 98033",
+      "snippet": "Support management efforts to meet corporate program expectations and legal requirements. Benefits are subject to change and may be subject to specific…",
+      "remote": false
+    },
+    {
+      "id": "960c36aad60a575f",
+      "title": "Hardware Engineer - Digital Hardware Design",
+      "company": "Actalent",
+      "url": "https://www.indeed.com/viewjob?jk=960c36aad60a575f",
+      "location": "Everett, WA 98201",
+      "snippet": "Benefits are subject to change and may be subject to specific elections, plan, or program terms. Job Title: Hardware Design Engineer, High-Speed Networking.",
+      "remote": false
+    },
+    {
+      "id": "23b1cc5b12ce40dc",
+      "title": "Environmental Technician (Cylinder Project)",
+      "company": "Actalent",
+      "url": "https://www.indeed.com/viewjob?jk=23b1cc5b12ce40dc",
+      "location": "Tacoma, WA 98401",
+      "snippet": "Benefits are subject to change and may be subject to specific elections, plan, or program terms. The Environmental Technician (Cylinder Project) consolidates,…",
       "remote": false
     },
     {
@@ -129,6 +156,15 @@
       "remote": false
     },
     {
+      "id": "18fd891878fb9ea6",
+      "title": "Operating Engineer",
+      "company": "US AMR-Jones Lang LaSalle Americas, Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=18fd891878fb9ea6",
+      "location": "Kirkland, WA",
+      "snippet": "As a Operating Engineer at JLL, you will play a vital role in maintaining and monitoring building systems within our critical environments.",
+      "remote": false
+    },
+    {
       "id": "3c82882d1bb5d9d2",
       "title": "Automotive Service Manager",
       "company": "405 Motors",
@@ -147,21 +183,21 @@
       "remote": false
     },
     {
+      "id": "e6cd3a71c7c699d6",
+      "title": "Billing Specialist",
+      "company": "The Salvation Army",
+      "url": "https://www.indeed.com/viewjob?jk=e6cd3a71c7c699d6",
+      "location": "Queen Anne, WA 98109",
+      "snippet": "STATUS: *REGULAR FULL-TIME (HOURLY). The Billing Specialist is responsible for coordinating and maintaining accurate, timely grant billing and financial…",
+      "remote": false
+    },
+    {
       "id": "df801693877f53c5",
       "title": "Supported Living Quality Assurance Program Mananger",
       "company": "Life Force Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=df801693877f53c5",
       "location": "Lakewood, WA 98499",
       "snippet": "Regularly communicate with staff regarding client care and program operations, and hold monthly house meetings. Proficient in Microsoft Office Suite.",
-      "remote": false
-    },
-    {
-      "id": "aad7c7124df2b10b",
-      "title": "Assistant General Manager (AGM)",
-      "company": "Opper Melang Restaurants",
-      "url": "https://www.indeed.com/viewjob?jk=aad7c7124df2b10b",
-      "location": "Tacoma, WA 98402",
-      "snippet": "Our ideal candidate will have Bar Management experience. The Assistant General Managers (AGM) position is specifically intended for upward mobility within…",
       "remote": false
     },
     {
@@ -174,15 +210,6 @@
       "remote": false
     },
     {
-      "id": "ca2e01ce302ac3dc",
-      "title": "Pharmacy Technician",
-      "company": "Actalent",
-      "url": "https://www.indeed.com/viewjob?jk=ca2e01ce302ac3dc",
-      "location": "Everett, WA 98201",
-      "snippet": "The ideal candidate will be able to accurately and efficiently fill prescription requests in a high volume automated refill setting.",
-      "remote": false
-    },
-    {
       "id": "da33eb4c25716e7b",
       "title": "Direct Support Professional Now Hiring - Snohomish Area",
       "company": "Redwood Family Care Network",
@@ -192,12 +219,30 @@
       "remote": false
     },
     {
-      "id": "c55692739b7ca47d",
-      "title": "Branch Manager",
-      "company": "WaFd Bank",
-      "url": "https://www.indeed.com/viewjob?jk=c55692739b7ca47d",
-      "location": "Bremerton, WA 98311",
-      "snippet": "This high-impact role focuses on driving business development and sales, particularly with small businesses, while growing deposits, originating loans, and…",
+      "id": "75aa5a768eba76b6",
+      "title": "Care Manager RN - Emergency Department",
+      "company": "Providence Health and Services",
+      "url": "https://www.indeed.com/viewjob?jk=75aa5a768eba76b6",
+      "location": "Seattle, WA 98104",
+      "snippet": "The nurse case manager coordinates the care and service of selected patient populations through the acute care episode, across the continuum.",
+      "remote": false
+    },
+    {
+      "id": "0f80f764aeaa9193",
+      "title": "Overnight Delivery Driver",
+      "company": "Macrina Bakery & Cafe",
+      "url": "https://www.indeed.com/viewjob?jk=0f80f764aeaa9193",
+      "location": "Kent, WA 98032",
+      "snippet": "Accurately fill out route logs to record delivery times. Load delivery vans with large volumes of baked goods (bags &amp; boxes).",
+      "remote": false
+    },
+    {
+      "id": "2d358a8a8bd88839",
+      "title": "B2B Import Trade Broker | Fully Funded China Mfg. & Factory Network Backing | COMMISSION ONLY",
+      "company": "W&W Global Trading LLC-http://wwglobaltrading.com",
+      "url": "https://www.indeed.com/viewjob?jk=2d358a8a8bd88839",
+      "location": "United States",
+      "snippet": "On-the-Ground Trust: Production runs, factory oversight, and strict QC are managed by our core partners in China who are factory owners themselves—providing…",
       "remote": false
     },
     {
@@ -207,6 +252,15 @@
       "url": "https://www.indeed.com/viewjob?jk=b58b22a5df096274",
       "location": "Redmond, WA 98052",
       "snippet": "Flag stock shortages, damaged goods, or order discrepancies to the right manager quickly. You will be the person who makes sure every order is packed with care,…",
+      "remote": false
+    },
+    {
+      "id": "6912c4c5bd75c46c",
+      "title": "Store Sales Representative",
+      "company": "The Hillman Group",
+      "url": "https://www.indeed.com/viewjob?jk=6912c4c5bd75c46c",
+      "location": "Tacoma, WA",
+      "snippet": "The job you have been looking for. As a Store Sales Representative, you’ll own your territory and be the face of Hillman in your stores.",
       "remote": false
     },
     {
@@ -243,6 +297,15 @@
       "url": "https://www.indeed.com/viewjob?jk=ffb012aeb29d926f",
       "location": "Seattle, WA",
       "snippet": "Advanced degree in business , such as an MBA. Prior experience leading complex, cross-functional initiatives or managing a portfolio of strategic initiatives -…",
+      "remote": false
+    },
+    {
+      "id": "aad7c7124df2b10b",
+      "title": "Assistant General Manager (AGM)",
+      "company": "Opper Melang Restaurants",
+      "url": "https://www.indeed.com/viewjob?jk=aad7c7124df2b10b",
+      "location": "Tacoma, WA 98402",
+      "snippet": "~ Balances empathy and guest satisfaction with business savvy techniques. As an Assistant General Manager , you will play a crucial role in overseeing the daily…",
       "remote": false
     },
     {
@@ -336,6 +399,15 @@
       "remote": false
     },
     {
+      "id": "c55692739b7ca47d",
+      "title": "Branch Manager",
+      "company": "WaFd Bank",
+      "url": "https://www.indeed.com/viewjob?jk=c55692739b7ca47d",
+      "location": "Bremerton, WA 98311",
+      "snippet": "Proven success in small business development, deposit/loan growth, and cross-selling. Bachelor’s degree or equivalent experience in finance, business , or a…",
+      "remote": false
+    },
+    {
       "id": "a3aaec3f4d903196",
       "title": "Business Development Manager",
       "company": "J1X",
@@ -363,12 +435,21 @@
       "remote": false
     },
     {
-      "id": "1ebbf6fdd4387281",
-      "title": "Memory Support Program Manager",
-      "company": "HumanGood",
-      "url": "https://www.indeed.com/viewjob?jk=1ebbf6fdd4387281",
-      "location": "Des Moines, WA 98198",
-      "snippet": "5-star employer-paid employee assistance program. Our Immerse program provides a human-centered environment and a singular commitment to preserving the dignity…",
+      "id": "1fe218e574922d29",
+      "title": "Maintenance Engineer",
+      "company": "Marriott Seattle Airport",
+      "url": "https://www.indeed.com/viewjob?jk=1fe218e574922d29",
+      "location": "Seattle, WA 98101",
+      "snippet": "This position requires a high school diploma or equivalent GED. The ability to lift and carry 50 lbs. or more is required.",
+      "remote": false
+    },
+    {
+      "id": "2df547831b9f94dd",
+      "title": "Assistant Manager - Restaurant",
+      "company": "Messina Modern Italian Kitchen",
+      "url": "https://www.indeed.com/viewjob?jk=2df547831b9f94dd",
+      "location": "Seattle, WA 98109",
+      "snippet": "Step in to bartend or serve tables when needed. Run floor service, lead pre-shifts, assign sections, and manage breaks and cuts to keep labor within 25–30% each…",
       "remote": false
     },
     {
