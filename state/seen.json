@@ -494,13 +494,9 @@
   }
  ],
  "health": {
-  "City of Seattle (gov)": {
+  "Microsoft": {
    "fails": 1,
-   "last_error": "ConnectionError: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Read timed out."
-  },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectionError: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Read timed out."
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1291,6 +1287,7 @@
   "Amazon:10572802": "2026-10-08T01:17:28.797446+00:00",
   "Amazon:10572903": "2026-10-08T05:09:07.746706+00:00",
   "Amazon:10574666": "2026-10-09T15:09:58.524674+00:00",
+  "Amazon:10574704": "2026-10-12T16:54:32.569743+00:00",
   "Amazon:10574948": "2026-10-09T17:09:14.971022+00:00",
   "Amazon:10575161": "2026-10-09T20:10:23.691425+00:00",
   "Amazon:10575328": "2026-10-10T01:08:28.915148+00:00",
@@ -1659,6 +1656,7 @@
   "Company boards (Greenhouse):duolingo-8737710002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):duolingo-8755781002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):duolingo-8875080002": "2026-10-07T16:41:18.237442+00:00",
+  "Company boards (Greenhouse):duolingo-8883563002": "2026-10-12T16:54:32.569743+00:00",
   "Company boards (Greenhouse):elastic-8157211": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):elastic-8161440": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):elastic-8161441": "2026-09-20T01:42:03.941384+00:00",
