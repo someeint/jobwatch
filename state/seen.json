@@ -527,12 +527,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1881,6 +1877,7 @@
   "Company boards (Greenhouse):rubrik-8222564": "2026-10-13T05:08:50.999681+00:00",
   "Company boards (Greenhouse):rubrik-8229860": "2026-09-30T07:32:07.248675+00:00",
   "Company boards (Greenhouse):rubrik-8255803": "2026-10-05T14:28:22.130549+00:00",
+  "Company boards (Greenhouse):rubrik-8273254": "2026-10-13T18:09:14.696612+00:00",
   "Company boards (Greenhouse):samsara-8142214": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8179593": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8180371": "2026-09-20T01:42:03.941384+00:00",
