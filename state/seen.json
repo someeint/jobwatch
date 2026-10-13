@@ -527,8 +527,12 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1347,6 +1351,7 @@
   "Amazon:10576505": "2026-10-12T23:08:47.288403+00:00",
   "Amazon:10576622": "2026-10-13T03:08:39.782201+00:00",
   "Amazon:10577203": "2026-10-13T17:35:56.440883+00:00",
+  "Amazon:10577570": "2026-10-13T19:09:22.295594+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
   "Boeing:JR2026516037": "2026-10-05T14:28:22.130549+00:00",
@@ -1959,6 +1964,7 @@
   "Company boards (Greenhouse):toast-8233197": "2026-09-25T15:26:19.805489+00:00",
   "Company boards (Greenhouse):toast-8246146": "2026-10-09T20:10:23.691425+00:00",
   "Company boards (Greenhouse):toast-8250182": "2026-10-05T17:09:04.989402+00:00",
+  "Company boards (Greenhouse):toast-8279405": "2026-10-13T19:09:22.295594+00:00",
   "Company boards (Greenhouse):twilio-8190719": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):twilio-8240491": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):twilio-8263280": "2026-10-08T01:17:28.797446+00:00",
