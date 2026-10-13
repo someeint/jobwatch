@@ -525,7 +525,16 @@
    "t": "2026-10-13T13:21:15.732534+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1341,6 +1350,7 @@
   "Amazon:10575824": "2026-10-12T15:13:18.693634+00:00",
   "Amazon:10576505": "2026-10-12T23:08:47.288403+00:00",
   "Amazon:10576622": "2026-10-13T03:08:39.782201+00:00",
+  "Amazon:10577203": "2026-10-13T17:35:56.440883+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
   "Boeing:JR2026516037": "2026-10-05T14:28:22.130549+00:00",
@@ -1446,6 +1456,7 @@
   "Company boards (Ashby):openai-4a4a2604-b4b3-4944-a2a2-4ec4c5261d7d": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-5899e8d5-132f-40b3-9ff6-37830644743f": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-58c28108-5bc6-449d-8461-9274f5abd7e6": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-5c869fa0-fe05-42b3-ab94-1f6218b1ccf3": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Ashby):openai-5ca9ca8a-c859-4857-a259-1caedfe06134": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-5ce0931f-aba7-4c7d-9fca-1e278bf75473": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Ashby):openai-5f3a6397-47ac-4ef0-9ca9-cd358851a6b9": "2026-09-20T01:42:03.941384+00:00",
@@ -1552,6 +1563,7 @@
   "Company boards (Greenhouse):airbnb-8242793": "2026-09-30T14:09:29.947538+00:00",
   "Company boards (Greenhouse):airbnb-8243710": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):airbnb-8259920": "2026-10-07T19:06:50.961237+00:00",
+  "Company boards (Greenhouse):airbnb-8278753": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358146008": "2026-09-20T01:42:03.941384+00:00",
@@ -1770,6 +1782,8 @@
   "Company boards (Greenhouse):instacart-8249753": "2026-10-02T19:09:02.722183+00:00",
   "Company boards (Greenhouse):instacart-8265981": "2026-10-09T00:09:06.497235+00:00",
   "Company boards (Greenhouse):instacart-8265982": "2026-10-09T00:09:06.497235+00:00",
+  "Company boards (Greenhouse):instacart-8275263": "2026-10-13T17:35:56.440883+00:00",
+  "Company boards (Greenhouse):instacart-8275378": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Greenhouse):lyft-8733655002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):lyft-8780268002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):lyft-8827588002": "2026-09-22T20:05:39.582823+00:00",
@@ -1827,6 +1841,7 @@
   "Company boards (Greenhouse):okta-8275286": "2026-10-12T22:10:17.785465+00:00",
   "Company boards (Greenhouse):pinterest-8209845": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):pinterest-8209905": "2026-10-07T09:22:56.318458+00:00",
+  "Company boards (Greenhouse):pinterest-8260075": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Greenhouse):reddit-8077785": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8186447": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8187521": "2026-10-02T18:09:10.774871+00:00",
@@ -3108,6 +3123,7 @@
   "Starbucks:481080977556": "2026-09-28T20:08:20.739406+00:00",
   "Starbucks:481081088872": "2026-10-09T03:00:43.290470+00:00",
   "Starbucks:481081104905": "2026-10-02T19:09:02.722183+00:00",
+  "Starbucks:481081171846": "2026-10-13T17:35:56.440883+00:00",
   "T-Mobile:REQ362630": "2026-09-22T16:55:36.047014+00:00",
   "T-Mobile:REQ364040": "2026-10-01T19:08:49.260098+00:00",
   "T-Mobile:REQ370624": "2026-09-24T15:50:46.636267+00:00",
