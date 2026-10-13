@@ -527,12 +527,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1352,6 +1348,7 @@
   "Amazon:10576622": "2026-10-13T03:08:39.782201+00:00",
   "Amazon:10577203": "2026-10-13T17:35:56.440883+00:00",
   "Amazon:10577570": "2026-10-13T19:09:22.295594+00:00",
+  "Amazon:10577725": "2026-10-13T22:09:24.538281+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
   "Boeing:JR2026516037": "2026-10-05T14:28:22.130549+00:00",
@@ -1440,6 +1437,7 @@
   "Company boards (Ashby):openai-152e4908-bc1f-4970-833a-a6a9c46f6a81": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-1dade0fb-23c9-4a85-927e-9e8030826303": "2026-09-24T11:14:33.924382+00:00",
   "Company boards (Ashby):openai-2475c6c9-97c1-461b-8c73-0b9ce993860a": "2026-09-29T13:55:16.417993+00:00",
+  "Company boards (Ashby):openai-2bdd1b8b-2883-40fb-b006-583959ad4c5f": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Ashby):openai-2df4df3a-7ac6-42f2-b8ec-d471627a80c8": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-2e645639-3362-42f7-b0b9-e99380c48d29": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-32905f5c-9405-4073-bc65-c57fcf55a83d": "2026-09-20T01:42:03.941384+00:00",
@@ -1471,6 +1469,7 @@
   "Company boards (Ashby):openai-83ac3381-99c0-46a0-897c-abcd8699b466": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-862ffe2a-8261-4c46-8ed4-5178567ac7e0": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-87ef8476-e930-47ed-abc2-a1bedcc074fb": "2026-09-30T18:53:00.441731+00:00",
+  "Company boards (Ashby):openai-8ad567c5-70ca-46bf-85ae-eb5bbc8a2a39": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Ashby):openai-8f9693d9-73c8-48c1-b1cf-b0cd92a1c3c2": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-960ceb65-dc44-4354-b13c-c1df8591e875": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-9747412d-a23d-48ba-bddd-ad1247c360f5": "2026-10-09T21:10:49.319537+00:00",
@@ -1611,6 +1610,7 @@
   "Company boards (Greenhouse):anthropic-5440535008": "2026-10-03T02:08:39.488403+00:00",
   "Company boards (Greenhouse):anthropic-5441387008": "2026-10-01T22:08:44.884574+00:00",
   "Company boards (Greenhouse):anthropic-5442157008": "2026-10-02T21:08:40.269911+00:00",
+  "Company boards (Greenhouse):anthropic-5442842008": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Greenhouse):anthropic-5443902008": "2026-10-06T21:09:29.745691+00:00",
   "Company boards (Greenhouse):anthropic-5444778008": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):anthropic-5445316008": "2026-10-06T23:52:55.846499+00:00",
@@ -1699,6 +1699,7 @@
   "Company boards (Greenhouse):databricks-8859666002": "2026-10-06T05:10:10.201438+00:00",
   "Company boards (Greenhouse):databricks-8863020002": "2026-10-05T14:28:22.130549+00:00",
   "Company boards (Greenhouse):databricks-8864290002": "2026-10-02T19:09:02.722183+00:00",
+  "Company boards (Greenhouse):databricks-8885667002": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Greenhouse):datadog-8146927": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8148092": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8164588": "2026-09-20T01:42:03.941384+00:00",
@@ -2996,6 +2997,7 @@
   "Microsoft:1970393557021560": "2026-10-01T19:08:49.260098+00:00",
   "Microsoft:1970393557021614": "2026-10-03T00:15:39.452085+00:00",
   "Microsoft:1970393557022454": "2026-10-07T21:09:26.560531+00:00",
+  "Microsoft:1970393557022498": "2026-10-13T22:09:24.538281+00:00",
   "Microsoft:1970393557023048": "2026-10-07T02:47:40.902067+00:00",
   "Microsoft:1970393557023087": "2026-10-07T16:41:18.237442+00:00",
   "Microsoft:1970393557023129": "2026-10-05T17:09:04.989402+00:00",
