@@ -525,12 +525,7 @@
    "t": "2026-10-13T13:21:15.732534+00:00"
   }
  ],
- "health": {
-  "LinkedIn": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1618,6 +1613,7 @@
   "Company boards (Greenhouse):anthropic-5446029008": "2026-10-08T01:17:28.797446+00:00",
   "Company boards (Greenhouse):anthropic-5446607008": "2026-10-09T23:06:20.709021+00:00",
   "Company boards (Greenhouse):anthropic-5448360008": "2026-10-09T16:10:21.549796+00:00",
+  "Company boards (Greenhouse):anthropic-5451081008": "2026-10-13T22:54:04.593348+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -1668,6 +1664,7 @@
   "Company boards (Greenhouse):cloudflare-8250114": "2026-10-05T15:09:15.678909+00:00",
   "Company boards (Greenhouse):cloudflare-8255561": "2026-10-05T17:09:04.989402+00:00",
   "Company boards (Greenhouse):cloudflare-8257533": "2026-10-06T16:11:58.127634+00:00",
+  "Company boards (Greenhouse):cloudflare-8275611": "2026-10-13T22:54:04.593348+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
