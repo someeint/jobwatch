@@ -525,7 +525,16 @@
    "t": "2026-10-13T13:21:15.732534+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -3089,8 +3098,10 @@
   "Salesforce:JR363016": "2026-10-07T19:06:50.961237+00:00",
   "Salesforce:JR363033": "2026-10-08T05:09:07.746706+00:00",
   "Salesforce:JR363143": "2026-10-07T16:41:18.237442+00:00",
+  "Salesforce:JR363200": "2026-10-13T15:09:34.606892+00:00",
   "Salesforce:JR363337": "2026-10-09T06:17:43.822286+00:00",
   "Salesforce:JR363434": "2026-10-08T18:52:59.131833+00:00",
+  "Salesforce:JR363491": "2026-10-13T15:09:34.606892+00:00",
   "Salesforce:JR363801": "2026-10-13T02:08:50.015031+00:00",
   "Salesforce:JR363883": "2026-10-12T10:09:28.915026+00:00",
   "Snohomish County (gov):5476463": "2026-09-19T19:35:30.555713+00:00",
