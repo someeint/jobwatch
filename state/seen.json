@@ -511,12 +511,8 @@
  ],
  "health": {
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -898,6 +894,7 @@
   "Indeed:21a6b59f2a285e0e": "2026-09-22T23:08:21.166019+00:00",
   "Indeed:2ebcf7121d857498": "2026-10-02T18:09:10.774871+00:00",
   "Indeed:34431022f305d5f5": "2026-10-02T01:08:58.756463+00:00",
+  "Indeed:3ba1fd933b38ef60": "2026-10-13T01:08:58.523095+00:00",
   "Indeed:3d8c3246b9151eeb": "2026-09-26T18:00:53.245317+00:00",
   "Indeed:3f2e113ea024b8c8": "2026-10-05T17:09:04.989402+00:00",
   "Indeed:4b12f22a1c2d6d68": "2026-10-08T18:52:59.131833+00:00",
