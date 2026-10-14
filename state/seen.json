@@ -527,8 +527,12 @@
  ],
  "health": {
   "Indeed": {
+   "fails": 2,
+   "last_error": "relay data is 8.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
    "fails": 1,
-   "last_error": "relay data is 7.1h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -3038,6 +3042,7 @@
   "Nordstrom:R-885254": "2026-10-08T19:09:01.291512+00:00",
   "Nordstrom:R-886450": "2026-10-12T21:10:32.370165+00:00",
   "Nordstrom:R-886720": "2026-10-12T22:10:17.785465+00:00",
+  "Nordstrom:R-886831": "2026-10-14T13:57:32.909364+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
@@ -3124,6 +3129,7 @@
   "Salesforce:JR362741": "2026-10-05T14:28:22.130549+00:00",
   "Salesforce:JR362931": "2026-10-06T15:09:34.366357+00:00",
   "Salesforce:JR362933": "2026-10-12T13:29:23.437019+00:00",
+  "Salesforce:JR362992": "2026-10-14T13:57:32.909364+00:00",
   "Salesforce:JR363016": "2026-10-07T19:06:50.961237+00:00",
   "Salesforce:JR363033": "2026-10-08T05:09:07.746706+00:00",
   "Salesforce:JR363143": "2026-10-07T16:41:18.237442+00:00",
