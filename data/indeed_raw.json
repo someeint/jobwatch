@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:07:49+00:00",
+  "generated_at": "2026-10-14T04:11:54+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -17,7 +17,7 @@
       "company": "Accenture",
       "url": "https://www.indeed.com/viewjob?jk=d9de04edd5cf9cae",
       "location": "Kirkland, WA 98033",
-      "snippet": "You have scale & scope experience: Experience managing program budgets exceeding $25M+ or leading large outsourcing and managed services engagements.",
+      "snippet": "You have scale &amp; scope experience: Experience managing program budgets exceeding $25M+ or leading large outsourcing and managed services engagements.",
       "remote": false
     },
     {
@@ -260,7 +260,7 @@
       "company": "Amazon Data Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=dd1fc99c425901d3",
       "location": "Seattle, WA 98127",
-      "snippet": "You'll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the…",
+      "snippet": "You’ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the…",
       "remote": false
     },
     {
@@ -314,7 +314,7 @@
       "company": "BLS (Bellevue Lighting + Stage)",
       "url": "https://www.indeed.com/viewjob?jk=ae630b894a37fb28",
       "location": "Kent, WA 98031",
-      "snippet": "The Production Logistics & Scheduling Coordinator coordinates the people, equipment, transportation, and outside resources needed to keep BLS productions and…",
+      "snippet": "The Production Logistics &amp; Scheduling Coordinator coordinates the people, equipment, transportation, and outside resources needed to keep BLS productions and…",
       "remote": false
     },
     {
@@ -350,7 +350,7 @@
       "company": "Synthetic Turf NorthWest",
       "url": "https://www.indeed.com/viewjob?jk=037a3378fef7c56f",
       "location": "Woodinville, WA 98072",
-      "snippet": "We're looking for a full‑time, highly hands‑on paid media expert to directly manage and optimize our Google Ads and Meta (Facebook/Instagram) campaigns.",
+      "snippet": "We’re looking for a full‑time, highly hands‑on paid media expert to directly manage and optimize our Google Ads and Meta (Facebook/Instagram) campaigns.",
       "remote": false
     },
     {
@@ -431,7 +431,7 @@
       "company": "Amazon.com Services LLC",
       "url": "https://www.indeed.com/viewjob?jk=93b67940b638fc15",
       "location": "Bellevue, WA 98009",
-      "snippet": "Drive the planning, coordination, and delivery of FDE's AI programs, managing risk and dependencies without relying on direct authority. A day in the life.",
+      "snippet": "Drive the planning, coordination, and delivery of FDE’s AI programs, managing risk and dependencies without relying on direct authority. A day in the life.",
       "remote": false
     },
     {
@@ -441,15 +441,6 @@
       "url": "https://www.indeed.com/viewjob?jk=e05afa65ca06d2ce",
       "location": "Tacoma, WA",
       "snippet": "This position is responsible for the streamlining of all aspects of the freight transportation process. Focus is on reducing shipping time, expediting routes,…",
-      "remote": false
-    },
-    {
-      "id": "60047f1616a9d9df",
-      "title": "Volunteer Engagement Coordinator (Part-Time, Hybrid) – Community Emergency Preparedness",
-      "company": "Bainbridge Prepares",
-      "url": "https://www.indeed.com/viewjob?jk=60047f1616a9d9df",
-      "location": "Bainbridge Island, WA 98110",
-      "snippet": "The Volunteer Coordinator supports the scheduling, administration, data management and analysis, and follow-through that keep the volunteer program strong.",
       "remote": false
     },
     {
@@ -471,12 +462,30 @@
       "remote": false
     },
     {
+      "id": "60047f1616a9d9df",
+      "title": "Volunteer Engagement Coordinator (Part-Time, Hybrid) – Community Emergency Preparedness",
+      "company": "Bainbridge Prepares",
+      "url": "https://www.indeed.com/viewjob?jk=60047f1616a9d9df",
+      "location": "Bainbridge Island, WA 98110",
+      "snippet": "The Volunteer Coordinator supports the scheduling, administration, data management and analysis, and follow-through that keep the volunteer program strong.",
+      "remote": false
+    },
+    {
       "id": "4935abf9b4a05726",
       "title": "Operations Manager",
       "company": "ACT 2 Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=4935abf9b4a05726",
       "location": "Burien, WA 98148",
-      "snippet": "ACT 2 Services provides PU&D and linehaul service for the West Coast. The Operations Manager is responsible for overseeing daily warehouse and operational…",
+      "snippet": "ACT 2 Services provides PU&amp;D and linehaul service for the West Coast. The Operations Manager is responsible for overseeing daily warehouse and operational…",
+      "remote": false
+    },
+    {
+      "id": "b3171b49d8aa083b",
+      "title": "Fleet Manager/Mechanic",
+      "company": "1-800-GOT-JUNK?",
+      "url": "https://www.indeed.com/viewjob?jk=b3171b49d8aa083b",
+      "location": "Tacoma, WA 98445",
+      "snippet": "Perform comprehensive inspections, diagnostics, repairs, and preventative maintenance on a fleet of Isuzu NPR gas and diesel vehicles with a hydraulic lift bed.",
       "remote": false
     },
     {
@@ -521,7 +530,7 @@
       "company": "Allenmore Hospital",
       "url": "https://www.indeed.com/viewjob?jk=c28e1ffcc2bc6be3",
       "location": "Tacoma, WA 98402",
-      "snippet": "This role oversees Building & Engineering Services and Plant Operations functions to ensure safe, reliable, and efficient facility operations.",
+      "snippet": "This role oversees Building &amp; Engineering Services and Plant Operations functions to ensure safe, reliable, and efficient facility operations.",
       "remote": false
     },
     {
@@ -719,7 +728,7 @@
       "company": "ABB Inc.",
       "url": "https://www.indeed.com/viewjob?jk=1245d8f885a647ef",
       "location": "Bellevue, WA 98008",
-      "snippet": "Bachelor's degree in business operations , electrical engineering, or similar preferred. Strong background in managing P&L for multiple lines of business.",
+      "snippet": "Bachelor's degree in business operations , electrical engineering, or similar preferred. Strong background in managing P&amp;L for multiple lines of business.",
       "remote": false
     },
     {
@@ -737,7 +746,7 @@
       "company": "Allsteel Inc.",
       "url": "https://www.indeed.com/viewjob?jk=da0744afa0664daa",
       "location": "Seattle, WA 98101",
-      "snippet": "Bachelor's Degree or equivalent experience preferred. Furniture or related industry (interiors) experience preferred.",
+      "snippet": "Bachelor’s Degree or equivalent experience preferred. Furniture or related industry (interiors) experience preferred. What You’re Good At:",
       "remote": false
     },
     {
@@ -755,7 +764,7 @@
       "company": "U.S. District Court, Western District of Washington",
       "url": "https://www.indeed.com/viewjob?jk=c5079cdf1839e408",
       "location": "Seattle, WA 98101",
-      "snippet": "Bachelor's degree in Business Administration, Accounting, or related field. 5+ years of federal experience in procurement, acquisition, or resource management.",
+      "snippet": "Bachelor’s degree in Business Administration, Accounting, or related field. 5+ years of federal experience in procurement, acquisition, or resource management.",
       "remote": false
     },
     {
@@ -764,16 +773,7 @@
       "company": "Washington Western District Court",
       "url": "https://www.indeed.com/viewjob?jk=e6792161f578f29e",
       "location": "Seattle, WA",
-      "snippet": "The United States District Court for the Western District of Washington is seeking a highly-qualified Procurement Specialist to join its consolidated…",
-      "remote": false
-    },
-    {
-      "id": "b3171b49d8aa083b",
-      "title": "Fleet Manager/Mechanic",
-      "company": "1-800-GOT-JUNK?",
-      "url": "https://www.indeed.com/viewjob?jk=b3171b49d8aa083b",
-      "location": "Tacoma, WA 98445",
-      "snippet": "Ability to operate machinery safely while performing heavy lifting tasks; excellent customer service skills when interacting with internal teams or external…",
+      "snippet": "Job Details for Procurement Specialist. Court Name/Organization Washington Western District Court. Overview of the Position The U.S. District Court for the…",
       "remote": false
     },
     {
@@ -783,6 +783,15 @@
       "url": "https://www.indeed.com/viewjob?jk=0b3ac23784a1a3e6",
       "location": "Silverdale, WA 98383",
       "snippet": "Developing referral partnerships that produce repeat business. You notice a homeowner's roof or driveway needs attention and start a conversation.",
+      "remote": false
+    },
+    {
+      "id": "6ffca572218f5363",
+      "title": "Truck Driver - Hiker/Vehicle Transporter/CDL - Part Time",
+      "company": "Penske Truck Leasing and Logistics",
+      "url": "https://www.indeed.com/viewjob?jk=6ffca572218f5363",
+      "location": "Everett, WA 98201",
+      "snippet": "Check vehicles to ensure that mechanical, safety, and emergency equipment is in good working order, report to location manager if any issues are found.",
       "remote": false
     },
     {
@@ -804,21 +813,12 @@
       "remote": false
     },
     {
-      "id": "6ffca572218f5363",
-      "title": "Truck Driver - Hiker/Vehicle Transporter/CDL - Part Time",
-      "company": "Penske Truck Leasing and Logistics",
-      "url": "https://www.indeed.com/viewjob?jk=6ffca572218f5363",
-      "location": "Everett, WA 98201",
-      "snippet": "Check vehicles to ensure that mechanical, safety, and emergency equipment is in good working order, report to location manager if any issues are found.",
-      "remote": false
-    },
-    {
       "id": "dbc5c89f7b65decd",
       "title": "Sr. PM - SR Ops , Global Procurement Sustainability",
       "company": "Amazon.com Services LLC",
       "url": "https://www.indeed.com/viewjob?jk=dbc5c89f7b65decd",
       "location": "Bellevue, WA 98006",
-      "snippet": "Experience in project or program management. 5+ years of program or project management experience. Master's degree, or MBA in business, operations, human…",
+      "snippet": "Experience in project or program management. 5+ years of program or project management experience. If you have a disability and need a workplace accommodation…",
       "remote": false
     },
     {
@@ -827,7 +827,7 @@
       "company": "Amazon Data Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=3015d4e95874c39e",
       "location": "Seattle, WA",
-      "snippet": "Experience in data centers, infrastructure service providers, or related technology companies. Experience in program, project, product management, or leading a…",
+      "snippet": "If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or…",
       "remote": false
     },
     {
