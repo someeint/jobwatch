@@ -527,12 +527,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 8.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 8.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   }
  },
  "initialized": true,
@@ -3026,6 +3026,9 @@
   "Microsoft:1970393557025852": "2026-10-06T22:09:37.971260+00:00",
   "Microsoft:1970393557026693": "2026-10-12T20:09:27.176684+00:00",
   "Microsoft:1970393557026694": "2026-10-12T12:24:19.095867+00:00",
+  "Microsoft:1970393557026899": "2026-10-14T14:10:01.072809+00:00",
+  "Microsoft:1970393557026900": "2026-10-14T14:10:01.072809+00:00",
+  "Microsoft:1970393557026902": "2026-10-14T14:10:01.072809+00:00",
   "Microsoft:1970393557037526": "2026-10-09T17:09:14.971022+00:00",
   "Nordstrom:R-876046": "2026-09-19T19:35:30.555713+00:00",
   "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
