@@ -537,12 +537,7 @@
    "t": "2026-10-15T16:05:04.783327+00:00"
   }
  ],
- "health": {
-  "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 13.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
