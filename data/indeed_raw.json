@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:05:22+00:00",
+  "generated_at": "2026-10-15T16:16:41+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -273,15 +273,6 @@
       "remote": false
     },
     {
-      "id": "920e366f929eef6f",
-      "title": "Lead Building Engineer",
-      "company": "CBRE",
-      "url": "https://www.indeed.com/viewjob?jk=920e366f929eef6f",
-      "location": "Sumner, WA",
-      "snippet": "May take directions from others for special projects as instructed by the manager. Maintains an energy management program to ensure measures are taken to…",
-      "remote": false
-    },
-    {
       "id": "21d3237e1d787d41",
       "title": "Grants & Contracts Manager",
       "company": "Robert Half",
@@ -291,12 +282,30 @@
       "remote": false
     },
     {
+      "id": "920e366f929eef6f",
+      "title": "Lead Building Engineer",
+      "company": "CBRE",
+      "url": "https://www.indeed.com/viewjob?jk=920e366f929eef6f",
+      "location": "Sumner, WA",
+      "snippet": "May take directions from others for special projects as instructed by the manager. Maintains an energy management program to ensure measures are taken to…",
+      "remote": false
+    },
+    {
       "id": "6704ff472fc1ac52",
       "title": "Facilities Manager",
       "company": "CBRE",
       "url": "https://www.indeed.com/viewjob?jk=6704ff472fc1ac52",
       "location": "Sumner, WA",
       "snippet": "As a CBRE Facilities Manager , you will manage a team responsible for providing overseeing building operations and maintenance for a facility, campus, or…",
+      "remote": false
+    },
+    {
+      "id": "d445e229fee12ba8",
+      "title": "Leasing Agent",
+      "company": "Confidential",
+      "url": "https://www.indeed.com/viewjob?jk=d445e229fee12ba8",
+      "location": "King County, WA",
+      "snippet": "Schedule: Full-Time | 40 hours a week. Employer-matched 401(k) plan (4%). Company-wide events, recognition programs, and professional development opportunities.",
       "remote": false
     },
     {
@@ -342,15 +351,6 @@
       "url": "https://www.indeed.com/viewjob?jk=90a062935d06aacf",
       "location": "Seattle, WA 98107",
       "snippet": "Prior experience in a foreman, superintendent, project manager , or comparable leadership role required. The role is expected to have strong hands-on trade…",
-      "remote": false
-    },
-    {
-      "id": "7a1e0604b287d7fe",
-      "title": "Maintenance Technician II - $1,500 Sign On Bonus",
-      "company": "Sares-Regis Group",
-      "url": "https://www.indeed.com/viewjob?jk=7a1e0604b287d7fe",
-      "location": "Kirkland, WA 98034",
-      "snippet": "Maintenance Technician II - $1,500 Sign On Bonus. $1,500 Sign On Bonus!*. Works in turnover and renovation units, as well as responds to maintenance service…",
       "remote": false
     },
     {
@@ -552,30 +552,12 @@
       "remote": false
     },
     {
-      "id": "ea8549ee5943772e",
-      "title": "Maintenance Supervisor",
-      "company": "Olympic Multi-Family MGMT",
-      "url": "https://www.indeed.com/viewjob?jk=ea8549ee5943772e",
-      "location": "King County, WA",
-      "snippet": "Full-Time | Monday–Friday | 8AM–5PM. Participation in an after-hours on-call rotation is required. Supervise and support maintenance team members.",
-      "remote": false
-    },
-    {
       "id": "c869eccc27b29e76",
       "title": "Social Worker, Part-Time",
       "company": "Easterseals Washington",
       "url": "https://www.indeed.com/viewjob?jk=c869eccc27b29e76",
       "location": "Bremerton, WA 98310",
       "snippet": "Job Summary: *The Social Worker, Part-Time position will provide care plan assessments and manage scheduling of care conferences, as well as consultation for…",
-      "remote": false
-    },
-    {
-      "id": "82312d99d7dcd441",
-      "title": "Field Commissioning Engineer",
-      "company": "Core Services Inc",
-      "url": "https://www.indeed.com/viewjob?jk=82312d99d7dcd441",
-      "location": "United States",
-      "snippet": "Travel position - Most of USA and Mexico. Pay: $35 - $42 per hour. Travel domestically and internationally 80% to 90% of the time*.",
       "remote": false
     },
     {
@@ -588,12 +570,30 @@
       "remote": false
     },
     {
-      "id": "c9332232a3d333ae",
-      "title": "Assistant Store Manager- Bothell Jimmy Johns",
+      "id": "82312d99d7dcd441",
+      "title": "Field Commissioning Engineer",
+      "company": "Core Services Inc",
+      "url": "https://www.indeed.com/viewjob?jk=82312d99d7dcd441",
+      "location": "United States",
+      "snippet": "Travel position - Most of USA and Mexico. Pay: $35 - $42 per hour. Travel domestically and internationally 80% to 90% of the time*.",
+      "remote": false
+    },
+    {
+      "id": "6d5cd5aa8c61fbf9",
+      "title": "Dental Hygienist",
+      "company": "Enso Dentistry",
+      "url": "https://www.indeed.com/viewjob?jk=6d5cd5aa8c61fbf9",
+      "location": "Redmond, WA 98052",
+      "snippet": "Learn from a Nationally Recognized Educator and Mentor. Advanced Technology Including CAD/CAM, CBCT, Digital Scanning &amp; 3D Printing. Monday: 7:00 AM - 5:00 PM.",
+      "remote": false
+    },
+    {
+      "id": "62bb9c2742859a81",
+      "title": "Assistant Store Manager- Trainee (Kirkland Jimmy Johns)",
       "company": "Jimmy John's Sub Shop",
-      "url": "https://www.indeed.com/viewjob?jk=c9332232a3d333ae",
-      "location": "Bothell, WA 98021",
-      "snippet": "Jimmy John's Bothell is seeking candidates to fill our assistant manager position on a full time basis. JOB responsibilities will include-Daily vegetable prep,…",
+      "url": "https://www.indeed.com/viewjob?jk=62bb9c2742859a81",
+      "location": "Kirkland, WA 98033",
+      "snippet": "Primary hours are split between morning shifts ( 8:30AM - 3 PM ) and Night Shifts ( 3PM-9:30PM ) 5-6 days a week. 2 years Management experience required.",
       "remote": false
     },
     {
@@ -684,6 +684,15 @@
       "url": "https://www.indeed.com/viewjob?jk=93abd46157c00004",
       "location": "Bellevue, WA 98004",
       "snippet": "Our Housekeepers deliver Resident satisfaction by customizing the Resident experience through anticipating Resident needs, exceeding Resident expectations, and…",
+      "remote": false
+    },
+    {
+      "id": "ea8549ee5943772e",
+      "title": "Maintenance Supervisor",
+      "company": "Olympic Multi-Family MGMT",
+      "url": "https://www.indeed.com/viewjob?jk=ea8549ee5943772e",
+      "location": "King County, WA",
+      "snippet": "Full-Time | Monday–Friday | 8AM–5PM. Participation in an after-hours on-call rotation is required. Supervise and support maintenance team members.",
       "remote": false
     },
     {
@@ -795,12 +804,12 @@
       "remote": false
     },
     {
-      "id": "d445e229fee12ba8",
-      "title": "Leasing Agent",
-      "company": "Confidential",
-      "url": "https://www.indeed.com/viewjob?jk=d445e229fee12ba8",
-      "location": "King County, WA",
-      "snippet": "Assist the Community Manager with daily operations of the apartment community. The Leasing Consultant is responsible for supporting the day-to-day operations of…",
+      "id": "cafda377b2d76724",
+      "title": "Controller / Lead Accountant - Hybrid to $110K",
+      "company": "Polaris Search Group LLC",
+      "url": "https://www.indeed.com/viewjob?jk=cafda377b2d76724",
+      "location": "Poulsbo, WA 98370",
+      "snippet": "Manage AP, AR, and Payroll operations. Establish and audit internal controls to protect corporate assets, manage payroll, and oversee AP/AR operations.",
       "remote": false
     },
     {
@@ -837,15 +846,6 @@
       "url": "https://www.indeed.com/viewjob?jk=8c19832b0a520ef8",
       "location": "Seattle, WA",
       "snippet": "Build and lead multidisciplinary project teams, coach team leads, and support their delivery and business development responsibilities.",
-      "remote": false
-    },
-    {
-      "id": "6d5cd5aa8c61fbf9",
-      "title": "Dental Hygienist",
-      "company": "Enso Dentistry",
-      "url": "https://www.indeed.com/viewjob?jk=6d5cd5aa8c61fbf9",
-      "location": "Redmond, WA 98052",
-      "snippet": "Unparalleled business support and the highest quality supplies and labs to deliver exceptional patient care. Monday: 7:00 AM - 5:00 PM.",
       "remote": false
     },
     {
@@ -990,6 +990,15 @@
       "url": "https://www.indeed.com/viewjob?jk=a85ba604ed342f52",
       "location": "Seattle, WA 98101",
       "snippet": "High School Diploma or GED. Hyperscale data center or cloud infrastructure experience strongly preferred, high-volume supply chain background is a must.",
+      "remote": false
+    },
+    {
+      "id": "530a5a6ee4f96f29",
+      "title": "SUDP",
+      "company": "PorchLight",
+      "url": "https://www.indeed.com/viewjob?jk=530a5a6ee4f96f29",
+      "location": "Bellevue, WA 98005",
+      "snippet": "Experience in shelter or residential settings. Provide psychoeducation and/or other clinical training to clients and staff. Assist with other duties assigned.",
       "remote": false
     },
     {
