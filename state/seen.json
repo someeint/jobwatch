@@ -535,12 +535,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 9.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 2,
+   "last_error": "relay data is 11.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -2171,6 +2167,7 @@
   "LinkedIn:4441904083": "2026-09-20T07:07:10.258753+00:00",
   "LinkedIn:4441927926": "2026-09-20T07:07:10.258753+00:00",
   "LinkedIn:4442211515": "2026-09-22T12:05:43.805270+00:00",
+  "LinkedIn:4442224085": "2026-10-15T13:10:35.810153+00:00",
   "LinkedIn:4442224089": "2026-09-22T12:05:43.805270+00:00",
   "LinkedIn:4442407135": "2026-09-21T01:33:13.932809+00:00",
   "LinkedIn:4442856856": "2026-09-21T01:33:13.932809+00:00",
