@@ -533,16 +533,7 @@
    "t": "2026-10-14T20:53:02.374355+00:00"
   }
  ],
- "health": {
-  "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 6.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1509,6 +1500,7 @@
   "Company boards (Ashby):openai-ad0b2114-d2be-4c64-9226-d60de56271a4": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-ad958934-fd89-4033-8b13-1a4871d8073c": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-afebc24f-c6b8-4c66-a344-b1661fc77570": "2026-09-29T07:00:19.141617+00:00",
+  "Company boards (Ashby):openai-b1a5980d-1c52-4af5-8596-5951b584ca37": "2026-10-15T06:32:13.275540+00:00",
   "Company boards (Ashby):openai-bd4cdb4e-ecd7-45d6-8cab-0e9fa155104e": "2026-09-21T19:34:41.546264+00:00",
   "Company boards (Ashby):openai-c0c70d7e-c450-4ca4-842a-dbc5e643c048": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-c0f0136e-f4e7-43ca-b3d5-4d7aee5eed7f": "2026-09-20T18:03:35.867206+00:00",
@@ -1880,6 +1872,7 @@
   "Company boards (Greenhouse):okta-8273327": "2026-10-13T09:09:19.990036+00:00",
   "Company boards (Greenhouse):okta-8275271": "2026-10-12T22:10:17.785465+00:00",
   "Company boards (Greenhouse):okta-8275286": "2026-10-12T22:10:17.785465+00:00",
+  "Company boards (Greenhouse):okta-8283646": "2026-10-15T06:32:13.275540+00:00",
   "Company boards (Greenhouse):pinterest-7488432": "2026-10-14T23:30:29.942629+00:00",
   "Company boards (Greenhouse):pinterest-8209845": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):pinterest-8209905": "2026-10-07T09:22:56.318458+00:00",
@@ -2951,6 +2944,7 @@
   "LinkedIn:4476955993": "2026-10-08T05:09:07.746706+00:00",
   "LinkedIn:4476960182": "2026-10-08T01:17:28.797446+00:00",
   "LinkedIn:4476983928": "2026-10-09T16:10:21.549796+00:00",
+  "LinkedIn:4477019942": "2026-10-15T06:32:13.275540+00:00",
   "LinkedIn:4477152907": "2026-10-09T18:09:19.538871+00:00",
   "LinkedIn:4477167315": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4477223556": "2026-10-10T19:08:39.991856+00:00",
@@ -3126,6 +3120,7 @@
   "Salesforce:JR331240": "2026-09-22T12:05:43.805270+00:00",
   "Salesforce:JR332505": "2026-10-07T19:06:50.961237+00:00",
   "Salesforce:JR334734": "2026-09-24T11:14:33.924382+00:00",
+  "Salesforce:JR337669": "2026-10-15T06:32:13.275540+00:00",
   "Salesforce:JR340479": "2026-10-03T00:15:39.452085+00:00",
   "Salesforce:JR342414": "2026-10-12T07:17:35.197055+00:00",
   "Salesforce:JR344030": "2026-10-03T02:08:39.488403+00:00",
