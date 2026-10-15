@@ -539,12 +539,16 @@
   {
    "s": 82,
    "t": "2026-10-15T20:01:21.325490+00:00"
+  },
+  {
+   "s": 80,
+   "t": "2026-10-15T22:08:41.491499+00:00"
   }
  ],
  "health": {
-  "Starbucks": {
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -907,6 +911,7 @@
   "Company boards (Ashby):snowflake-452349cf-7114-4234-9fa5-1b5d0e8e7ce6": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-570cbac3-875a-4ce4-83b4-3c19e4b279db": "2026-10-14T20:53:02.374355+00:00",
   "Company boards (Ashby):vanta-ffdee1c4-c463-4e6f-a98a-ef8240e34868": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):affirm-8031364003": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):anthropic-5391184008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5441832008": "2026-10-02T17:09:12.474791+00:00",
   "Company boards (Greenhouse):chime-8790458002": "2026-09-20T01:42:03.941384+00:00",
@@ -1200,6 +1205,7 @@
   "e3a3c2f77a939f77": "2026-09-19T18:31:08.637985+00:00",
   "e3e616c952c7dcae": "2026-10-13T13:21:15.732534+00:00",
   "e4528874da003e02": "2026-09-19T18:31:08.637985+00:00",
+  "e46e429790a84b0c": "2026-10-15T22:08:41.491499+00:00",
   "e502113f67189e36": "2026-09-19T18:31:08.637985+00:00",
   "e5801cd6b158c674": "2026-09-19T18:31:08.637985+00:00",
   "e6281460d3a1f96f": "2026-09-19T18:31:08.637985+00:00",
@@ -1598,6 +1604,7 @@
   "Company boards (Greenhouse):affirm-7907793003": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):affirm-7907795003": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):affirm-8009661003": "2026-10-14T17:17:53.545643+00:00",
+  "Company boards (Greenhouse):affirm-8031366003": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):airbnb-8163100": "2026-09-24T00:08:13.025580+00:00",
   "Company boards (Greenhouse):airbnb-8163221": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):airbnb-8172706": "2026-09-20T01:42:03.941384+00:00",
@@ -1671,6 +1678,8 @@
   "Company boards (Greenhouse):anthropic-5448360008": "2026-10-09T16:10:21.549796+00:00",
   "Company boards (Greenhouse):anthropic-5451081008": "2026-10-13T22:54:04.593348+00:00",
   "Company boards (Greenhouse):anthropic-5453262008": "2026-10-15T01:43:39.678923+00:00",
+  "Company boards (Greenhouse):anthropic-5453548008": "2026-10-15T22:08:41.491499+00:00",
+  "Company boards (Greenhouse):anthropic-5453550008": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -1703,6 +1712,7 @@
   "Company boards (Greenhouse):chime-8806197002": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):chime-8868950002": "2026-10-08T18:52:59.131833+00:00",
   "Company boards (Greenhouse):chime-8869139002": "2026-10-05T21:34:20.019911+00:00",
+  "Company boards (Greenhouse):chime-8882463002": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):cloudflare-7960701": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):cloudflare-8139424": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):cloudflare-8143311": "2026-09-20T01:42:03.941384+00:00",
@@ -2036,6 +2046,7 @@
   "Company boards (Greenhouse):toast-8279405": "2026-10-13T19:09:22.295594+00:00",
   "Company boards (Greenhouse):twilio-8190719": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):twilio-8240491": "2026-10-01T15:43:50.514781+00:00",
+  "Company boards (Greenhouse):twilio-8257820": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):twilio-8263280": "2026-10-08T01:17:28.797446+00:00",
   "Company boards (Greenhouse):twitch-8779882002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):twitch-8784407002": "2026-09-20T01:42:03.941384+00:00",
@@ -2069,6 +2080,7 @@
   "CrowdStrike:R30258": "2026-10-05T06:08:17.320649+00:00",
   "CrowdStrike:R30286": "2026-10-05T06:08:17.320649+00:00",
   "CrowdStrike:R30322": "2026-10-12T07:27:11.222839+00:00",
+  "Indeed:0091bb92d0117f74": "2026-10-15T22:08:41.491499+00:00",
   "Indeed:3055f6c5e6724edc": "2026-10-11T16:08:40.182338+00:00",
   "Indeed:45d82a33d7e8675e": "2026-10-06T16:11:58.127634+00:00",
   "Indeed:5c4bf31c6ecb9ee2": "2026-10-09T00:09:06.497235+00:00",
@@ -3061,6 +3073,7 @@
   "LinkedIn:4479748333": "2026-10-15T11:59:23.453726+00:00",
   "LinkedIn:4479821569": "2026-10-15T20:01:21.325490+00:00",
   "LinkedIn:4479828270": "2026-10-15T20:01:21.325490+00:00",
+  "LinkedIn:4480158823": "2026-10-15T22:08:41.491499+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
