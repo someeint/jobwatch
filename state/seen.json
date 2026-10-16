@@ -562,9 +562,9 @@
   }
  ],
  "health": {
-  "Amazon": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "HTTP 504 from https://www.amazon.jobs/en/search.json"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   }
  },
  "initialized": true,
@@ -1614,6 +1614,7 @@
   "Company boards (Ashby):snowflake-5fb9e0f1-f654-4551-9b1e-3d56435a5e4a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-6871df54-d22b-4417-bf49-322deea4ad29": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-68da37c5-7a00-4ddb-810b-63954efb1ed6": "2026-10-15T16:05:04.783327+00:00",
+  "Company boards (Ashby):snowflake-6eb0df45-4bbf-430f-9ef3-a5ae82bf978b": "2026-10-16T19:09:23.952362+00:00",
   "Company boards (Ashby):snowflake-79fccbd7-b0c6-4854-b288-7ecf5b1d58c3": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Ashby):snowflake-7b11a6af-c523-4d20-9d61-858516e92d72": "2026-10-12T11:18:44.744142+00:00",
   "Company boards (Ashby):snowflake-9ba51355-d486-4d17-bc41-e1c1ed57e93d": "2026-10-08T15:10:10.573545+00:00",
@@ -3323,6 +3324,7 @@
   "Salesforce:JR364032": "2026-10-14T12:23:12.246512+00:00",
   "Salesforce:JR364213": "2026-10-15T11:59:23.453726+00:00",
   "Salesforce:JR364448": "2026-10-16T14:09:44.625346+00:00",
+  "Salesforce:JR364474": "2026-10-16T19:09:23.952362+00:00",
   "Snohomish County (gov):5476463": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080717666": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080833513": "2026-09-22T20:05:39.582823+00:00",
@@ -3335,6 +3337,7 @@
   "Starbucks:481081088872": "2026-10-09T03:00:43.290470+00:00",
   "Starbucks:481081104905": "2026-10-02T19:09:02.722183+00:00",
   "Starbucks:481081171846": "2026-10-13T17:35:56.440883+00:00",
+  "Starbucks:481081337754": "2026-10-16T19:09:23.952362+00:00",
   "T-Mobile:REQ362630": "2026-09-22T16:55:36.047014+00:00",
   "T-Mobile:REQ364040": "2026-10-01T19:08:49.260098+00:00",
   "T-Mobile:REQ370624": "2026-09-24T15:50:46.636267+00:00",
