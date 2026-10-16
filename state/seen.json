@@ -557,16 +557,7 @@
    "t": "2026-10-16T03:08:19.301249+00:00"
   }
  ],
- "health": {
-  "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 10.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1418,6 +1409,7 @@
   "Amazon:10581005": "2026-10-16T01:04:10.986301+00:00",
   "Amazon:10581071": "2026-10-16T03:08:19.301249+00:00",
   "Amazon:10581232": "2026-10-16T14:09:44.625346+00:00",
+  "Amazon:10581327": "2026-10-16T14:48:16.535974+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
   "Boeing:JR2026516037": "2026-10-05T14:28:22.130549+00:00",
