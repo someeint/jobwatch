@@ -561,7 +561,16 @@
    "t": "2026-10-16T18:26:28.839702+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1711,6 +1720,7 @@
   "Company boards (Greenhouse):anthropic-5446607008": "2026-10-09T23:06:20.709021+00:00",
   "Company boards (Greenhouse):anthropic-5447368008": "2026-10-16T14:09:44.625346+00:00",
   "Company boards (Greenhouse):anthropic-5448360008": "2026-10-09T16:10:21.549796+00:00",
+  "Company boards (Greenhouse):anthropic-5449415008": "2026-10-16T20:51:46.084385+00:00",
   "Company boards (Greenhouse):anthropic-5451081008": "2026-10-13T22:54:04.593348+00:00",
   "Company boards (Greenhouse):anthropic-5453262008": "2026-10-15T01:43:39.678923+00:00",
   "Company boards (Greenhouse):anthropic-5453548008": "2026-10-15T22:08:41.491499+00:00",
@@ -3217,6 +3227,7 @@
   "Nordstrom:R-886720": "2026-10-12T22:10:17.785465+00:00",
   "Nordstrom:R-886831": "2026-10-14T13:57:32.909364+00:00",
   "Nordstrom:R-887824": "2026-10-15T21:08:27.836188+00:00",
+  "Nordstrom:R-888467": "2026-10-16T20:51:46.084385+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
