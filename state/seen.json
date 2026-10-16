@@ -561,12 +561,7 @@
    "t": "2026-10-16T18:26:28.839702+00:00"
   }
  ],
- "health": {
-  "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1422,6 +1417,9 @@
   "Amazon:10581232": "2026-10-16T14:09:44.625346+00:00",
   "Amazon:10581327": "2026-10-16T14:48:16.535974+00:00",
   "Amazon:10581536": "2026-10-16T18:09:35.459946+00:00",
+  "Amazon:10581698": "2026-10-16T20:09:53.312802+00:00",
+  "Amazon:10581700": "2026-10-16T20:09:53.312802+00:00",
+  "Amazon:10581704": "2026-10-16T20:09:53.312802+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -1605,6 +1603,7 @@
   "Company boards (Ashby):replit-9394684e-814c-4a3c-b5ed-19612e4331bc": "2026-10-01T19:08:49.260098+00:00",
   "Company boards (Ashby):replit-b68de733-07d9-4e57-82c5-78c6bd454044": "2026-09-30T18:53:00.441731+00:00",
   "Company boards (Ashby):replit-bfb473fb-6db1-469f-873a-7a3c1d127d21": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):snowflake-0f4d6a2f-f88c-4cdf-9994-bd138413301c": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Ashby):snowflake-2c1ede0e-02c9-4f74-b084-fc1f5ccd83e2": "2026-10-14T19:06:33.226202+00:00",
   "Company boards (Ashby):snowflake-33fd86f7-79e4-4180-9726-23f9ae76a804": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-37033502-bd37-4f77-a92e-9b7934998857": "2026-10-08T01:17:28.797446+00:00",
@@ -1655,6 +1654,7 @@
   "Company boards (Greenhouse):airbnb-8243710": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):airbnb-8259920": "2026-10-07T19:06:50.961237+00:00",
   "Company boards (Greenhouse):airbnb-8278753": "2026-10-13T17:35:56.440883+00:00",
+  "Company boards (Greenhouse):airbnb-8282351": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):airbnb-8286207": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
@@ -2048,6 +2048,7 @@
   "Company boards (Greenhouse):stripe-8199596": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8202831": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8203653": "2026-09-21T07:09:53.992684+00:00",
+  "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8208523": "2026-09-21T14:13:46.061280+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
   "Company boards (Greenhouse):stripe-8209637": "2026-09-23T15:08:39.594354+00:00",
@@ -3282,6 +3283,7 @@
   "Salesforce:JR361172": "2026-09-23T12:06:38.430577+00:00",
   "Salesforce:JR361263": "2026-10-08T14:49:43.189216+00:00",
   "Salesforce:JR361287": "2026-10-05T17:09:04.989402+00:00",
+  "Salesforce:JR361292": "2026-10-16T20:09:53.312802+00:00",
   "Salesforce:JR361367": "2026-09-24T17:08:34.169066+00:00",
   "Salesforce:JR361386": "2026-10-12T13:29:23.437019+00:00",
   "Salesforce:JR361418": "2026-09-24T21:08:28.838967+00:00",
