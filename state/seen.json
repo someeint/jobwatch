@@ -563,8 +563,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 78 jobs collected before the block"
+   "fails": 4,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 21 jobs collected before the block"
   }
  },
  "initialized": true,
