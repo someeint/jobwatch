@@ -559,11 +559,11 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1419,6 +1419,7 @@
   "Amazon:10581071": "2026-10-16T03:08:19.301249+00:00",
   "Amazon:10581232": "2026-10-16T14:09:44.625346+00:00",
   "Amazon:10581327": "2026-10-16T14:48:16.535974+00:00",
+  "Amazon:10581536": "2026-10-16T18:09:35.459946+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -1586,6 +1587,7 @@
   "Company boards (Ashby):ramp-4e6fffef-bb23-4623-ad86-95b840dd51be": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):ramp-85063603-e470-497d-b1e8-c05b664353e9": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):ramp-871d2fc8-def8-4837-a9b0-7cc4fe126c2b": "2026-09-23T04:08:06.723349+00:00",
+  "Company boards (Ashby):ramp-8be55ffc-d512-4ef3-a14d-3a4cb29a60d4": "2026-10-16T18:09:35.459946+00:00",
   "Company boards (Ashby):ramp-9226150c-47df-42f4-8626-7a0aea6b9991": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-925fce22-61af-4d26-8f20-90696a3b6704": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-aa433e44-f095-484b-a46a-a330583d84b0": "2026-09-20T18:03:35.867206+00:00",
