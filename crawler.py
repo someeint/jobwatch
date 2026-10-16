@@ -80,6 +80,20 @@ class SourceError(Exception):
     pass
 
 
+class PartialSourceError(SourceError):
+    """Like SourceError, but some jobs were already collected before the failure hit (e.g. LinkedIn
+    getting rate-limited partway through its searches). Carries those jobs so collect() can still use
+    them, while still counting as a real failure for health tracking - so a source that's silently
+    degraded (returning a thin slice of its normal results every run) eventually trips the existing
+    "source is down" alert instead of looking perfectly healthy forever. Added 2026-10-16 after LinkedIn
+    was found blocked (HTTP 429) on nearly every run since 2026-10-10 with zero alerting, because the old
+    code only raised when a run returned ZERO jobs - any run that got at least one job before the block
+    counted as a full, silent success."""
+    def __init__(self, msg: str, jobs: list["Job"]) -> None:
+        super().__init__(msg)
+        self.jobs = jobs
+
+
 # --------------------------------------------------------------------------- http
 class Http:
     def __init__(self) -> None:
@@ -469,8 +483,14 @@ def fetch_linkedin(src: dict, http: Http) -> list[Job]:
                 break
         if blocked:
             break
-    if blocked and not out:
-        raise SourceError(blocked)
+    if blocked:
+        jobs = list(out.values())
+        if not jobs:
+            raise SourceError(blocked)
+        # Got cut off partway through the searches, but keep whatever we collected rather than
+        # throwing it away - raise so health tracking still sees this as degraded (see
+        # PartialSourceError), instead of a thin, lucky batch looking like a clean, full run.
+        raise PartialSourceError(f"{blocked} - only {len(jobs)} jobs collected before the block", jobs)
     return list(out.values())
 
 
@@ -894,6 +914,11 @@ def collect(cfg: dict, force: bool, only: Optional[str] = None) -> tuple[list[Jo
     def work(src: dict):
         try:
             return src, ADAPTERS[src["type"]](src, http), None
+        except PartialSourceError as e:
+            # Keep the partial jobs it did manage to collect, but still surface the error string so
+            # this run prints a visible warning and health tracking counts it as a failure - see
+            # PartialSourceError's docstring for why that matters.
+            return src, e.jobs, str(e)
         except SourceError as e:
             return src, [], str(e)
         except Exception as e:  # network errors, JSON changes, etc.
