@@ -563,16 +563,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 13.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 16.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
-  },
-  "Nordstrom": {
-   "fails": 3,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   }
  },
  "initialized": true,
@@ -1101,6 +1097,7 @@
   "LinkedIn:4478709775": "2026-10-13T00:10:31.247672+00:00",
   "LinkedIn:4479003106": "2026-10-14T17:28:21.610702+00:00",
   "LinkedIn:4479170120": "2026-10-15T20:01:21.325490+00:00",
+  "LinkedIn:4480828876": "2026-10-17T16:52:04.742965+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
