@@ -562,40 +562,16 @@
   }
  ],
  "health": {
-  "Adobe": {
+  "Indeed": {
    "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "Boeing": {
-   "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "CrowdStrike": {
-   "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+   "last_error": "relay data is 10.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 5,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 31 jobs collected before the block"
   },
   "Nordstrom": {
-   "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "Salesforce": {
-   "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "T-Mobile": {
-   "fails": 1,
-   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
-  },
-  "Zillow": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   }
  },
@@ -3081,6 +3057,7 @@
   "LinkedIn:4476983928": "2026-10-09T16:10:21.549796+00:00",
   "LinkedIn:4477019942": "2026-10-15T06:32:13.275540+00:00",
   "LinkedIn:4477067769": "2026-10-15T11:59:23.453726+00:00",
+  "LinkedIn:4477098990": "2026-10-17T10:35:50.467148+00:00",
   "LinkedIn:4477152907": "2026-10-09T18:09:19.538871+00:00",
   "LinkedIn:4477167315": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4477223556": "2026-10-10T19:08:39.991856+00:00",
@@ -3188,6 +3165,8 @@
   "LinkedIn:4480509973": "2026-10-16T23:08:46.851887+00:00",
   "LinkedIn:4480526576": "2026-10-16T21:41:40.646685+00:00",
   "LinkedIn:4480526661": "2026-10-16T23:08:46.851887+00:00",
+  "LinkedIn:4480583759": "2026-10-17T10:35:50.467148+00:00",
+  "LinkedIn:4480598007": "2026-10-17T10:35:50.467148+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
