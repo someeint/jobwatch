@@ -562,9 +562,41 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "Boeing": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "CrowdStrike": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
   "LinkedIn": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "Salesforce": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "T-Mobile": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "Zillow": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   }
  },
  "initialized": true,
