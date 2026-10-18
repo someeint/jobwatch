@@ -567,7 +567,7 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   }
  },
@@ -2123,6 +2123,7 @@
   "Company boards (Lever):zoox-83967e5c-bfb4-4b3d-974a-fd0fefe4a168": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-92aa7d9b-2a89-4e3e-b48e-7b2fc5fa1e9e": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-a83974b3-444c-40f2-9551-12c3414be6a7": "2026-10-07T02:47:40.902067+00:00",
+  "Company boards (Lever):zoox-aee9fb25-2129-4bf8-9d59-65e71ecba5cb": "2026-10-18T19:15:27.915907+00:00",
   "Company boards (Lever):zoox-baeb5af5-65b7-433b-99e8-44e61901ae9b": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-c2256725-2c81-4039-b6dd-03a0d7d7e95f": "2026-10-01T20:34:35.890371+00:00",
   "Company boards (Lever):zoox-c8894e25-83b0-4200-a2ab-9f5764bab7ae": "2026-09-20T01:42:03.941384+00:00",
