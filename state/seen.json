@@ -575,15 +575,15 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 6,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   }
  },
@@ -2145,6 +2145,7 @@
   "Company boards (Greenhouse):twitch-8811998002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):outreach-4667fa10-e75c-4dba-a800-4f9e4470d67f": "2026-09-25T19:26:16.685539+00:00",
   "Company boards (Lever):outreach-55129c60-103a-4c44-955a-cc7792dd876f": "2026-10-02T16:42:22.792146+00:00",
+  "Company boards (Lever):outreach-800285d4-e0d9-4e42-927a-789df5ffa0bc": "2026-10-19T21:08:41.988719+00:00",
   "Company boards (Lever):weride-200a27d8-05b0-4fb1-b8cd-563d62d204cf": "2026-10-14T23:30:29.942629+00:00",
   "Company boards (Lever):zoox-20289d99-c867-4022-85a3-0c5a69a04faf": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-20e2f23b-030a-49ac-8b00-680d715ddb31": "2026-09-20T01:42:03.941384+00:00",
