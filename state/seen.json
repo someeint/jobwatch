@@ -566,8 +566,20 @@
   }
  ],
  "health": {
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 6.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
   "Salesforce": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   }
  },
@@ -1511,6 +1523,7 @@
   "Company boards (Ashby):notion-42702b6a-b4a6-47ac-add0-07b435a8be38": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):notion-4e7b3471-20b7-4a37-8455-8b2735bfaf26": "2026-09-30T22:08:58.173147+00:00",
   "Company boards (Ashby):notion-7ec83090-7c5b-4691-bf20-e11e892cede1": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):notion-b393c25a-2ce7-458d-800a-bf9e75ed070b": "2026-10-19T06:47:11.321072+00:00",
   "Company boards (Ashby):notion-be994bb4-c680-4f57-b3bd-7e689175317f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-c5c69246-74db-4960-a0e0-7945be6c30ae": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
