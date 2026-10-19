@@ -574,12 +574,16 @@
   }
  ],
  "health": {
-  "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 14.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 29 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   }
  },
@@ -1547,6 +1551,7 @@
   "Company boards (Ashby):openai-2bdd1b8b-2883-40fb-b006-583959ad4c5f": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Ashby):openai-2df4df3a-7ac6-42f2-b8ec-d471627a80c8": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-2e645639-3362-42f7-b0b9-e99380c48d29": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-3228eed1-9cb3-4330-82c3-19fb3dbb4408": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Ashby):openai-32905f5c-9405-4073-bc65-c57fcf55a83d": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-32a314f3-17d6-4f94-ba1b-88076d9ac4f4": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-32ca0028-c12d-4def-a200-946ec8d4ea5f": "2026-09-28T21:36:51.568421+00:00",
@@ -1685,6 +1690,8 @@
   "Company boards (Greenhouse):airbnb-8243710": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):airbnb-8259920": "2026-10-07T19:06:50.961237+00:00",
   "Company boards (Greenhouse):airbnb-8278753": "2026-10-13T17:35:56.440883+00:00",
+  "Company boards (Greenhouse):airbnb-8279065": "2026-10-19T17:09:10.922234+00:00",
+  "Company boards (Greenhouse):airbnb-8279103": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):airbnb-8282351": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):airbnb-8286207": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
@@ -1695,6 +1702,7 @@
   "Company boards (Greenhouse):anthropic-5390956008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5390972008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5390980008": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):anthropic-5390992008": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):anthropic-5391199008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5391207008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5391227008": "2026-09-20T01:42:03.941384+00:00",
@@ -1848,6 +1856,7 @@
   "Company boards (Greenhouse):datadog-8219989": "2026-09-21T14:13:46.061280+00:00",
   "Company boards (Greenhouse):datadog-8237428": "2026-09-30T19:16:24.128197+00:00",
   "Company boards (Greenhouse):datadog-8238495": "2026-10-07T20:09:14.842706+00:00",
+  "Company boards (Greenhouse):datadog-8247250": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):datadog-8247435": "2026-10-08T14:49:43.189216+00:00",
   "Company boards (Greenhouse):datadog-8257217": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):datadog-8268065": "2026-10-15T16:05:04.783327+00:00",
@@ -1873,6 +1882,7 @@
   "Company boards (Greenhouse):elastic-8177123": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):elastic-8211919": "2026-09-21T22:49:19.178128+00:00",
   "Company boards (Greenhouse):elastic-8246948": "2026-10-06T15:09:34.366357+00:00",
+  "Company boards (Greenhouse):elastic-8285461": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):figma-6146574004": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):figma-6167305004": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):figma-6173031004": "2026-09-20T01:42:03.941384+00:00",
@@ -2166,6 +2176,7 @@
   "Indeed:8257a815864f48c4": "2026-09-23T06:35:29.712988+00:00",
   "Indeed:84baf8ae23ce90cf": "2026-10-06T06:09:39.604887+00:00",
   "Indeed:898f01be6cc0a3ff": "2026-10-09T06:17:43.822286+00:00",
+  "Indeed:8b50b1dd3dbb1cfa": "2026-10-19T17:09:10.922234+00:00",
   "Indeed:93eb32fd3591b5d8": "2026-10-12T20:09:27.176684+00:00",
   "Indeed:9bc19a593f88bf52": "2026-10-01T15:43:50.514781+00:00",
   "Indeed:9fb5c248889def8e": "2026-09-23T16:08:13.756169+00:00",
