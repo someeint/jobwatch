@@ -575,11 +575,11 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 47 jobs collected before the block"
+   "fails": 4,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   }
  },
@@ -2134,6 +2134,7 @@
   "Company boards (Greenhouse):twilio-8240491": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):twilio-8257820": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):twilio-8263280": "2026-10-08T01:17:28.797446+00:00",
+  "Company boards (Greenhouse):twilio-8281078": "2026-10-19T19:52:01.438557+00:00",
   "Company boards (Greenhouse):twilio-8292798": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Greenhouse):twitch-8779882002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):twitch-8784407002": "2026-09-20T01:42:03.941384+00:00",
@@ -3381,6 +3382,7 @@
   "Nordstrom:R-886831": "2026-10-14T13:57:32.909364+00:00",
   "Nordstrom:R-887824": "2026-10-15T21:08:27.836188+00:00",
   "Nordstrom:R-888467": "2026-10-16T20:51:46.084385+00:00",
+  "Nordstrom:R-889185": "2026-10-19T19:52:01.438557+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
