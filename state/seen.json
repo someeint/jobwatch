@@ -602,8 +602,12 @@
   }
  ],
  "health": {
-  "Salesforce": {
+  "Microsoft": {
    "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Salesforce": {
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   }
  },
@@ -1612,6 +1616,7 @@
   "Company boards (Ashby):openai-5c869fa0-fe05-42b3-ab94-1f6218b1ccf3": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Ashby):openai-5ca9ca8a-c859-4857-a259-1caedfe06134": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-5ce0931f-aba7-4c7d-9fca-1e278bf75473": "2026-09-22T20:05:39.582823+00:00",
+  "Company boards (Ashby):openai-5f094405-1b54-419b-88b2-df1d7eb16af0": "2026-10-20T20:40:42.562556+00:00",
   "Company boards (Ashby):openai-5f3a6397-47ac-4ef0-9ca9-cd358851a6b9": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-616ef2ce-3790-432d-9a6d-32abb2f52ff9": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Ashby):openai-6351bb6b-992d-4c4e-983d-612d91ede046": "2026-10-06T21:09:29.745691+00:00",
@@ -1802,6 +1807,7 @@
   "Company boards (Greenhouse):anthropic-5453550008": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):anthropic-5453564008": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Greenhouse):anthropic-5455454008": "2026-10-16T23:08:46.851887+00:00",
+  "Company boards (Greenhouse):anthropic-5459016008": "2026-10-20T20:40:42.562556+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -2004,6 +2010,8 @@
   "Company boards (Greenhouse):lyft-8863960002": "2026-10-05T06:08:17.320649+00:00",
   "Company boards (Greenhouse):lyft-8865403002": "2026-10-06T16:11:58.127634+00:00",
   "Company boards (Greenhouse):lyft-8865404002": "2026-10-06T16:11:58.127634+00:00",
+  "Company boards (Greenhouse):lyft-8900191002": "2026-10-20T20:40:42.562556+00:00",
+  "Company boards (Greenhouse):lyft-8900349002": "2026-10-20T20:40:42.562556+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8157127": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8173625": "2026-09-20T01:42:03.941384+00:00",
@@ -3365,6 +3373,7 @@
   "LinkedIn:4481569593": "2026-10-20T16:08:35.355339+00:00",
   "LinkedIn:4481580075": "2026-10-20T17:18:27.607230+00:00",
   "LinkedIn:4481746035": "2026-10-20T17:18:27.607230+00:00",
+  "LinkedIn:4481763940": "2026-10-20T20:40:42.562556+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
