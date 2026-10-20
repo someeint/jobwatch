@@ -586,16 +586,12 @@
   }
  ],
  "health": {
-  "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 13.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
   "LinkedIn": {
-   "fails": 13,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 14,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 32 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -2071,6 +2067,7 @@
   "Company boards (Greenhouse):rubrik-8229860": "2026-09-30T07:32:07.248675+00:00",
   "Company boards (Greenhouse):rubrik-8255803": "2026-10-05T14:28:22.130549+00:00",
   "Company boards (Greenhouse):rubrik-8273254": "2026-10-13T18:09:14.696612+00:00",
+  "Company boards (Greenhouse):rubrik-8303682": "2026-10-20T16:08:35.355339+00:00",
   "Company boards (Greenhouse):samsara-8142214": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8179593": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8180371": "2026-09-20T01:42:03.941384+00:00",
@@ -3318,6 +3315,7 @@
   "LinkedIn:4480996940": "2026-10-19T18:09:19.613474+00:00",
   "LinkedIn:4481202066": "2026-10-19T14:03:20.543143+00:00",
   "LinkedIn:4481211126": "2026-10-19T18:09:19.613474+00:00",
+  "LinkedIn:4481569593": "2026-10-20T16:08:35.355339+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
