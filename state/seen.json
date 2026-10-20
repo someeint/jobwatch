@@ -587,15 +587,15 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 9.4h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 2,
+   "last_error": "relay data is 13.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 12,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 31 jobs collected before the block"
+   "fails": 13,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1474,6 +1474,7 @@
   "Amazon:10581700": "2026-10-16T20:09:53.312802+00:00",
   "Amazon:10581704": "2026-10-16T20:09:53.312802+00:00",
   "Amazon:10581892": "2026-10-16T23:08:46.851887+00:00",
+  "Amazon:10583910": "2026-10-20T15:48:08.656395+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -1999,6 +2000,7 @@
   "Company boards (Greenhouse):mongodb-8267061": "2026-10-12T14:25:12.244782+00:00",
   "Company boards (Greenhouse):mongodb-8267063": "2026-10-12T14:25:12.244782+00:00",
   "Company boards (Greenhouse):mongodb-8267650": "2026-10-12T14:25:12.244782+00:00",
+  "Company boards (Greenhouse):mongodb-8300961": "2026-10-20T15:48:08.656395+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8158010": "2026-09-20T01:42:03.941384+00:00",
@@ -3490,6 +3492,7 @@
   "Salesforce:JR361287": "2026-10-05T17:09:04.989402+00:00",
   "Salesforce:JR361292": "2026-10-16T20:09:53.312802+00:00",
   "Salesforce:JR361367": "2026-09-24T17:08:34.169066+00:00",
+  "Salesforce:JR361371": "2026-10-20T15:48:08.656395+00:00",
   "Salesforce:JR361386": "2026-10-12T13:29:23.437019+00:00",
   "Salesforce:JR361418": "2026-09-24T21:08:28.838967+00:00",
   "Salesforce:JR361423": "2026-10-06T20:09:13.575994+00:00",
@@ -3521,9 +3524,12 @@
   "Salesforce:JR363200": "2026-10-13T15:09:34.606892+00:00",
   "Salesforce:JR363268": "2026-10-15T19:08:30.526361+00:00",
   "Salesforce:JR363337": "2026-10-09T06:17:43.822286+00:00",
+  "Salesforce:JR363422": "2026-10-20T15:48:08.656395+00:00",
   "Salesforce:JR363434": "2026-10-08T18:52:59.131833+00:00",
   "Salesforce:JR363488": "2026-10-14T20:53:02.374355+00:00",
   "Salesforce:JR363491": "2026-10-13T15:09:34.606892+00:00",
+  "Salesforce:JR363583": "2026-10-20T15:48:08.656395+00:00",
+  "Salesforce:JR363709": "2026-10-20T15:48:08.656395+00:00",
   "Salesforce:JR363763": "2026-10-14T12:23:12.246512+00:00",
   "Salesforce:JR363778": "2026-10-20T02:48:08.507343+00:00",
   "Salesforce:JR363782": "2026-10-14T17:17:53.545643+00:00",
