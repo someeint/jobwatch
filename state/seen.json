@@ -603,16 +603,8 @@
  ],
  "health": {
   "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Salesforce": {
    "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1715,6 +1707,7 @@
   "Company boards (Ashby):snowflake-da15dcf5-67fc-4217-9cb9-fd6839d94eee": "2026-10-02T05:34:04.417449+00:00",
   "Company boards (Ashby):snowflake-dd0f5476-67c6-4a6a-9c8c-da00cf684973": "2026-10-05T23:08:42.174848+00:00",
   "Company boards (Ashby):snowflake-e3dfec4f-70a8-48db-a7fe-b91a7669fe94": "2026-10-07T21:09:26.560531+00:00",
+  "Company boards (Ashby):snowflake-f0dfa3f8-0bed-4e4b-97ff-825eb19fa894": "2026-10-20T22:08:56.988964+00:00",
   "Company boards (Ashby):vanta-0e82974a-0023-49a2-b1ec-a0fa89636dd5": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-20d2c9aa-19da-4370-9378-491312f6f98a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-2f2ad814-2437-46bc-8829-9413f1840db0": "2026-09-21T19:34:41.546264+00:00",
@@ -1727,6 +1720,8 @@
   "Company boards (Greenhouse):affirm-7907793003": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):affirm-7907795003": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):affirm-8009661003": "2026-10-14T17:17:53.545643+00:00",
+  "Company boards (Greenhouse):affirm-8012093003": "2026-10-20T22:08:56.988964+00:00",
+  "Company boards (Greenhouse):affirm-8012095003": "2026-10-20T22:08:56.988964+00:00",
   "Company boards (Greenhouse):affirm-8031366003": "2026-10-15T22:08:41.491499+00:00",
   "Company boards (Greenhouse):airbnb-8163100": "2026-09-24T00:08:13.025580+00:00",
   "Company boards (Greenhouse):airbnb-8163221": "2026-09-20T01:42:03.941384+00:00",
@@ -2197,6 +2192,7 @@
   "Company boards (Greenhouse):toast-8246146": "2026-10-09T20:10:23.691425+00:00",
   "Company boards (Greenhouse):toast-8250182": "2026-10-05T17:09:04.989402+00:00",
   "Company boards (Greenhouse):toast-8279405": "2026-10-13T19:09:22.295594+00:00",
+  "Company boards (Greenhouse):toast-8304298": "2026-10-20T22:08:56.988964+00:00",
   "Company boards (Greenhouse):twilio-8190719": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):twilio-8240491": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):twilio-8257820": "2026-10-15T22:08:41.491499+00:00",
