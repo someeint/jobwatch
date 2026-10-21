@@ -602,9 +602,17 @@
   }
  ],
  "health": {
-  "LinkedIn": {
+  "Indeed": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+   "last_error": "relay data is 10.1h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1374,6 +1382,7 @@
   "Adobe:R172301": "2026-10-02T11:19:57.899671+00:00",
   "Adobe:R172305": "2026-10-19T14:03:20.543143+00:00",
   "Adobe:R172579": "2026-10-12T15:13:18.693634+00:00",
+  "Adobe:R173022": "2026-10-21T12:23:14.491775+00:00",
   "Airbnb:8163221": "2026-09-19T18:31:08.637985+00:00",
   "Airbnb:8172706": "2026-09-19T18:31:08.637985+00:00",
   "Airbnb:8172732": "2026-09-19T18:31:08.637985+00:00",
@@ -2058,6 +2067,7 @@
   "Company boards (Greenhouse):okta-8275286": "2026-10-12T22:10:17.785465+00:00",
   "Company boards (Greenhouse):okta-8283646": "2026-10-15T06:32:13.275540+00:00",
   "Company boards (Greenhouse):okta-8299845": "2026-10-20T21:08:46.868225+00:00",
+  "Company boards (Greenhouse):okta-8300291": "2026-10-21T12:23:14.491775+00:00",
   "Company boards (Greenhouse):okta-8305257": "2026-10-21T06:39:02.047304+00:00",
   "Company boards (Greenhouse):pinterest-7488432": "2026-10-14T23:30:29.942629+00:00",
   "Company boards (Greenhouse):pinterest-8209845": "2026-09-20T01:42:03.941384+00:00",
@@ -3529,6 +3539,7 @@
   "Salesforce:JR352364": "2026-10-06T15:09:34.366357+00:00",
   "Salesforce:JR352908": "2026-09-21T14:13:46.061280+00:00",
   "Salesforce:JR353282": "2026-10-05T14:28:22.130549+00:00",
+  "Salesforce:JR354366": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR354513": "2026-10-06T08:11:29.827578+00:00",
   "Salesforce:JR355160": "2026-10-20T02:48:08.507343+00:00",
   "Salesforce:JR355248": "2026-09-29T17:08:45.517828+00:00",
@@ -3548,6 +3559,7 @@
   "Salesforce:JR360020": "2026-09-25T20:09:29.632362+00:00",
   "Salesforce:JR360049": "2026-10-02T11:19:57.899671+00:00",
   "Salesforce:JR360050": "2026-09-24T11:14:33.924382+00:00",
+  "Salesforce:JR360223": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR360243": "2026-10-06T21:09:29.745691+00:00",
   "Salesforce:JR360251": "2026-09-19T19:35:30.555713+00:00",
   "Salesforce:JR360276": "2026-09-23T15:08:39.594354+00:00",
@@ -3621,6 +3633,7 @@
   "Salesforce:JR364978": "2026-10-20T02:48:08.507343+00:00",
   "Salesforce:JR364980": "2026-10-20T18:10:11.726414+00:00",
   "Salesforce:JR365042": "2026-10-20T18:10:11.726414+00:00",
+  "Salesforce:JR365161": "2026-10-21T12:23:14.491775+00:00",
   "Snohomish County (gov):5476463": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080717666": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080833513": "2026-09-22T20:05:39.582823+00:00",
