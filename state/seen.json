@@ -602,9 +602,9 @@
   }
  ],
  "health": {
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 66 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -2222,6 +2222,7 @@
   "Company boards (Lever):zoox-baeb5af5-65b7-433b-99e8-44e61901ae9b": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-c2256725-2c81-4039-b6dd-03a0d7d7e95f": "2026-10-01T20:34:35.890371+00:00",
   "Company boards (Lever):zoox-c8894e25-83b0-4200-a2ab-9f5764bab7ae": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Lever):zoox-ccddfb39-ba95-485c-b18e-b9c3cb08dcec": "2026-10-21T00:10:36.337647+00:00",
   "Company boards (Lever):zoox-d181ce5a-a906-4656-a748-f4128a43dd48": "2026-09-29T20:09:34.982033+00:00",
   "Company boards (Lever):zoox-d82e1f4a-a2db-4374-957b-95c5c4cf7826": "2026-10-14T00:09:04.150223+00:00",
   "CrowdStrike:R29320": "2026-09-19T18:31:08.637985+00:00",
