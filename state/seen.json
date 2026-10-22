@@ -623,12 +623,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 9.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 2,
+   "last_error": "relay data is 12.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -1974,6 +1970,7 @@
   "Company boards (Greenhouse):datadog-8268065": "2026-10-15T16:05:04.783327+00:00",
   "Company boards (Greenhouse):datadog-8282552": "2026-10-15T16:05:04.783327+00:00",
   "Company boards (Greenhouse):datadog-8306557": "2026-10-21T20:08:40.610092+00:00",
+  "Company boards (Greenhouse):datadog-8312438": "2026-10-22T15:48:27.201077+00:00",
   "Company boards (Greenhouse):discord-8771034002": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):discord-8801465002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):discord-8811982002": "2026-09-20T01:42:03.941384+00:00",
@@ -2005,6 +2002,7 @@
   "Company boards (Greenhouse):figma-6211088004": "2026-10-14T17:17:53.545643+00:00",
   "Company boards (Greenhouse):figma-6211910004": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Greenhouse):figma-6214991004": "2026-10-05T17:09:04.989402+00:00",
+  "Company boards (Greenhouse):figma-6225818004": "2026-10-22T15:48:27.201077+00:00",
   "Company boards (Greenhouse):flexport-8143326": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):flexport-8157067": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):flexport-8160591": "2026-10-15T18:41:25.302041+00:00",
@@ -2145,6 +2143,7 @@
   "Company boards (Greenhouse):robinhood-8287392": "2026-10-15T21:08:27.836188+00:00",
   "Company boards (Greenhouse):robinhood-8301728": "2026-10-20T17:18:27.607230+00:00",
   "Company boards (Greenhouse):robinhood-8302496": "2026-10-20T21:08:46.868225+00:00",
+  "Company boards (Greenhouse):robinhood-8312485": "2026-10-22T15:48:27.201077+00:00",
   "Company boards (Greenhouse):roblox-8047879": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):roblox-8048000": "2026-09-24T19:31:20.122338+00:00",
   "Company boards (Greenhouse):roblox-8171039": "2026-09-20T01:42:03.941384+00:00",
@@ -2352,6 +2351,7 @@
   "King County (gov):5517998": "2026-10-15T20:09:18.547241+00:00",
   "King County (gov):5521210": "2026-10-19T19:09:12.441006+00:00",
   "LinkedIn:2148455051": "2026-10-14T17:17:53.545643+00:00",
+  "LinkedIn:3482555647": "2026-10-22T15:48:27.201077+00:00",
   "LinkedIn:3877161266": "2026-09-19T19:35:30.555713+00:00",
   "LinkedIn:4242222700": "2026-09-20T07:07:10.258753+00:00",
   "LinkedIn:4271760505": "2026-09-28T16:05:18.088598+00:00",
@@ -3480,6 +3480,7 @@
   "LinkedIn:4482146015": "2026-10-21T23:44:02.413373+00:00",
   "LinkedIn:4482146759": "2026-10-21T20:08:40.610092+00:00",
   "LinkedIn:4482158621": "2026-10-21T20:08:40.610092+00:00",
+  "LinkedIn:4482181550": "2026-10-22T15:48:27.201077+00:00",
   "LinkedIn:4482184147": "2026-10-21T23:44:02.413373+00:00",
   "LinkedIn:4482186005": "2026-10-21T23:44:02.413373+00:00",
   "LinkedIn:4482189901": "2026-10-22T01:56:36.745076+00:00",
@@ -3732,6 +3733,7 @@
   "Salesforce:JR365042": "2026-10-20T18:10:11.726414+00:00",
   "Salesforce:JR365161": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR365212": "2026-10-21T15:43:38.436536+00:00",
+  "Salesforce:JR365306": "2026-10-22T15:48:27.201077+00:00",
   "Snohomish County (gov):5476463": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080717666": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080833513": "2026-09-22T20:05:39.582823+00:00",
