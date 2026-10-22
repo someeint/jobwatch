@@ -623,7 +623,7 @@
  ],
  "health": {
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -2243,6 +2243,7 @@
   "Company boards (Greenhouse):stripe-8267829": "2026-10-19T23:09:43.739420+00:00",
   "Company boards (Greenhouse):stripe-8274773": "2026-10-14T17:17:53.545643+00:00",
   "Company boards (Greenhouse):stripe-8275513": "2026-10-13T16:12:05.953748+00:00",
+  "Company boards (Greenhouse):stripe-8288334": "2026-10-22T03:08:53.593654+00:00",
   "Company boards (Greenhouse):toast-8177800": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8201051": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8224334": "2026-09-24T21:08:28.838967+00:00",
@@ -3444,6 +3445,7 @@
   "LinkedIn:4481163597": "2026-10-21T23:44:02.413373+00:00",
   "LinkedIn:4481170711": "2026-10-22T01:56:36.745076+00:00",
   "LinkedIn:4481171217": "2026-10-21T23:44:02.413373+00:00",
+  "LinkedIn:4481176718": "2026-10-22T03:08:53.593654+00:00",
   "LinkedIn:4481177168": "2026-10-21T23:44:02.413373+00:00",
   "LinkedIn:4481180275": "2026-10-22T01:56:36.745076+00:00",
   "LinkedIn:4481202066": "2026-10-19T14:03:20.543143+00:00",
