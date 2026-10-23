@@ -631,20 +631,20 @@
   {
    "s": 77,
    "t": "2026-10-23T09:11:08.497179+00:00"
+  },
+  {
+   "s": 77,
+   "t": "2026-10-23T17:25:32.124386+00:00"
   }
  ],
  "health": {
   "LinkedIn": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -1042,6 +1042,7 @@
   "Company boards (Greenhouse):stripe-8175629": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8248518": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):twilio-8190721": "2026-10-05T21:34:20.019911+00:00",
+  "Company boards (Greenhouse):twilio-8287927": "2026-10-23T17:25:32.124386+00:00",
   "Company boards (Lever):outreach-51ac6adf-44c4-4744-a002-068f22ca93fb": "2026-09-20T01:42:03.941384+00:00",
   "CrowdStrike:R28180": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R29311": "2026-09-25T16:09:23.143404+00:00",
@@ -1294,6 +1295,7 @@
   "b1f59715d2d8533f": "2026-09-19T18:31:08.637985+00:00",
   "b2756ba3005b1fd7": "2026-09-19T18:31:08.637985+00:00",
   "b3273447562d59ba": "2026-10-17T21:16:48.679070+00:00",
+  "b327cc295f5c36c5": "2026-10-23T17:25:32.124386+00:00",
   "b342714b12be7cec": "2026-09-25T02:46:28.979937+00:00",
   "b34843aa760a0787": "2026-10-13T05:08:50.999681+00:00",
   "b434a504a2c89eda": "2026-09-19T18:31:08.637985+00:00",
@@ -1833,6 +1835,7 @@
   "Company boards (Greenhouse):airbnb-8279103": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):airbnb-8282351": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):airbnb-8286207": "2026-10-15T18:41:25.302041+00:00",
+  "Company boards (Greenhouse):airbnb-8316843": "2026-10-23T17:25:32.124386+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358146008": "2026-09-20T01:42:03.941384+00:00",
@@ -1898,6 +1901,7 @@
   "Company boards (Greenhouse):anthropic-5455454008": "2026-10-16T23:08:46.851887+00:00",
   "Company boards (Greenhouse):anthropic-5459016008": "2026-10-20T20:40:42.562556+00:00",
   "Company boards (Greenhouse):anthropic-5460837008": "2026-10-23T11:13:32.199012+00:00",
+  "Company boards (Greenhouse):anthropic-5462413008": "2026-10-23T17:25:32.124386+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -1961,6 +1965,7 @@
   "Company boards (Greenhouse):cloudflare-8301592": "2026-10-21T20:08:40.610092+00:00",
   "Company boards (Greenhouse):cloudflare-8304122": "2026-10-21T20:08:40.610092+00:00",
   "Company boards (Greenhouse):cloudflare-8304143": "2026-10-21T20:08:40.610092+00:00",
+  "Company boards (Greenhouse):cloudflare-8306580": "2026-10-23T17:25:32.124386+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
@@ -3739,6 +3744,7 @@
   "Salesforce:JR357252": "2026-09-21T22:49:19.178128+00:00",
   "Salesforce:JR357789": "2026-10-02T16:42:22.792146+00:00",
   "Salesforce:JR358428": "2026-09-24T08:49:25.461986+00:00",
+  "Salesforce:JR358708": "2026-10-23T17:25:32.124386+00:00",
   "Salesforce:JR358862": "2026-10-02T16:42:22.792146+00:00",
   "Salesforce:JR359324": "2026-09-29T07:00:19.141617+00:00",
   "Salesforce:JR359393": "2026-10-08T18:52:59.131833+00:00",
@@ -3793,6 +3799,7 @@
   "Salesforce:JR363016": "2026-10-07T19:06:50.961237+00:00",
   "Salesforce:JR363023": "2026-10-20T23:09:23.694842+00:00",
   "Salesforce:JR363033": "2026-10-08T05:09:07.746706+00:00",
+  "Salesforce:JR363043": "2026-10-23T17:25:32.124386+00:00",
   "Salesforce:JR363097": "2026-10-14T17:17:53.545643+00:00",
   "Salesforce:JR363143": "2026-10-07T16:41:18.237442+00:00",
   "Salesforce:JR363200": "2026-10-13T15:09:34.606892+00:00",
