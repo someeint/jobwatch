@@ -630,12 +630,8 @@
   }
  ],
  "health": {
-  "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
-  },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1627,6 +1623,7 @@
   "City of Seattle (gov):5467501": "2026-09-20T01:42:03.941384+00:00",
   "City of Seattle (gov):5507608": "2026-10-06T23:52:55.846499+00:00",
   "City of Seattle (gov):5508974": "2026-10-08T01:17:28.797446+00:00",
+  "City of Seattle (gov):5526452": "2026-10-23T07:03:31.616583+00:00",
   "City of Tacoma (gov):5111125": "2026-09-28T21:36:51.568421+00:00",
   "Company boards (Ashby):benchling-49454722-ea62-41da-80f8-864ff06e9265": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):benchling-9ff817e6-9274-4613-9ac3-1bc012b7ff8a": "2026-10-22T20:38:56.897100+00:00",
@@ -3549,6 +3546,8 @@
   "LinkedIn:4482465924": "2026-10-22T12:57:46.311437+00:00",
   "LinkedIn:4482469614": "2026-10-22T12:57:46.311437+00:00",
   "LinkedIn:4482744575": "2026-10-23T06:13:20.388436+00:00",
+  "LinkedIn:4482762392": "2026-10-23T07:03:31.616583+00:00",
+  "LinkedIn:4482788760": "2026-10-23T07:03:31.616583+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
   "Microsoft:1970393556942078": "2026-09-21T19:34:41.546264+00:00",
