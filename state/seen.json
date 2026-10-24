@@ -643,12 +643,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 9.1h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 11.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -3597,6 +3597,7 @@
   "LinkedIn:4482189901": "2026-10-22T01:56:36.745076+00:00",
   "LinkedIn:4482191439": "2026-10-22T01:56:36.745076+00:00",
   "LinkedIn:4482193379": "2026-10-22T01:56:36.745076+00:00",
+  "LinkedIn:4482308146": "2026-10-24T01:50:30.312822+00:00",
   "LinkedIn:4482454214": "2026-10-22T12:57:46.311437+00:00",
   "LinkedIn:4482465924": "2026-10-22T12:57:46.311437+00:00",
   "LinkedIn:4482469614": "2026-10-22T12:57:46.311437+00:00",
@@ -3617,6 +3618,7 @@
   "Microsoft:1970393556944777": "2026-10-20T01:47:30.853418+00:00",
   "Microsoft:1970393556945283": "2026-10-15T21:08:27.836188+00:00",
   "Microsoft:1970393556955022": "2026-10-01T22:08:44.884574+00:00",
+  "Microsoft:1970393556956273": "2026-10-24T01:50:30.312822+00:00",
   "Microsoft:1970393556958329": "2026-10-01T15:43:50.514781+00:00",
   "Microsoft:1970393556958332": "2026-10-01T15:43:50.514781+00:00",
   "Microsoft:1970393556977315": "2026-09-26T00:52:41.416610+00:00",
@@ -3738,6 +3740,7 @@
   "Salesforce:JR243174": "2026-10-12T05:40:27.342479+00:00",
   "Salesforce:JR264377": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR273144": "2026-10-09T01:09:46.668444+00:00",
+  "Salesforce:JR323094": "2026-10-24T01:50:30.312822+00:00",
   "Salesforce:JR327797": "2026-09-27T07:04:51.904322+00:00",
   "Salesforce:JR331240": "2026-09-22T12:05:43.805270+00:00",
   "Salesforce:JR332505": "2026-10-07T19:06:50.961237+00:00",
