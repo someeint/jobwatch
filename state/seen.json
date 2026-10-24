@@ -643,12 +643,24 @@
   {
    "s": 75,
    "t": "2026-10-24T17:40:26.908409+00:00"
+  },
+  {
+   "s": 78,
+   "t": "2026-10-24T18:08:59.091705+00:00"
   }
  ],
  "health": {
   "Indeed": {
-   "fails": 7,
-   "last_error": "relay data is 27.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 8,
+   "last_error": "relay data is 27.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -1184,6 +1196,7 @@
   "LinkedIn:4474559155": "2026-10-02T00:11:05.693902+00:00",
   "LinkedIn:4474676824": "2026-10-06T08:11:29.827578+00:00",
   "LinkedIn:4475049743": "2026-10-03T18:20:38.809405+00:00",
+  "LinkedIn:4475068461": "2026-10-24T18:08:59.091705+00:00",
   "LinkedIn:4475286980": "2026-10-10T08:38:17.833768+00:00",
   "LinkedIn:4475303942": "2026-10-03T18:20:38.809405+00:00",
   "LinkedIn:4475797182": "2026-10-08T20:09:31.100923+00:00",
@@ -1354,6 +1367,7 @@
   "dd5185ea52ace73a": "2026-09-19T18:31:08.637985+00:00",
   "df0a766e7a992f2d": "2026-10-09T18:09:19.538871+00:00",
   "df670e3a54e37d0b": "2026-10-05T18:12:29.272165+00:00",
+  "df8360dd2c9de26f": "2026-10-24T18:08:59.091705+00:00",
   "e026cebf93e50266": "2026-09-19T18:31:08.637985+00:00",
   "e15b81f8b2b387e2": "2026-09-19T18:31:08.637985+00:00",
   "e3a3c2f77a939f77": "2026-09-19T18:31:08.637985+00:00",
