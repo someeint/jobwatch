@@ -642,13 +642,41 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "Boeing": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "CrowdStrike": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
   "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 11.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 4,
+   "last_error": "relay data is 16.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+  },
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
+  "T-Mobile": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+  },
+  "Zillow": {
+   "fails": 1,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   }
  },
  "initialized": true,
