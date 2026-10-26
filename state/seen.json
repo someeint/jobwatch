@@ -663,16 +663,20 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 10,
-   "last_error": "relay data is 40.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 11,
+   "last_error": "relay data is 46.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 93 jobs collected before the block"
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -1810,6 +1814,7 @@
   "Company boards (Ashby):ramp-8be55ffc-d512-4ef3-a14d-3a4cb29a60d4": "2026-10-16T18:09:35.459946+00:00",
   "Company boards (Ashby):ramp-9226150c-47df-42f4-8626-7a0aea6b9991": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-925fce22-61af-4d26-8f20-90696a3b6704": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):ramp-9bdecd09-5a15-47d1-83bc-21cf86a54d02": "2026-10-26T17:01:32.270577+00:00",
   "Company boards (Ashby):ramp-aa433e44-f095-484b-a46a-a330583d84b0": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-ad9d3118-1ab4-488a-a6e8-3784082f92a4": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):ramp-b4908db8-ac21-4c7f-b544-a66fffbfb97e": "2026-09-25T18:09:34.891854+00:00",
@@ -1958,6 +1963,7 @@
   "Company boards (Greenhouse):asana-8227150": "2026-09-24T15:50:46.636267+00:00",
   "Company boards (Greenhouse):asana-8241249": "2026-10-02T22:09:11.154537+00:00",
   "Company boards (Greenhouse):asana-8244205": "2026-10-15T20:01:21.325490+00:00",
+  "Company boards (Greenhouse):asana-8262890": "2026-10-26T17:01:32.270577+00:00",
   "Company boards (Greenhouse):brex-8735431002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):brex-8735520002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):brex-8786673002": "2026-09-20T01:42:03.941384+00:00",
@@ -3950,6 +3956,9 @@
   "Salesforce:JR365161": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR365212": "2026-10-21T15:43:38.436536+00:00",
   "Salesforce:JR365306": "2026-10-22T15:48:27.201077+00:00",
+  "Salesforce:JR365396": "2026-10-26T17:01:32.270577+00:00",
+  "Salesforce:JR365398": "2026-10-26T17:01:32.270577+00:00",
+  "Salesforce:JR365405": "2026-10-26T17:01:32.270577+00:00",
   "Salesforce:JR365511": "2026-10-23T05:09:27.147567+00:00",
   "Salesforce:JR365531": "2026-10-23T10:09:28.374478+00:00",
   "Salesforce:JR365550": "2026-10-26T10:47:28.588070+00:00",
@@ -3969,6 +3978,7 @@
   "Starbucks:481081337754": "2026-10-16T19:09:23.952362+00:00",
   "T-Mobile:REQ362630": "2026-09-22T16:55:36.047014+00:00",
   "T-Mobile:REQ364040": "2026-10-01T19:08:49.260098+00:00",
+  "T-Mobile:REQ367196": "2026-10-26T17:01:32.270577+00:00",
   "T-Mobile:REQ370624": "2026-09-24T15:50:46.636267+00:00",
   "T-Mobile:REQ372297": "2026-10-23T20:34:49.233535+00:00",
   "T-Mobile:REQ372777": "2026-10-08T18:52:59.131833+00:00",
