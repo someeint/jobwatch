@@ -663,8 +663,16 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 9,
-   "last_error": "relay data is 34.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 10,
+   "last_error": "relay data is 40.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 93 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -2406,6 +2414,8 @@
   "CrowdStrike:R30258": "2026-10-05T06:08:17.320649+00:00",
   "CrowdStrike:R30286": "2026-10-05T06:08:17.320649+00:00",
   "CrowdStrike:R30322": "2026-10-12T07:27:11.222839+00:00",
+  "CrowdStrike:R30589": "2026-10-26T10:47:28.588070+00:00",
+  "CrowdStrike:R30592": "2026-10-26T10:47:28.588070+00:00",
   "Indeed:0091bb92d0117f74": "2026-10-15T22:08:41.491499+00:00",
   "Indeed:3055f6c5e6724edc": "2026-10-11T16:08:40.182338+00:00",
   "Indeed:3b8a1ed61007b4cf": "2026-10-23T06:13:20.388436+00:00",
@@ -3601,6 +3611,7 @@
   "LinkedIn:4481302304": "2026-10-22T07:11:52.231786+00:00",
   "LinkedIn:4481389149": "2026-10-22T17:52:03.404379+00:00",
   "LinkedIn:4481396324": "2026-10-22T20:38:56.897100+00:00",
+  "LinkedIn:4481415966": "2026-10-26T10:47:28.588070+00:00",
   "LinkedIn:4481508342": "2026-10-20T17:18:27.607230+00:00",
   "LinkedIn:4481522985": "2026-10-20T17:18:27.607230+00:00",
   "LinkedIn:4481523921": "2026-10-20T17:18:27.607230+00:00",
@@ -3941,6 +3952,8 @@
   "Salesforce:JR365306": "2026-10-22T15:48:27.201077+00:00",
   "Salesforce:JR365511": "2026-10-23T05:09:27.147567+00:00",
   "Salesforce:JR365531": "2026-10-23T10:09:28.374478+00:00",
+  "Salesforce:JR365550": "2026-10-26T10:47:28.588070+00:00",
+  "Salesforce:JR365551": "2026-10-26T10:47:28.588070+00:00",
   "Snohomish County (gov):5476463": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080717666": "2026-09-19T19:35:30.555713+00:00",
   "Starbucks:481080833513": "2026-09-22T20:05:39.582823+00:00",
