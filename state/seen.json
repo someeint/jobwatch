@@ -682,12 +682,8 @@
   }
  ],
  "health": {
-  "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 14.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1651,6 +1647,7 @@
   "Amazon:10589798": "2026-10-27T18:32:42.558929+00:00",
   "Amazon:10589879": "2026-10-27T16:19:05.095066+00:00",
   "Amazon:10590148": "2026-10-27T18:32:42.558929+00:00",
+  "Amazon:10590357": "2026-10-27T19:12:10.632653+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -1785,6 +1782,7 @@
   "Company boards (Ashby):openai-45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-4705a853-46e6-4f91-884c-61e54de91b0e": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-4a4a2604-b4b3-4944-a2a2-4ec4c5261d7d": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):openai-533659ff-2272-4683-87c9-b07d00feea4c": "2026-10-27T19:12:10.632653+00:00",
   "Company boards (Ashby):openai-5899e8d5-132f-40b3-9ff6-37830644743f": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-58c28108-5bc6-449d-8461-9274f5abd7e6": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-5c869fa0-fe05-42b3-ab94-1f6218b1ccf3": "2026-10-13T17:35:56.440883+00:00",
@@ -1865,6 +1863,7 @@
   "Company boards (Ashby):ramp-fc753f8d-7f2f-4b12-9db2-a5694ce4e74c": "2026-10-16T18:26:28.839702+00:00",
   "Company boards (Ashby):replit-56d7dc53-f4ba-4147-9aaa-0fd4af7cbb4f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):replit-9394684e-814c-4a3c-b5ed-19612e4331bc": "2026-10-01T19:08:49.260098+00:00",
+  "Company boards (Ashby):replit-a8aa0921-38e1-4015-bb95-a08b090e218e": "2026-10-27T19:12:10.632653+00:00",
   "Company boards (Ashby):replit-b68de733-07d9-4e57-82c5-78c6bd454044": "2026-09-30T18:53:00.441731+00:00",
   "Company boards (Ashby):replit-bfb473fb-6db1-469f-873a-7a3c1d127d21": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-0f4d6a2f-f88c-4cdf-9994-bd138413301c": "2026-10-16T20:09:53.312802+00:00",
