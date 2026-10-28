@@ -687,12 +687,8 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 13.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 3,
+   "last_error": "relay data is 14.6h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   }
  },
  "initialized": true,
@@ -2310,6 +2306,7 @@
   "Company boards (Greenhouse):robinhood-8287392": "2026-10-15T21:08:27.836188+00:00",
   "Company boards (Greenhouse):robinhood-8301728": "2026-10-20T17:18:27.607230+00:00",
   "Company boards (Greenhouse):robinhood-8302496": "2026-10-20T21:08:46.868225+00:00",
+  "Company boards (Greenhouse):robinhood-8303977": "2026-10-28T17:18:13.210720+00:00",
   "Company boards (Greenhouse):robinhood-8312485": "2026-10-22T15:48:27.201077+00:00",
   "Company boards (Greenhouse):roblox-8047879": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):roblox-8048000": "2026-09-24T19:31:20.122338+00:00",
@@ -3862,6 +3859,7 @@
   "Microsoft:1970393556978441": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556979387": "2026-09-24T20:08:57.797024+00:00",
   "Microsoft:1970393556981108": "2026-10-09T05:09:13.163967+00:00",
+  "Microsoft:1970393556982012": "2026-10-28T17:18:13.210720+00:00",
   "Microsoft:1970393556982542": "2026-09-25T15:26:19.805489+00:00",
   "Microsoft:1970393556984940": "2026-09-24T20:08:57.797024+00:00",
   "Microsoft:1970393556984945": "2026-10-10T02:08:38.187573+00:00",
@@ -3947,6 +3945,8 @@
   "Microsoft:1970393557044753": "2026-10-22T17:52:03.404379+00:00",
   "Microsoft:1970393557045747": "2026-10-23T20:34:49.233535+00:00",
   "Microsoft:1970393557046320": "2026-10-26T23:55:33.488420+00:00",
+  "Microsoft:1970393557048169": "2026-10-28T17:18:13.210720+00:00",
+  "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-876046": "2026-09-19T19:35:30.555713+00:00",
   "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
   "Nordstrom:R-878328": "2026-09-19T19:35:30.555713+00:00",
@@ -3968,6 +3968,7 @@
   "Nordstrom:R-889185": "2026-10-19T19:52:01.438557+00:00",
   "Nordstrom:R-890389": "2026-10-21T20:50:49.539923+00:00",
   "Nordstrom:R-892606": "2026-10-28T16:12:40.271280+00:00",
+  "Nordstrom:R-892917": "2026-10-28T17:18:13.210720+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
