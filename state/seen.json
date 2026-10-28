@@ -681,7 +681,12 @@
    "t": "2026-10-26T23:55:33.488420+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -2352,6 +2357,7 @@
   "Company boards (Greenhouse):stripe-8171928": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8172111": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8172495": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):stripe-8175637": "2026-10-28T02:36:47.152343+00:00",
   "Company boards (Greenhouse):stripe-8175673": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8175832": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8176254": "2026-09-20T01:42:03.941384+00:00",
