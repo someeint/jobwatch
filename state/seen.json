@@ -689,7 +689,12 @@
    "t": "2026-10-28T21:43:05.417128+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1925,6 +1930,7 @@
   "Company boards (Ashby):vanta-0e82974a-0023-49a2-b1ec-a0fa89636dd5": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-20d2c9aa-19da-4370-9378-491312f6f98a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-2f2ad814-2437-46bc-8829-9413f1840db0": "2026-09-21T19:34:41.546264+00:00",
+  "Company boards (Ashby):vanta-b64b6e72-7c71-446f-b6ce-662330b910e8": "2026-10-29T19:10:19.617572+00:00",
   "Company boards (Ashby):vanta-c27d1d10-9bab-484b-af98-1071c6834d77": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-c6090572-cbca-4b11-810e-127bf0183abf": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):watershed-4328ff96-702a-426d-810a-fd47a495620b": "2026-10-14T19:06:33.226202+00:00",
@@ -3789,6 +3795,7 @@
   "LinkedIn:4482530002": "2026-10-28T16:12:40.271280+00:00",
   "LinkedIn:4482543416": "2026-10-28T20:34:38.477357+00:00",
   "LinkedIn:4482549956": "2026-10-29T04:09:10.588171+00:00",
+  "LinkedIn:4482564453": "2026-10-29T19:10:19.617572+00:00",
   "LinkedIn:4482565438": "2026-10-29T17:11:38.734301+00:00",
   "LinkedIn:4482565474": "2026-10-29T04:09:10.588171+00:00",
   "LinkedIn:4482567417": "2026-10-28T23:42:01.229138+00:00",
