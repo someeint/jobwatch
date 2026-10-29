@@ -690,9 +690,13 @@
   }
  ],
  "health": {
-  "LinkedIn": {
+  "Indeed": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 59 jobs collected before the block"
+   "last_error": "relay data is 10.1h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1783,6 +1787,7 @@
   "Company boards (Ashby):openai-0b428c6d-7c06-4feb-82b6-5bbe5cda2a18": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-0cf4a8f4-a57a-494b-aad8-4df8ac096939": "2026-09-21T19:34:41.546264+00:00",
   "Company boards (Ashby):openai-0d8019ec-e034-49ad-8f6b-29abb459b98f": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-0fca3b36-8aaa-491a-be87-09efacfeca5e": "2026-10-29T14:20:05.066021+00:00",
   "Company boards (Ashby):openai-125db0ea-d5e1-4c49-bc1a-e6ffc8ea71ff": "2026-09-28T18:09:05.543892+00:00",
   "Company boards (Ashby):openai-12d722f9-79da-4d92-a34b-52619146f5da": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Ashby):openai-137e3df0-2bd4-4ad4-8edb-8455a7fdc912": "2026-09-23T06:10:12.713496+00:00",
@@ -2503,6 +2508,7 @@
   "Company boards (Lever):zoox-d181ce5a-a906-4656-a748-f4128a43dd48": "2026-09-29T20:09:34.982033+00:00",
   "Company boards (Lever):zoox-d82e1f4a-a2db-4374-957b-95c5c4cf7826": "2026-10-14T00:09:04.150223+00:00",
   "CrowdStrike:R29320": "2026-09-19T18:31:08.637985+00:00",
+  "CrowdStrike:R29755": "2026-10-29T14:20:05.066021+00:00",
   "CrowdStrike:R29864": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R30002": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R30050": "2026-09-19T18:31:08.637985+00:00",
@@ -3461,6 +3467,7 @@
   "LinkedIn:4476526728": "2026-10-07T02:47:40.902067+00:00",
   "LinkedIn:4476552625": "2026-10-07T09:22:56.318458+00:00",
   "LinkedIn:4476553615": "2026-10-07T09:22:56.318458+00:00",
+  "LinkedIn:4476599957": "2026-10-29T14:20:05.066021+00:00",
   "LinkedIn:4476608323": "2026-10-14T06:41:17.759633+00:00",
   "LinkedIn:4476656933": "2026-10-14T17:17:53.545643+00:00",
   "LinkedIn:4476665427": "2026-10-14T17:17:53.545643+00:00",
@@ -3874,6 +3881,7 @@
   "LinkedIn:4484737356": "2026-10-28T20:34:38.477357+00:00",
   "LinkedIn:4484740872": "2026-10-28T23:42:01.229138+00:00",
   "LinkedIn:4484755422": "2026-10-28T23:42:01.229138+00:00",
+  "LinkedIn:4484976014": "2026-10-29T14:20:05.066021+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
