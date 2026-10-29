@@ -689,7 +689,20 @@
    "t": "2026-10-28T21:43:05.417128+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1108,6 +1121,7 @@
   "Indeed:2ebcf7121d857498": "2026-10-02T18:09:10.774871+00:00",
   "Indeed:34431022f305d5f5": "2026-10-02T01:08:58.756463+00:00",
   "Indeed:3ba1fd933b38ef60": "2026-10-13T01:08:58.523095+00:00",
+  "Indeed:3c531131c8fbdb16": "2026-10-29T03:36:58.220144+00:00",
   "Indeed:3d8c3246b9151eeb": "2026-09-26T18:00:53.245317+00:00",
   "Indeed:3f2e113ea024b8c8": "2026-10-05T17:09:04.989402+00:00",
   "Indeed:4b12f22a1c2d6d68": "2026-10-08T18:52:59.131833+00:00",
@@ -1665,6 +1679,7 @@
   "Amazon:10591623": "2026-10-28T20:34:38.477357+00:00",
   "Amazon:10591871": "2026-10-28T23:42:01.229138+00:00",
   "Amazon:10591889": "2026-10-28T23:42:01.229138+00:00",
+  "Amazon:10591989": "2026-10-29T03:36:58.220144+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -1948,6 +1963,7 @@
   "Company boards (Greenhouse):airbnb-8282351": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):airbnb-8286207": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Greenhouse):airbnb-8316843": "2026-10-23T17:25:32.124386+00:00",
+  "Company boards (Greenhouse):airbnb-8332540": "2026-10-29T03:36:58.220144+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358146008": "2026-09-20T01:42:03.941384+00:00",
