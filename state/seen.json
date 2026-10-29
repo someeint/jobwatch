@@ -701,7 +701,12 @@
    "t": "2026-10-29T20:10:38.298445+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 31 jobs collected before the block"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1840,6 +1845,7 @@
   "Company boards (Ashby):openai-616ef2ce-3790-432d-9a6d-32abb2f52ff9": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Ashby):openai-6351bb6b-992d-4c4e-983d-612d91ede046": "2026-10-06T21:09:29.745691+00:00",
   "Company boards (Ashby):openai-66b7c776-aa50-4e86-aec1-5c8e07868522": "2026-10-09T21:10:49.319537+00:00",
+  "Company boards (Ashby):openai-6ebd3534-d65b-4d90-ba96-6a54de31409d": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
   "Company boards (Ashby):openai-7495a0fe-be5a-42b4-bded-77870a122776": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-76583c87-78ea-4886-906d-81b0a9c05bfe": "2026-09-23T22:08:17.527950+00:00",
@@ -1979,6 +1985,7 @@
   "Company boards (Greenhouse):airbnb-8282351": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):airbnb-8286207": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Greenhouse):airbnb-8316843": "2026-10-23T17:25:32.124386+00:00",
+  "Company boards (Greenhouse):airbnb-8330167": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Greenhouse):airbnb-8332540": "2026-10-29T03:36:58.220144+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
