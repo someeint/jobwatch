@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T20:14:52+00:00",
+  "generated_at": "2026-10-31T21:10:59.845Z",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -17,7 +17,7 @@
       "company": "Microsoft",
       "url": "https://www.indeed.com/viewjob?jk=c33e0cb61e186560",
       "location": "Seattle, WA 98105",
-      "snippet": "Demonstrated leadership of a services or support business , with accountability for a P&L or portfolio scorecard and evidence of improving business decisions and…",
+      "snippet": "Demonstrated leadership of a services or support business , with accountability for a P&amp;L or portfolio scorecard and evidence of improving business decisions and…",
       "remote": false
     },
     {
@@ -93,21 +93,12 @@
       "remote": false
     },
     {
-      "id": "ec7ddf1dda699c92",
-      "title": "Technical Program Manager III, Smart Display, Platforms and Devices",
-      "company": "Google",
-      "url": "https://www.indeed.com/viewjob?jk=ec7ddf1dda699c92",
-      "location": "Seattle, WA",
-      "snippet": "5 years of experience in program management. Health, dental, vision, life, disability insurance. Retirement Benefits: 401(k) with company match.",
-      "remote": false
-    },
-    {
       "id": "27bc227c9d0b6c78",
       "title": "ConvergeCONSUMER, FDE Sales & Delivery Lead_Products & Platforms",
       "company": "Deloitte",
       "url": "https://www.indeed.com/viewjob?jk=27bc227c9d0b6c78",
       "location": "Seattle, WA",
-      "snippet": "Comfortable operating as an informal project manager , bringing structure to fast-moving client engagements. As an FDE Sales & Delivery Lead on ConvergeCONSUMER,…",
+      "snippet": "Comfortable operating as an informal project manager , bringing structure to fast-moving client engagements. As an FDE Sales &amp; Delivery Lead on ConvergeCONSUMER,…",
       "remote": false
     },
     {
@@ -116,7 +107,7 @@
       "company": "Amazon Data Services, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=2bf1003f5088d397",
       "location": "Seattle, WA",
-      "snippet": "3+ years of program or project management experience. 2+ years of communicating with and presenting to executive and senior audiences experience.",
+      "snippet": "Set improvement targets for your processes, track them with data, and report progress to operations leaders. Partner with field technicians, program managers,…",
       "remote": false
     },
     {
@@ -135,6 +126,15 @@
       "url": "https://www.indeed.com/viewjob?jk=87de62090dd787d3",
       "location": "Seattle, WA",
       "snippet": "Manage cumulative project total $1M annually and achieve profitability goals. Develop $750K in new project work annually. Company-subsidized medical and dental.",
+      "remote": false
+    },
+    {
+      "id": "0307d04fab44fdc5",
+      "title": "Project Coordinator - Street Lighting",
+      "company": "Puget Sound Energy",
+      "url": "https://www.indeed.com/viewjob?jk=0307d04fab44fdc5",
+      "location": "Bothell, WA 98011",
+      "snippet": "Under general direction of project manager , provides oversight and direction to team members. Tracks project milestones and deliverables and reports on project…",
       "remote": false
     },
     {
@@ -183,6 +183,15 @@
       "remote": false
     },
     {
+      "id": "360feaf83b25a1d9",
+      "title": "Montessori Teaching Assistant (English Preschool Classroom)",
+      "company": "Language Garden, LLC",
+      "url": "https://www.indeed.com/viewjob?jk=360feaf83b25a1d9",
+      "location": "Bellevue, WA 98007",
+      "snippet": "Language Garden Montessori School is a bilingual Montessori early childhood program in Bellevue, WA, serving children from infancy through age 6 in English and…",
+      "remote": false
+    },
+    {
       "id": "1b54d28d59ed735f",
       "title": "Behavior Technician (ABA therapy) Clinic & Home Position",
       "company": "Northwest ABA",
@@ -198,15 +207,6 @@
       "url": "https://www.indeed.com/viewjob?jk=47ee8a423b9f0636",
       "location": "Tacoma, WA",
       "snippet": "TACOMA Clinic/School HYBRID POSITION*. Up to 15 days of Vacation time for Full-Time employees, 80 hours Sick time for Full-time employees.",
-      "remote": false
-    },
-    {
-      "id": "360feaf83b25a1d9",
-      "title": "Montessori Teaching Assistant (English Preschool Classroom)",
-      "company": "Language Garden, LLC",
-      "url": "https://www.indeed.com/viewjob?jk=360feaf83b25a1d9",
-      "location": "Bellevue, WA 98007",
-      "snippet": "Language Garden Montessori School is a bilingual Montessori early childhood program in Bellevue, WA, serving children from infancy through age 6 in English and…",
       "remote": false
     },
     {
@@ -354,21 +354,12 @@
       "remote": false
     },
     {
-      "id": "5863d0d31505ce94",
-      "title": "Lead Waddler (Age 1-2) Teacher",
-      "company": "Lil' People's World, Seattle",
-      "url": "https://www.indeed.com/viewjob?jk=5863d0d31505ce94",
-      "location": "Seattle, WA 98125",
-      "snippet": "1 Paid Floating Holiday of employee’s choice, which must be approved in advance by your manager / paid after 90 days of employment. After 1 year = 5 days.",
-      "remote": false
-    },
-    {
-      "id": "8d395c652103fe3f",
-      "title": "Assistant General Manager",
-      "company": "KidStrong",
-      "url": "https://www.indeed.com/viewjob?jk=8d395c652103fe3f",
-      "location": "Issaquah, WA 98027",
-      "snippet": "Hours may vary based on business needs.*. Ensure KidStrong corporate policies, systems, and business practices are consistently followed.",
+      "id": "b976291953a96841",
+      "title": "Accounting Manager",
+      "company": "Western Washington Medical Group",
+      "url": "https://www.indeed.com/viewjob?jk=b976291953a96841",
+      "location": "Everett, WA 98201",
+      "snippet": "The Accounting Manager plays a critical leadership role within the Finance Department, bridging day-to-day accounting operations and high-level financial…",
       "remote": false
     },
     {
@@ -399,15 +390,6 @@
       "remote": false
     },
     {
-      "id": "6f9571218326ff25",
-      "title": "Lead Finisher/Custom Cabinetry",
-      "company": "Interior Environments",
-      "url": "https://www.indeed.com/viewjob?jk=6f9571218326ff25",
-      "location": "Seattle, WA 98134",
-      "snippet": "Coordinate with the project managers, and operations manager on schedules, handling, and delivery. Interior Environments designs and builds custom cabinetry,…",
-      "remote": false
-    },
-    {
       "id": "e7851ea1c413bc64",
       "title": "Retail Store Manager - Sunset",
       "company": "SSA Oil",
@@ -417,12 +399,12 @@
       "remote": false
     },
     {
-      "id": "3f6647a8768be6f4",
-      "title": "General Manager - Restaurant",
-      "company": "Culaccino pizzeria",
-      "url": "https://www.indeed.com/viewjob?jk=3f6647a8768be6f4",
-      "location": "Everett, WA 98208",
-      "snippet": "Experience in restaurant management, food service management, hospitality management, or an assistant manager role; supervising and team management experience…",
+      "id": "6f9571218326ff25",
+      "title": "Lead Finisher/Custom Cabinetry",
+      "company": "Interior Environments",
+      "url": "https://www.indeed.com/viewjob?jk=6f9571218326ff25",
+      "location": "Seattle, WA 98134",
+      "snippet": "Coordinate with the project managers, and operations manager on schedules, handling, and delivery. Interior Environments designs and builds custom cabinetry,…",
       "remote": false
     },
     {
@@ -521,7 +503,7 @@
       "company": "Washington Center for Bleeding Disorders",
       "url": "https://www.indeed.com/viewjob?jk=c3ba944825a775de",
       "location": "Seattle, WA 98101",
-      "snippet": "Associate degree or higher in business , finance, or healthcare-related studies. The Medical Accounts Receivable Billing Specialist, reporting directly to the…",
+      "snippet": "Associate degree or higher in business, finance, or healthcare-related studies. Occasional overtime during month-end close or audits.",
       "remote": false
     },
     {
@@ -552,15 +534,6 @@
       "remote": false
     },
     {
-      "id": "d3ead194a86e4446",
-      "title": "Personal Injury Case Manager",
-      "company": "Legend Law Firm PLLC",
-      "url": "https://www.indeed.com/viewjob?jk=d3ead194a86e4446",
-      "location": "Auburn, WA 98001",
-      "snippet": "Proficiency with Microsoft Office and word processing; experience with PCLaw, iManage, LexisNexis, or Westlaw is preferred.",
-      "remote": false
-    },
-    {
       "id": "dd9d883a5e3bad05",
       "title": "Tax Accountant",
       "company": "Battershell, Nichols & Blum",
@@ -576,6 +549,15 @@
       "url": "https://www.indeed.com/viewjob?jk=72f8d508201fa888",
       "location": "Kirkland, WA",
       "snippet": "Schedule 1 : Tuesday-Saturday 12am-8am (Graveyard) (40 hours a week / full time). Schedule 2: Sunday-Thursday 4pm-12am ( 40 hours a week / full time).",
+      "remote": false
+    },
+    {
+      "id": "d3ead194a86e4446",
+      "title": "Personal Injury Case Manager",
+      "company": "Legend Law Firm PLLC",
+      "url": "https://www.indeed.com/viewjob?jk=d3ead194a86e4446",
+      "location": "Auburn, WA 98001",
+      "snippet": "As a Personal Injury Case Manager , you’ll guide clients through the legal process while keeping case files, deadlines, and communications organized.",
       "remote": false
     },
     {
@@ -606,39 +588,21 @@
       "remote": false
     },
     {
-      "id": "0e20ac989c721ca0",
-      "title": "Regional Business Manager - New Business Development (Las Vegas / Salt Lake City)",
-      "company": "Nestlé USA",
-      "url": "https://www.indeed.com/viewjob?jk=0e20ac989c721ca0",
-      "location": "Seattle, WA 98104",
-      "snippet": "6+ years in direct outside sales, B2B or business development experience. Meet or exceed all defined sales performance objectives and key metrics for the…",
+      "id": "8d395c652103fe3f",
+      "title": "Assistant General Manager",
+      "company": "KidStrong",
+      "url": "https://www.indeed.com/viewjob?jk=8d395c652103fe3f",
+      "location": "Issaquah, WA 98027",
+      "snippet": "Hours may vary based on business needs.*. Ensure KidStrong corporate policies, systems, and business practices are consistently followed.",
       "remote": false
     },
     {
-      "id": "af860530d417f871",
-      "title": "District Operations Manager - Seattle and Portland Service Offices",
-      "company": "Daikin Applied",
-      "url": "https://www.indeed.com/viewjob?jk=af860530d417f871",
-      "location": "Kent, WA 98032",
-      "snippet": "Administer safety programs, monitor compliance with job site safety, safety training, safety documentation, auditing, and reporting.",
-      "remote": false
-    },
-    {
-      "id": "b9ad952d7936701a",
-      "title": "Field Operations Consultant",
-      "company": "Granwest Insurance",
-      "url": "https://www.indeed.com/viewjob?jk=b9ad952d7936701a",
-      "location": "Seattle, WA 98121",
-      "snippet": "Translate business priorities into coordinated plans, measurable objectives, budgets, and clear ownership; represent Field Operations on cross-functional…",
-      "remote": false
-    },
-    {
-      "id": "1e3441aa55d8b062",
-      "title": "Associate Procurement Agent",
-      "company": "Boeing",
-      "url": "https://www.indeed.com/viewjob?jk=1e3441aa55d8b062",
-      "location": "Seattle, WA",
-      "snippet": "Bachelor’s degree or higher preferred – Business, Supply Chain Management, or related field of study. Experience with interacting directly with suppliers…",
+      "id": "c8c79e33ab09d310",
+      "title": "Financial Accounting Operations Controllership Manager",
+      "company": "Deloitte",
+      "url": "https://www.indeed.com/viewjob?jk=c8c79e33ab09d310",
+      "location": "Bellevue, WA 98005",
+      "snippet": "5+ years of experience performing accounting operations and preparing monthly financial reports. 2+ years of experience leading accounting operations and…",
       "remote": false
     },
     {
@@ -648,6 +612,15 @@
       "url": "https://www.indeed.com/viewjob?jk=e29b220d5473bce8",
       "location": "Seattle, WA",
       "snippet": "5+ years of professional or military experience. Experience with sales CRM tools such as Salesforce or similar software.",
+      "remote": false
+    },
+    {
+      "id": "1e3441aa55d8b062",
+      "title": "Associate Procurement Agent",
+      "company": "Boeing",
+      "url": "https://www.indeed.com/viewjob?jk=1e3441aa55d8b062",
+      "location": "Seattle, WA",
+      "snippet": "Bachelor’s degree or higher preferred – Business, Supply Chain Management, or related field of study. Experience with interacting directly with suppliers…",
       "remote": false
     },
     {
@@ -687,21 +660,21 @@
       "remote": false
     },
     {
+      "id": "0e20ac989c721ca0",
+      "title": "Regional Business Manager - New Business Development (Las Vegas / Salt Lake City)",
+      "company": "Nestlé USA",
+      "url": "https://www.indeed.com/viewjob?jk=0e20ac989c721ca0",
+      "location": "Seattle, WA 98104",
+      "snippet": "6+ years in direct outside sales, B2B or business development experience. Meet or exceed all defined sales performance objectives and key metrics for the…",
+      "remote": false
+    },
+    {
       "id": "6ba06d5cc4bc30f2",
       "title": "Business Development Manager",
       "company": "Nasim Landscape",
       "url": "https://www.indeed.com/viewjob?jk=6ba06d5cc4bc30f2",
       "location": "Puyallup, WA 98371",
       "snippet": "Strong communicator who can hold their own in a boardroom or on a job site. 1 to 2 years of business development, sales, or account management experience,…",
-      "remote": false
-    },
-    {
-      "id": "52dd9277a2deee83",
-      "title": "Front Desk Associate - Madison Park Gym (Tue/Thu Evenings + Saturdays)",
-      "company": "Transform 180 Training - Madison Park",
-      "url": "https://www.indeed.com/viewjob?jk=52dd9277a2deee83",
-      "location": "Seattle, WA 98112",
-      "snippet": "You must be available for all three shifts every week, including Saturdays. Pay: $22/hour plus commission on membership sales.",
       "remote": false
     },
     {
@@ -840,21 +813,30 @@
       "remote": false
     },
     {
-      "id": "04067e1c5b8cd18f",
-      "title": "Senior Commissioning Manager, Portfolio Delivery (Remote)",
-      "company": "SOLV Energy, LLC",
-      "url": "https://www.indeed.com/viewjob?jk=04067e1c5b8cd18f",
-      "location": "Olympia, WA 98501",
-      "snippet": "This role is fully remote. The Senior Commissioning Manager – Sr. CPM & Portfolio Delivery leads the Commissioning Project Management function and provides…",
-      "remote": false
-    },
-    {
       "id": "25b588f63ff30894",
       "title": "Senior Technical Project Manager",
       "company": "Airbus Robotics LLC",
       "url": "https://www.indeed.com/viewjob?jk=25b588f63ff30894",
       "location": "Mukilteo, WA",
       "snippet": "PMP certification or equivalent program management training. Lead program reviews, status reporting, and executive‑level updates.",
+      "remote": false
+    },
+    {
+      "id": "04067e1c5b8cd18f",
+      "title": "Senior Commissioning Manager, Portfolio Delivery (Remote)",
+      "company": "SOLV Energy, LLC",
+      "url": "https://www.indeed.com/viewjob?jk=04067e1c5b8cd18f",
+      "location": "Olympia, WA 98501",
+      "snippet": "This role is fully remote. The Senior Commissioning Manager – Sr. CPM &amp; Portfolio Delivery leads the Commissioning Project Management function and provides…",
+      "remote": false
+    },
+    {
+      "id": "ec7ddf1dda699c92",
+      "title": "Technical Program Manager III, Smart Display, Platforms and Devices",
+      "company": "Google",
+      "url": "https://www.indeed.com/viewjob?jk=ec7ddf1dda699c92",
+      "location": "Seattle, WA",
+      "snippet": "5 years of experience in program management. Health, dental, vision, life, disability insurance. Retirement Benefits: 401(k) with company match.",
       "remote": false
     },
     {
