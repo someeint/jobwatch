@@ -755,16 +755,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 15.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 18.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1374,6 +1370,7 @@
   "LinkedIn:4485612771": "2026-10-31T00:10:06.220893+00:00",
   "LinkedIn:4485629211": "2026-10-31T00:10:06.220893+00:00",
   "LinkedIn:4485632710": "2026-10-31T00:10:06.220893+00:00",
+  "LinkedIn:4485918137": "2026-10-31T19:09:14.572423+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
@@ -1784,6 +1781,7 @@
   "Amazon:10593096": "2026-10-29T23:36:19.824570+00:00",
   "Amazon:10593165": "2026-10-30T00:09:14.644929+00:00",
   "Amazon:10593431": "2026-10-30T19:09:41.703774+00:00",
+  "Amazon:10593972": "2026-10-31T19:09:14.572423+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
