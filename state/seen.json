@@ -754,13 +754,9 @@
   }
  ],
  "health": {
-  "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 16.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
   "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 4,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -2958,6 +2954,7 @@
   "LinkedIn:4460251087": "2026-09-22T20:05:39.582823+00:00",
   "LinkedIn:4460394651": "2026-09-21T01:33:13.932809+00:00",
   "LinkedIn:4460511958": "2026-09-20T07:07:10.258753+00:00",
+  "LinkedIn:4460528972": "2026-11-01T19:09:05.109305+00:00",
   "LinkedIn:4460552001": "2026-09-20T07:07:10.258753+00:00",
   "LinkedIn:4460585336": "2026-09-19T18:31:08.637985+00:00",
   "LinkedIn:4460607989": "2026-10-16T23:08:46.851887+00:00",
