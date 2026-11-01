@@ -755,12 +755,16 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 7.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 2,
+   "last_error": "relay data is 13.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+  },
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 41 jobs collected before the block"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
