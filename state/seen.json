@@ -754,9 +754,13 @@
   }
  ],
  "health": {
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 7.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 41 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -4063,6 +4067,7 @@
   "LinkedIn:4485156189": "2026-10-31T16:05:42.982877+00:00",
   "LinkedIn:4485159753": "2026-10-31T19:55:31.973040+00:00",
   "LinkedIn:4485165643": "2026-10-31T19:55:31.973040+00:00",
+  "LinkedIn:4485183638": "2026-11-01T09:09:59.759608+00:00",
   "LinkedIn:4485205615": "2026-10-29T18:11:24.342560+00:00",
   "LinkedIn:4485208503": "2026-10-29T18:11:24.342560+00:00",
   "LinkedIn:4485209491": "2026-10-30T20:10:01.686285+00:00",
