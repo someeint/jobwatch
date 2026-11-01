@@ -754,17 +754,9 @@
   }
  ],
  "health": {
-  "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 22 jobs collected before the block"
-  },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -4089,6 +4081,7 @@
   "LinkedIn:4485384522": "2026-10-30T18:08:58.806463+00:00",
   "LinkedIn:4485388615": "2026-10-30T19:09:41.703774+00:00",
   "LinkedIn:4485391874": "2026-10-31T11:12:16.983799+00:00",
+  "LinkedIn:4485396217": "2026-11-01T02:08:23.550439+00:00",
   "LinkedIn:4485619272": "2026-10-30T22:09:39.945932+00:00",
   "LinkedIn:4485622201": "2026-10-30T22:09:39.945932+00:00",
   "LinkedIn:4485628674": "2026-10-31T00:10:06.220893+00:00",
