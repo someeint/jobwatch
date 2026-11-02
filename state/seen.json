@@ -754,9 +754,21 @@
   }
  ],
  "health": {
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 10.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
   "LinkedIn": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+   "fails": 5,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 29 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -1615,6 +1627,7 @@
   "Adobe:R172305": "2026-10-19T14:03:20.543143+00:00",
   "Adobe:R172579": "2026-10-12T15:13:18.693634+00:00",
   "Adobe:R173022": "2026-10-21T12:23:14.491775+00:00",
+  "Adobe:R173232": "2026-11-02T10:04:11.045846+00:00",
   "Airbnb:8163221": "2026-09-19T18:31:08.637985+00:00",
   "Airbnb:8172706": "2026-09-19T18:31:08.637985+00:00",
   "Airbnb:8172732": "2026-09-19T18:31:08.637985+00:00",
@@ -1873,6 +1886,7 @@
   "Company boards (Ashby):cohere-595a2d50-46a5-4ff9-af1c-d58cea9d8e68": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):cohere-81450c5f-8495-439b-a1b3-ce7ef9739437": "2026-10-13T16:12:05.953748+00:00",
   "Company boards (Ashby):cohere-a3a69960-3c85-4b11-b9b7-d4056d406c2e": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):cohere-ab45a550-14a2-4a74-abfb-83688d4508c1": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Ashby):cohere-b04cf265-c4f7-48bf-88ec-d4d71f3bdfaa": "2026-10-20T01:47:30.853418+00:00",
   "Company boards (Ashby):cohere-d28fbc03-cb09-49da-84b9-e12c16182695": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-e824f0bd-72e6-4a9b-aecb-e604e3ca8ac2": "2026-09-20T01:42:03.941384+00:00",
@@ -2082,6 +2096,7 @@
   "Company boards (Greenhouse):airbnb-8316843": "2026-10-23T17:25:32.124386+00:00",
   "Company boards (Greenhouse):airbnb-8330167": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Greenhouse):airbnb-8332540": "2026-10-29T03:36:58.220144+00:00",
+  "Company boards (Greenhouse):airbnb-8345089": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358146008": "2026-09-20T01:42:03.941384+00:00",
@@ -2436,6 +2451,7 @@
   "Company boards (Greenhouse):okta-8305245": "2026-10-21T16:10:51.301214+00:00",
   "Company boards (Greenhouse):okta-8305257": "2026-10-21T06:39:02.047304+00:00",
   "Company boards (Greenhouse):pinterest-7488432": "2026-10-14T23:30:29.942629+00:00",
+  "Company boards (Greenhouse):pinterest-8016646": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):pinterest-8119896": "2026-10-30T19:09:41.703774+00:00",
   "Company boards (Greenhouse):pinterest-8209845": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):pinterest-8209905": "2026-10-07T09:22:56.318458+00:00",
@@ -2596,6 +2612,7 @@
   "Company boards (Greenhouse):toast-8279405": "2026-10-13T19:09:22.295594+00:00",
   "Company boards (Greenhouse):toast-8304298": "2026-10-20T22:08:56.988964+00:00",
   "Company boards (Greenhouse):toast-8306683": "2026-10-26T23:55:33.488420+00:00",
+  "Company boards (Greenhouse):toast-8326864": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):twilio-8190719": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):twilio-8240491": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):twilio-8257820": "2026-10-15T22:08:41.491499+00:00",
