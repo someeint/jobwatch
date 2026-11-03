@@ -762,12 +762,16 @@
   }
  ],
  "health": {
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Starbucks": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
@@ -1795,6 +1799,7 @@
   "Amazon:10593096": "2026-10-29T23:36:19.824570+00:00",
   "Amazon:10593165": "2026-10-30T00:09:14.644929+00:00",
   "Amazon:10593431": "2026-10-30T19:09:41.703774+00:00",
+  "Amazon:10593808": "2026-11-03T00:08:59.152075+00:00",
   "Amazon:10593857": "2026-11-02T17:37:48.740417+00:00",
   "Amazon:10593972": "2026-10-31T19:09:14.572423+00:00",
   "Amazon:10594542": "2026-11-02T17:37:48.740417+00:00",
@@ -1833,6 +1838,7 @@
   "Boeing:JR2026523154": "2026-09-19T18:31:08.637985+00:00",
   "Boeing:JR2026523212": "2026-10-01T19:08:49.260098+00:00",
   "Boeing:JR2026523346": "2026-09-30T16:09:21.123030+00:00",
+  "Boeing:JR2026523575": "2026-11-03T00:08:59.152075+00:00",
   "Boeing:JR2026523700": "2026-09-23T21:08:34.650540+00:00",
   "Boeing:JR2026523712": "2026-09-24T22:41:19.303548+00:00",
   "Boeing:JR2026523800": "2026-10-06T20:09:13.575994+00:00",
@@ -2469,6 +2475,7 @@
   "Company boards (Greenhouse):okta-8305257": "2026-10-21T06:39:02.047304+00:00",
   "Company boards (Greenhouse):okta-8336707": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):okta-8336713": "2026-11-02T17:37:48.740417+00:00",
+  "Company boards (Greenhouse):okta-8348116": "2026-11-03T00:08:59.152075+00:00",
   "Company boards (Greenhouse):pinterest-7488432": "2026-10-14T23:30:29.942629+00:00",
   "Company boards (Greenhouse):pinterest-8016646": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):pinterest-8119896": "2026-10-30T19:09:41.703774+00:00",
@@ -4359,6 +4366,7 @@
   "Salesforce:JR355160": "2026-10-20T02:48:08.507343+00:00",
   "Salesforce:JR355248": "2026-09-29T17:08:45.517828+00:00",
   "Salesforce:JR355624": "2026-11-02T17:37:48.740417+00:00",
+  "Salesforce:JR355678": "2026-11-03T00:08:59.152075+00:00",
   "Salesforce:JR355896": "2026-10-30T09:41:11.093479+00:00",
   "Salesforce:JR356370": "2026-10-12T07:27:11.222839+00:00",
   "Salesforce:JR356645": "2026-10-27T20:47:12.496631+00:00",
