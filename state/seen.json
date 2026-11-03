@@ -766,13 +766,17 @@
   }
  ],
  "health": {
-  "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 14.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -2426,6 +2430,7 @@
   "Company boards (Greenhouse):lyft-8900349002": "2026-10-20T20:40:42.562556+00:00",
   "Company boards (Greenhouse):lyft-8902977002": "2026-10-21T15:43:38.436536+00:00",
   "Company boards (Greenhouse):lyft-8921735002": "2026-10-28T20:34:38.477357+00:00",
+  "Company boards (Greenhouse):lyft-8927265002": "2026-11-03T16:44:18.489589+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8157127": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8173625": "2026-09-20T01:42:03.941384+00:00",
@@ -2450,6 +2455,7 @@
   "Company boards (Greenhouse):mongodb-8313598": "2026-10-22T17:52:03.404379+00:00",
   "Company boards (Greenhouse):mongodb-8337355": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):mongodb-8337357": "2026-11-02T17:37:48.740417+00:00",
+  "Company boards (Greenhouse):mongodb-8337727": "2026-11-03T16:44:18.489589+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8158010": "2026-09-20T01:42:03.941384+00:00",
@@ -4520,6 +4526,7 @@
   "Salesforce:JR365550": "2026-10-26T10:47:28.588070+00:00",
   "Salesforce:JR365551": "2026-10-26T10:47:28.588070+00:00",
   "Salesforce:JR365663": "2026-10-30T09:41:11.093479+00:00",
+  "Salesforce:JR365871": "2026-11-03T16:44:18.489589+00:00",
   "Salesforce:JR366000": "2026-11-02T18:10:35.907215+00:00",
   "Salesforce:JR366001": "2026-10-29T23:36:19.824570+00:00",
   "Salesforce:JR366002": "2026-11-02T18:10:35.907215+00:00",
