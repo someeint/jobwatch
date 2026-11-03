@@ -763,12 +763,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
-  },
-  "Microsoft": {
    "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1880,6 +1876,7 @@
   "Boeing:JR2026527095": "2026-10-21T15:43:38.436536+00:00",
   "Boeing:JR2026527532": "2026-11-02T20:10:18.887664+00:00",
   "Boeing:JR2026527545": "2026-10-21T17:10:01.988094+00:00",
+  "Boeing:JR2026527615": "2026-11-03T02:26:16.054939+00:00",
   "Boeing:JR2026527889": "2026-10-26T21:10:19.037457+00:00",
   "Boeing:JR2026528026": "2026-10-30T01:08:55.342536+00:00",
   "City of Seattle (gov):5394932": "2026-09-20T01:42:03.941384+00:00",
@@ -4292,6 +4289,7 @@
   "Microsoft:1970393557045747": "2026-10-23T20:34:49.233535+00:00",
   "Microsoft:1970393557045937": "2026-10-28T21:09:01.520939+00:00",
   "Microsoft:1970393557046320": "2026-10-26T23:55:33.488420+00:00",
+  "Microsoft:1970393557046371": "2026-11-03T02:26:16.054939+00:00",
   "Microsoft:1970393557047531": "2026-10-30T19:09:41.703774+00:00",
   "Microsoft:1970393557048169": "2026-10-28T17:18:13.210720+00:00",
   "Microsoft:1970393557050696": "2026-11-02T20:10:18.887664+00:00",
