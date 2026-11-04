@@ -785,7 +785,20 @@
    "t": "2026-11-03T22:27:00.143094+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 18.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1635,6 +1648,7 @@
   "Accelerators (BambooHR):plugandplaytechcenter-1530": "2026-09-20T01:42:03.941384+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1533": "2026-09-30T09:28:49.275635+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1537": "2026-10-08T14:49:43.189216+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1542": "2026-11-04T16:09:50.571524+00:00",
   "Adobe:R168398": "2026-10-22T20:51:49.303795+00:00",
   "Adobe:R169243": "2026-10-27T16:19:05.095066+00:00",
   "Adobe:R169572": "2026-09-20T01:42:03.941384+00:00",
@@ -1837,6 +1851,7 @@
   "Amazon:10595248": "2026-11-04T02:33:50.098881+00:00",
   "Amazon:10595988": "2026-11-03T22:09:07.629550+00:00",
   "Amazon:10596057": "2026-11-04T02:33:50.098881+00:00",
+  "Amazon:10596521": "2026-11-04T16:09:50.571524+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2005,6 +2020,7 @@
   "Company boards (Ashby):openai-609cb338-a168-42c1-8e77-5837826136b1": "2026-10-22T19:09:14.663053+00:00",
   "Company boards (Ashby):openai-616ef2ce-3790-432d-9a6d-32abb2f52ff9": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Ashby):openai-6351bb6b-992d-4c4e-983d-612d91ede046": "2026-10-06T21:09:29.745691+00:00",
+  "Company boards (Ashby):openai-646bf721-c634-4863-ae3c-35e56701d9e0": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):openai-66b7c776-aa50-4e86-aec1-5c8e07868522": "2026-10-09T21:10:49.319537+00:00",
   "Company boards (Ashby):openai-6ebd3534-d65b-4d90-ba96-6a54de31409d": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
@@ -2059,6 +2075,7 @@
   "Company boards (Ashby):openai-ecd7b6d6-cf20-4e14-a90a-8501cd460557": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-f42d2e1e-8c2d-47cf-bd29-4b459c06ae1a": "2026-10-20T18:10:11.726414+00:00",
   "Company boards (Ashby):openai-f76d120b-7d1b-4e80-aaf8-5d2c6b38a7ca": "2026-10-05T06:08:17.320649+00:00",
+  "Company boards (Ashby):openai-f7dbbb26-4880-4cf1-bdf9-b8aefa3572cd": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):openai-f9c64ecf-d52a-44f0-9d9f-99575ae80d7f": "2026-09-29T01:14:43.318649+00:00",
   "Company boards (Ashby):openai-fa42ad51-0ffa-4ec4-a004-3f24d790a3d4": "2026-10-15T16:05:04.783327+00:00",
   "Company boards (Ashby):openai-fd0a10a9-80e5-48c4-b313-c2403f009761": "2026-10-20T19:10:30.498097+00:00",
@@ -2066,6 +2083,7 @@
   "Company boards (Ashby):ramp-081dbe29-8a06-4cb2-bda5-4b0bfb35c2e8": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-196e4e25-c452-430d-8b2f-36a40f88a2ae": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-2d2c336c-16e7-4f27-b0cd-5bb6055cdf21": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):ramp-390f4cd0-e0e4-451c-ae28-e6b19861dda9": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):ramp-4e6fffef-bb23-4623-ad86-95b840dd51be": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):ramp-85063603-e470-497d-b1e8-c05b664353e9": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):ramp-871d2fc8-def8-4837-a9b0-7cc4fe126c2b": "2026-09-23T04:08:06.723349+00:00",
@@ -2222,6 +2240,7 @@
   "Company boards (Greenhouse):anthropic-5462413008": "2026-10-23T17:25:32.124386+00:00",
   "Company boards (Greenhouse):anthropic-5463187008": "2026-11-03T19:09:12.338549+00:00",
   "Company boards (Greenhouse):anthropic-5467233008": "2026-10-30T20:10:01.686285+00:00",
+  "Company boards (Greenhouse):anthropic-5472677008": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -2334,6 +2353,7 @@
   "Company boards (Greenhouse):databricks-8917482002": "2026-10-30T09:41:11.093479+00:00",
   "Company boards (Greenhouse):databricks-8917711002": "2026-10-29T17:11:38.734301+00:00",
   "Company boards (Greenhouse):databricks-8924302002": "2026-10-30T09:41:11.093479+00:00",
+  "Company boards (Greenhouse):databricks-8928346002": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):datadog-8146927": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8148092": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8164588": "2026-09-20T01:42:03.941384+00:00",
@@ -2460,6 +2480,7 @@
   "Company boards (Greenhouse):lyft-8902977002": "2026-10-21T15:43:38.436536+00:00",
   "Company boards (Greenhouse):lyft-8921735002": "2026-10-28T20:34:38.477357+00:00",
   "Company boards (Greenhouse):lyft-8927265002": "2026-11-03T16:44:18.489589+00:00",
+  "Company boards (Greenhouse):lyft-8930012002": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8157127": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8173625": "2026-09-20T01:42:03.941384+00:00",
@@ -2674,6 +2695,7 @@
   "Company boards (Greenhouse):stripe-8304858": "2026-11-03T21:09:11.323847+00:00",
   "Company boards (Greenhouse):stripe-8311067": "2026-10-28T20:34:38.477357+00:00",
   "Company boards (Greenhouse):stripe-8311071": "2026-10-27T18:32:42.558929+00:00",
+  "Company boards (Greenhouse):stripe-8319831": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):stripe-8329743": "2026-10-29T22:11:44.131166+00:00",
   "Company boards (Greenhouse):toast-8177800": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8201051": "2026-09-20T01:42:03.941384+00:00",
@@ -4183,6 +4205,7 @@
   "LinkedIn:4484986079": "2026-10-29T17:11:38.734301+00:00",
   "LinkedIn:4485031391": "2026-11-04T02:33:50.098881+00:00",
   "LinkedIn:4485038296": "2026-11-04T02:33:50.098881+00:00",
+  "LinkedIn:4485059634": "2026-11-04T16:09:50.571524+00:00",
   "LinkedIn:4485104657": "2026-11-01T21:09:19.583984+00:00",
   "LinkedIn:4485113230": "2026-11-01T18:09:02.729477+00:00",
   "LinkedIn:4485113238": "2026-10-31T00:10:06.220893+00:00",
@@ -4279,6 +4302,7 @@
   "LinkedIn:4487005383": "2026-11-03T17:09:23.089175+00:00",
   "LinkedIn:4487072017": "2026-11-04T02:33:50.098881+00:00",
   "LinkedIn:4487085521": "2026-11-04T02:33:50.098881+00:00",
+  "LinkedIn:4487274064": "2026-11-04T16:09:50.571524+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
