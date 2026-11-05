@@ -789,7 +789,12 @@
    "t": "2026-11-04T22:51:38.774403+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1850,6 +1855,7 @@
   "Amazon:10596697": "2026-11-04T20:10:13.259905+00:00",
   "Amazon:10597103": "2026-11-04T21:08:27.418133+00:00",
   "Amazon:10597104": "2026-11-04T22:34:33.618911+00:00",
+  "Amazon:10597272": "2026-11-05T02:54:28.200176+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -1930,6 +1936,7 @@
   "Boeing:JR2026526831": "2026-10-21T20:08:40.610092+00:00",
   "Boeing:JR2026527048": "2026-10-21T20:08:40.610092+00:00",
   "Boeing:JR2026527095": "2026-10-21T15:43:38.436536+00:00",
+  "Boeing:JR2026527320": "2026-11-05T02:54:28.200176+00:00",
   "Boeing:JR2026527425": "2026-11-03T18:10:36.054873+00:00",
   "Boeing:JR2026527532": "2026-11-02T20:10:18.887664+00:00",
   "Boeing:JR2026527545": "2026-10-21T17:10:01.988094+00:00",
@@ -2015,6 +2022,7 @@
   "Company boards (Ashby):openai-58c28108-5bc6-449d-8461-9274f5abd7e6": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-5c869fa0-fe05-42b3-ab94-1f6218b1ccf3": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Ashby):openai-5ca9ca8a-c859-4857-a259-1caedfe06134": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-5cc72bc7-e6a0-40e0-9f60-23474cd9acdb": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-5ce0931f-aba7-4c7d-9fca-1e278bf75473": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Ashby):openai-5f094405-1b54-419b-88b2-df1d7eb16af0": "2026-10-20T20:40:42.562556+00:00",
   "Company boards (Ashby):openai-5f3a6397-47ac-4ef0-9ca9-cd358851a6b9": "2026-09-20T01:42:03.941384+00:00",
@@ -2038,6 +2046,7 @@
   "Company boards (Ashby):openai-8ad567c5-70ca-46bf-85ae-eb5bbc8a2a39": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Ashby):openai-8d332d03-1f38-40e3-85be-b4c99231a896": "2026-11-03T20:09:14.296688+00:00",
   "Company boards (Ashby):openai-8f9693d9-73c8-48c1-b1cf-b0cd92a1c3c2": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-960ceb65-dc44-4354-b13c-c1df8591e875": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-9747412d-a23d-48ba-bddd-ad1247c360f5": "2026-10-09T21:10:49.319537+00:00",
   "Company boards (Ashby):openai-989d85db-2f7e-4833-8934-9e64b652675f": "2026-09-20T18:03:35.867206+00:00",
@@ -2070,8 +2079,10 @@
   "Company boards (Ashby):openai-d727cc4b-f4b6-49a0-806c-390f8a053e2f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-d769a04e-c300-454a-8c68-1c93d04a6bb6": "2026-10-30T18:08:58.806463+00:00",
   "Company boards (Ashby):openai-ddd35c55-d925-467c-b965-a698e1437d8b": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-df242b29-6a84-4968-8d57-cbeec20dee67": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-e0f50751-123c-4200-adf2-aada78c3a6bb": "2026-10-26T21:10:19.037457+00:00",
   "Company boards (Ashby):openai-e25e56a3-88f0-4994-9ae7-3d6d85c1501b": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-e49133e6-4030-4295-b393-1725aa410344": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-e5c39e03-6121-47be-8bd3-f6128557b38f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-ec0aa7c7-8995-4e01-9939-594a94549f85": "2026-10-30T15:13:06.054317+00:00",
   "Company boards (Ashby):openai-ecd7b6d6-cf20-4e14-a90a-8501cd460557": "2026-09-20T01:42:03.941384+00:00",
@@ -2123,6 +2134,7 @@
   "Company boards (Ashby):snowflake-6eb0df45-4bbf-430f-9ef3-a5ae82bf978b": "2026-10-16T19:09:23.952362+00:00",
   "Company boards (Ashby):snowflake-79fccbd7-b0c6-4854-b288-7ecf5b1d58c3": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Ashby):snowflake-7b11a6af-c523-4d20-9d61-858516e92d72": "2026-10-12T11:18:44.744142+00:00",
+  "Company boards (Ashby):snowflake-8d740569-d700-454a-9242-18c5488a7f19": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):snowflake-9ba51355-d486-4d17-bc41-e1c1ed57e93d": "2026-10-08T15:10:10.573545+00:00",
   "Company boards (Ashby):snowflake-a9a18bcd-638b-41f1-bd6c-be1c3be15aca": "2026-10-12T20:09:27.176684+00:00",
   "Company boards (Ashby):snowflake-ad117694-c178-476e-8f7a-ded4f6f1b378": "2026-10-16T17:28:06.731197+00:00",
@@ -2356,6 +2368,7 @@
   "Company boards (Greenhouse):databricks-8917482002": "2026-10-30T09:41:11.093479+00:00",
   "Company boards (Greenhouse):databricks-8917711002": "2026-10-29T17:11:38.734301+00:00",
   "Company boards (Greenhouse):databricks-8924302002": "2026-10-30T09:41:11.093479+00:00",
+  "Company boards (Greenhouse):databricks-8927394002": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Greenhouse):databricks-8928346002": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):datadog-8146927": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8148092": "2026-09-20T01:42:03.941384+00:00",
@@ -2573,6 +2586,7 @@
   "Company boards (Greenhouse):reddit-8289304": "2026-10-26T21:10:19.037457+00:00",
   "Company boards (Greenhouse):reddit-8319764": "2026-10-30T23:08:23.199961+00:00",
   "Company boards (Greenhouse):reddit-8329278": "2026-10-28T20:34:38.477357+00:00",
+  "Company boards (Greenhouse):reddit-8337323": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Greenhouse):robinhood-7804542": "2026-09-26T00:52:41.416610+00:00",
   "Company boards (Greenhouse):robinhood-8164884": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):robinhood-8167971": "2026-09-25T19:26:16.685539+00:00",
@@ -2770,6 +2784,7 @@
   "Company boards (Lever):zoox-d181ce5a-a906-4656-a748-f4128a43dd48": "2026-09-29T20:09:34.982033+00:00",
   "Company boards (Lever):zoox-d82e1f4a-a2db-4374-957b-95c5c4cf7826": "2026-10-14T00:09:04.150223+00:00",
   "CrowdStrike:R29320": "2026-09-19T18:31:08.637985+00:00",
+  "CrowdStrike:R29510": "2026-11-05T02:54:28.200176+00:00",
   "CrowdStrike:R29755": "2026-10-29T14:20:05.066021+00:00",
   "CrowdStrike:R29864": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R30002": "2026-09-19T18:31:08.637985+00:00",
