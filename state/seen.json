@@ -802,12 +802,8 @@
   }
  ],
  "health": {
-  "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 31 jobs collected before the block"
-  },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -2174,6 +2170,7 @@
   "Company boards (Ashby):snowflake-0f4d6a2f-f88c-4cdf-9994-bd138413301c": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Ashby):snowflake-2c1ede0e-02c9-4f74-b084-fc1f5ccd83e2": "2026-10-14T19:06:33.226202+00:00",
   "Company boards (Ashby):snowflake-33fd86f7-79e4-4180-9726-23f9ae76a804": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):snowflake-34f83a57-280d-4ee6-9f99-bcc06d8ab4ea": "2026-11-06T19:09:34.476156+00:00",
   "Company boards (Ashby):snowflake-37033502-bd37-4f77-a92e-9b7934998857": "2026-10-08T01:17:28.797446+00:00",
   "Company boards (Ashby):snowflake-41e786c3-8d69-4e1c-aca1-3ca67e07ce84": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-450d9669-ec61-4170-81e9-c537f7e7aef9": "2026-09-20T01:42:03.941384+00:00",
@@ -3385,6 +3382,7 @@
   "LinkedIn:4469338183": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4469338906": "2026-09-23T20:08:18.343014+00:00",
   "LinkedIn:4469382269": "2026-09-24T02:08:15.840556+00:00",
+  "LinkedIn:4469383838": "2026-11-06T19:09:34.476156+00:00",
   "LinkedIn:4469386503": "2026-09-24T17:08:34.169066+00:00",
   "LinkedIn:4469429356": "2026-09-23T12:06:38.430577+00:00",
   "LinkedIn:4469448966": "2026-09-23T15:08:39.594354+00:00",
@@ -4431,6 +4429,8 @@
   "LinkedIn:4487098967": "2026-11-04T17:36:19.849810+00:00",
   "LinkedIn:4487219187": "2026-11-04T17:36:19.849810+00:00",
   "LinkedIn:4487274064": "2026-11-04T16:09:50.571524+00:00",
+  "LinkedIn:4487335619": "2026-11-06T19:09:34.476156+00:00",
+  "LinkedIn:4487343187": "2026-11-06T19:09:34.476156+00:00",
   "LinkedIn:4487515535": "2026-11-04T20:10:13.259905+00:00",
   "LinkedIn:4487516562": "2026-11-04T20:10:13.259905+00:00",
   "LinkedIn:4487521346": "2026-11-04T20:10:13.259905+00:00",
