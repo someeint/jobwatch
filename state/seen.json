@@ -801,16 +801,7 @@
    "t": "2026-11-06T03:39:02.930091+00:00"
   }
  ],
- "health": {
-  "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 15.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -2869,6 +2860,7 @@
   "CrowdStrike:R30589": "2026-10-26T10:47:28.588070+00:00",
   "CrowdStrike:R30592": "2026-10-26T10:47:28.588070+00:00",
   "Indeed:0091bb92d0117f74": "2026-10-15T22:08:41.491499+00:00",
+  "Indeed:13913c8a3865a858": "2026-11-06T18:08:40.555947+00:00",
   "Indeed:28b48a2ac7532e03": "2026-10-30T20:52:47.802732+00:00",
   "Indeed:3055f6c5e6724edc": "2026-10-11T16:08:40.182338+00:00",
   "Indeed:3b8a1ed61007b4cf": "2026-10-23T06:13:20.388436+00:00",
@@ -2891,6 +2883,7 @@
   "Indeed:84baf8ae23ce90cf": "2026-10-06T06:09:39.604887+00:00",
   "Indeed:898f01be6cc0a3ff": "2026-10-09T06:17:43.822286+00:00",
   "Indeed:8b50b1dd3dbb1cfa": "2026-10-19T17:09:10.922234+00:00",
+  "Indeed:921c785e884abb97": "2026-11-06T18:08:40.555947+00:00",
   "Indeed:93eb32fd3591b5d8": "2026-10-12T20:09:27.176684+00:00",
   "Indeed:9bc19a593f88bf52": "2026-10-01T15:43:50.514781+00:00",
   "Indeed:9fb5c248889def8e": "2026-09-23T16:08:13.756169+00:00",
