@@ -803,8 +803,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 13.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 15.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1978,6 +1982,7 @@
   "Boeing:JR2026528026": "2026-10-30T01:08:55.342536+00:00",
   "Boeing:JR2026528664": "2026-11-05T19:50:27.386727+00:00",
   "Boeing:JR2026528720": "2026-11-05T18:09:51.160698+00:00",
+  "Boeing:JR2026528923": "2026-11-06T17:54:34.410016+00:00",
   "City of Seattle (gov):5394932": "2026-09-20T01:42:03.941384+00:00",
   "City of Seattle (gov):5451530": "2026-09-20T07:07:10.258753+00:00",
   "City of Seattle (gov):5467501": "2026-09-20T01:42:03.941384+00:00",
@@ -2011,8 +2016,10 @@
   "Company boards (Ashby):notion-414aea17-4326-4e95-84e6-09f87cb79468": "2026-10-26T04:58:00.971364+00:00",
   "Company boards (Ashby):notion-42702b6a-b4a6-47ac-add0-07b435a8be38": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):notion-4e7b3471-20b7-4a37-8455-8b2735bfaf26": "2026-09-30T22:08:58.173147+00:00",
+  "Company boards (Ashby):notion-73b0e05e-317f-4f84-8fb2-58dc8c3790a6": "2026-11-06T17:54:34.410016+00:00",
   "Company boards (Ashby):notion-7ec83090-7c5b-4691-bf20-e11e892cede1": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-8d2532a9-a1a8-48ec-8de3-b3646bd70423": "2026-10-30T18:08:58.806463+00:00",
+  "Company boards (Ashby):notion-a13fa271-f819-4421-b5fa-a9777672758e": "2026-11-06T17:54:34.410016+00:00",
   "Company boards (Ashby):notion-b393c25a-2ce7-458d-800a-bf9e75ed070b": "2026-10-19T06:47:11.321072+00:00",
   "Company boards (Ashby):notion-be994bb4-c680-4f57-b3bd-7e689175317f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-c5c69246-74db-4960-a0e0-7945be6c30ae": "2026-09-20T18:03:35.867206+00:00",
@@ -2303,6 +2310,7 @@
   "Company boards (Greenhouse):anthropic-5467233008": "2026-10-30T20:10:01.686285+00:00",
   "Company boards (Greenhouse):anthropic-5472677008": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):anthropic-5473110008": "2026-11-06T00:09:15.284436+00:00",
+  "Company boards (Greenhouse):anthropic-5473198008": "2026-11-06T17:54:34.410016+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -2521,6 +2529,7 @@
   "Company boards (Greenhouse):gusto-8260095": "2026-10-08T21:10:48.498897+00:00",
   "Company boards (Greenhouse):gusto-8275011": "2026-10-14T00:09:04.150223+00:00",
   "Company boards (Greenhouse):gusto-8282421": "2026-10-14T20:53:02.374355+00:00",
+  "Company boards (Greenhouse):gusto-8347750": "2026-11-06T17:54:34.410016+00:00",
   "Company boards (Greenhouse):gusto-8353774": "2026-11-04T20:10:13.259905+00:00",
   "Company boards (Greenhouse):instacart-8165155": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):instacart-8168196": "2026-09-20T01:42:03.941384+00:00",
@@ -2778,6 +2787,7 @@
   "Company boards (Greenhouse):stripe-8329743": "2026-10-29T22:11:44.131166+00:00",
   "Company boards (Greenhouse):stripe-8336699": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):stripe-8336711": "2026-11-05T18:09:51.160698+00:00",
+  "Company boards (Greenhouse):stripe-8350923": "2026-11-06T17:54:34.410016+00:00",
   "Company boards (Greenhouse):toast-8177800": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8201051": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8224334": "2026-09-24T21:08:28.838967+00:00",
@@ -4439,7 +4449,10 @@
   "LinkedIn:4488089111": "2026-11-06T00:09:15.284436+00:00",
   "LinkedIn:4488115118": "2026-11-06T11:28:20.278089+00:00",
   "LinkedIn:4488165814": "2026-11-06T16:12:37.062790+00:00",
+  "LinkedIn:4488179549": "2026-11-06T17:54:34.410016+00:00",
   "LinkedIn:4488183249": "2026-11-06T16:12:37.062790+00:00",
+  "LinkedIn:4488187939": "2026-11-06T17:54:34.410016+00:00",
+  "LinkedIn:4488198236": "2026-11-06T17:54:34.410016+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
