@@ -801,7 +801,12 @@
    "t": "2026-11-06T20:08:47.896499+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
