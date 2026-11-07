@@ -803,7 +803,7 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
   }
  },
