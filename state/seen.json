@@ -803,12 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 27,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 28,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   }
  },
  "initialized": true,
