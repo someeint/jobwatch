@@ -803,8 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 24,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+   "fails": 25,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 38 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -4429,6 +4429,7 @@
   "LinkedIn:4486491130": "2026-11-03T09:52:43.640832+00:00",
   "LinkedIn:4486519443": "2026-11-05T10:26:10.858473+00:00",
   "LinkedIn:4486525109": "2026-11-04T20:10:13.259905+00:00",
+  "LinkedIn:4486625145": "2026-11-08T11:09:24.941077+00:00",
   "LinkedIn:4486708304": "2026-11-05T18:11:56.709055+00:00",
   "LinkedIn:4486789458": "2026-11-05T18:11:56.709055+00:00",
   "LinkedIn:4486804546": "2026-11-03T15:11:10.399789+00:00",
