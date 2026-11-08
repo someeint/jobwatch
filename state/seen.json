@@ -803,8 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 17,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 18,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   }
  },
  "initialized": true,
@@ -2878,6 +2878,7 @@
   "CrowdStrike:R30592": "2026-10-26T10:47:28.588070+00:00",
   "Indeed:0091bb92d0117f74": "2026-10-15T22:08:41.491499+00:00",
   "Indeed:13913c8a3865a858": "2026-11-06T18:08:40.555947+00:00",
+  "Indeed:209f828012edbfe2": "2026-11-08T05:29:30.377408+00:00",
   "Indeed:28b48a2ac7532e03": "2026-10-30T20:52:47.802732+00:00",
   "Indeed:3055f6c5e6724edc": "2026-10-11T16:08:40.182338+00:00",
   "Indeed:3b8a1ed61007b4cf": "2026-10-23T06:13:20.388436+00:00",
