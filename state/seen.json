@@ -803,12 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 5,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1898,8 +1894,10 @@
   "Amazon:10598206": "2026-11-07T15:54:46.920738+00:00",
   "Amazon:10598221": "2026-11-05T22:08:26.613248+00:00",
   "Amazon:10598241": "2026-11-05T22:08:26.613248+00:00",
+  "Amazon:10599294": "2026-11-09T19:09:24.021354+00:00",
   "Amazon:10599448": "2026-11-08T20:27:45.026158+00:00",
   "Amazon:10599449": "2026-11-08T20:27:45.026158+00:00",
+  "Amazon:10600160": "2026-11-09T19:09:24.021354+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2316,6 +2314,7 @@
   "Company boards (Greenhouse):anthropic-5453564008": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Greenhouse):anthropic-5455454008": "2026-10-16T23:08:46.851887+00:00",
   "Company boards (Greenhouse):anthropic-5459016008": "2026-10-20T20:40:42.562556+00:00",
+  "Company boards (Greenhouse):anthropic-5460476008": "2026-11-09T19:09:24.021354+00:00",
   "Company boards (Greenhouse):anthropic-5460837008": "2026-10-23T11:13:32.199012+00:00",
   "Company boards (Greenhouse):anthropic-5461190008": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):anthropic-5462413008": "2026-10-23T17:25:32.124386+00:00",
@@ -2536,6 +2535,7 @@
   "Company boards (Greenhouse):gitlab-8929468002": "2026-11-06T22:03:41.145209+00:00",
   "Company boards (Greenhouse):gitlab-8932246002": "2026-11-09T17:59:50.930977+00:00",
   "Company boards (Greenhouse):gitlab-8932248002": "2026-11-09T18:10:11.351473+00:00",
+  "Company boards (Greenhouse):gitlab-8932282002": "2026-11-09T19:09:24.021354+00:00",
   "Company boards (Greenhouse):gusto-8022501": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148547": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148634": "2026-09-20T01:42:03.941384+00:00",
