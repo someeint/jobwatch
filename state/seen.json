@@ -803,8 +803,16 @@
  ],
  "health": {
   "Indeed": {
+   "fails": 2,
+   "last_error": "relay data is 12.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "relay data is 7.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 56 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -4659,6 +4667,7 @@
   "Salesforce:JR243174": "2026-10-12T05:40:27.342479+00:00",
   "Salesforce:JR264377": "2026-09-19T18:31:08.637985+00:00",
   "Salesforce:JR273144": "2026-10-09T01:09:46.668444+00:00",
+  "Salesforce:JR302067": "2026-11-09T04:57:58.587071+00:00",
   "Salesforce:JR317907": "2026-10-30T09:41:11.093479+00:00",
   "Salesforce:JR323094": "2026-10-24T01:50:30.312822+00:00",
   "Salesforce:JR327797": "2026-09-27T07:04:51.904322+00:00",
