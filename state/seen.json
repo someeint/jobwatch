@@ -803,8 +803,12 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+   "fails": 6,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1898,6 +1902,8 @@
   "Amazon:10599448": "2026-11-08T20:27:45.026158+00:00",
   "Amazon:10599449": "2026-11-08T20:27:45.026158+00:00",
   "Amazon:10600160": "2026-11-09T19:09:24.021354+00:00",
+  "Amazon:10600233": "2026-11-09T20:08:53.328185+00:00",
+  "Amazon:10600247": "2026-11-09T20:08:53.328185+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2009,6 +2015,7 @@
   "Company boards (Ashby):cohere-01a34bc3-6421-4af2-bf5b-f42e98155dda": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-0342fd5f-3760-4dcb-b026-333c7b63fc8d": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-1a31d80f-0d8b-475a-a60a-b13393ba8687": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):cohere-3898333d-fcbe-4d3f-afad-8be721b08319": "2026-11-09T20:08:53.328185+00:00",
   "Company boards (Ashby):cohere-41cb2a12-e33a-4368-a9f8-0ae0d19c023e": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-595a2d50-46a5-4ff9-af1c-d58cea9d8e68": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):cohere-81450c5f-8495-439b-a1b3-ce7ef9739437": "2026-10-13T16:12:05.953748+00:00",
