@@ -803,16 +803,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 12.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 21.4h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 56 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1680,6 +1676,8 @@
   "Accelerators (BambooHR):plugandplaytechcenter-1530": "2026-09-20T01:42:03.941384+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1533": "2026-09-30T09:28:49.275635+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1537": "2026-10-08T14:49:43.189216+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1540": "2026-11-09T13:39:13.805377+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1541": "2026-11-09T13:39:13.805377+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1542": "2026-11-04T16:09:50.571524+00:00",
   "Adobe:R168398": "2026-10-22T20:51:49.303795+00:00",
   "Adobe:R169243": "2026-10-27T16:19:05.095066+00:00",
@@ -2324,6 +2322,7 @@
   "Company boards (Greenhouse):anthropic-5472677008": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):anthropic-5473110008": "2026-11-06T00:09:15.284436+00:00",
   "Company boards (Greenhouse):anthropic-5473198008": "2026-11-06T17:54:34.410016+00:00",
+  "Company boards (Greenhouse):anthropic-5475156008": "2026-11-09T13:39:13.805377+00:00",
   "Company boards (Greenhouse):anthropic-5475830008": "2026-11-06T23:08:31.739102+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
@@ -2603,6 +2602,7 @@
   "Company boards (Greenhouse):mongodb-8337355": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):mongodb-8337357": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):mongodb-8337727": "2026-11-03T16:44:18.489589+00:00",
+  "Company boards (Greenhouse):mongodb-8355268": "2026-11-09T13:39:13.805377+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8158010": "2026-09-20T01:42:03.941384+00:00",
@@ -2805,6 +2805,7 @@
   "Company boards (Greenhouse):stripe-8336699": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):stripe-8336711": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):stripe-8350923": "2026-11-06T17:54:34.410016+00:00",
+  "Company boards (Greenhouse):stripe-8357049": "2026-11-09T13:39:13.805377+00:00",
   "Company boards (Greenhouse):toast-8177800": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8201051": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):toast-8224334": "2026-09-24T21:08:28.838967+00:00",
