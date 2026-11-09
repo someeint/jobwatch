@@ -803,8 +803,12 @@
  ],
  "health": {
   "LinkedIn": {
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 68 jobs collected before the block"
+  },
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 53 jobs collected before the block"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -2147,6 +2151,7 @@
   "Company boards (Ashby):openai-d1e4178d-8eb6-4727-9601-e230cb96eeee": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Ashby):openai-d1f21456-f0bf-48ad-bb8d-ae0020a10600": "2026-10-29T17:11:38.734301+00:00",
   "Company boards (Ashby):openai-d4fed8a0-cf2a-49b1-b216-80d710827e16": "2026-10-28T00:05:07.188381+00:00",
+  "Company boards (Ashby):openai-d6fbe4bd-1b55-40b6-93c0-a296ea747ecf": "2026-11-09T23:08:32.231102+00:00",
   "Company boards (Ashby):openai-d727cc4b-f4b6-49a0-806c-390f8a053e2f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-d769a04e-c300-454a-8c68-1c93d04a6bb6": "2026-10-30T18:08:58.806463+00:00",
   "Company boards (Ashby):openai-ddd35c55-d925-467c-b965-a698e1437d8b": "2026-09-20T01:42:03.941384+00:00",
@@ -2452,6 +2457,7 @@
   "Company boards (Greenhouse):databricks-8885667002": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Greenhouse):databricks-8917482002": "2026-10-30T09:41:11.093479+00:00",
   "Company boards (Greenhouse):databricks-8917711002": "2026-10-29T17:11:38.734301+00:00",
+  "Company boards (Greenhouse):databricks-8920618002": "2026-11-09T23:08:32.231102+00:00",
   "Company boards (Greenhouse):databricks-8924302002": "2026-10-30T09:41:11.093479+00:00",
   "Company boards (Greenhouse):databricks-8927394002": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Greenhouse):databricks-8928346002": "2026-11-04T16:09:50.571524+00:00",
@@ -4527,6 +4533,7 @@
   "LinkedIn:4487949275": "2026-11-09T21:09:04.398359+00:00",
   "LinkedIn:4487957353": "2026-11-09T22:09:55.868024+00:00",
   "LinkedIn:4487958200": "2026-11-09T21:09:04.398359+00:00",
+  "LinkedIn:4487963455": "2026-11-09T23:08:32.231102+00:00",
   "LinkedIn:4488035209": "2026-11-05T19:50:27.386727+00:00",
   "LinkedIn:4488051862": "2026-11-05T23:37:46.037568+00:00",
   "LinkedIn:4488062034": "2026-11-05T22:08:26.613248+00:00",
@@ -4560,6 +4567,9 @@
   "LinkedIn:4489109145": "2026-11-09T21:09:04.398359+00:00",
   "LinkedIn:4489121365": "2026-11-09T21:09:04.398359+00:00",
   "LinkedIn:4489132307": "2026-11-09T21:09:04.398359+00:00",
+  "LinkedIn:4489144047": "2026-11-09T23:08:32.231102+00:00",
+  "LinkedIn:4489147632": "2026-11-09T23:08:32.231102+00:00",
+  "LinkedIn:4489161209": "2026-11-09T23:08:32.231102+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
@@ -4699,11 +4709,13 @@
   "Nordstrom:R-887824": "2026-10-15T21:08:27.836188+00:00",
   "Nordstrom:R-888467": "2026-10-16T20:51:46.084385+00:00",
   "Nordstrom:R-889185": "2026-10-19T19:52:01.438557+00:00",
+  "Nordstrom:R-889542": "2026-11-09T23:08:32.231102+00:00",
   "Nordstrom:R-890389": "2026-10-21T20:50:49.539923+00:00",
   "Nordstrom:R-892606": "2026-10-28T16:12:40.271280+00:00",
   "Nordstrom:R-892917": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-893261": "2026-10-29T18:11:24.342560+00:00",
   "Nordstrom:R-895990": "2026-11-05T23:37:46.037568+00:00",
+  "Nordstrom:R-897089": "2026-11-09T23:08:32.231102+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
