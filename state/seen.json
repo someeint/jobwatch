@@ -803,8 +803,16 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 94 jobs collected before the block"
+   "fails": 3,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -1905,6 +1913,7 @@
   "Amazon:10599294": "2026-11-09T19:09:24.021354+00:00",
   "Amazon:10599448": "2026-11-08T20:27:45.026158+00:00",
   "Amazon:10599449": "2026-11-08T20:27:45.026158+00:00",
+  "Amazon:10599508": "2026-11-10T04:35:55.750448+00:00",
   "Amazon:10600160": "2026-11-09T19:09:24.021354+00:00",
   "Amazon:10600233": "2026-11-09T20:08:53.328185+00:00",
   "Amazon:10600247": "2026-11-09T20:08:53.328185+00:00",
@@ -2118,6 +2127,7 @@
   "Company boards (Ashby):openai-88d4dce1-a3ef-495f-b711-54988812336b": "2026-10-29T18:11:24.342560+00:00",
   "Company boards (Ashby):openai-8ad567c5-70ca-46bf-85ae-eb5bbc8a2a39": "2026-10-13T22:09:24.538281+00:00",
   "Company boards (Ashby):openai-8d332d03-1f38-40e3-85be-b4c99231a896": "2026-11-03T20:09:14.296688+00:00",
+  "Company boards (Ashby):openai-8f2d7c1e-7a76-4145-9a9d-b71a12ef9ad4": "2026-11-10T04:35:55.750448+00:00",
   "Company boards (Ashby):openai-8f9693d9-73c8-48c1-b1cf-b0cd92a1c3c2": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-960ceb65-dc44-4354-b13c-c1df8591e875": "2026-09-23T16:08:13.756169+00:00",
@@ -2528,6 +2538,7 @@
   "Company boards (Greenhouse):flexport-8211419": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):flexport-8214366": "2026-10-10T17:08:37.983619+00:00",
   "Company boards (Greenhouse):flexport-8237417": "2026-09-28T18:09:05.543892+00:00",
+  "Company boards (Greenhouse):flexport-8364510": "2026-11-10T04:35:55.750448+00:00",
   "Company boards (Greenhouse):gitlab-8691770002": "2026-09-23T18:08:12.160394+00:00",
   "Company boards (Greenhouse):gitlab-8693068002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gitlab-8700245002": "2026-09-20T01:42:03.941384+00:00",
