@@ -803,11 +803,11 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 41 jobs collected before the block"
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 96 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -1919,6 +1919,8 @@
   "Amazon:10600476": "2026-11-09T21:09:04.398359+00:00",
   "Amazon:10600495": "2026-11-09T22:09:55.868024+00:00",
   "Amazon:10600828": "2026-11-10T12:57:13.375824+00:00",
+  "Amazon:10601545": "2026-11-10T19:12:34.667575+00:00",
+  "Amazon:10601555": "2026-11-10T19:12:34.667575+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2058,6 +2060,7 @@
   "Company boards (Ashby):notion-b393c25a-2ce7-458d-800a-bf9e75ed070b": "2026-10-19T06:47:11.321072+00:00",
   "Company boards (Ashby):notion-be994bb4-c680-4f57-b3bd-7e689175317f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-c5c69246-74db-4960-a0e0-7945be6c30ae": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):notion-e4b7c4d5-9c71-4f82-bf32-0af60e1f2a9f": "2026-11-10T19:12:34.667575+00:00",
   "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
   "Company boards (Ashby):openai-002c6146-f1bf-4653-8929-8112b577837b": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-04bdc05a-de4b-4fc3-9520-714018f25c76": "2026-10-22T17:52:03.404379+00:00",
@@ -2115,6 +2118,7 @@
   "Company boards (Ashby):openai-6351bb6b-992d-4c4e-983d-612d91ede046": "2026-10-06T21:09:29.745691+00:00",
   "Company boards (Ashby):openai-646bf721-c634-4863-ae3c-35e56701d9e0": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):openai-66b7c776-aa50-4e86-aec1-5c8e07868522": "2026-10-09T21:10:49.319537+00:00",
+  "Company boards (Ashby):openai-681d205f-5b03-4d4d-a024-5ae7815bfde5": "2026-11-10T19:12:34.667575+00:00",
   "Company boards (Ashby):openai-6ebd3534-d65b-4d90-ba96-6a54de31409d": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
   "Company boards (Ashby):openai-73a111f9-e83d-4cce-9148-2a32ccf1d251": "2026-11-04T17:36:19.849810+00:00",
@@ -2732,6 +2736,7 @@
   "Company boards (Greenhouse):roblox-8265761": "2026-10-22T20:51:49.303795+00:00",
   "Company boards (Greenhouse):roblox-8282502": "2026-10-26T20:08:47.006004+00:00",
   "Company boards (Greenhouse):roblox-8292641": "2026-10-21T20:08:40.610092+00:00",
+  "Company boards (Greenhouse):roblox-8350312": "2026-11-10T19:12:34.667575+00:00",
   "Company boards (Greenhouse):roblox-8359634": "2026-11-10T12:57:13.375824+00:00",
   "Company boards (Greenhouse):rubrik-8114559": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Greenhouse):rubrik-8130441": "2026-09-20T01:42:03.941384+00:00",
@@ -4589,6 +4594,7 @@
   "LinkedIn:4488326282": "2026-11-10T12:57:13.375824+00:00",
   "LinkedIn:4488371294": "2026-11-10T17:48:39.834606+00:00",
   "LinkedIn:4488383726": "2026-11-10T17:48:39.834606+00:00",
+  "LinkedIn:4488389988": "2026-11-10T19:12:34.667575+00:00",
   "LinkedIn:4488423732": "2026-11-08T20:27:45.026158+00:00",
   "LinkedIn:4488446697": "2026-11-07T00:08:20.859276+00:00",
   "LinkedIn:4488453602": "2026-11-08T20:27:45.026158+00:00",
@@ -4638,6 +4644,7 @@
   "LinkedIn:4489491551": "2026-11-10T17:48:39.834606+00:00",
   "LinkedIn:4489607673": "2026-11-10T17:48:39.834606+00:00",
   "LinkedIn:4489621134": "2026-11-10T17:48:39.834606+00:00",
+  "LinkedIn:4489643216": "2026-11-10T19:12:34.667575+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
