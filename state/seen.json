@@ -803,12 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 96 jobs collected before the block"
-  },
-  "Microsoft": {
    "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1921,6 +1917,7 @@
   "Amazon:10600828": "2026-11-10T12:57:13.375824+00:00",
   "Amazon:10601545": "2026-11-10T19:12:34.667575+00:00",
   "Amazon:10601555": "2026-11-10T19:12:34.667575+00:00",
+  "Amazon:10601724": "2026-11-10T20:09:02.006811+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2011,6 +2008,7 @@
   "Boeing:JR2026527532": "2026-11-02T20:10:18.887664+00:00",
   "Boeing:JR2026527545": "2026-10-21T17:10:01.988094+00:00",
   "Boeing:JR2026527615": "2026-11-03T02:26:16.054939+00:00",
+  "Boeing:JR2026527741": "2026-11-10T20:09:02.006811+00:00",
   "Boeing:JR2026527889": "2026-10-26T21:10:19.037457+00:00",
   "Boeing:JR2026528026": "2026-10-30T01:08:55.342536+00:00",
   "Boeing:JR2026528664": "2026-11-05T19:50:27.386727+00:00",
@@ -2193,6 +2191,7 @@
   "Company boards (Ashby):ramp-2d2c336c-16e7-4f27-b0cd-5bb6055cdf21": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-390f4cd0-e0e4-451c-ae28-e6b19861dda9": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):ramp-4e6fffef-bb23-4623-ad86-95b840dd51be": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):ramp-657dedaa-a828-4f4f-ae67-9e976127d907": "2026-11-10T20:09:02.006811+00:00",
   "Company boards (Ashby):ramp-85063603-e470-497d-b1e8-c05b664353e9": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):ramp-871d2fc8-def8-4837-a9b0-7cc4fe126c2b": "2026-09-23T04:08:06.723349+00:00",
   "Company boards (Ashby):ramp-8be55ffc-d512-4ef3-a14d-3a4cb29a60d4": "2026-10-16T18:09:35.459946+00:00",
@@ -2727,6 +2726,7 @@
   "Company boards (Greenhouse):robinhood-8303985": "2026-10-28T21:09:01.520939+00:00",
   "Company boards (Greenhouse):robinhood-8312485": "2026-10-22T15:48:27.201077+00:00",
   "Company boards (Greenhouse):robinhood-8350199": "2026-11-05T18:09:51.160698+00:00",
+  "Company boards (Greenhouse):robinhood-8357023": "2026-11-10T20:09:02.006811+00:00",
   "Company boards (Greenhouse):roblox-8047879": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):roblox-8048000": "2026-09-24T19:31:20.122338+00:00",
   "Company boards (Greenhouse):roblox-8171039": "2026-09-20T01:42:03.941384+00:00",
@@ -4764,7 +4764,9 @@
   "Microsoft:1970393557053845": "2026-11-05T19:50:27.386727+00:00",
   "Microsoft:1970393557053874": "2026-11-09T22:09:55.868024+00:00",
   "Microsoft:1970393557053876": "2026-11-05T22:08:26.613248+00:00",
+  "Microsoft:1970393557053878": "2026-11-10T20:09:02.006811+00:00",
   "Microsoft:1970393557055726": "2026-11-06T16:12:37.062790+00:00",
+  "Microsoft:1970393557070437": "2026-11-10T20:09:02.006811+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-876046": "2026-09-19T19:35:30.555713+00:00",
   "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
