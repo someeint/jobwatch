@@ -802,8 +802,12 @@
   }
  ],
  "health": {
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 41 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -2678,6 +2682,7 @@
   "Company boards (Greenhouse):okta-8349638": "2026-11-03T15:11:10.399789+00:00",
   "Company boards (Greenhouse):okta-8349784": "2026-11-03T17:09:23.089175+00:00",
   "Company boards (Greenhouse):okta-8351028": "2026-11-04T23:08:42.321866+00:00",
+  "Company boards (Greenhouse):okta-8351037": "2026-11-10T18:09:30.210296+00:00",
   "Company boards (Greenhouse):pinterest-7488432": "2026-10-14T23:30:29.942629+00:00",
   "Company boards (Greenhouse):pinterest-8016646": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):pinterest-8119896": "2026-10-30T19:09:41.703774+00:00",
@@ -2869,6 +2874,7 @@
   "Company boards (Greenhouse):twilio-8281078": "2026-10-19T19:52:01.438557+00:00",
   "Company boards (Greenhouse):twilio-8292798": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Greenhouse):twilio-8332638": "2026-10-29T17:11:38.734301+00:00",
+  "Company boards (Greenhouse):twilio-8370335": "2026-11-10T18:09:30.210296+00:00",
   "Company boards (Greenhouse):twitch-8779882002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):twitch-8784407002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):twitch-8811998002": "2026-09-20T01:42:03.941384+00:00",
@@ -4617,6 +4623,7 @@
   "LinkedIn:4489171786": "2026-11-10T01:10:05.396083+00:00",
   "LinkedIn:4489172866": "2026-11-10T01:10:05.396083+00:00",
   "LinkedIn:4489176018": "2026-11-10T01:10:05.396083+00:00",
+  "LinkedIn:4489183619": "2026-11-10T18:09:30.210296+00:00",
   "LinkedIn:4489185290": "2026-11-10T17:48:39.834606+00:00",
   "LinkedIn:4489191371": "2026-11-10T01:10:05.396083+00:00",
   "LinkedIn:4489193401": "2026-11-10T17:48:39.834606+00:00",
