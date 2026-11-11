@@ -802,9 +802,9 @@
   }
  ],
  "health": {
-  "LinkedIn": {
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -4132,6 +4132,7 @@
   "LinkedIn:4480157866": "2026-11-11T13:12:10.553721+00:00",
   "LinkedIn:4480157867": "2026-11-11T13:12:10.553721+00:00",
   "LinkedIn:4480158823": "2026-10-15T22:08:41.491499+00:00",
+  "LinkedIn:4480160723": "2026-11-11T15:07:39.068346+00:00",
   "LinkedIn:4480171973": "2026-10-16T03:08:19.301249+00:00",
   "LinkedIn:4480178283": "2026-10-17T21:16:48.679070+00:00",
   "LinkedIn:4480178312": "2026-10-17T21:16:48.679070+00:00",
@@ -5026,6 +5027,7 @@
   "Salesforce:JR366619": "2026-10-30T19:09:41.703774+00:00",
   "Salesforce:JR366625": "2026-10-30T18:08:58.806463+00:00",
   "Salesforce:JR366670": "2026-10-30T23:08:23.199961+00:00",
+  "Salesforce:JR366784": "2026-11-11T15:07:39.068346+00:00",
   "Salesforce:JR366798": "2026-11-06T01:08:33.449456+00:00",
   "Salesforce:JR366812": "2026-11-06T01:08:33.449456+00:00",
   "Salesforce:JR366840": "2026-11-05T18:09:51.160698+00:00",
