@@ -803,12 +803,8 @@
  ],
  "health": {
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -2030,6 +2026,7 @@
   "Boeing:JR2026527545": "2026-10-21T17:10:01.988094+00:00",
   "Boeing:JR2026527615": "2026-11-03T02:26:16.054939+00:00",
   "Boeing:JR2026527741": "2026-11-10T20:09:02.006811+00:00",
+  "Boeing:JR2026527747": "2026-11-11T21:53:23.509894+00:00",
   "Boeing:JR2026527889": "2026-10-26T21:10:19.037457+00:00",
   "Boeing:JR2026528026": "2026-10-30T01:08:55.342536+00:00",
   "Boeing:JR2026528664": "2026-11-05T19:50:27.386727+00:00",
@@ -2887,6 +2884,7 @@
   "Company boards (Greenhouse):stripe-8311071": "2026-10-27T18:32:42.558929+00:00",
   "Company boards (Greenhouse):stripe-8315943": "2026-11-09T22:09:55.868024+00:00",
   "Company boards (Greenhouse):stripe-8319831": "2026-11-04T16:09:50.571524+00:00",
+  "Company boards (Greenhouse):stripe-8326098": "2026-11-11T21:53:23.509894+00:00",
   "Company boards (Greenhouse):stripe-8329743": "2026-10-29T22:11:44.131166+00:00",
   "Company boards (Greenhouse):stripe-8336699": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):stripe-8336711": "2026-11-05T18:09:51.160698+00:00",
