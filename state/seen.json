@@ -803,8 +803,12 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 15,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 16,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 41 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -2239,6 +2243,7 @@
   "Company boards (Ashby):snowflake-68da37c5-7a00-4ddb-810b-63954efb1ed6": "2026-10-15T16:05:04.783327+00:00",
   "Company boards (Ashby):snowflake-6a3ddb3d-916e-4d67-ab69-246d4e74cd2b": "2026-10-28T00:05:07.188381+00:00",
   "Company boards (Ashby):snowflake-6eb0df45-4bbf-430f-9ef3-a5ae82bf978b": "2026-10-16T19:09:23.952362+00:00",
+  "Company boards (Ashby):snowflake-70ae927e-3714-4dd5-9c39-fcebb0cbd387": "2026-11-11T08:30:56.596891+00:00",
   "Company boards (Ashby):snowflake-79fccbd7-b0c6-4854-b288-7ecf5b1d58c3": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Ashby):snowflake-7b11a6af-c523-4d20-9d61-858516e92d72": "2026-10-12T11:18:44.744142+00:00",
   "Company boards (Ashby):snowflake-8d740569-d700-454a-9242-18c5488a7f19": "2026-11-05T02:54:28.200176+00:00",
@@ -4622,6 +4627,7 @@
   "LinkedIn:4488453602": "2026-11-08T20:27:45.026158+00:00",
   "LinkedIn:4488459416": "2026-11-08T20:27:45.026158+00:00",
   "LinkedIn:4488468114": "2026-11-08T20:27:45.026158+00:00",
+  "LinkedIn:4488624936": "2026-11-11T08:30:56.596891+00:00",
   "LinkedIn:4488708715": "2026-11-07T15:54:46.920738+00:00",
   "LinkedIn:4488719879": "2026-11-07T15:54:46.920738+00:00",
   "LinkedIn:4488728797": "2026-11-08T23:54:16.248364+00:00",
