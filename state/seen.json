@@ -802,9 +802,9 @@
   }
  ],
  "health": {
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -2253,6 +2253,7 @@
   "Company boards (Ashby):snowflake-da15dcf5-67fc-4217-9cb9-fd6839d94eee": "2026-10-02T05:34:04.417449+00:00",
   "Company boards (Ashby):snowflake-dd0f5476-67c6-4a6a-9c8c-da00cf684973": "2026-10-05T23:08:42.174848+00:00",
   "Company boards (Ashby):snowflake-e3dfec4f-70a8-48db-a7fe-b91a7669fe94": "2026-10-07T21:09:26.560531+00:00",
+  "Company boards (Ashby):snowflake-f06268bb-40d8-4e57-82c5-31ec5844bf92": "2026-11-11T14:11:49.334235+00:00",
   "Company boards (Ashby):snowflake-f0dfa3f8-0bed-4e4b-97ff-825eb19fa894": "2026-10-20T22:08:56.988964+00:00",
   "Company boards (Ashby):snowflake-f5ab2c09-86d5-41b7-8fbf-f012b0b08e4b": "2026-11-10T16:10:53.821124+00:00",
   "Company boards (Ashby):vanta-0e82974a-0023-49a2-b1ec-a0fa89636dd5": "2026-09-20T01:42:03.941384+00:00",
