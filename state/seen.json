@@ -801,12 +801,7 @@
    "t": "2026-11-11T03:08:19.931461+00:00"
   }
  ],
- "health": {
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  }
- },
+ "health": {},
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -1694,6 +1689,7 @@
   "Accelerators (BambooHR):plugandplaytechcenter-1541": "2026-11-09T13:39:13.805377+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1542": "2026-11-04T16:09:50.571524+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1543": "2026-11-10T21:09:13.911995+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1544": "2026-11-11T16:10:49.149197+00:00",
   "Adobe:R168398": "2026-10-22T20:51:49.303795+00:00",
   "Adobe:R169243": "2026-10-27T16:19:05.095066+00:00",
   "Adobe:R169572": "2026-09-20T01:42:03.941384+00:00",
@@ -2097,6 +2093,7 @@
   "Company boards (Ashby):openai-2c531790-726c-4d39-b3bd-900c59a09a4d": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Ashby):openai-2df4df3a-7ac6-42f2-b8ec-d471627a80c8": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-2e645639-3362-42f7-b0b9-e99380c48d29": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-320f6132-7a72-425e-8045-4fd59f99f31c": "2026-11-11T16:10:49.149197+00:00",
   "Company boards (Ashby):openai-3228eed1-9cb3-4330-82c3-19fb3dbb4408": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Ashby):openai-32905f5c-9405-4073-bc65-c57fcf55a83d": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-32a314f3-17d6-4f94-ba1b-88076d9ac4f4": "2026-09-20T01:42:03.941384+00:00",
@@ -2596,6 +2593,7 @@
   "Company boards (Greenhouse):gitlab-8932246002": "2026-11-09T17:59:50.930977+00:00",
   "Company boards (Greenhouse):gitlab-8932248002": "2026-11-09T18:10:11.351473+00:00",
   "Company boards (Greenhouse):gitlab-8932282002": "2026-11-09T19:09:24.021354+00:00",
+  "Company boards (Greenhouse):gitlab-8936091002": "2026-11-11T16:10:49.149197+00:00",
   "Company boards (Greenhouse):gusto-8022501": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148547": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148634": "2026-09-20T01:42:03.941384+00:00",
@@ -2949,6 +2947,7 @@
   "Company boards (Lever):zoox-d181ce5a-a906-4656-a748-f4128a43dd48": "2026-09-29T20:09:34.982033+00:00",
   "Company boards (Lever):zoox-d82e1f4a-a2db-4374-957b-95c5c4cf7826": "2026-10-14T00:09:04.150223+00:00",
   "CrowdStrike:R29115": "2026-11-10T16:10:53.821124+00:00",
+  "CrowdStrike:R29175": "2026-11-11T16:10:49.149197+00:00",
   "CrowdStrike:R29320": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R29510": "2026-11-05T02:54:28.200176+00:00",
   "CrowdStrike:R29755": "2026-10-29T14:20:05.066021+00:00",
