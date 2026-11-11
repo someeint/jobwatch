@@ -803,12 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 6,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 7,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   }
  },
  "initialized": true,
@@ -1855,6 +1851,7 @@
   "Amazon:10585805": "2026-10-21T22:08:35.999291+00:00",
   "Amazon:10585865": "2026-10-21T23:44:02.413373+00:00",
   "Amazon:10585884": "2026-10-22T01:56:36.745076+00:00",
+  "Amazon:10585885": "2026-11-11T00:08:50.153493+00:00",
   "Amazon:10587080": "2026-10-22T22:08:55.993067+00:00",
   "Amazon:10587086": "2026-10-22T23:09:26.246947+00:00",
   "Amazon:10587091": "2026-10-22T23:09:26.246947+00:00",
@@ -2048,6 +2045,7 @@
   "Company boards (Ashby):cohere-3898333d-fcbe-4d3f-afad-8be721b08319": "2026-11-09T20:08:53.328185+00:00",
   "Company boards (Ashby):cohere-41cb2a12-e33a-4368-a9f8-0ae0d19c023e": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-595a2d50-46a5-4ff9-af1c-d58cea9d8e68": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):cohere-6d2d5e2e-46bd-4da5-9e03-573578424976": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Ashby):cohere-81450c5f-8495-439b-a1b3-ce7ef9739437": "2026-10-13T16:12:05.953748+00:00",
   "Company boards (Ashby):cohere-a3a69960-3c85-4b11-b9b7-d4056d406c2e": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):cohere-ab45a550-14a2-4a74-abfb-83688d4508c1": "2026-11-02T10:04:11.045846+00:00",
@@ -2452,6 +2450,7 @@
   "Company boards (Greenhouse):cloudflare-8328820": "2026-11-02T19:12:12.848760+00:00",
   "Company boards (Greenhouse):cloudflare-8332823": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):cloudflare-8354632": "2026-11-06T11:28:20.278089+00:00",
+  "Company boards (Greenhouse):cloudflare-8359292": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Greenhouse):coinbase-8198065": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
@@ -2495,6 +2494,8 @@
   "Company boards (Greenhouse):databricks-8928346002": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):databricks-8931716002": "2026-11-06T16:12:37.062790+00:00",
   "Company boards (Greenhouse):databricks-8933236002": "2026-11-06T16:12:37.062790+00:00",
+  "Company boards (Greenhouse):databricks-8936511002": "2026-11-11T00:08:50.153493+00:00",
+  "Company boards (Greenhouse):databricks-8937105002": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Greenhouse):datadog-8146927": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8148092": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):datadog-8164588": "2026-09-20T01:42:03.941384+00:00",
@@ -2960,6 +2961,7 @@
   "Indeed:28b48a2ac7532e03": "2026-10-30T20:52:47.802732+00:00",
   "Indeed:3055f6c5e6724edc": "2026-10-11T16:08:40.182338+00:00",
   "Indeed:3b8a1ed61007b4cf": "2026-10-23T06:13:20.388436+00:00",
+  "Indeed:4255f684c2d3f133": "2026-11-11T00:08:50.153493+00:00",
   "Indeed:45d82a33d7e8675e": "2026-10-06T16:11:58.127634+00:00",
   "Indeed:46c0abb0af4b100b": "2026-11-10T17:48:39.834606+00:00",
   "Indeed:51f32048bde0bfd2": "2026-10-30T20:10:01.686285+00:00",
