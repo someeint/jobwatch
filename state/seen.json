@@ -802,12 +802,8 @@
   }
  ],
  "health": {
-  "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 42 jobs collected before the block"
-  },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -2131,6 +2127,7 @@
   "Company boards (Ashby):openai-3b85fc17-403b-4ca0-81e3-21c2aec9c052": "2026-11-06T11:28:20.278089+00:00",
   "Company boards (Ashby):openai-3ed37e51-40dc-4d17-8219-d3500af8892c": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-41408133-b45f-4c7b-a0df-c050f16d92de": "2026-11-06T22:03:41.145209+00:00",
+  "Company boards (Ashby):openai-4197587e-c0d0-46e4-b86a-25a87d22b056": "2026-11-12T12:11:47.453712+00:00",
   "Company boards (Ashby):openai-41db3c21-abe1-4db7-91ee-da704537b685": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):openai-45d0ccb6-d26f-4b1f-b24d-fe67ec5b708a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-4705a853-46e6-4f91-884c-61e54de91b0e": "2026-09-20T18:03:35.867206+00:00",
