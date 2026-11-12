@@ -801,7 +801,12 @@
    "t": "2026-11-12T02:43:25.976586+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -5073,6 +5078,7 @@
   "Salesforce:JR366882": "2026-11-03T15:11:10.399789+00:00",
   "Salesforce:JR366909": "2026-11-03T18:10:36.054873+00:00",
   "Salesforce:JR367240": "2026-11-10T16:10:53.821124+00:00",
+  "Salesforce:JR367323": "2026-11-12T04:08:42.558420+00:00",
   "Salesforce:JR367351": "2026-11-11T19:09:56.521236+00:00",
   "Salesforce:JR367539": "2026-11-06T00:09:15.284436+00:00",
   "Salesforce:JR367623": "2026-11-06T22:03:41.145209+00:00",
