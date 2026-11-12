@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 85,
-   "t": "2026-09-20T01:42:03.941384+00:00"
-  },
-  {
    "s": 81,
    "t": "2026-09-20T01:42:03.941384+00:00"
   },
@@ -799,16 +795,20 @@
   {
    "s": 77,
    "t": "2026-11-11T23:27:39.711167+00:00"
+  },
+  {
+   "s": 75,
+   "t": "2026-11-12T02:08:50.234053+00:00"
   }
  ],
  "health": {
-  "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 50 jobs collected before the block"
-  },
-  "Microsoft": {
+  "Alaska Air Group": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "HTTP 504 from https://prod-search-api.jobsyn.org/api/v1/solr/search"
+  },
+  "LinkedIn": {
+   "fails": 4,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1461,6 +1461,7 @@
   "LinkedIn:4489120750": "2026-11-09T21:09:04.398359+00:00",
   "LinkedIn:4489188188": "2026-11-10T01:10:05.396083+00:00",
   "LinkedIn:4489906232": "2026-11-11T10:09:48.028879+00:00",
+  "LinkedIn:4490070453": "2026-11-12T02:08:50.234053+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
@@ -1586,6 +1587,7 @@
   "c3627438025ba49a": "2026-11-03T20:09:14.296688+00:00",
   "c413d25c00261aed": "2026-09-21T19:34:41.546264+00:00",
   "c5dcdd963751d8b3": "2026-10-26T20:08:47.006004+00:00",
+  "c60b8903c373f284": "2026-11-12T02:08:50.234053+00:00",
   "c630fd111fe89bcd": "2026-10-26T20:08:47.006004+00:00",
   "c7512353d035099e": "2026-09-19T18:31:08.637985+00:00",
   "c7fdd4aea5534aa5": "2026-10-26T20:08:47.006004+00:00",
