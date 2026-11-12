@@ -803,12 +803,16 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 32 jobs collected before the block"
+   "fails": 3,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 96 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -4687,6 +4691,7 @@
   "LinkedIn:4489015547": "2026-11-11T20:09:09.306601+00:00",
   "LinkedIn:4489027446": "2026-11-11T20:09:09.306601+00:00",
   "LinkedIn:4489030321": "2026-11-11T20:09:09.306601+00:00",
+  "LinkedIn:4489075924": "2026-11-12T07:09:47.452765+00:00",
   "LinkedIn:4489109145": "2026-11-09T21:09:04.398359+00:00",
   "LinkedIn:4489121365": "2026-11-09T21:09:04.398359+00:00",
   "LinkedIn:4489132307": "2026-11-09T21:09:04.398359+00:00",
@@ -4724,6 +4729,8 @@
   "LinkedIn:4490034855": "2026-11-12T03:44:51.146570+00:00",
   "LinkedIn:4490059662": "2026-11-12T03:44:51.146570+00:00",
   "LinkedIn:4490095210": "2026-11-12T05:08:41.167020+00:00",
+  "LinkedIn:4490304329": "2026-11-12T07:09:47.452765+00:00",
+  "LinkedIn:4490312037": "2026-11-12T07:09:47.452765+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
