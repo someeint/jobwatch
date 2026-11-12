@@ -803,12 +803,16 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 66 jobs collected before the block"
+   "fails": 3,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 74 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -2051,6 +2055,7 @@
   "Boeing:JR2026528999": "2026-11-12T13:12:15.591594+00:00",
   "Boeing:JR2026529014": "2026-11-10T12:57:13.375824+00:00",
   "Boeing:JR2026529323": "2026-11-10T22:13:52.791674+00:00",
+  "Boeing:JR2026529534": "2026-11-12T16:10:10.127760+00:00",
   "City of Seattle (gov):5394932": "2026-09-20T01:42:03.941384+00:00",
   "City of Seattle (gov):5451530": "2026-09-20T07:07:10.258753+00:00",
   "City of Seattle (gov):5467501": "2026-09-20T01:42:03.941384+00:00",
