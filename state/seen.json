@@ -801,7 +801,12 @@
    "t": "2026-11-12T20:09:24.610500+00:00"
   }
  ],
- "health": {},
+ "health": {
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  }
+ },
  "initialized": true,
  "seen": {
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
@@ -2702,6 +2707,8 @@
   "Company boards (Greenhouse):mongodb-8337357": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):mongodb-8337727": "2026-11-03T16:44:18.489589+00:00",
   "Company boards (Greenhouse):mongodb-8355268": "2026-11-09T13:39:13.805377+00:00",
+  "Company boards (Greenhouse):mongodb-8367100": "2026-11-12T21:52:58.077118+00:00",
+  "Company boards (Greenhouse):mongodb-8367103": "2026-11-12T21:52:58.077118+00:00",
   "Company boards (Greenhouse):mongodb-8367108": "2026-11-12T18:26:33.877521+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
@@ -2976,6 +2983,7 @@
   "Company boards (Lever):zoox-51af47c0-7243-4f27-b13b-dbcde4c06781": "2026-10-14T00:09:04.150223+00:00",
   "Company boards (Lever):zoox-83967e5c-bfb4-4b3d-974a-fd0fefe4a168": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-92aa7d9b-2a89-4e3e-b48e-7b2fc5fa1e9e": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Lever):zoox-94942f6a-46a9-43c3-8584-840158ec8cd6": "2026-11-12T21:52:58.077118+00:00",
   "Company boards (Lever):zoox-9e5326f4-d879-465f-8118-4584b1ba6018": "2026-11-06T20:08:47.896499+00:00",
   "Company boards (Lever):zoox-a5483274-c09e-4338-b2e4-cf0b373655d1": "2026-11-05T22:08:26.613248+00:00",
   "Company boards (Lever):zoox-a83974b3-444c-40f2-9551-12c3414be6a7": "2026-10-07T02:47:40.902067+00:00",
