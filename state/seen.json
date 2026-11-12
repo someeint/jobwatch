@@ -803,11 +803,11 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 107 jobs collected before the block"
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 32 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
@@ -2174,6 +2174,7 @@
   "Company boards (Ashby):openai-989d85db-2f7e-4833-8934-9e64b652675f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-98cdff28-940d-48e8-b1d7-a0df38dd16d8": "2026-10-27T20:10:20.041652+00:00",
   "Company boards (Ashby):openai-9b017213-6467-413f-b72c-59678c5d8bae": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-a00fce27-16ef-47f0-a584-a1ea37adbc96": "2026-11-12T06:08:47.645531+00:00",
   "Company boards (Ashby):openai-a525ada4-b02d-425e-b529-f74bd0b398a5": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-a6815609-594d-4f22-93a2-610a69e861a2": "2026-10-14T20:53:02.374355+00:00",
   "Company boards (Ashby):openai-ac0922d9-4731-40a1-b8a3-17b912e1a13b": "2026-09-20T01:42:03.941384+00:00",
@@ -5086,6 +5087,7 @@
   "Salesforce:JR367240": "2026-11-10T16:10:53.821124+00:00",
   "Salesforce:JR367323": "2026-11-12T04:08:42.558420+00:00",
   "Salesforce:JR367351": "2026-11-11T19:09:56.521236+00:00",
+  "Salesforce:JR367354": "2026-11-12T06:08:47.645531+00:00",
   "Salesforce:JR367539": "2026-11-06T00:09:15.284436+00:00",
   "Salesforce:JR367623": "2026-11-06T22:03:41.145209+00:00",
   "Salesforce:JR367864": "2026-11-10T16:10:53.821124+00:00",
