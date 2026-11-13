@@ -803,23 +803,19 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 521 from https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
   },
   "CrowdStrike": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 521 from https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs"
   },
   "LinkedIn": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
   "Zillow": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 521 from https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs"
   }
  },
@@ -2184,6 +2180,7 @@
   "Company boards (Ashby):openai-4bcc25ef-cf03-47db-896c-0fd9122afab1": "2026-10-30T00:09:14.644929+00:00",
   "Company boards (Ashby):openai-50053f7b-c154-45af-b497-3298c826a15f": "2026-11-02T20:10:18.887664+00:00",
   "Company boards (Ashby):openai-533659ff-2272-4683-87c9-b07d00feea4c": "2026-10-27T19:12:10.632653+00:00",
+  "Company boards (Ashby):openai-57486b6e-0b23-4fec-9c35-5efb63fa521a": "2026-11-13T23:53:28.220118+00:00",
   "Company boards (Ashby):openai-5899e8d5-132f-40b3-9ff6-37830644743f": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-58b0c1ff-9a9a-4a8a-a7eb-97618713574d": "2026-11-13T23:09:27.753888+00:00",
   "Company boards (Ashby):openai-58c28108-5bc6-449d-8461-9274f5abd7e6": "2026-09-20T01:42:03.941384+00:00",
