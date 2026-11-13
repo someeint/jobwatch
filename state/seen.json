@@ -803,16 +803,8 @@
  ],
  "health": {
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+   "fails": 3,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -1970,6 +1962,7 @@
   "Amazon:10602982": "2026-11-12T03:44:51.146570+00:00",
   "Amazon:10603403": "2026-11-12T17:10:01.966419+00:00",
   "Amazon:10603950": "2026-11-13T03:39:00.471761+00:00",
+  "Amazon:10604859": "2026-11-13T20:51:04.647848+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2058,6 +2051,7 @@
   "Boeing:JR2026526831": "2026-10-21T20:08:40.610092+00:00",
   "Boeing:JR2026527048": "2026-10-21T20:08:40.610092+00:00",
   "Boeing:JR2026527095": "2026-10-21T15:43:38.436536+00:00",
+  "Boeing:JR2026527162": "2026-11-13T20:51:04.647848+00:00",
   "Boeing:JR2026527320": "2026-11-05T02:54:28.200176+00:00",
   "Boeing:JR2026527425": "2026-11-03T18:10:36.054873+00:00",
   "Boeing:JR2026527476": "2026-11-05T21:09:28.804126+00:00",
@@ -2531,6 +2525,7 @@
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
   "Company boards (Greenhouse):coinbase-8238602": "2026-10-02T18:09:10.774871+00:00",
   "Company boards (Greenhouse):coinbase-8239099": "2026-10-01T08:49:15.274454+00:00",
+  "Company boards (Greenhouse):coinbase-8357227": "2026-11-13T20:51:04.647848+00:00",
   "Company boards (Greenhouse):databricks-7795026002": "2026-10-08T20:09:31.100923+00:00",
   "Company boards (Greenhouse):databricks-7803651002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):databricks-8475477002": "2026-10-06T16:11:58.127634+00:00",
@@ -3010,6 +3005,7 @@
   "Company boards (Lever):outreach-55129c60-103a-4c44-955a-cc7792dd876f": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Lever):outreach-800285d4-e0d9-4e42-927a-789df5ffa0bc": "2026-10-19T21:08:41.988719+00:00",
   "Company boards (Lever):weride-200a27d8-05b0-4fb1-b8cd-563d62d204cf": "2026-10-14T23:30:29.942629+00:00",
+  "Company boards (Lever):zoox-11a8089e-0c7b-473a-bda5-810b8ba8acc7": "2026-11-13T20:51:04.647848+00:00",
   "Company boards (Lever):zoox-20289d99-c867-4022-85a3-0c5a69a04faf": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-20e2f23b-030a-49ac-8b00-680d715ddb31": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Lever):zoox-26dfcdd9-12e8-40f6-b8f2-ff91088390e6": "2026-10-06T16:11:58.127634+00:00",
