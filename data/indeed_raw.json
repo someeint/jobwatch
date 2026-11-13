@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T21:14:36+00:00",
+  "generated_at": "2026-11-13T23:14:40+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -12,21 +12,30 @@
       "remote": false
     },
     {
-      "id": "0deb38ab0f88cd4c",
-      "title": "Senior Project Manager – Division 9",
-      "company": "NW Recruiting Partners",
-      "url": "https://www.indeed.com/viewjob?jk=0deb38ab0f88cd4c",
-      "location": "Everett, WA 98201",
-      "snippet": "Experience in senior leadership in construction. Take the lead on $5M to $20M+ commercial drywall and metal stud framing projects with a locally owned…",
+      "id": "098e0fd5af6fbe11",
+      "title": "Senior Project Manager – Transit Permitting Strategy",
+      "company": "Cordoba",
+      "url": "https://www.indeed.com/viewjob?jk=098e0fd5af6fbe11",
+      "location": "Seattle, WA",
+      "snippet": "Experience working with or for a public owner, transit agency, city/county permitting department, building department, regulatory agency, or capital program…",
       "remote": false
     },
     {
-      "id": "1f7bd9575f3d545b",
-      "title": "Project Manager/Estimator - Government & Civil Construction",
-      "company": "NW Recruiting Partners",
-      "url": "https://www.indeed.com/viewjob?jk=1f7bd9575f3d545b",
-      "location": "Poulsbo, WA 98370",
-      "snippet": "Our client, a local general contractor with a strong reputation for delivering high-quality civil and government construction projects is looking for a *Project…",
+      "id": "69859e7fcb9a85dc",
+      "title": "Contracting and Continuum of Care Reporting Administrator / Project/Program Manager IV",
+      "company": "King County",
+      "url": "https://www.indeed.com/viewjob?jk=69859e7fcb9a85dc",
+      "location": "Seattle, WA 98104",
+      "snippet": "Bachelor's degree in a relevant field and at least four years of experience in program management or public administration or an equivalent combination of…",
+      "remote": false
+    },
+    {
+      "id": "6e91df478c77cc46",
+      "title": "Technical Program Manager , Amazon Customer Service",
+      "company": "Amazon.com Services LLC",
+      "url": "https://www.indeed.com/viewjob?jk=6e91df478c77cc46",
+      "location": "Seattle, WA",
+      "snippet": "3+ years of technical product or program management experience. In this role, you will manage program schedules, mitigate risks, and drive cross-team alignment…",
       "remote": false
     },
     {
@@ -66,6 +75,15 @@
       "remote": false
     },
     {
+      "id": "dbfae3cca57aeefc",
+      "title": "Senior Manager, Data & Analytics and Program Management",
+      "company": "Brooks Running",
+      "url": "https://www.indeed.com/viewjob?jk=dbfae3cca57aeefc",
+      "location": "Seattle, WA",
+      "snippet": "Experience with budget ownership and vendor evaluation to maximize program impact. Actively engage and inform senior leadership and other internal stakeholders…",
+      "remote": false
+    },
+    {
       "id": "a32b1990ed6799af",
       "title": "Program Manager",
       "company": "Byrd Barr Place",
@@ -93,33 +111,6 @@
       "remote": false
     },
     {
-      "id": "eaae14fbd273e5e6",
-      "title": "Salesforce Enterprise Program Manager - Health care/Life sciences - USC or GC - Hybrid Indianapolis",
-      "company": "Platform 6 Ltd",
-      "url": "https://www.indeed.com/viewjob?jk=eaae14fbd273e5e6",
-      "location": "United States",
-      "snippet": "DO NOT APPLY IF YOU DO NOT HAVE SALESFORCE ENTERPRISE PROGRAM MANAGEMENT AND CONSULTING. 5 years+ Salesforce Program Management - ESSENTIAL.",
-      "remote": false
-    },
-    {
-      "id": "60bcd969bc8938ae",
-      "title": "Program Manager, Housing Services (Gender Based Violence Specialized Services -GBVSS)",
-      "company": "YWCA Seattle King Snohomish",
-      "url": "https://www.indeed.com/viewjob?jk=60bcd969bc8938ae",
-      "location": "King County, WA",
-      "snippet": "The manager ensures coordinated, culturally responsive, trauma informed services across both programs and maintains a reduced direct service caseload based on…",
-      "remote": false
-    },
-    {
-      "id": "4c7d9f1dbf4e0c39",
-      "title": "Co-Lead orTeacher Assistant for Toddler program",
-      "company": "Evergreen Montessori Academy-Overlake Park",
-      "url": "https://www.indeed.com/viewjob?jk=4c7d9f1dbf4e0c39",
-      "location": "Bellevue, WA 98007",
-      "snippet": "Qualified individuals MUST have at least one year experience working at a preschool as a Lead Teacher or Teacher Assistant *(Must be able to speak Mandarin...…",
-      "remote": false
-    },
-    {
       "id": "4d7fb71f36550009",
       "title": "Program Director of Health and Safety Advocacy",
       "company": "YWCA Seattle King Snohomish",
@@ -138,6 +129,15 @@
       "remote": false
     },
     {
+      "id": "60bcd969bc8938ae",
+      "title": "Program Manager, Housing Services (Gender Based Violence Specialized Services -GBVSS)",
+      "company": "YWCA Seattle King Snohomish",
+      "url": "https://www.indeed.com/viewjob?jk=60bcd969bc8938ae",
+      "location": "King County, WA",
+      "snippet": "The manager ensures coordinated, culturally responsive, trauma informed services across both programs and maintains a reduced direct service caseload based on…",
+      "remote": false
+    },
+    {
       "id": "0614e979e528f448",
       "title": "Program Supervisor | Education Coordinator",
       "company": "Kiddie Academy of Kenmore",
@@ -147,21 +147,66 @@
       "remote": false
     },
     {
-      "id": "e317ba7f1d5409f9",
-      "title": "Associate Project Manager",
-      "company": "Turner & Townsend",
-      "url": "https://www.indeed.com/viewjob?jk=e317ba7f1d5409f9",
-      "location": "Redmond, WA",
-      "snippet": "As a Project Associate, you will provide support to project manage operations, administration and management for projects from start through completion.",
+      "id": "7a9ae85714efc92b",
+      "title": "Project Coordinator",
+      "company": "KPFF Consulting Engineers",
+      "url": "https://www.indeed.com/viewjob?jk=7a9ae85714efc92b",
+      "location": "Seattle, WA 98101",
+      "snippet": "Track budgets, fees, expenses, and project progress for project manager review. We support projects ranging from feasibility evaluations and master planning to…",
       "remote": false
     },
     {
-      "id": "2c6fde32cc84afc9",
-      "title": "Director of Nursing",
-      "company": "Confidential",
-      "url": "https://www.indeed.com/viewjob?jk=2c6fde32cc84afc9",
-      "location": "Seattle, WA 98101",
-      "snippet": "You will coordinate the delivery of nursing care, oversee nurses and other employees, manage communications between nurses and physicians and ensure that…",
+      "id": "00ff464a31f70432",
+      "title": "Transportation Program Manager",
+      "company": "TransWest Mobility",
+      "url": "https://www.indeed.com/viewjob?jk=00ff464a31f70432",
+      "location": "Seattle, WA 98134",
+      "snippet": "Annual performance bonus based on company and individual goals. Medical, Dental, Vision & Life Insurance. 401(k) Retirement Plan with Company Match.",
+      "remote": false
+    },
+    {
+      "id": "4dd22b4e1ae5a21d",
+      "title": "Wastewater Asset Program Manager",
+      "company": "King County",
+      "url": "https://www.indeed.com/viewjob?jk=4dd22b4e1ae5a21d",
+      "location": "Renton, WA 98057",
+      "snippet": "Vocal advocate for asset management practices and program goals defined in the SAMP. Maintenance Best Practices (MBP) program working knowledge specifically…",
+      "remote": false
+    },
+    {
+      "id": "b9cb117f6203fa37",
+      "title": "Admissions Director",
+      "company": "Ballard Center",
+      "url": "https://www.indeed.com/viewjob?jk=b9cb117f6203fa37",
+      "location": "Seattle, WA 98117",
+      "snippet": "You will guide the center sales program which ensures strong customer, referrer, and payor satisfaction; appropriate market penetration; positive public image;…",
+      "remote": false
+    },
+    {
+      "id": "3c266f4eaa3e9b3c",
+      "title": "Produce Team Leader",
+      "company": "Metropolitan Market",
+      "url": "https://www.indeed.com/viewjob?jk=3c266f4eaa3e9b3c",
+      "location": "Sammamish, WA 98074",
+      "snippet": "Reduced cost ORCA Card program for King County team members. Utilizes a variety of specific job-related equipment as required or assigned by an appropriate…",
+      "remote": false
+    },
+    {
+      "id": "bd89960bb1f290ba",
+      "title": "HVAC Service Technician-2110000",
+      "company": "Flynn Group- Applebee's",
+      "url": "https://www.indeed.com/viewjob?jk=bd89960bb1f290ba",
+      "location": "Tacoma, WA 98424",
+      "snippet": "Implement preventative maintenance program for restaurant building and equipment. Implement maintenance and repair program of restaurant equipment for the…",
+      "remote": false
+    },
+    {
+      "id": "8cfa97da3db6bd4b",
+      "title": "Maintenance Director",
+      "company": "Aegis Living",
+      "url": "https://www.indeed.com/viewjob?jk=8cfa97da3db6bd4b",
+      "location": "Bellevue, WA 98004",
+      "snippet": "Responsibility for the general maintenance and repair of an assisted living community and strives to secure the lowest-cost solutions to maintenance problems.",
       "remote": false
     },
     {
@@ -174,30 +219,12 @@
       "remote": false
     },
     {
-      "id": "0aed70b094d79d09",
-      "title": "Active Living Coordinator - Belle Harbour",
-      "company": "The Park at Belle Harbour",
-      "url": "https://www.indeed.com/viewjob?jk=0aed70b094d79d09",
-      "location": "Bellevue, WA 98004",
-      "snippet": "Earn $500 through our referral program. Partner with the Active Living Director, other Active Living Coordinators, and Caregivers for our Living Well program.",
-      "remote": false
-    },
-    {
       "id": "48418d3efe864251",
       "title": "Philanthropy Specialist (Mid-level Donor Relations)",
       "company": "Vision House",
       "url": "https://www.indeed.com/viewjob?jk=48418d3efe864251",
       "location": "Renton, WA 98059",
       "snippet": "This program requires excellent phone skills and has a high outbound call volume. Maintain a working knowledge of Vision House's mission and program to promote…",
-      "remote": false
-    },
-    {
-      "id": "3c1dde6663672e3f",
-      "title": "Regional Managing Director-WEST",
-      "company": "Housing Connector",
-      "url": "https://www.indeed.com/viewjob?jk=3c1dde6663672e3f",
-      "location": "Seattle, WA 98101",
-      "snippet": "Oversee program quality and partner experience, resolving escalated challenges and ensuring consistent, responsive service across markets.",
       "remote": false
     },
     {
@@ -210,48 +237,39 @@
       "remote": false
     },
     {
-      "id": "fa593ed1830b14ad",
-      "title": "Assistant Community Director",
-      "company": "American Property Management",
-      "url": "https://www.indeed.com/viewjob?jk=fa593ed1830b14ad",
-      "location": "Burien, WA 98168",
-      "snippet": "Schedule – Tuesday - Friday 9am to 6pm; Saturday 8am to 5pm - Flexibility to work additional hours may be required to meet company/project needs.",
+      "id": "fbe721d7b37ee062",
+      "title": "Community Relations Director",
+      "company": "Greenlake Senior Living",
+      "url": "https://www.indeed.com/viewjob?jk=fbe721d7b37ee062",
+      "location": "Seattle, WA 98115",
+      "snippet": "The ideal candidate will be responsible for developing and implementing strategies to ensure the community meets and/or exceeds the yearly budgeted census on a…",
       "remote": false
     },
     {
-      "id": "d32bafb996b325f7",
-      "title": "Administrative Program Manager 2",
-      "company": "Pierce County Washington",
-      "url": "https://www.indeed.com/viewjob?jk=d32bafb996b325f7",
-      "location": "Tacoma, WA",
-      "snippet": "This position offers a unique opportunity to combine strategic financial leadership with operational excellence.",
+      "id": "09c608452b0b4c84",
+      "title": "Business Development Manager 5 [214259]",
+      "company": "Aquent Talent",
+      "url": "https://www.indeed.com/viewjob?jk=09c608452b0b4c84",
+      "location": "Redmond, WA 98052",
+      "snippet": "7 to 10+ years of experience in business operations, program management, business management, or a related analyst role.",
       "remote": false
     },
     {
-      "id": "b31483a54a3b74a0",
-      "title": "Commodity Manager",
-      "company": "MI Windows and Doors LLC",
-      "url": "https://www.indeed.com/viewjob?jk=b31483a54a3b74a0",
-      "location": "Tacoma, WA 98402",
-      "snippet": "Work Hours: Full-time; standard business hours with flexibility based on business and travel needs. The Commodity Manager develops and executes enterprise-wide…",
+      "id": "dd2717aa6827e126",
+      "title": "Power & Hydrogen Program Manager, Power & Hydrogen Solutions, GESA",
+      "company": "Amazon.com Services LLC",
+      "url": "https://www.indeed.com/viewjob?jk=dd2717aa6827e126",
+      "location": "Bellevue, WA 98006",
+      "snippet": "4+ years of program or project management experience. An execution-focused project/program manager responsible for the hands-on coordination and completion of…",
       "remote": false
     },
     {
-      "id": "a81b0de158aadd5b",
-      "title": "Brand & Marketing Designer",
-      "company": "NW Recruiting Partners",
-      "url": "https://www.indeed.com/viewjob?jk=a81b0de158aadd5b",
-      "location": "Seattle, WA 98102",
-      "snippet": "Seattle, WA (4 days onsite, Fridays remote). 3-month contract (possible extension or conversion). In this role, you will support a variety of creative…",
-      "remote": false
-    },
-    {
-      "id": "20b76a041bf820e9",
-      "title": "US Tax Manager",
-      "company": "Vaco LLC",
-      "url": "https://www.indeed.com/viewjob?jk=20b76a041bf820e9",
-      "location": "Mukilteo, WA",
-      "snippet": "They are looking for a Senior Manager , Business Planning & Reporting who will be responsible for overseeing the U.S. tax compliance and reporting process, as…",
+      "id": "e317ba7f1d5409f9",
+      "title": "Associate Project Manager",
+      "company": "Turner & Townsend",
+      "url": "https://www.indeed.com/viewjob?jk=e317ba7f1d5409f9",
+      "location": "Redmond, WA",
+      "snippet": "As a Project Associate, you will provide support to project manage operations, administration and management for projects from start through completion.",
       "remote": false
     },
     {
@@ -264,21 +282,30 @@
       "remote": false
     },
     {
-      "id": "7b463cc684046375",
-      "title": "National Sales Manager",
-      "company": "Versele-Laga/The Higgins Group Corp.",
-      "url": "https://www.indeed.com/viewjob?jk=7b463cc684046375",
-      "location": "United States",
-      "snippet": "Define and execute the US sales strategy across specialty retail, key accounts, farm and feed channel, and e-commerce, aligned with global objectives.",
-      "remote": false
-    },
-    {
       "id": "d5017c6da617dd8d",
       "title": "Property Accountant",
       "company": "AppleOne",
       "url": "https://www.indeed.com/viewjob?jk=d5017c6da617dd8d",
       "location": "Bellevue, WA 98004",
       "snippet": "This role is ideal for an accounting professional with 3-5 years of experience who enjoys working with property portfolios, financial reporting, reconciliations…",
+      "remote": false
+    },
+    {
+      "id": "20b76a041bf820e9",
+      "title": "US Tax Manager",
+      "company": "Vaco LLC",
+      "url": "https://www.indeed.com/viewjob?jk=20b76a041bf820e9",
+      "location": "Mukilteo, WA",
+      "snippet": "They are looking for a Senior Manager , Business Planning & Reporting who will be responsible for overseeing the U.S. tax compliance and reporting process, as…",
+      "remote": false
+    },
+    {
+      "id": "3c1dde6663672e3f",
+      "title": "Regional Managing Director-WEST",
+      "company": "Housing Connector",
+      "url": "https://www.indeed.com/viewjob?jk=3c1dde6663672e3f",
+      "location": "Seattle, WA 98101",
+      "snippet": "Oversee program quality and partner experience, resolving escalated challenges and ensuring consistent, responsive service across markets.",
       "remote": false
     },
     {
@@ -300,21 +327,21 @@
       "remote": false
     },
     {
-      "id": "ebb5053a4f8a2e58",
-      "title": "Business Development Manager",
-      "company": "Northwest Landscape Services",
-      "url": "https://www.indeed.com/viewjob?jk=ebb5053a4f8a2e58",
-      "location": "Tacoma, WA 98424",
-      "snippet": "Bachelor’s degree in Business Administration, Horticulture, or equivalent experience. At least 5 years related work experience. On-Demand Pay through DailyPay.",
+      "id": "fcb493e6d7a68683",
+      "title": "Senior Manufacturing Engineer",
+      "company": "VAUPELL INDUSTRIAL",
+      "url": "https://www.indeed.com/viewjob?jk=fcb493e6d7a68683",
+      "location": "Everett, WA 98204",
+      "snippet": "The Senior Manufacturing Engineer is a technical leader responsible for driving continuous improvement, supporting new product development, and optimizing…",
       "remote": false
     },
     {
-      "id": "b6cefe8680791906",
-      "title": "Dangerous Goods Program Manager",
-      "company": "Alaska Airlines",
-      "url": "https://www.indeed.com/viewjob?jk=b6cefe8680791906",
-      "location": "Renton, WA 98057",
-      "snippet": "As a lead subject matter expert of the Dangerous Goods (DG) program , work independently to support Alaska Airlines’ Federal Aviation Administration (FAA)…",
+      "id": "256b10d7b765749b",
+      "title": "Remodel Project Lead / Lead Carpenter",
+      "company": "Crescent Builds",
+      "url": "https://www.indeed.com/viewjob?jk=256b10d7b765749b",
+      "location": "Seattle, WA 98133",
+      "snippet": "Salary*: $33.50-$42.50 per hour (plus comprehensive benefits package) depending on experience and skillset. 100% employer-paid medical insurance premiums.",
       "remote": false
     },
     {
@@ -327,6 +354,24 @@
       "remote": false
     },
     {
+      "id": "6269615c69034b2f",
+      "title": "Business Development Consultant",
+      "company": "ERSG",
+      "url": "https://www.indeed.com/viewjob?jk=6269615c69034b2f",
+      "location": "Bellevue, WA 98004",
+      "snippet": "Identify new leads within your industry vertical via cold calling, networking and market mapping. Pitch ERSG's staffing services to hiring managers/decision…",
+      "remote": false
+    },
+    {
+      "id": "f4d95675fc8587d6",
+      "title": "Floating Community Consultant",
+      "company": "American Property Management",
+      "url": "https://www.indeed.com/viewjob?jk=f4d95675fc8587d6",
+      "location": "Tacoma, WA 98445",
+      "snippet": "Schedule – Tuesday - Saturday 8:00 AM - 5:00 PM - Flexibility to work additional hours may be required to meet company/project needs.",
+      "remote": false
+    },
+    {
       "id": "8e877d1f2f145197",
       "title": "Sr. Construction Manager - Residential Remodeling",
       "company": "WRK Construction",
@@ -336,57 +381,30 @@
       "remote": false
     },
     {
-      "id": "6269615c69034b2f",
-      "title": "Business Development Consultant",
-      "company": "ERSG",
-      "url": "https://www.indeed.com/viewjob?jk=6269615c69034b2f",
-      "location": "Bellevue, WA 98004",
-      "snippet": "Identify new leads within your industry vertical via cold calling, networking and market mapping. Pitch ERSG’s staffing services to hiring managers/decision…",
+      "id": "316f8051eaf7823f",
+      "title": "Business Development Manager 5 [214258]",
+      "company": "Aquent Talent",
+      "url": "https://www.indeed.com/viewjob?jk=316f8051eaf7823f",
+      "location": "Redmond, WA 98052",
+      "snippet": "10+ years of professional experience in business operations, program management, or a related field. Step into a pivotal role where your expertise in business…",
       "remote": false
     },
     {
-      "id": "3c6dc07d9eae4373",
-      "title": "Mechanical Engineer (Seattle, WA)",
-      "company": "IEH Laboratories & Consulting Group",
-      "url": "https://www.indeed.com/viewjob?jk=3c6dc07d9eae4373",
-      "location": "Seattle, WA 98125",
-      "snippet": "This is a full-time position eligible for the following benefits after a brief waiting period: medical, dental, vision, life/AD&D insurance, long- and short-…",
+      "id": "d32bafb996b325f7",
+      "title": "Administrative Program Manager 2",
+      "company": "Pierce County Washington",
+      "url": "https://www.indeed.com/viewjob?jk=d32bafb996b325f7",
+      "location": "Tacoma, WA",
+      "snippet": "This position offers a unique opportunity to combine strategic financial leadership with operational excellence.",
       "remote": false
     },
     {
-      "id": "5ad4f800cd3da324",
-      "title": "Floating Community Consultant",
-      "company": "American Property Management",
-      "url": "https://www.indeed.com/viewjob?jk=5ad4f800cd3da324",
-      "location": "Tacoma, WA 98444",
-      "snippet": "Schedule – Tuesday - Saturday 8:00 AM - 5:00 PM - Flexibility to work additional hours may be required to meet company/project needs.",
-      "remote": false
-    },
-    {
-      "id": "9a71d59e79f4c7af",
-      "title": "Sales Manager On Duty",
-      "company": "In-Home Construction Sales Professional- Seattle Area",
-      "url": "https://www.indeed.com/viewjob?jk=9a71d59e79f4c7af",
-      "location": "Federal Way, WA 98003",
-      "snippet": "Primary Goal:* Find one strong leader who is a great fit and can grow production results from each sales rep assigned to them, while keeping accurate metrics…",
-      "remote": false
-    },
-    {
-      "id": "fbb641b35a10f4db",
-      "title": "Director of Children, Youth & Family Ministry",
-      "company": "Salt House Church",
-      "url": "https://www.indeed.com/viewjob?jk=fbb641b35a10f4db",
-      "location": "Kirkland, WA 98033",
-      "snippet": "Coordinate with website manager to maintain accurate and current information about Salt House activities. Build and strengthen middle and high school youth…",
-      "remote": false
-    },
-    {
-      "id": "f540db68bf2f5497",
-      "title": "Technical Program Manager, Field Quality and Reliability, Electrical",
-      "company": "Google",
-      "url": "https://www.indeed.com/viewjob?jk=f540db68bf2f5497",
-      "location": "Kirkland, WA",
-      "snippet": "8 years of experience in program management. Health, dental, vision, life, disability insurance. Retirement Benefits: 401(k) with company match.",
+      "id": "260b3373aa8f4ef8",
+      "title": "Transformation Delivery Senior Manager, Accounting Transformation Group",
+      "company": "Amazon.com Services LLC",
+      "url": "https://www.indeed.com/viewjob?jk=260b3373aa8f4ef8",
+      "location": "Seattle, WA",
+      "snippet": "The ideal candidate combines strong Finance and Accounting technology knowledge with exceptional large-scale delivery and program leadership.",
       "remote": false
     },
     {
@@ -426,12 +444,66 @@
       "remote": false
     },
     {
-      "id": "23dd6c29c3c64afe",
-      "title": "Manager - Agentic AI Engineering",
-      "company": "The Personnel Consulting Group",
-      "url": "https://www.indeed.com/viewjob?jk=23dd6c29c3c64afe",
+      "id": "a42503c69c51c1a5",
+      "title": "National Director of Compliance - Remote",
+      "company": "Confidential",
+      "url": "https://www.indeed.com/viewjob?jk=a42503c69c51c1a5",
       "location": "United States",
-      "snippet": "* Agentic delivery :** Deployed 2 or more agentic AI solutions to production or a client pilot, with personal ownership of the design and build, not only…",
+      "snippet": "Service delivery and quality control*. As a key leader, you will drive continuous improvement efforts, foster a culture of compliance excellence, and…",
+      "remote": false
+    },
+    {
+      "id": "012aba824e91126b",
+      "title": "Community Manager",
+      "company": "Confidential",
+      "url": "https://www.indeed.com/viewjob?jk=012aba824e91126b",
+      "location": "King County, WA",
+      "snippet": "$35 per hour + Bonus Opportunities! Monday–Friday | 8 AM–5 PM. 401(k) with Company Matching. Paid Time Off & Life Insurance.",
+      "remote": false
+    },
+    {
+      "id": "20d46883b0b4294b",
+      "title": "Group Activity Instructor",
+      "company": "NFC Amenity Management",
+      "url": "https://www.indeed.com/viewjob?jk=20d46883b0b4294b",
+      "location": "Seattle, WA 98121",
+      "snippet": "Assist the site manager in the marketing, promotion, and tracking of classes. The pay for this part-time position is $75 commission per class.",
+      "remote": false
+    },
+    {
+      "id": "e8b6bbb27216fc6a",
+      "title": "Anesthesia Supply Equip Coordinator",
+      "company": "Good Samaritan Hospital",
+      "url": "https://www.indeed.com/viewjob?jk=e8b6bbb27216fc6a",
+      "location": "Puyallup, WA 98371",
+      "snippet": "Must have ASATT certification in hand. The Anesthesia Supply/Equipment Coordinator is responsible for meeting the needs of the anesthesia department and…",
+      "remote": false
+    },
+    {
+      "id": "062f86e8122cb75e",
+      "title": "Lead Fleet Mechanic",
+      "company": "AMR",
+      "url": "https://www.indeed.com/viewjob?jk=062f86e8122cb75e",
+      "location": "Tukwila, WA 98168",
+      "snippet": "The Lead Mechanic is a working leader responsible for performing advanced vehicle maintenance, repair, and diagnostic services while providing day-to-day…",
+      "remote": false
+    },
+    {
+      "id": "422299ee8b066388",
+      "title": "CDL A Regional Driver",
+      "company": "Centerline Drivers, LLC.",
+      "url": "https://www.indeed.com/viewjob?jk=422299ee8b066388",
+      "location": "Fife, WA 98424",
+      "snippet": "Operate a 53' Reefer safely. Perform pre-and post-trip inspections. Keep equipment clean and presentable. Verify paperwork for completeness and accuracy.",
+      "remote": false
+    },
+    {
+      "id": "825cca6c5c41a77e",
+      "title": "Cashier",
+      "company": "Fred Meyer",
+      "url": "https://www.indeed.com/viewjob?jk=825cca6c5c41a77e",
+      "location": "Kirkland, WA 98034",
+      "snippet": "Practice preventive maintenance by properly inspecting equipment and notify appropriate department or store manager of any items in need of repair.",
       "remote": false
     },
     {
@@ -441,51 +513,6 @@
       "url": "https://www.indeed.com/viewjob?jk=7a650856c8b45a31",
       "location": "Seattle, WA 98101",
       "snippet": "Youll lead and develop the team while staying close to the technical work: partnering with lead engineers to design and build new infrastructure, working with…",
-      "remote": false
-    },
-    {
-      "id": "3bd73c099d5df312",
-      "title": "Veterinary Technician III",
-      "company": "Chewy Vet Care",
-      "url": "https://www.indeed.com/viewjob?jk=3bd73c099d5df312",
-      "location": "Sammamish, WA",
-      "snippet": "Assist practice manager with communicating on inventory needs. Serve to support the practice’s team, setting the bar for providing high-level, proficient…",
-      "remote": false
-    },
-    {
-      "id": "51085d311df7e047",
-      "title": "Veterinary Technician III",
-      "company": "Chewy Vet Care",
-      "url": "https://www.indeed.com/viewjob?jk=51085d311df7e047",
-      "location": "Woodinville, WA",
-      "snippet": "Assist practice manager with communicating on inventory needs. Serve to support the practice’s team, setting the bar for providing high-level, proficient…",
-      "remote": false
-    },
-    {
-      "id": "45558f283e764d2b",
-      "title": "Veterinary Technician III",
-      "company": "Chewy Vet Care",
-      "url": "https://www.indeed.com/viewjob?jk=45558f283e764d2b",
-      "location": "Bellevue, WA",
-      "snippet": "Assist practice manager with communicating on inventory needs. Serve to support the practice’s team, setting the bar for providing high-level, proficient…",
-      "remote": false
-    },
-    {
-      "id": "3ca788dd3b7cb701",
-      "title": "Social Worker LCSW - Autism Program",
-      "company": "Providence Health and Services",
-      "url": "https://www.indeed.com/viewjob?jk=3ca788dd3b7cb701",
-      "location": "Everett, WA 98201",
-      "snippet": "Under direct supervision of manager , provides case management, care coordination, assessment, therapy, training/support, and assistance with short- and long-…",
-      "remote": false
-    },
-    {
-      "id": "d93739a3ffd45a0e",
-      "title": "Veterinary Technician",
-      "company": "Chewy Vet Care",
-      "url": "https://www.indeed.com/viewjob?jk=d93739a3ffd45a0e",
-      "location": "Bellevue, WA",
-      "snippet": "Assist practice manager with communicating on inventory needs. Serve to support the practice’s team, setting the bar for providing high-level, proficient…",
       "remote": false
     },
     {
@@ -507,30 +534,30 @@
       "remote": false
     },
     {
-      "id": "cda9c31ac184aa7c",
-      "title": "Luxury Store Manager",
-      "company": "The Retail Network",
-      "url": "https://www.indeed.com/viewjob?jk=cda9c31ac184aa7c",
-      "location": "Seattle, WA 98105",
-      "snippet": "On top of that, they are growing aggressively and can provide great opportunities for professionals who excel in delivering the best online and in-person…",
+      "id": "7fb7966f246bec46",
+      "title": "Armed Driver Guard",
+      "company": "Loomis Armored US, LLC",
+      "url": "https://www.indeed.com/viewjob?jk=7fb7966f246bec46",
+      "location": "Tukwila, WA 98188",
+      "snippet": "As an Armored Driver Guard, you work with your team to ensure the safe and secure pickup and delivery of cash, coin, and valuables. At least 21 years of age.",
       "remote": false
     },
     {
-      "id": "3378259b3161ebf2",
-      "title": "Property Maintenance",
-      "company": "Cocoon House",
-      "url": "https://www.indeed.com/viewjob?jk=3378259b3161ebf2",
-      "location": "Everett, WA 98201",
-      "snippet": "The Property Maintenance position must be detail-oriented, and possess effective communication and problem-solving skills. Must be 21 years of age or older.",
+      "id": "3792fd3c8ddb7968",
+      "title": "Warehouse Associate",
+      "company": "Northern Sales Company",
+      "url": "https://www.indeed.com/viewjob?jk=3792fd3c8ddb7968",
+      "location": "Lakewood, WA",
+      "snippet": "As a Warehouse Associate, you will play a key role in ensuring the efficient flow of goods through our warehouse, supporting multiple divisions, and maintaining…",
       "remote": false
     },
     {
-      "id": "4612dcfcb9805990",
-      "title": "Experienced Bakery Deli Team Member - FT",
-      "company": "Woods Coffee",
-      "url": "https://www.indeed.com/viewjob?jk=4612dcfcb9805990",
-      "location": "Kent, WA 98032",
-      "snippet": "Packages and prepares finished products accurately and efficiently for delivery to stores. By prioritizing consistency, food safety, and teamwork, you help…",
+      "id": "fba87bdb9cefe48f",
+      "title": "Sales Manager Nets Division",
+      "company": "PACIFIC NETTING PRODUCTS, INC.",
+      "url": "https://www.indeed.com/viewjob?jk=fba87bdb9cefe48f",
+      "location": "Kingston, WA 98346",
+      "snippet": "We are seeking an experienced and results-driven Sales Manager to lead the commercial function of our Nets Division. Pricing, Margin and Sales Performance:",
       "remote": false
     },
     {
@@ -543,30 +570,66 @@
       "remote": false
     },
     {
-      "id": "c6ba45679f8d4f1b",
-      "title": "Central Supply",
-      "company": "Ballard Center",
-      "url": "https://www.indeed.com/viewjob?jk=c6ba45679f8d4f1b",
-      "location": "Seattle, WA 98117",
-      "snippet": "As a Central Supply, you will be responsible for providing supplies and equipment in an efficient manner, following various guidelines and regulations, to…",
+      "id": "db9e8f68dbaa262d",
+      "title": "Cricket Wireless Store Manager (Lynnwood)",
+      "company": "Talk 4 Less Wireless Communications, LLC.",
+      "url": "https://www.indeed.com/viewjob?jk=db9e8f68dbaa262d",
+      "location": "Lynnwood, WA 98036",
+      "snippet": "Previous assistant manager or store manager experience is highly desirable. In this energetic leadership role, you will oversee daily store operations, drive…",
       "remote": false
     },
     {
-      "id": "a30706f074a21ed2",
-      "title": "Data Entry",
-      "company": "SmartTalent",
-      "url": "https://www.indeed.com/viewjob?jk=a30706f074a21ed2",
-      "location": "Redmond, WA 98052",
-      "snippet": "SmartTalent is seeking a detail-oriented Data Entry & eCommerce Assistant to support daily data management, online product maintenance, and retail operations…",
+      "id": "30a6dd2a8962b258",
+      "title": "Restaurant General Manager",
+      "company": "Jimmy Johns",
+      "url": "https://www.indeed.com/viewjob?jk=30a6dd2a8962b258",
+      "location": "Everett, WA 98203",
+      "snippet": "$25 - $29/hour, plus bonus. Full benefits, paid time off, and a clear path to grow with a 100+ store group. You'll run the entire store including the team, the…",
       "remote": false
     },
     {
-      "id": "a39175ff0f498326",
-      "title": "Cruise Manager",
-      "company": "Waterways Cruises and Events",
-      "url": "https://www.indeed.com/viewjob?jk=a39175ff0f498326",
+      "id": "64f44da78d9023d9",
+      "title": "Legal Receptionist",
+      "company": "Stephen M. Waltar, PS",
+      "url": "https://www.indeed.com/viewjob?jk=64f44da78d9023d9",
+      "location": "Bellevue, WA 98005",
+      "snippet": "You are comfortable handling a medium-to-high volume of phone calls per day. You enjoy calendaring and setting up appointments.",
+      "remote": false
+    },
+    {
+      "id": "8cc82a885b8b21d8",
+      "title": "Operations Manager",
+      "company": "CookUnity",
+      "url": "https://www.indeed.com/viewjob?jk=8cc82a885b8b21d8",
+      "location": "Seattle, WA 98105",
+      "snippet": "Success for this role will be measured by customer satisfaction and profitability of operations , constantly identifying key opportunities and spearheading…",
+      "remote": false
+    },
+    {
+      "id": "bc050dd68e0676b1",
+      "title": "Compliance Specialist (Grant Administrator)",
+      "company": "King County",
+      "url": "https://www.indeed.com/viewjob?jk=bc050dd68e0676b1",
+      "location": "Seattle, WA 98104",
+      "snippet": "Bachelor's degree in accounting, finance, business administration, public administration or any equivalent combination of business experience and education…",
+      "remote": false
+    },
+    {
+      "id": "df2cb0083a1280bd",
+      "title": "Operations Manager, Clinical Engineering",
+      "company": "TRIMEDX",
+      "url": "https://www.indeed.com/viewjob?jk=df2cb0083a1280bd",
       "location": "Seattle, WA",
-      "snippet": "Bulk of business occurs nights, weekends and holidays so availability during those times is a must. Completion of Senior Deckhand training, including, but not…",
+      "snippet": "Run the business : oversee multi-site operations , budgets, and performance with clear accountability. 5+ years managing in a clinical engineering environment or…",
+      "remote": false
+    },
+    {
+      "id": "ae8f78f2115eede7",
+      "title": "Community Manager",
+      "company": "Allied Residential",
+      "url": "https://www.indeed.com/viewjob?jk=ae8f78f2115eede7",
+      "location": "Seattle, WA 98146",
+      "snippet": "Knowledge of financial reports, budgeting, and property operations. The Community Manager is responsible for the overall management, operations , and success of…",
       "remote": false
     },
     {
@@ -579,39 +642,21 @@
       "remote": false
     },
     {
-      "id": "7ef7104b1066357e",
-      "title": "Part-Time Studio Operations & Social Media Manager",
-      "company": "Confident Core Studio",
-      "url": "https://www.indeed.com/viewjob?jk=7ef7104b1066357e",
-      "location": "Bothell, WA 98011",
-      "snippet": "Marketing or small-business experience is a strong plus. The chance to help build a business from the start. You'll turn her ideas and recordings into published…",
-      "remote": false
-    },
-    {
       "id": "6e7c24dde512e95f",
       "title": "Test & Inspection Department Manager",
       "company": "Pye-Barker Fire & Safety, LLC",
       "url": "https://www.indeed.com/viewjob?jk=6e7c24dde512e95f",
       "location": "Kirkland, WA 98034",
-      "snippet": "A Test & Inspection department manager oversees the company’s organizational processes and adds improvements to it. Must be able to lift 15 pounds at a time.",
+      "snippet": "A Test & Inspection department manager oversees the company's organizational processes and adds improvements to it. Must be able to lift 15 pounds at a time.",
       "remote": false
     },
     {
-      "id": "21e4bb3e4309ae44",
-      "title": "Manager, Vendor Operations",
-      "company": "Premera Blue Cross",
-      "url": "https://www.indeed.com/viewjob?jk=21e4bb3e4309ae44",
-      "location": "Mountlake Terrace, WA",
-      "snippet": "Maintain business continuity and risk mitigation plans for offshore operations , including vendor dependency risk and stabilization criteria.",
-      "remote": false
-    },
-    {
-      "id": "ffdf89277c9fa355",
-      "title": "Sr Software Engineer-210722",
-      "company": "GDKN",
-      "url": "https://www.indeed.com/viewjob?jk=ffdf89277c9fa355",
-      "location": "Redmond, WA 98052",
-      "snippet": "Work closely with project leads while reporting directly to the engineering manager to ensure project objectives are met.",
+      "id": "2046bb63d77c2333",
+      "title": "Senior Technical Business Analyst – AI & Data Products",
+      "company": "IntegraTouch",
+      "url": "https://www.indeed.com/viewjob?jk=2046bb63d77c2333",
+      "location": "United States",
+      "snippet": "Hands-on experience applying AI or LLMs to a business workflow or product. Document business rules, user stories, data sources, integration needs, and…",
       "remote": false
     },
     {
@@ -633,6 +678,96 @@
       "remote": false
     },
     {
+      "id": "c6ba45679f8d4f1b",
+      "title": "Central Supply",
+      "company": "Ballard Center",
+      "url": "https://www.indeed.com/viewjob?jk=c6ba45679f8d4f1b",
+      "location": "Seattle, WA 98117",
+      "snippet": "As a Central Supply, you will be responsible for providing supplies and equipment in an efficient manner, following various guidelines and regulations, to…",
+      "remote": false
+    },
+    {
+      "id": "21e4bb3e4309ae44",
+      "title": "Manager, Vendor Operations",
+      "company": "Premera Blue Cross",
+      "url": "https://www.indeed.com/viewjob?jk=21e4bb3e4309ae44",
+      "location": "Mountlake Terrace, WA",
+      "snippet": "Maintain business continuity and risk mitigation plans for offshore operations , including vendor dependency risk and stabilization criteria.",
+      "remote": false
+    },
+    {
+      "id": "02112a208ce0936c",
+      "title": "Patient Care Coordinator",
+      "company": "Institute of Complementary Medicine",
+      "url": "https://www.indeed.com/viewjob?jk=02112a208ce0936c",
+      "location": "Seattle, WA 98122",
+      "snippet": "This position is vital to ensuring exceptional patient experience, continuity of care, and efficient office operations.",
+      "remote": false
+    },
+    {
+      "id": "f6daca3ba62d94b0",
+      "title": "Associate Therapist",
+      "company": "Bridging Care LLC",
+      "url": "https://www.indeed.com/viewjob?jk=f6daca3ba62d94b0",
+      "location": "Woodinville, WA 98072",
+      "snippet": "The Associate Therapist provides direct clinical care to a caseload of clients while contributing to the broader clinical team through group facilitation, care…",
+      "remote": false
+    },
+    {
+      "id": "69c6c5465a6ea536",
+      "title": "Client Financial Manager- Supported Living Agency",
+      "company": "Life Force Services, Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=69c6c5465a6ea536",
+      "location": "Lakewood, WA 98499",
+      "snippet": "Ability to identify errors or discrepancies and take appropriate steps to resolve them. Strong follow-up skills and the ability to communicate proactively when…",
+      "remote": false
+    },
+    {
+      "id": "a6f3f74853e37eb5",
+      "title": "Fire Alarm Technician in Antarctica/ NICET II/Contract",
+      "company": "Amentum",
+      "url": "https://www.indeed.com/viewjob?jk=a6f3f74853e37eb5",
+      "location": "United States",
+      "snippet": "Seasonal Contract position supporting the National Science Foundation managed United States Antarctic Program as part of the Antarctic Support Contract (ASC).",
+      "remote": false
+    },
+    {
+      "id": "79535751ff43e4cf",
+      "title": "Maintenance Technician (Broadstone Vega)",
+      "company": "Insite Property Solutions",
+      "url": "https://www.indeed.com/viewjob?jk=79535751ff43e4cf",
+      "location": "Redmond, WA",
+      "snippet": "Days off are subject to change based on business needs, but will consistently be 2 consecutive days off. Initiate, perform, and manage maintenance projects.",
+      "remote": false
+    },
+    {
+      "id": "2f51e8e68024c331",
+      "title": "Bookkeeper / Office Manager – Construction",
+      "company": "Confidential",
+      "url": "https://www.indeed.com/viewjob?jk=2f51e8e68024c331",
+      "location": "Kirkland, WA 98034",
+      "snippet": "You will be responsible for full-cycle bookkeeping, managing job cost tracking, and ensuring smooth day-to-day office operations.",
+      "remote": false
+    },
+    {
+      "id": "56818003025f17ca",
+      "title": "CNC Programmer",
+      "company": "TruFit Staffing",
+      "url": "https://www.indeed.com/viewjob?jk=56818003025f17ca",
+      "location": "Kent, WA 98064",
+      "snippet": "This hands-on role is responsible for developing, maintaining, and improving CNC programs while supporting efficient machining operations from setup through…",
+      "remote": false
+    },
+    {
+      "id": "88d4db453e4792fb",
+      "title": "Property Manager I",
+      "company": "Low Income Housing Institute",
+      "url": "https://www.indeed.com/viewjob?jk=88d4db453e4792fb",
+      "location": "Seattle, WA 98122",
+      "snippet": "Prepare and serve legal notices and pursue evictions after consultation with your manager. Hours: Full time, 40 hours per week: Monday - Friday 8AM-4:30PM.",
+      "remote": false
+    },
+    {
       "id": "7f996a6ee6b86f7e",
       "title": "Operations Lead",
       "company": "One Workplace",
@@ -651,39 +786,12 @@
       "remote": false
     },
     {
-      "id": "a6f3f74853e37eb5",
-      "title": "Fire Alarm Technician in Antarctica/ NICET II/Contract",
-      "company": "Amentum",
-      "url": "https://www.indeed.com/viewjob?jk=a6f3f74853e37eb5",
-      "location": "United States",
-      "snippet": "Seasonal Contract position supporting the National Science Foundation managed United States Antarctic Program as part of the Antarctic Support Contract (ASC).",
-      "remote": false
-    },
-    {
-      "id": "9fec5c180caf1d25",
-      "title": "Maintenance Technician - Aspira",
-      "company": "Greystar Real Estate Partners LLC",
-      "url": "https://www.indeed.com/viewjob?jk=9fec5c180caf1d25",
-      "location": "Seattle, WA 98144",
-      "snippet": "Many factors go into determining employee pay within the posted range including business requirements, prior experience, current skills and geographical…",
-      "remote": false
-    },
-    {
-      "id": "56818003025f17ca",
-      "title": "CNC Programmer",
-      "company": "TruFit Staffing",
-      "url": "https://www.indeed.com/viewjob?jk=56818003025f17ca",
-      "location": "Kent, WA 98064",
-      "snippet": "This hands-on role is responsible for developing, maintaining, and improving CNC programs while supporting efficient machining operations from setup through…",
-      "remote": false
-    },
-    {
-      "id": "79535751ff43e4cf",
-      "title": "Maintenance Technician (Broadstone Vega)",
-      "company": "Insite Property Solutions",
-      "url": "https://www.indeed.com/viewjob?jk=79535751ff43e4cf",
-      "location": "Redmond, WA",
-      "snippet": "Days off are subject to change based on business needs, but will consistently be 2 consecutive days off. Initiate, perform, and manage maintenance projects.",
+      "id": "7bfa89b983df9fe2",
+      "title": "Business Development Manager 4 [214342]",
+      "company": "Aquent Talent",
+      "url": "https://www.indeed.com/viewjob?jk=7bfa89b983df9fe2",
+      "location": "Redmond, WA 98052",
+      "snippet": "Establish and maintain seamless communication channels across business units and project teams. Maintain the storage, retrieval, and reporting of project…",
       "remote": false
     },
     {
@@ -696,39 +804,39 @@
       "remote": false
     },
     {
-      "id": "e39143e65a4e9d9e",
-      "title": "Global Partner Development Management -Telco",
-      "company": "Microsoft",
-      "url": "https://www.indeed.com/viewjob?jk=e39143e65a4e9d9e",
+      "id": "a39175ff0f498326",
+      "title": "Cruise Manager",
+      "company": "Waterways Cruises and Events",
+      "url": "https://www.indeed.com/viewjob?jk=a39175ff0f498326",
+      "location": "Seattle, WA",
+      "snippet": "Bulk of business occurs nights, weekends and holidays so availability during those times is a must. Completion of Senior Deckhand training, including, but not…",
+      "remote": false
+    },
+    {
+      "id": "453fa6a46b488c37",
+      "title": "Enterprise Material Planner, Amazon Leo",
+      "company": "Amazon Kuiper Manufacturing Enterprises LLC",
+      "url": "https://www.indeed.com/viewjob?jk=453fa6a46b488c37",
+      "location": "Bellevue, WA",
+      "snippet": "Experience in supply chain program, project, or automation related product management, or leading an implementation of a product.",
+      "remote": false
+    },
+    {
+      "id": "166d04269f6da64d",
+      "title": "Associate Contracts Procurement Agent",
+      "company": "Boeing",
+      "url": "https://www.indeed.com/viewjob?jk=166d04269f6da64d",
+      "location": "Seattle, WA",
+      "snippet": "Bachelor's degree or higher preferred – Business, Supply Chain Management, or related field of study. 6+ years of experience in Supplier Management/Procurement…",
+      "remote": false
+    },
+    {
+      "id": "1dc43e999c6800b7",
+      "title": "Sr. Buyer",
+      "company": "B.E. Meyers",
+      "url": "https://www.indeed.com/viewjob?jk=1dc43e999c6800b7",
       "location": "Redmond, WA 98052",
-      "snippet": "They are responsible for Microsoft’s business priorities through a set of high performing Telco partners, focusing on scaling sales and cloud adoption in the…",
-      "remote": false
-    },
-    {
-      "id": "9e114ee0f0cf6ab8",
-      "title": "Design Operations Lead, Sponsored Products and Brands",
-      "company": "Amazon.com Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=9e114ee0f0cf6ab8",
-      "location": "Seattle, WA",
-      "snippet": "Strengthen product design coordination with research operations. Write the business case, including whether existing internal platforms meet our needs.",
-      "remote": false
-    },
-    {
-      "id": "92793c3f89f8aaba",
-      "title": "Regional Service Operations Manager",
-      "company": "Rivian",
-      "url": "https://www.indeed.com/viewjob?jk=92793c3f89f8aaba",
-      "location": "Seattle, WA",
-      "snippet": "Maintain market policy awareness and business development strategy as needed for the territory assigned. Manage your regional book of business including but not…",
-      "remote": false
-    },
-    {
-      "id": "30e8e085f1d7ef76",
-      "title": "Seattle Region Manager",
-      "company": "Discover Your Northwest",
-      "url": "https://www.indeed.com/viewjob?jk=30e8e085f1d7ef76",
-      "location": "Seattle, WA 98107",
-      "snippet": "The role combines customer service, business operations , and physical work in a public visitor environment. Stand for up to 6 consecutive hours during visitor…",
+      "snippet": "Bachelor's degree in Supply Chain Management, Business, Operations, Engineering, or related field; or equivalent experience.",
       "remote": false
     },
     {
@@ -738,6 +846,15 @@
       "url": "https://www.indeed.com/viewjob?jk=ed66005e490b2c96",
       "location": "Seattle, WA",
       "snippet": "Hospice, home health, or post-acute care experience strongly preferred. Puget Sound Hospice | King County, WA. Monitor marketing effectiveness and ROI.",
+      "remote": false
+    },
+    {
+      "id": "b31483a54a3b74a0",
+      "title": "Commodity Manager",
+      "company": "MI Windows and Doors LLC",
+      "url": "https://www.indeed.com/viewjob?jk=b31483a54a3b74a0",
+      "location": "Tacoma, WA 98402",
+      "snippet": "CPM, CPSM, CPIM, or CSCP certification preferred. Minimum of one year of experience at the Senior Buyer or Strategic Buyer level within the manufacturing sector…",
       "remote": false
     },
     {
@@ -759,6 +876,24 @@
       "remote": false
     },
     {
+      "id": "fa4b4cfd5c64b928",
+      "title": "Pavement Preservation Salesperson",
+      "company": "Cascade Asphalt Sealing Co.",
+      "url": "https://www.indeed.com/viewjob?jk=fa4b4cfd5c64b928",
+      "location": "Tacoma, WA 98409",
+      "snippet": "Company vehicle or vehicle allowance. Experience in asphalt paving, sealcoating, pavement maintenance, construction, or related industries is highly desirable.",
+      "remote": false
+    },
+    {
+      "id": "e39143e65a4e9d9e",
+      "title": "Global Partner Development Management -Telco",
+      "company": "Microsoft",
+      "url": "https://www.indeed.com/viewjob?jk=e39143e65a4e9d9e",
+      "location": "Redmond, WA 98052",
+      "snippet": "Bachelor's Degree in Marketing, Business Operations, Computer Science or a related field AND 8+ years experience in partner management, sales, business…",
+      "remote": false
+    },
+    {
       "id": "6428c80d49ebdb1f",
       "title": "Procurement Operations Specialist",
       "company": "FluidStack",
@@ -768,21 +903,21 @@
       "remote": false
     },
     {
+      "id": "9088fa3909181f52",
+      "title": "Licensed Massage Therapist",
+      "company": "Eden Chiropractic, Acupuncture, and Massage",
+      "url": "https://www.indeed.com/viewjob?jk=9088fa3909181f52",
+      "location": "Everett, WA 98203",
+      "snippet": "Experience in medical massage, deep tissue, ART, or myofascial release preferred. We are seeking a skilled and dedicated Licensed Massage Therapist (LMT) with…",
+      "remote": false
+    },
+    {
       "id": "6aedf80963641a30",
       "title": "Business Development Specialist, REP",
       "company": "Paramount Residential Mortgage Group",
       "url": "https://www.indeed.com/viewjob?jk=6aedf80963641a30",
       "location": "Gig Harbor, WA 98332",
       "snippet": "Four-year college degree in business, finance or related field. Responsible for directing, conducting, and implementing business development consistent with…",
-      "remote": false
-    },
-    {
-      "id": "ea15aa6f85372adb",
-      "title": "Senior / Staff Engineer - Agentic AI Engineering",
-      "company": "The Personnel Consulting Group",
-      "url": "https://www.indeed.com/viewjob?jk=ea15aa6f85372adb",
-      "location": "United States",
-      "snippet": "Senior: Has maintained a RAID log or similar project tracking on a team or client engagement. Domain: Consulting or client-facing engineering experience (…",
       "remote": false
     },
     {
@@ -819,33 +954,6 @@
       "url": "https://www.indeed.com/viewjob?jk=b9bbebc1ceb0e4e8",
       "location": "Fife, WA 98424",
       "snippet": "Place equipment orders with vendor. GED or High School Diploma. Work with vendor on equipment placements, installations and removals. Day Shift | Fife, WA.",
-      "remote": false
-    },
-    {
-      "id": "ad0dd811c82f6ba6",
-      "title": "Buyer II- Supply Chain",
-      "company": "Blue Origin",
-      "url": "https://www.indeed.com/viewjob?jk=ad0dd811c82f6ba6",
-      "location": "Seattle, WA",
-      "snippet": "Must be a U.S. citizen or national, U.S. permanent resident (current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum.",
-      "remote": false
-    },
-    {
-      "id": "b8ad2bff3d4ff62d",
-      "title": "Sr Technical Business Development Manager, Talent Markets, AWS Forward Deployed Engineering",
-      "company": "Amazon Web Services, Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=b8ad2bff3d4ff62d",
-      "location": "Seattle, WA",
-      "snippet": "Master's degree in business, data science, public administration, finance, engineering, human resources, or related field, or PMP certificate.",
-      "remote": false
-    },
-    {
-      "id": "06062aa4980d8f77",
-      "title": "Principal Technical Business Development, T2K Strategy & Acceleration",
-      "company": "Amazon Web Services, Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=06062aa4980d8f77",
-      "location": "Seattle, WA",
-      "snippet": "Experience selling to Fortune 1000 or Global 2000 organizations. Experience in Go-To-Market, Business Development, Sales, or Consulting.",
       "remote": false
     },
     {
