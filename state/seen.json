@@ -803,27 +803,27 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "HTTP 521 from https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
   },
   "Boeing": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "HTTP 521 from https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs"
   },
   "CrowdStrike": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "HTTP 521 from https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs"
   },
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 6.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 2,
+   "last_error": "relay data is 6.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "T-Mobile": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "HTTP 521 from https://tmobile.wd1.myworkdayjobs.com/wday/cxs/tmobile/External/jobs"
   },
   "Zillow": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "HTTP 521 from https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs"
   }
  },
