@@ -803,27 +803,27 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "HTTP 521 from https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
   },
   "Boeing": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 521 from https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs"
   },
   "CrowdStrike": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "HTTP 521 from https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs"
   },
-  "Microsoft": {
+  "Indeed": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "relay data is 6.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "T-Mobile": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "HTTP 521 from https://tmobile.wd1.myworkdayjobs.com/wday/cxs/tmobile/External/jobs"
   },
   "Zillow": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "HTTP 521 from https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs"
   }
  },
@@ -2207,6 +2207,7 @@
   "Company boards (Ashby):openai-66b7c776-aa50-4e86-aec1-5c8e07868522": "2026-10-09T21:10:49.319537+00:00",
   "Company boards (Ashby):openai-680833a1-01e4-4689-917c-71a4f00ff86c": "2026-11-12T22:09:40.539572+00:00",
   "Company boards (Ashby):openai-681d205f-5b03-4d4d-a024-5ae7815bfde5": "2026-11-10T19:12:34.667575+00:00",
+  "Company boards (Ashby):openai-695f73a5-00f5-416a-8939-78571263819b": "2026-11-14T05:16:14.084710+00:00",
   "Company boards (Ashby):openai-6ebd3534-d65b-4d90-ba96-6a54de31409d": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
   "Company boards (Ashby):openai-73a111f9-e83d-4cce-9148-2a32ccf1d251": "2026-11-04T17:36:19.849810+00:00",
@@ -4830,6 +4831,7 @@
   "LinkedIn:4489821890": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4489827358": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4489843526": "2026-11-14T01:08:41.988679+00:00",
+  "LinkedIn:4489844889": "2026-11-14T05:16:14.084710+00:00",
   "LinkedIn:4489847028": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4489856070": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4489954861": "2026-11-12T23:45:37.788353+00:00",
@@ -4858,6 +4860,7 @@
   "LinkedIn:4491023043": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491023362": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491030232": "2026-11-14T01:08:41.988679+00:00",
+  "LinkedIn:4491051222": "2026-11-14T05:16:14.084710+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
