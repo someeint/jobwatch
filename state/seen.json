@@ -803,12 +803,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 4,
-   "last_error": "relay data is 19.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 5,
+   "last_error": "relay data is 23.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
-  "Microsoft": {
+  "Starbucks": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   }
  },
  "initialized": true,
@@ -3453,6 +3453,7 @@
   "LinkedIn:4464284829": "2026-10-03T14:49:53.748508+00:00",
   "LinkedIn:4464488117": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4464565486": "2026-10-02T16:42:22.792146+00:00",
+  "LinkedIn:4464581552": "2026-11-14T22:32:53.200984+00:00",
   "LinkedIn:4464641999": "2026-09-30T11:09:01.742472+00:00",
   "LinkedIn:4464651984": "2026-09-30T15:09:05.432295+00:00",
   "LinkedIn:4464659812": "2026-09-30T10:09:09.259204+00:00",
