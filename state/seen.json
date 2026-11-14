@@ -803,28 +803,28 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 5,
-   "last_error": "HTTP 521 from https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs"
+   "fails": 6,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Boeing": {
-   "fails": 3,
-   "last_error": "HTTP 521 from https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs"
+   "fails": 4,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "CrowdStrike": {
-   "fails": 5,
-   "last_error": "HTTP 521 from https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs"
+   "fails": 6,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 6.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 13.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "T-Mobile": {
-   "fails": 3,
-   "last_error": "HTTP 521 from https://tmobile.wd1.myworkdayjobs.com/wday/cxs/tmobile/External/jobs"
+   "fails": 4,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   "Zillow": {
-   "fails": 5,
-   "last_error": "HTTP 521 from https://zillow.wd5.myworkdayjobs.com/wday/cxs/zillow/Zillow_Group_External/jobs"
+   "fails": 6,
+   "last_error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   }
  },
  "initialized": true,
@@ -4857,10 +4857,12 @@
   "LinkedIn:4491002333": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491007713": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491008594": "2026-11-14T01:08:41.988679+00:00",
+  "LinkedIn:4491016354": "2026-11-14T12:17:13.209365+00:00",
   "LinkedIn:4491023043": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491023362": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491030232": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491051222": "2026-11-14T05:16:14.084710+00:00",
+  "LinkedIn:4491064541": "2026-11-14T12:17:13.209365+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
