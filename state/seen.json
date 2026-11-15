@@ -803,12 +803,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 8,
-   "last_error": "relay data is 34.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 9,
+   "last_error": "relay data is 41.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
-  "Microsoft": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   }
  },
  "initialized": true,
@@ -2871,6 +2871,7 @@
   "Company boards (Greenhouse):rubrik-8303682": "2026-10-20T16:08:35.355339+00:00",
   "Company boards (Greenhouse):rubrik-8304669": "2026-10-21T20:50:49.539923+00:00",
   "Company boards (Greenhouse):rubrik-8359179": "2026-11-13T11:31:13.694505+00:00",
+  "Company boards (Greenhouse):rubrik-8367390": "2026-11-15T16:26:16.090032+00:00",
   "Company boards (Greenhouse):samsara-8142214": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8179593": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8180371": "2026-09-20T01:42:03.941384+00:00",
