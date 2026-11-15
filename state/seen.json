@@ -803,8 +803,12 @@
  ],
  "health": {
   "Indeed": {
-   "fails": 7,
-   "last_error": "relay data is 27.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 8,
+   "last_error": "relay data is 34.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   }
  },
  "initialized": true,
@@ -1968,6 +1972,7 @@
   "Amazon:10603950": "2026-11-13T03:39:00.471761+00:00",
   "Amazon:10604859": "2026-11-13T20:51:04.647848+00:00",
   "Amazon:10604989": "2026-11-13T23:09:27.753888+00:00",
+  "Amazon:10605454": "2026-11-15T09:14:59.075941+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -4818,6 +4823,7 @@
   "LinkedIn:4489844889": "2026-11-14T05:16:14.084710+00:00",
   "LinkedIn:4489847028": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4489856070": "2026-11-14T01:08:41.988679+00:00",
+  "LinkedIn:4489878953": "2026-11-15T09:14:59.075941+00:00",
   "LinkedIn:4489954861": "2026-11-12T23:45:37.788353+00:00",
   "LinkedIn:4489984565": "2026-11-14T18:15:58.971008+00:00",
   "LinkedIn:4489987479": "2026-11-11T20:09:09.306601+00:00",
