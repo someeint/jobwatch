@@ -803,51 +803,55 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "City of Seattle (gov)": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
   },
   "City of Tacoma (gov)": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
   },
   "CrowdStrike": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 13,
-   "last_error": "relay data is 56.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 14,
+   "last_error": "relay data is 64.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "King County (gov)": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "Snohomish County (gov)": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
   },
   "T-Mobile": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1906,6 +1910,7 @@
   "Amazon:10579803": "2026-11-13T11:31:13.694505+00:00",
   "Amazon:10580125": "2026-10-19T19:09:12.441006+00:00",
   "Amazon:10580362": "2026-10-15T18:41:25.302041+00:00",
+  "Amazon:10580779": "2026-11-16T16:00:57.589874+00:00",
   "Amazon:10581005": "2026-10-16T01:04:10.986301+00:00",
   "Amazon:10581071": "2026-10-16T03:08:19.301249+00:00",
   "Amazon:10581114": "2026-10-28T16:12:40.271280+00:00",
@@ -2016,6 +2021,8 @@
   "Amazon:10604859": "2026-11-13T20:51:04.647848+00:00",
   "Amazon:10604989": "2026-11-13T23:09:27.753888+00:00",
   "Amazon:10605454": "2026-11-15T09:14:59.075941+00:00",
+  "Amazon:10605658": "2026-11-16T16:00:57.589874+00:00",
+  "Amazon:10605822": "2026-11-16T16:00:57.589874+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2508,6 +2515,7 @@
   "Company boards (Greenhouse):asana-8262890": "2026-10-26T17:01:32.270577+00:00",
   "Company boards (Greenhouse):asana-8335920": "2026-11-09T17:59:50.930977+00:00",
   "Company boards (Greenhouse):asana-8335947": "2026-11-05T18:09:51.160698+00:00",
+  "Company boards (Greenhouse):asana-8375451": "2026-11-16T16:00:57.589874+00:00",
   "Company boards (Greenhouse):asana-8383867": "2026-11-12T19:26:44.915890+00:00",
   "Company boards (Greenhouse):asana-8383870": "2026-11-12T19:26:44.915890+00:00",
   "Company boards (Greenhouse):brex-8735431002": "2026-09-20T01:42:03.941384+00:00",
@@ -2723,6 +2731,7 @@
   "Company boards (Greenhouse):gitlab-8932248002": "2026-11-09T18:10:11.351473+00:00",
   "Company boards (Greenhouse):gitlab-8932282002": "2026-11-09T19:09:24.021354+00:00",
   "Company boards (Greenhouse):gitlab-8936091002": "2026-11-11T16:10:49.149197+00:00",
+  "Company boards (Greenhouse):gitlab-8939857002": "2026-11-16T16:00:57.589874+00:00",
   "Company boards (Greenhouse):gusto-8022501": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148547": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148634": "2026-09-20T01:42:03.941384+00:00",
@@ -2801,6 +2810,7 @@
   "Company boards (Greenhouse):mongodb-8367103": "2026-11-12T21:52:58.077118+00:00",
   "Company boards (Greenhouse):mongodb-8367108": "2026-11-12T18:26:33.877521+00:00",
   "Company boards (Greenhouse):mongodb-8386087": "2026-11-13T18:09:39.962995+00:00",
+  "Company boards (Greenhouse):mongodb-8386495": "2026-11-16T16:00:57.589874+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8158010": "2026-09-20T01:42:03.941384+00:00",
