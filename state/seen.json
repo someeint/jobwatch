@@ -803,43 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 17,
-   "last_error": "relay data is 66.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 18,
+   "last_error": "relay data is 66.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1757,6 +1749,8 @@
   "Accelerators (BambooHR):plugandplaytechcenter-1543": "2026-11-10T21:09:13.911995+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1544": "2026-11-11T16:10:49.149197+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1546": "2026-11-12T17:10:01.966419+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1548": "2026-11-16T18:09:27.501356+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1549": "2026-11-16T18:09:27.501356+00:00",
   "Adobe:R168398": "2026-10-22T20:51:49.303795+00:00",
   "Adobe:R169243": "2026-10-27T16:19:05.095066+00:00",
   "Adobe:R169572": "2026-09-20T01:42:03.941384+00:00",
@@ -2002,6 +1996,7 @@
   "Amazon:10601724": "2026-11-10T20:09:02.006811+00:00",
   "Amazon:10602414": "2026-11-11T19:09:56.521236+00:00",
   "Amazon:10602473": "2026-11-11T19:09:56.521236+00:00",
+  "Amazon:10602513": "2026-11-16T18:09:27.501356+00:00",
   "Amazon:10602623": "2026-11-11T19:09:56.521236+00:00",
   "Amazon:10602656": "2026-11-16T17:09:37.953300+00:00",
   "Amazon:10602659": "2026-11-16T17:09:37.953300+00:00",
