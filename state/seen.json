@@ -803,31 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 21,
-   "last_error": "relay data is 70.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 22,
+   "last_error": "relay data is 70.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2841,6 +2853,7 @@
   "Company boards (Greenhouse):pinterest-7488432": "2026-10-14T23:30:29.942629+00:00",
   "Company boards (Greenhouse):pinterest-8016646": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):pinterest-8119896": "2026-10-30T19:09:41.703774+00:00",
+  "Company boards (Greenhouse):pinterest-8209050": "2026-11-16T22:09:08.042199+00:00",
   "Company boards (Greenhouse):pinterest-8209845": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):pinterest-8209905": "2026-10-07T09:22:56.318458+00:00",
   "Company boards (Greenhouse):pinterest-8260075": "2026-10-13T17:35:56.440883+00:00",
