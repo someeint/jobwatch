@@ -803,43 +803,55 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
-  "Boeing": {
-   "fails": 10,
-   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
   },
   "CrowdStrike": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 22,
-   "last_error": "relay data is 70.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 23,
+   "last_error": "relay data is 71.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "King County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+  },
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Starbucks": {
+  "Snohomish County (gov)": {
    "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
+  "Starbucks": {
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   },
   "T-Mobile": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2094,6 +2106,7 @@
   "Boeing:JR2026526293": "2026-10-07T16:41:18.237442+00:00",
   "Boeing:JR2026526297": "2026-10-07T16:41:18.237442+00:00",
   "Boeing:JR2026526315": "2026-10-15T18:41:25.302041+00:00",
+  "Boeing:JR2026526318": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026526354": "2026-11-03T17:09:23.089175+00:00",
   "Boeing:JR2026526411": "2026-10-30T20:52:47.802732+00:00",
   "Boeing:JR2026526414": "2026-10-29T17:11:38.734301+00:00",
@@ -2127,8 +2140,14 @@
   "Boeing:JR2026528999": "2026-11-12T13:12:15.591594+00:00",
   "Boeing:JR2026529014": "2026-11-10T12:57:13.375824+00:00",
   "Boeing:JR2026529059": "2026-11-13T23:09:27.753888+00:00",
+  "Boeing:JR2026529175": "2026-11-16T23:09:11.069090+00:00",
+  "Boeing:JR2026529185": "2026-11-16T23:09:11.069090+00:00",
+  "Boeing:JR2026529187": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529323": "2026-11-10T22:13:52.791674+00:00",
   "Boeing:JR2026529534": "2026-11-12T16:10:10.127760+00:00",
+  "Boeing:JR2026529605": "2026-11-16T23:09:11.069090+00:00",
+  "Boeing:JR2026529675": "2026-11-16T23:09:11.069090+00:00",
+  "Boeing:JR2026529797": "2026-11-16T23:09:11.069090+00:00",
   "City of Seattle (gov):5394932": "2026-09-20T01:42:03.941384+00:00",
   "City of Seattle (gov):5451530": "2026-09-20T07:07:10.258753+00:00",
   "City of Seattle (gov):5467501": "2026-09-20T01:42:03.941384+00:00",
@@ -2731,6 +2750,7 @@
   "Company boards (Greenhouse):gitlab-8932282002": "2026-11-09T19:09:24.021354+00:00",
   "Company boards (Greenhouse):gitlab-8936091002": "2026-11-11T16:10:49.149197+00:00",
   "Company boards (Greenhouse):gitlab-8939857002": "2026-11-16T16:00:57.589874+00:00",
+  "Company boards (Greenhouse):gitlab-8943456002": "2026-11-16T23:09:11.069090+00:00",
   "Company boards (Greenhouse):gusto-8022501": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148547": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gusto-8148634": "2026-09-20T01:42:03.941384+00:00",
