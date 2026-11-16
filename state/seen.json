@@ -803,39 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 16,
-   "last_error": "relay data is 65.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 17,
+   "last_error": "relay data is 66.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 4,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2409,6 +2413,7 @@
   "Company boards (Greenhouse):airbnb-8355483": "2026-11-11T19:09:56.521236+00:00",
   "Company boards (Greenhouse):airbnb-8356141": "2026-11-11T19:09:56.521236+00:00",
   "Company boards (Greenhouse):airbnb-8357059": "2026-11-06T11:28:20.278089+00:00",
+  "Company boards (Greenhouse):airbnb-8393253": "2026-11-16T17:29:46.187570+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358146008": "2026-09-20T01:42:03.941384+00:00",
