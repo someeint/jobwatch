@@ -803,31 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "Nordstrom": {
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 34,
+   "fails": 35,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2705,6 +2709,7 @@
   "Company boards (Greenhouse):figma-6225818004": "2026-10-22T15:48:27.201077+00:00",
   "Company boards (Greenhouse):figma-6235005004": "2026-10-27T18:32:42.558929+00:00",
   "Company boards (Greenhouse):figma-6235320004": "2026-10-28T23:42:01.229138+00:00",
+  "Company boards (Greenhouse):figma-6261622004": "2026-11-17T19:09:06.477742+00:00",
   "Company boards (Greenhouse):flexport-8143326": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):flexport-8157067": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):flexport-8160591": "2026-10-15T18:41:25.302041+00:00",
@@ -2878,6 +2883,7 @@
   "Company boards (Greenhouse):pinterest-8287192": "2026-10-23T23:28:44.548124+00:00",
   "Company boards (Greenhouse):pinterest-8319154": "2026-10-30T19:09:41.703774+00:00",
   "Company boards (Greenhouse):pinterest-8336035": "2026-11-13T03:39:00.471761+00:00",
+  "Company boards (Greenhouse):pinterest-8347997": "2026-11-17T19:09:06.477742+00:00",
   "Company boards (Greenhouse):pinterest-8350415": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):reddit-8077785": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):reddit-8186447": "2026-09-20T01:42:03.941384+00:00",
