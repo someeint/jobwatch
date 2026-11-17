@@ -803,35 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "LinkedIn": {
-   "fails": 12,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 61 jobs collected before the block"
-  },
-  "Microsoft": {
+  "King County (gov)": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
   "Salesforce": {
-   "fails": 26,
+   "fails": 27,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
   "T-Mobile": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -3036,6 +3044,7 @@
   "Company boards (Greenhouse):stripe-8326098": "2026-11-11T21:53:23.509894+00:00",
   "Company boards (Greenhouse):stripe-8329743": "2026-10-29T22:11:44.131166+00:00",
   "Company boards (Greenhouse):stripe-8334550": "2026-11-13T11:31:13.694505+00:00",
+  "Company boards (Greenhouse):stripe-8336296": "2026-11-17T12:10:51.148817+00:00",
   "Company boards (Greenhouse):stripe-8336699": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):stripe-8336711": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):stripe-8338839": "2026-11-13T11:31:13.694505+00:00",
@@ -4864,6 +4873,7 @@
   "LinkedIn:4489161399": "2026-11-09T23:09:43.837160+00:00",
   "LinkedIn:4489164160": "2026-11-09T23:09:43.837160+00:00",
   "LinkedIn:4489165423": "2026-11-13T11:31:13.694505+00:00",
+  "LinkedIn:4489170320": "2026-11-17T12:10:51.148817+00:00",
   "LinkedIn:4489171279": "2026-11-10T01:10:05.396083+00:00",
   "LinkedIn:4489171786": "2026-11-10T01:10:05.396083+00:00",
   "LinkedIn:4489172866": "2026-11-10T01:10:05.396083+00:00",
@@ -4903,6 +4913,7 @@
   "LinkedIn:4489756606": "2026-11-16T16:11:00.259278+00:00",
   "LinkedIn:4489783230": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4489788756": "2026-11-16T21:59:39.075248+00:00",
+  "LinkedIn:4489791585": "2026-11-17T12:10:51.148817+00:00",
   "LinkedIn:4489797972": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4489798058": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4489802593": "2026-11-14T01:08:41.988679+00:00",
@@ -4946,6 +4957,7 @@
   "LinkedIn:4490339291": "2026-11-13T11:31:13.694505+00:00",
   "LinkedIn:4490377277": "2026-11-12T18:26:33.877521+00:00",
   "LinkedIn:4490385598": "2026-11-16T21:59:39.075248+00:00",
+  "LinkedIn:4490432520": "2026-11-17T12:10:51.148817+00:00",
   "LinkedIn:4490517612": "2026-11-12T22:09:40.539572+00:00",
   "LinkedIn:4490529859": "2026-11-12T23:45:37.788353+00:00",
   "LinkedIn:4490532059": "2026-11-12T22:09:40.539572+00:00",
@@ -4962,6 +4974,8 @@
   "LinkedIn:4490799573": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4490934415": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4490947657": "2026-11-17T00:08:44.841465+00:00",
+  "LinkedIn:4490952754": "2026-11-17T12:10:51.148817+00:00",
+  "LinkedIn:4490954547": "2026-11-17T12:10:51.148817+00:00",
   "LinkedIn:4491002170": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491002333": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491007713": "2026-11-14T01:08:41.988679+00:00",
