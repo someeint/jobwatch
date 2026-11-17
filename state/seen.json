@@ -803,35 +803,47 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "King County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+  },
   "Microsoft": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
   "T-Mobile": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1760,6 +1772,7 @@
   "Accelerators (BambooHR):plugandplaytechcenter-1546": "2026-11-12T17:10:01.966419+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1548": "2026-11-16T18:09:27.501356+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1549": "2026-11-16T18:09:27.501356+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1550": "2026-11-17T17:09:23.147830+00:00",
   "Adobe:R168398": "2026-10-22T20:51:49.303795+00:00",
   "Adobe:R169243": "2026-10-27T16:19:05.095066+00:00",
   "Adobe:R169572": "2026-09-20T01:42:03.941384+00:00",
@@ -2302,6 +2315,7 @@
   "Company boards (Ashby):openai-d1e4178d-8eb6-4727-9601-e230cb96eeee": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Ashby):openai-d1f21456-f0bf-48ad-bb8d-ae0020a10600": "2026-10-29T17:11:38.734301+00:00",
   "Company boards (Ashby):openai-d4fed8a0-cf2a-49b1-b216-80d710827e16": "2026-10-28T00:05:07.188381+00:00",
+  "Company boards (Ashby):openai-d5ee28a8-079f-4113-9430-79fb747877b6": "2026-11-17T17:09:23.147830+00:00",
   "Company boards (Ashby):openai-d6fbe4bd-1b55-40b6-93c0-a296ea747ecf": "2026-11-09T23:08:32.231102+00:00",
   "Company boards (Ashby):openai-d727cc4b-f4b6-49a0-806c-390f8a053e2f": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-d769a04e-c300-454a-8c68-1c93d04a6bb6": "2026-10-30T18:08:58.806463+00:00",
@@ -2789,6 +2803,7 @@
   "Company boards (Greenhouse):lyft-8921735002": "2026-10-28T20:34:38.477357+00:00",
   "Company boards (Greenhouse):lyft-8927265002": "2026-11-03T16:44:18.489589+00:00",
   "Company boards (Greenhouse):lyft-8930012002": "2026-11-04T16:09:50.571524+00:00",
+  "Company boards (Greenhouse):lyft-8935229002": "2026-11-17T17:09:23.147830+00:00",
   "Company boards (Greenhouse):lyft-8938484002": "2026-11-12T20:09:24.610500+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):mongodb-8157127": "2026-09-20T01:42:03.941384+00:00",
@@ -5158,6 +5173,7 @@
   "Nordstrom:R-893261": "2026-10-29T18:11:24.342560+00:00",
   "Nordstrom:R-895990": "2026-11-05T23:37:46.037568+00:00",
   "Nordstrom:R-897089": "2026-11-09T23:08:32.231102+00:00",
+  "Nordstrom:R-898981": "2026-11-17T17:09:23.147830+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
