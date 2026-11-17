@@ -803,27 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 18,
+   "fails": 19,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 22,
+   "fails": 23,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
   "Salesforce": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 22,
+   "fails": 23,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -5011,8 +5019,10 @@
   "LinkedIn:4491405474": "2026-11-17T20:09:09.655155+00:00",
   "LinkedIn:4491409310": "2026-11-17T18:12:55.283508+00:00",
   "LinkedIn:4491410234": "2026-11-17T18:09:18.390279+00:00",
+  "LinkedIn:4491410948": "2026-11-17T22:09:06.951467+00:00",
   "LinkedIn:4491412281": "2026-11-17T20:09:09.655155+00:00",
   "LinkedIn:4491413196": "2026-11-17T18:12:55.283508+00:00",
+  "LinkedIn:4491438191": "2026-11-17T22:09:06.951467+00:00",
   "LinkedIn:4491509665": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4491511625": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4491511801": "2026-11-17T00:08:44.841465+00:00",
