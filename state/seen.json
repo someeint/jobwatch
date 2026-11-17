@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 81,
-   "t": "2026-09-21T19:34:41.546264+00:00"
-  },
-  {
    "s": 77,
    "t": "2026-09-21T19:34:41.546264+00:00"
   },
@@ -799,35 +795,35 @@
   {
    "s": 76,
    "t": "2026-11-17T10:08:34.471402+00:00"
+  },
+  {
+   "s": 78,
+   "t": "2026-11-17T21:08:50.794615+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
   "Salesforce": {
-   "fails": 36,
+   "fails": 37,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 18,
+   "fails": 19,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1254,6 +1250,7 @@
   "Company boards (Greenhouse):chime-8790458002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8198059": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8230848": "2026-10-12T19:09:44.943756+00:00",
+  "Company boards (Greenhouse):databricks-8922572002": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Greenhouse):dropbox-8356674": "2026-11-10T21:09:13.911995+00:00",
   "Company boards (Greenhouse):gitlab-8907028002": "2026-10-22T01:56:36.745076+00:00",
   "Company boards (Greenhouse):instacart-8205692": "2026-09-20T01:42:03.941384+00:00",
@@ -1696,6 +1693,7 @@
   "ec9d18d2e03daaa8": "2026-10-30T15:13:06.054317+00:00",
   "ecfa9dcd0b40e1e7": "2026-09-19T18:31:08.637985+00:00",
   "ed69cfc260968edd": "2026-10-05T18:12:29.272165+00:00",
+  "ed9cfb329f1c2d29": "2026-11-17T21:08:50.794615+00:00",
   "ed9d24f5fb35ddd6": "2026-09-19T18:31:08.637985+00:00",
   "edae1d0cea138aa3": "2026-11-10T00:09:22.405128+00:00",
   "eed1cd91a4899b75": "2026-09-19T18:31:08.637985+00:00",
@@ -2020,6 +2018,9 @@
   "Amazon:10606813": "2026-11-17T04:08:35.349526+00:00",
   "Amazon:10607157": "2026-11-17T18:09:18.390279+00:00",
   "Amazon:10607196": "2026-11-17T18:09:18.390279+00:00",
+  "Amazon:10607489": "2026-11-17T21:08:50.794615+00:00",
+  "Amazon:10607526": "2026-11-17T21:08:50.794615+00:00",
+  "Amazon:10607557": "2026-11-17T21:08:50.794615+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2183,6 +2184,7 @@
   "Company boards (Ashby):notion-b393c25a-2ce7-458d-800a-bf9e75ed070b": "2026-10-19T06:47:11.321072+00:00",
   "Company boards (Ashby):notion-be994bb4-c680-4f57-b3bd-7e689175317f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-c5c69246-74db-4960-a0e0-7945be6c30ae": "2026-09-20T18:03:35.867206+00:00",
+  "Company boards (Ashby):notion-da9a9a45-10e3-4c6a-916f-f89ee4cf29a4": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Ashby):notion-e4b7c4d5-9c71-4f82-bf32-0af60e1f2a9f": "2026-11-10T19:12:34.667575+00:00",
   "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
   "Company boards (Ashby):openai-002c6146-f1bf-4653-8929-8112b577837b": "2026-09-20T01:42:03.941384+00:00",
@@ -2348,6 +2350,7 @@
   "Company boards (Ashby):ramp-fc753f8d-7f2f-4b12-9db2-a5694ce4e74c": "2026-10-16T18:26:28.839702+00:00",
   "Company boards (Ashby):ramp-fe280d10-4258-420a-b0bb-0dc9021bd803": "2026-11-04T02:33:50.098881+00:00",
   "Company boards (Ashby):replit-56d7dc53-f4ba-4147-9aaa-0fd4af7cbb4f": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):replit-8b638123-4596-4eba-b240-cf526392a20d": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Ashby):replit-9394684e-814c-4a3c-b5ed-19612e4331bc": "2026-10-01T19:08:49.260098+00:00",
   "Company boards (Ashby):replit-a8aa0921-38e1-4015-bb95-a08b090e218e": "2026-10-27T19:12:10.632653+00:00",
   "Company boards (Ashby):replit-b68de733-07d9-4e57-82c5-78c6bd454044": "2026-09-30T18:53:00.441731+00:00",
@@ -2513,6 +2516,7 @@
   "Company boards (Greenhouse):anthropic-5479135008": "2026-11-12T10:09:29.828991+00:00",
   "Company boards (Greenhouse):anthropic-5481671008": "2026-11-13T23:09:27.753888+00:00",
   "Company boards (Greenhouse):anthropic-5481842008": "2026-11-16T19:09:39.662937+00:00",
+  "Company boards (Greenhouse):anthropic-5483359008": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -5132,6 +5136,7 @@
   "Microsoft:1970393557046320": "2026-10-26T23:55:33.488420+00:00",
   "Microsoft:1970393557046335": "2026-11-03T22:27:00.143094+00:00",
   "Microsoft:1970393557046371": "2026-11-03T02:26:16.054939+00:00",
+  "Microsoft:1970393557047514": "2026-11-17T21:08:50.794615+00:00",
   "Microsoft:1970393557047531": "2026-10-30T19:09:41.703774+00:00",
   "Microsoft:1970393557048158": "2026-11-04T20:10:13.259905+00:00",
   "Microsoft:1970393557048169": "2026-10-28T17:18:13.210720+00:00",
@@ -5148,6 +5153,7 @@
   "Microsoft:1970393557070157": "2026-11-12T17:10:01.966419+00:00",
   "Microsoft:1970393557070437": "2026-11-10T20:09:02.006811+00:00",
   "Microsoft:1970393557071316": "2026-11-16T17:09:37.953300+00:00",
+  "Microsoft:1970393557074418": "2026-11-17T21:08:50.794615+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-876046": "2026-09-19T19:35:30.555713+00:00",
   "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
@@ -5176,6 +5182,7 @@
   "Nordstrom:R-895990": "2026-11-05T23:37:46.037568+00:00",
   "Nordstrom:R-897089": "2026-11-09T23:08:32.231102+00:00",
   "Nordstrom:R-898981": "2026-11-17T17:09:23.147830+00:00",
+  "Nordstrom:R-899183": "2026-11-17T21:08:50.794615+00:00",
   "Okta:8155421": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8157043": "2026-09-19T18:31:08.637985+00:00",
   "Okta:8158010": "2026-09-19T18:31:08.637985+00:00",
