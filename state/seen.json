@@ -803,51 +803,27 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
-  "CrowdStrike": {
-   "fails": 10,
-   "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
-  },
-  "King County (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2397,6 +2373,7 @@
   "Company boards (Ashby):snowflake-f0dfa3f8-0bed-4e4b-97ff-825eb19fa894": "2026-10-20T22:08:56.988964+00:00",
   "Company boards (Ashby):snowflake-f5ab2c09-86d5-41b7-8fbf-f012b0b08e4b": "2026-11-10T16:10:53.821124+00:00",
   "Company boards (Ashby):vanta-0e82974a-0023-49a2-b1ec-a0fa89636dd5": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):vanta-10098ac6-b0c1-4ba6-9903-6c5ebe85fe1e": "2026-11-17T14:11:47.137672+00:00",
   "Company boards (Ashby):vanta-20d2c9aa-19da-4370-9378-491312f6f98a": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):vanta-29e92503-fecf-4ac4-9de7-683390fb74c6": "2026-11-09T22:09:55.868024+00:00",
   "Company boards (Ashby):vanta-2f2ad814-2437-46bc-8829-9413f1840db0": "2026-09-21T19:34:41.546264+00:00",
@@ -3142,6 +3119,7 @@
   "CrowdStrike:R30002": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R30050": "2026-09-19T18:31:08.637985+00:00",
   "CrowdStrike:R30064": "2026-09-28T01:37:45.454310+00:00",
+  "CrowdStrike:R30065": "2026-11-17T14:11:47.137672+00:00",
   "CrowdStrike:R30171": "2026-10-02T01:08:58.756463+00:00",
   "CrowdStrike:R30258": "2026-10-05T06:08:17.320649+00:00",
   "CrowdStrike:R30286": "2026-10-05T06:08:17.320649+00:00",
