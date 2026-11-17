@@ -803,47 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
+  "LinkedIn": {
    "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 29 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 32,
+   "fails": 33,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 14,
+   "fails": 15,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2034,6 +2022,8 @@
   "Amazon:10605822": "2026-11-16T16:00:57.589874+00:00",
   "Amazon:10606718": "2026-11-17T00:08:44.841465+00:00",
   "Amazon:10606813": "2026-11-17T04:08:35.349526+00:00",
+  "Amazon:10607157": "2026-11-17T18:09:18.390279+00:00",
+  "Amazon:10607196": "2026-11-17T18:09:18.390279+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2223,6 +2213,7 @@
   "Company boards (Ashby):openai-2c531790-726c-4d39-b3bd-900c59a09a4d": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Ashby):openai-2df4df3a-7ac6-42f2-b8ec-d471627a80c8": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-2e645639-3362-42f7-b0b9-e99380c48d29": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Ashby):openai-30094f74-2213-4251-a924-806cab36a8be": "2026-11-17T18:09:18.390279+00:00",
   "Company boards (Ashby):openai-320f6132-7a72-425e-8045-4fd59f99f31c": "2026-11-11T16:10:49.149197+00:00",
   "Company boards (Ashby):openai-3228eed1-9cb3-4330-82c3-19fb3dbb4408": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Ashby):openai-32905f5c-9405-4073-bc65-c57fcf55a83d": "2026-09-20T01:42:03.941384+00:00",
@@ -5010,6 +5001,7 @@
   "LinkedIn:4491276405": "2026-11-16T00:58:51.807816+00:00",
   "LinkedIn:4491279140": "2026-11-16T00:58:51.807816+00:00",
   "LinkedIn:4491281057": "2026-11-16T00:58:51.807816+00:00",
+  "LinkedIn:4491410234": "2026-11-17T18:09:18.390279+00:00",
   "LinkedIn:4491509665": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4491511625": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4491511801": "2026-11-17T00:08:44.841465+00:00",
@@ -5019,6 +5011,7 @@
   "LinkedIn:4491572807": "2026-11-17T16:09:50.275718+00:00",
   "LinkedIn:4491573800": "2026-11-17T16:09:50.275718+00:00",
   "LinkedIn:4491580368": "2026-11-17T16:09:50.275718+00:00",
+  "LinkedIn:4491719271": "2026-11-17T18:09:18.390279+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
