@@ -1,14 +1,6 @@
 {
  "alerts": [
   {
-   "s": 78,
-   "t": "2026-09-20T18:07:04.190883+00:00"
-  },
-  {
-   "s": 77,
-   "t": "2026-09-20T18:10:06.845531+00:00"
-  },
-  {
    "s": 84,
    "t": "2026-09-21T07:09:53.992684+00:00"
   },
@@ -799,51 +791,71 @@
   {
    "s": 84,
    "t": "2026-11-17T00:08:44.841465+00:00"
+  },
+  {
+   "s": 79,
+   "t": "2026-11-17T01:09:30.675260+00:00"
+  },
+  {
+   "s": 75,
+   "t": "2026-11-17T01:09:30.675260+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
+  "Boeing": {
    "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
+  },
+  "City of Seattle (gov)": {
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
   },
   "City of Tacoma (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
   },
   "CrowdStrike": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 25,
-   "last_error": "relay data is 73.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 26,
+   "last_error": "relay data is 73.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "King County (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
   "LinkedIn": {
+   "fails": 2,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+  },
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "Snohomish County (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
   },
+  "T-Mobile": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
+  },
   "Zillow": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -871,6 +883,7 @@
   "0b50ad4a497e9255": "2026-09-19T18:31:08.637985+00:00",
   "0bc96bfaa60c6e25": "2026-10-08T18:52:59.131833+00:00",
   "0e1cd0894fb874bd": "2026-11-10T22:13:52.791674+00:00",
+  "0e7c9379b1396fd5": "2026-11-17T01:09:30.675260+00:00",
   "1061d90fc5327070": "2026-09-19T18:31:08.637985+00:00",
   "10d10284df1f2bc1": "2026-10-23T01:08:48.054439+00:00",
   "12e858daa9280e41": "2026-09-25T21:43:34.260220+00:00",
@@ -1015,6 +1028,7 @@
   "6bebf0b66c86d542": "2026-09-20T01:42:03.941384+00:00",
   "6c62ac04f561fa8f": "2026-09-24T19:31:20.122338+00:00",
   "6cfd664324aa937c": "2026-09-19T18:31:08.637985+00:00",
+  "6e5ab1e992b965bf": "2026-11-17T01:09:30.675260+00:00",
   "6ec3b559e99db6f9": "2026-11-14T01:08:41.988679+00:00",
   "6ffa45758f3b3c91": "2026-10-20T18:10:11.726414+00:00",
   "7019f97f41007987": "2026-09-19T18:31:08.637985+00:00",
@@ -1512,6 +1526,8 @@
   "LinkedIn:4489565511": "2026-11-13T16:26:24.658224+00:00",
   "LinkedIn:4489906232": "2026-11-11T10:09:48.028879+00:00",
   "LinkedIn:4490070453": "2026-11-12T02:08:50.234053+00:00",
+  "LinkedIn:4490160478": "2026-11-17T01:09:30.675260+00:00",
+  "LinkedIn:4490171129": "2026-11-17T01:09:30.675260+00:00",
   "LinkedIn:4490345986": "2026-11-13T16:26:24.658224+00:00",
   "LinkedIn:4490724064": "2026-11-13T16:26:24.658224+00:00",
   "LinkedIn:4491004487": "2026-11-14T01:08:41.988679+00:00",
