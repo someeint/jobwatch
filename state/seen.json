@@ -803,35 +803,47 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "LinkedIn": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+  "King County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
-  "Nordstrom": {
+  "LinkedIn": {
    "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Salesforce": {
-   "fails": 46,
+   "fails": 47,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
   "T-Mobile": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2983,6 +2995,7 @@
   "Company boards (Greenhouse):samsara-8259091": "2026-10-09T00:09:06.497235+00:00",
   "Company boards (Greenhouse):samsara-8261809": "2026-10-09T23:06:20.709021+00:00",
   "Company boards (Greenhouse):samsara-8327792": "2026-11-12T00:17:51.591466+00:00",
+  "Company boards (Greenhouse):samsara-8331168": "2026-11-18T18:09:00.991046+00:00",
   "Company boards (Greenhouse):samsara-8358633": "2026-11-06T16:12:37.062790+00:00",
   "Company boards (Greenhouse):samsara-8359984": "2026-11-06T20:08:47.896499+00:00",
   "Company boards (Greenhouse):samsara-8375354": "2026-11-15T21:09:16.284551+00:00",
