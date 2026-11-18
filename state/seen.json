@@ -803,43 +803,55 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 14,
+   "fails": 15,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "Indeed": {
+  "King County (gov)": {
    "fails": 1,
-   "last_error": "relay data is 8.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
   "LinkedIn": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 43,
+   "fails": 44,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
   "T-Mobile": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2824,6 +2836,7 @@
   "Company boards (Greenhouse):lyft-8935229002": "2026-11-17T17:09:23.147830+00:00",
   "Company boards (Greenhouse):lyft-8938484002": "2026-11-12T20:09:24.610500+00:00",
   "Company boards (Greenhouse):lyft-8948517002": "2026-11-18T01:09:05.233708+00:00",
+  "Company boards (Greenhouse):lyft-8948519002": "2026-11-18T16:31:38.243200+00:00",
   "Company boards (Greenhouse):lyft-8948757002": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Greenhouse):lyft-8948773002": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
@@ -2980,6 +2993,7 @@
   "Company boards (Greenhouse):rubrik-8360551": "2026-11-17T15:10:37.506037+00:00",
   "Company boards (Greenhouse):rubrik-8367390": "2026-11-15T16:26:16.090032+00:00",
   "Company boards (Greenhouse):rubrik-8376959": "2026-11-16T07:44:03.734057+00:00",
+  "Company boards (Greenhouse):rubrik-8386772": "2026-11-18T16:31:38.243200+00:00",
   "Company boards (Greenhouse):samsara-8142214": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8179593": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):samsara-8180371": "2026-09-20T01:42:03.941384+00:00",
@@ -3186,6 +3200,7 @@
   "Indeed:45d82a33d7e8675e": "2026-10-06T16:11:58.127634+00:00",
   "Indeed:46c0abb0af4b100b": "2026-11-10T17:48:39.834606+00:00",
   "Indeed:51f32048bde0bfd2": "2026-10-30T20:10:01.686285+00:00",
+  "Indeed:5596d3bf3baecf8e": "2026-11-18T16:31:38.243200+00:00",
   "Indeed:5c4bf31c6ecb9ee2": "2026-10-09T00:09:06.497235+00:00",
   "Indeed:5ea1aba39acca889": "2026-10-19T23:09:43.739420+00:00",
   "Indeed:5f58c1d8741b148b": "2026-11-02T19:12:12.848760+00:00",
