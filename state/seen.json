@@ -803,39 +803,31 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 33,
+   "fails": 34,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 23,
+   "fails": 24,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 10,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "fails": 11,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 76 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 52,
+   "fails": 53,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 34,
+   "fails": 35,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -4978,6 +4970,7 @@
   "LinkedIn:4490778660": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4490784462": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4490799573": "2026-11-14T01:08:41.988679+00:00",
+  "LinkedIn:4490825035": "2026-11-18T23:25:57.609379+00:00",
   "LinkedIn:4490934415": "2026-11-16T21:59:39.075248+00:00",
   "LinkedIn:4490947657": "2026-11-17T00:08:44.841465+00:00",
   "LinkedIn:4490952754": "2026-11-17T12:10:51.148817+00:00",
@@ -5028,6 +5021,7 @@
   "LinkedIn:4491758085": "2026-11-18T00:08:40.583513+00:00",
   "LinkedIn:4491765579": "2026-11-18T00:08:40.583513+00:00",
   "LinkedIn:4491768159": "2026-11-18T00:08:40.583513+00:00",
+  "LinkedIn:4491812067": "2026-11-18T23:25:57.609379+00:00",
   "LinkedIn:4491846420": "2026-11-18T20:08:59.124149+00:00",
   "LinkedIn:4491885212": "2026-11-18T21:08:51.671935+00:00",
   "LinkedIn:4492039620": "2026-11-18T20:08:59.124149+00:00",
