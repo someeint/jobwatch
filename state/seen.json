@@ -803,27 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 22,
+   "fails": 23,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 26,
+   "fails": 27,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
   "Salesforce": {
-   "fails": 41,
+   "fails": 42,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 26,
+   "fails": 27,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 23,
+   "fails": 24,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2805,6 +2813,7 @@
   "Company boards (Greenhouse):lyft-8930012002": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Greenhouse):lyft-8935229002": "2026-11-17T17:09:23.147830+00:00",
   "Company boards (Greenhouse):lyft-8938484002": "2026-11-12T20:09:24.610500+00:00",
+  "Company boards (Greenhouse):lyft-8948517002": "2026-11-18T01:09:05.233708+00:00",
   "Company boards (Greenhouse):lyft-8948757002": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Greenhouse):lyft-8948773002": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Greenhouse):mongodb-8119628": "2026-09-20T01:42:03.941384+00:00",
