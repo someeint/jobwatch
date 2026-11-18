@@ -803,35 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 35,
+   "fails": 36,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 8,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
-  },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "fails": 9,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 50,
+   "fails": 51,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 35,
+   "fails": 36,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 32,
+   "fails": 33,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1947,6 +1947,7 @@
   "Amazon:10592015": "2026-10-29T07:13:02.030150+00:00",
   "Amazon:10592223": "2026-10-29T17:11:38.734301+00:00",
   "Amazon:10592590": "2026-10-29T22:11:44.131166+00:00",
+  "Amazon:10593003": "2026-11-18T22:08:53.001318+00:00",
   "Amazon:10593004": "2026-11-09T17:59:50.930977+00:00",
   "Amazon:10593096": "2026-10-29T23:36:19.824570+00:00",
   "Amazon:10593165": "2026-10-30T00:09:14.644929+00:00",
@@ -2835,12 +2836,14 @@
   "Company boards (Greenhouse):mongodb-8337355": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):mongodb-8337357": "2026-11-02T17:37:48.740417+00:00",
   "Company boards (Greenhouse):mongodb-8337727": "2026-11-03T16:44:18.489589+00:00",
+  "Company boards (Greenhouse):mongodb-8355201": "2026-11-18T22:08:53.001318+00:00",
   "Company boards (Greenhouse):mongodb-8355268": "2026-11-09T13:39:13.805377+00:00",
   "Company boards (Greenhouse):mongodb-8367100": "2026-11-12T21:52:58.077118+00:00",
   "Company boards (Greenhouse):mongodb-8367103": "2026-11-12T21:52:58.077118+00:00",
   "Company boards (Greenhouse):mongodb-8367108": "2026-11-12T18:26:33.877521+00:00",
   "Company boards (Greenhouse):mongodb-8386087": "2026-11-13T18:09:39.962995+00:00",
   "Company boards (Greenhouse):mongodb-8386495": "2026-11-16T16:00:57.589874+00:00",
+  "Company boards (Greenhouse):mongodb-8399041": "2026-11-18T22:08:53.001318+00:00",
   "Company boards (Greenhouse):okta-8155421": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8157043": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):okta-8158010": "2026-09-20T01:42:03.941384+00:00",
