@@ -2,10 +2,6 @@
  "alerts": [
   {
    "s": 77,
-   "t": "2026-09-21T19:34:41.546264+00:00"
-  },
-  {
-   "s": 77,
    "t": "2026-09-21T22:49:19.178128+00:00"
   },
   {
@@ -799,43 +795,39 @@
   {
    "s": 78,
    "t": "2026-11-17T21:08:50.794615+00:00"
+  },
+  {
+   "s": 87,
+   "t": "2026-11-18T00:08:40.583513+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 20,
+   "fails": 21,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 39,
+   "fails": 40,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
-  },
   "T-Mobile": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1270,6 +1262,7 @@
   "Company boards (Greenhouse):okta-8305851": "2026-10-22T17:52:03.404379+00:00",
   "Company boards (Greenhouse):reddit-8282563": "2026-10-19T23:09:43.739420+00:00",
   "Company boards (Greenhouse):samsara-8112696": "2026-09-20T01:42:03.941384+00:00",
+  "Company boards (Greenhouse):samsara-8383258": "2026-11-18T00:08:40.583513+00:00",
   "Company boards (Greenhouse):stripe-8147961": "2026-09-25T21:43:34.260220+00:00",
   "Company boards (Greenhouse):stripe-8175629": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):stripe-8234710": "2026-10-30T15:13:06.054317+00:00",
@@ -1724,6 +1717,7 @@
   "f337e95d21bee847": "2026-11-05T18:11:56.709055+00:00",
   "f53566768bb25016": "2026-10-10T01:08:28.915148+00:00",
   "f55750412d110d55": "2026-09-19T18:31:08.637985+00:00",
+  "f5fb5303bdcef92c": "2026-11-18T00:08:40.583513+00:00",
   "f67a91df8caa69de": "2026-09-20T01:42:03.941384+00:00",
   "f827cc12b5c0e223": "2026-09-19T18:31:08.637985+00:00",
   "f86dcc66c2bae644": "2026-11-15T23:08:41.373598+00:00",
@@ -2531,6 +2525,7 @@
   "Company boards (Greenhouse):anthropic-5481671008": "2026-11-13T23:09:27.753888+00:00",
   "Company boards (Greenhouse):anthropic-5481842008": "2026-11-16T19:09:39.662937+00:00",
   "Company boards (Greenhouse):anthropic-5483359008": "2026-11-17T21:08:50.794615+00:00",
+  "Company boards (Greenhouse):anthropic-5485582008": "2026-11-18T00:08:40.583513+00:00",
   "Company boards (Greenhouse):asana-8098005": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8104502": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):asana-8188918": "2026-09-20T01:42:03.941384+00:00",
@@ -5041,6 +5036,10 @@
   "LinkedIn:4491701973": "2026-11-17T18:12:55.283508+00:00",
   "LinkedIn:4491715494": "2026-11-17T18:12:55.283508+00:00",
   "LinkedIn:4491719271": "2026-11-17T18:09:18.390279+00:00",
+  "LinkedIn:4491757913": "2026-11-18T00:08:40.583513+00:00",
+  "LinkedIn:4491758085": "2026-11-18T00:08:40.583513+00:00",
+  "LinkedIn:4491765579": "2026-11-18T00:08:40.583513+00:00",
+  "LinkedIn:4491768159": "2026-11-18T00:08:40.583513+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
