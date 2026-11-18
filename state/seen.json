@@ -803,35 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 23,
+   "fails": 24,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "Microsoft": {
+  "Indeed": {
    "fails": 1,
+   "last_error": "relay data is 8.0h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
+  "LinkedIn": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 42,
+   "fails": 43,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2033,6 +2041,7 @@
   "Amazon:10607557": "2026-11-17T21:08:50.794615+00:00",
   "Amazon:10607661": "2026-11-17T23:08:46.610606+00:00",
   "Amazon:10607662": "2026-11-17T23:08:46.610606+00:00",
+  "Amazon:10607838": "2026-11-18T08:14:58.457938+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2737,6 +2746,7 @@
   "Company boards (Greenhouse):flexport-8364510": "2026-11-10T04:35:55.750448+00:00",
   "Company boards (Greenhouse):flexport-8384368": "2026-11-13T01:08:48.221651+00:00",
   "Company boards (Greenhouse):flexport-8386921": "2026-11-17T16:09:50.275718+00:00",
+  "Company boards (Greenhouse):flexport-8396840": "2026-11-18T08:14:58.457938+00:00",
   "Company boards (Greenhouse):gitlab-8691770002": "2026-09-23T18:08:12.160394+00:00",
   "Company boards (Greenhouse):gitlab-8693068002": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):gitlab-8700245002": "2026-09-20T01:42:03.941384+00:00",
