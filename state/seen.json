@@ -803,55 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
-  },
-  "Microsoft": {
    "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Nordstrom": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 44,
+   "fails": 45,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 26,
+   "fails": 27,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2466,6 +2446,7 @@
   "Company boards (Greenhouse):airbnb-8355483": "2026-11-11T19:09:56.521236+00:00",
   "Company boards (Greenhouse):airbnb-8356141": "2026-11-11T19:09:56.521236+00:00",
   "Company boards (Greenhouse):airbnb-8357059": "2026-11-06T11:28:20.278089+00:00",
+  "Company boards (Greenhouse):airbnb-8383877": "2026-11-18T17:09:24.076679+00:00",
   "Company boards (Greenhouse):airbnb-8393253": "2026-11-16T17:29:46.187570+00:00",
   "Company boards (Greenhouse):anthropic-5358106008": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):anthropic-5358110008": "2026-09-20T01:42:03.941384+00:00",
@@ -5193,6 +5174,7 @@
   "Microsoft:1970393557053874": "2026-11-09T22:09:55.868024+00:00",
   "Microsoft:1970393557053876": "2026-11-05T22:08:26.613248+00:00",
   "Microsoft:1970393557053878": "2026-11-10T20:09:02.006811+00:00",
+  "Microsoft:1970393557055321": "2026-11-18T17:09:24.076679+00:00",
   "Microsoft:1970393557055726": "2026-11-06T16:12:37.062790+00:00",
   "Microsoft:1970393557056108": "2026-11-12T20:09:24.610500+00:00",
   "Microsoft:1970393557070131": "2026-11-11T05:04:24.713353+00:00",
@@ -5200,6 +5182,7 @@
   "Microsoft:1970393557070437": "2026-11-10T20:09:02.006811+00:00",
   "Microsoft:1970393557071316": "2026-11-16T17:09:37.953300+00:00",
   "Microsoft:1970393557074418": "2026-11-17T21:08:50.794615+00:00",
+  "Microsoft:1970393557074733": "2026-11-18T17:09:24.076679+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-876046": "2026-09-19T19:35:30.555713+00:00",
   "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
