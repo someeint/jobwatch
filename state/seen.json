@@ -803,39 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 39,
+   "fails": 40,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 11.5h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 2,
+   "last_error": "relay data is 13.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 58,
+   "fails": 59,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 40,
+   "fails": 41,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1977,6 +1981,8 @@
   "Amazon:10600233": "2026-11-09T20:08:53.328185+00:00",
   "Amazon:10600247": "2026-11-09T20:08:53.328185+00:00",
   "Amazon:10600407": "2026-11-09T21:09:04.398359+00:00",
+  "Amazon:10600454": "2026-11-19T16:09:59.091415+00:00",
+  "Amazon:10600455": "2026-11-19T16:09:59.091415+00:00",
   "Amazon:10600476": "2026-11-09T21:09:04.398359+00:00",
   "Amazon:10600481": "2026-11-12T01:15:33.749358+00:00",
   "Amazon:10600495": "2026-11-09T22:09:55.868024+00:00",
@@ -2137,6 +2143,7 @@
   "Boeing:JR2026529605": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529675": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529797": "2026-11-16T23:09:11.069090+00:00",
+  "City of Seattle (gov):5451530": "2026-11-19T16:09:59.091415+00:00",
   "City of Seattle (gov):5467576": "2026-11-05T18:09:51.160698+00:00",
   "City of Seattle (gov):5507608": "2026-10-06T23:52:55.846499+00:00",
   "City of Seattle (gov):5508974": "2026-10-08T01:17:28.797446+00:00",
@@ -2418,6 +2425,7 @@
   "Company boards (Greenhouse):anthropic-5481842008": "2026-11-16T19:09:39.662937+00:00",
   "Company boards (Greenhouse):anthropic-5483359008": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Greenhouse):anthropic-5485582008": "2026-11-18T00:08:40.583513+00:00",
+  "Company boards (Greenhouse):anthropic-5486656008": "2026-11-19T16:09:59.091415+00:00",
   "Company boards (Greenhouse):asana-8194380": "2026-10-07T21:09:26.560531+00:00",
   "Company boards (Greenhouse):asana-8227150": "2026-09-24T15:50:46.636267+00:00",
   "Company boards (Greenhouse):asana-8241249": "2026-10-02T22:09:11.154537+00:00",
@@ -2651,6 +2659,8 @@
   "Company boards (Greenhouse):mongodb-8367108": "2026-11-12T18:26:33.877521+00:00",
   "Company boards (Greenhouse):mongodb-8386087": "2026-11-13T18:09:39.962995+00:00",
   "Company boards (Greenhouse):mongodb-8386495": "2026-11-16T16:00:57.589874+00:00",
+  "Company boards (Greenhouse):mongodb-8395822": "2026-11-19T16:09:59.091415+00:00",
+  "Company boards (Greenhouse):mongodb-8397251": "2026-11-19T16:09:59.091415+00:00",
   "Company boards (Greenhouse):mongodb-8399041": "2026-11-18T22:08:53.001318+00:00",
   "Company boards (Greenhouse):okta-8212003": "2026-09-25T14:10:32.176299+00:00",
   "Company boards (Greenhouse):okta-8213755": "2026-10-02T00:09:16.487928+00:00",
