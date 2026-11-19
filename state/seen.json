@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 92,
-   "t": "2026-09-22T12:05:43.805270+00:00"
-  },
-  {
    "s": 77,
    "t": "2026-09-22T12:05:43.805270+00:00"
   },
@@ -799,51 +795,43 @@
   {
    "s": 85,
    "t": "2026-11-19T18:09:18.451565+00:00"
+  },
+  {
+   "s": 84,
+   "t": "2026-11-19T19:09:27.519008+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 42,
+   "fails": 43,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 32,
+   "fails": 33,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 19,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 78 jobs collected before the block"
+   "fails": 20,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 61,
+   "fails": 62,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 43,
+   "fails": 44,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1528,6 +1516,7 @@
   "LinkedIn:4491532954": "2026-11-17T00:08:44.841465+00:00",
   "LinkedIn:4492114278": "2026-11-19T01:08:34.533398+00:00",
   "LinkedIn:4492186384": "2026-11-19T18:09:18.451565+00:00",
+  "LinkedIn:4492712046": "2026-11-19T19:09:27.519008+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
@@ -1602,6 +1591,7 @@
   "a3c5246224e527c2": "2026-09-23T01:32:42.632579+00:00",
   "a3ce0e61848fddb4": "2026-11-03T22:27:00.143094+00:00",
   "a3f82a04c3ed84fd": "2026-09-19T18:31:08.637985+00:00",
+  "a731fdfa7d9b73e7": "2026-11-19T19:09:27.519008+00:00",
   "a7d144f1b86708b3": "2026-09-19T18:31:08.637985+00:00",
   "a848b149bd25a6bf": "2026-09-23T00:08:33.567522+00:00",
   "a8d339281b597ca5": "2026-10-29T22:11:44.131166+00:00",
@@ -2026,6 +2016,7 @@
   "Amazon:10609210": "2026-11-19T13:43:46.602368+00:00",
   "Amazon:10609390": "2026-11-19T17:09:07.050872+00:00",
   "Amazon:10609415": "2026-11-19T17:09:07.050872+00:00",
+  "Amazon:10609581": "2026-11-19T19:09:27.519008+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2290,6 +2281,7 @@
   "Company boards (Ashby):ramp-871d2fc8-def8-4837-a9b0-7cc4fe126c2b": "2026-09-23T04:08:06.723349+00:00",
   "Company boards (Ashby):ramp-8be55ffc-d512-4ef3-a14d-3a4cb29a60d4": "2026-10-16T18:09:35.459946+00:00",
   "Company boards (Ashby):ramp-9bdecd09-5a15-47d1-83bc-21cf86a54d02": "2026-10-26T17:01:32.270577+00:00",
+  "Company boards (Ashby):ramp-aa433e44-f095-484b-a46a-a330583d84b0": "2026-11-19T19:09:27.519008+00:00",
   "Company boards (Ashby):ramp-b4908db8-ac21-4c7f-b544-a66fffbfb97e": "2026-09-25T18:09:34.891854+00:00",
   "Company boards (Ashby):ramp-b599c5a9-9c9d-4826-b67a-ca5e012faaad": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):ramp-cc0af88a-2a19-493d-93cf-c5090f986f1f": "2026-10-06T15:09:34.366357+00:00",
@@ -2850,6 +2842,7 @@
   "Company boards (Lever):hive-9930f25f-3a6d-4bd3-81b7-51969089f71c": "2026-10-22T18:11:07.015221+00:00",
   "Company boards (Lever):hive-b000e904-0c59-4c81-b7ad-a6f2844a94d6": "2026-11-18T21:08:51.671935+00:00",
   "Company boards (Lever):hive-f8d74d93-d64c-43fe-83c6-7f5525b8bfe1": "2026-10-22T18:11:07.015221+00:00",
+  "Company boards (Lever):outreach-025a6f1d-fccd-4b84-95d2-cbb034847d52": "2026-11-19T19:09:27.519008+00:00",
   "Company boards (Lever):outreach-4667fa10-e75c-4dba-a800-4f9e4470d67f": "2026-09-25T19:26:16.685539+00:00",
   "Company boards (Lever):outreach-55129c60-103a-4c44-955a-cc7792dd876f": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Lever):outreach-800285d4-e0d9-4e42-927a-789df5ffa0bc": "2026-10-19T21:08:41.988719+00:00",
