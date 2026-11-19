@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 77,
-   "t": "2026-09-21T22:49:19.178128+00:00"
-  },
-  {
    "s": 93,
    "t": "2026-09-22T12:05:43.805270+00:00"
   },
@@ -799,59 +795,39 @@
   {
    "s": 87,
    "t": "2026-11-18T00:08:40.583513+00:00"
+  },
+  {
+   "s": 84,
+   "t": "2026-11-19T01:08:34.533398+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 35,
+   "fails": 36,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
-  "Boeing": {
-   "fails": 39,
-   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
-  },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 12,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 13,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 54,
+   "fails": 55,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
+  "Starbucks": {
    "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
-  "T-Mobile": {
-   "fails": 39,
-   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   },
   "Zillow": {
-   "fails": 36,
+   "fails": 37,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1081,6 +1057,7 @@
   "8d73cf72f6c598eb": "2026-11-12T02:43:25.976586+00:00",
   "8dce21772ee4e979": "2026-10-10T11:37:45.840967+00:00",
   "8dea4404f0bd23aa": "2026-09-19T18:31:08.637985+00:00",
+  "8dee8747445d2159": "2026-11-19T01:08:34.533398+00:00",
   "8ebfb975cdd1e4e8": "2026-09-19T18:31:08.637985+00:00",
   "8ee27c62d83d3a6a": "2026-09-19T18:31:08.637985+00:00",
   "8eed3ec8a5c6c891": "2026-09-30T16:09:21.123030+00:00",
@@ -1532,6 +1509,7 @@
   "LinkedIn:4490979902": "2026-11-17T10:08:34.471402+00:00",
   "LinkedIn:4491004487": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491532954": "2026-11-17T00:08:44.841465+00:00",
+  "LinkedIn:4492114278": "2026-11-19T01:08:34.533398+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
@@ -2075,6 +2053,7 @@
   "Boeing:JR2026522858": "2026-11-04T20:10:13.259905+00:00",
   "Boeing:JR2026523175": "2026-11-04T17:36:19.849810+00:00",
   "Boeing:JR2026523212": "2026-10-01T19:08:49.260098+00:00",
+  "Boeing:JR2026523310": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026523346": "2026-09-30T16:09:21.123030+00:00",
   "Boeing:JR2026523575": "2026-11-03T00:08:59.152075+00:00",
   "Boeing:JR2026523700": "2026-09-23T21:08:34.650540+00:00",
@@ -2084,6 +2063,7 @@
   "Boeing:JR2026523809": "2026-09-21T19:34:41.546264+00:00",
   "Boeing:JR2026524031": "2026-09-22T20:05:39.582823+00:00",
   "Boeing:JR2026524095": "2026-10-01T19:08:49.260098+00:00",
+  "Boeing:JR2026524396": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026524413": "2026-09-22T12:05:43.805270+00:00",
   "Boeing:JR2026524442": "2026-11-10T17:48:39.834606+00:00",
   "Boeing:JR2026524491": "2026-09-24T22:41:19.303548+00:00",
@@ -2100,6 +2080,7 @@
   "Boeing:JR2026525484": "2026-10-15T16:05:04.783327+00:00",
   "Boeing:JR2026525494": "2026-11-11T23:27:39.711167+00:00",
   "Boeing:JR2026525516": "2026-10-02T20:59:08.692661+00:00",
+  "Boeing:JR2026525628": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026525650": "2026-11-03T22:09:07.629550+00:00",
   "Boeing:JR2026525822": "2026-11-04T22:51:38.774403+00:00",
   "Boeing:JR2026525865": "2026-10-08T22:09:41.079857+00:00",
@@ -2135,23 +2116,30 @@
   "Boeing:JR2026527532": "2026-11-02T20:10:18.887664+00:00",
   "Boeing:JR2026527545": "2026-10-21T17:10:01.988094+00:00",
   "Boeing:JR2026527615": "2026-11-03T02:26:16.054939+00:00",
+  "Boeing:JR2026527639": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026527722": "2026-11-12T18:26:33.877521+00:00",
   "Boeing:JR2026527741": "2026-11-10T20:09:02.006811+00:00",
   "Boeing:JR2026527747": "2026-11-11T21:53:23.509894+00:00",
   "Boeing:JR2026527889": "2026-10-26T21:10:19.037457+00:00",
   "Boeing:JR2026528026": "2026-10-30T01:08:55.342536+00:00",
+  "Boeing:JR2026528190": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026528664": "2026-11-05T19:50:27.386727+00:00",
   "Boeing:JR2026528720": "2026-11-05T18:09:51.160698+00:00",
   "Boeing:JR2026528792": "2026-11-10T16:10:53.821124+00:00",
+  "Boeing:JR2026528868": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026528923": "2026-11-06T17:54:34.410016+00:00",
   "Boeing:JR2026528975": "2026-11-06T23:08:31.739102+00:00",
   "Boeing:JR2026528999": "2026-11-12T13:12:15.591594+00:00",
   "Boeing:JR2026529014": "2026-11-10T12:57:13.375824+00:00",
   "Boeing:JR2026529059": "2026-11-13T23:09:27.753888+00:00",
+  "Boeing:JR2026529168": "2026-11-19T01:08:34.533398+00:00",
+  "Boeing:JR2026529171": "2026-11-19T01:08:34.533398+00:00",
+  "Boeing:JR2026529173": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026529175": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529185": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529187": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529323": "2026-11-10T22:13:52.791674+00:00",
+  "Boeing:JR2026529334": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026529534": "2026-11-12T16:10:10.127760+00:00",
   "Boeing:JR2026529605": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529675": "2026-11-16T23:09:11.069090+00:00",
@@ -3225,9 +3213,11 @@
   "Indeed:b80dfcfabf75981c": "2026-10-01T19:08:49.260098+00:00",
   "Indeed:b9d2728998e6b176": "2026-10-02T01:08:58.756463+00:00",
   "Indeed:bd2698807b15546e": "2026-09-24T22:08:49.761675+00:00",
+  "Indeed:c798ce755916d79d": "2026-11-19T01:08:34.533398+00:00",
   "Indeed:d837e5888e983ebe": "2026-11-08T12:41:56.711767+00:00",
   "Indeed:dacc324c33f3d4cb": "2026-09-28T18:09:05.543892+00:00",
   "Indeed:db8e35e5763c7e88": "2026-10-21T01:51:10.940056+00:00",
+  "Indeed:dc20b398eaae8f48": "2026-11-19T01:08:34.533398+00:00",
   "Indeed:dfe9a6f5b7799e21": "2026-09-23T06:35:29.712988+00:00",
   "Indeed:e8c4007f15b85242": "2026-09-29T18:09:04.357837+00:00",
   "Indeed:eaae14fbd273e5e6": "2026-11-13T01:08:48.221651+00:00",
@@ -5053,6 +5043,7 @@
   "LinkedIn:4492039620": "2026-11-18T20:08:59.124149+00:00",
   "LinkedIn:4492056684": "2026-11-18T20:08:59.124149+00:00",
   "LinkedIn:4492083397": "2026-11-18T20:08:59.124149+00:00",
+  "LinkedIn:4492226818": "2026-11-19T01:08:34.533398+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
@@ -5449,6 +5440,8 @@
   "T-Mobile:REQ376132": "2026-10-14T19:06:33.226202+00:00",
   "T-Mobile:REQ378747": "2026-11-13T23:09:27.753888+00:00",
   "T-Mobile:REQ380508": "2026-11-10T16:10:53.821124+00:00",
+  "T-Mobile:REQ381683": "2026-11-19T01:08:34.533398+00:00",
+  "T-Mobile:REQ381692": "2026-11-19T01:08:34.533398+00:00",
   "Zillow:P751127": "2026-10-04T18:44:59.701329+00:00",
   "Zillow:P751305": "2026-10-05T14:28:22.130549+00:00",
   "Zillow:P751334": "2026-09-25T16:09:23.143404+00:00"
