@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 77,
-   "t": "2026-09-22T12:05:43.805270+00:00"
-  },
-  {
    "s": 76,
    "t": "2026-09-22T12:05:43.805270+00:00"
   },
@@ -799,47 +795,43 @@
   {
    "s": 84,
    "t": "2026-11-19T19:09:27.519008+00:00"
+  },
+  {
+   "s": 81,
+   "t": "2026-11-19T23:08:49.947651+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 47,
+   "fails": 48,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 66,
+   "fails": 67,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
-  },
   "T-Mobile": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 48,
+   "fails": 49,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1300,6 +1292,7 @@
   "Indeed:26eecc3f9c14f5f1": "2026-11-04T17:36:19.849810+00:00",
   "Indeed:272dc6154340b285": "2026-11-06T20:08:47.896499+00:00",
   "Indeed:2ebcf7121d857498": "2026-10-02T18:09:10.774871+00:00",
+  "Indeed:2eda6bccc4d2c651": "2026-11-19T23:08:49.947651+00:00",
   "Indeed:34431022f305d5f5": "2026-10-02T01:08:58.756463+00:00",
   "Indeed:3ba1fd933b38ef60": "2026-10-13T01:08:58.523095+00:00",
   "Indeed:3c531131c8fbdb16": "2026-10-29T03:36:58.220144+00:00",
@@ -1638,6 +1631,7 @@
   "b606737aad37011b": "2026-10-01T20:34:35.890371+00:00",
   "b653abac6f65099e": "2026-09-20T07:07:10.258753+00:00",
   "b693542e73255ab1": "2026-09-19T18:31:08.637985+00:00",
+  "b6a085a4688654a2": "2026-11-19T23:08:49.947651+00:00",
   "b6b4632b484b1c52": "2026-09-28T16:05:18.088598+00:00",
   "b93332b04bd17d8f": "2026-10-30T15:13:06.054317+00:00",
   "b9a73d0f5b98aa04": "2026-09-19T18:31:08.637985+00:00",
@@ -2188,6 +2182,7 @@
   "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
   "Company boards (Ashby):openai-04bdc05a-de4b-4fc3-9520-714018f25c76": "2026-10-22T17:52:03.404379+00:00",
   "Company boards (Ashby):openai-063d1957-23f0-4976-b8bd-93a0d4a31cfb": "2026-09-24T15:50:46.636267+00:00",
+  "Company boards (Ashby):openai-08e8d03a-df94-46af-8664-cd9aab1af445": "2026-11-19T23:08:49.947651+00:00",
   "Company boards (Ashby):openai-0cf4a8f4-a57a-494b-aad8-4df8ac096939": "2026-09-21T19:34:41.546264+00:00",
   "Company boards (Ashby):openai-0dc614c9-4eec-475f-b215-5480fe41317a": "2026-11-05T19:50:27.386727+00:00",
   "Company boards (Ashby):openai-0fca3b36-8aaa-491a-be87-09efacfeca5e": "2026-10-29T14:20:05.066021+00:00",
@@ -2195,6 +2190,7 @@
   "Company boards (Ashby):openai-12d722f9-79da-4d92-a34b-52619146f5da": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Ashby):openai-137e3df0-2bd4-4ad4-8edb-8455a7fdc912": "2026-09-23T06:10:12.713496+00:00",
   "Company boards (Ashby):openai-18b4427e-b168-475e-a1e2-92a86c73f0f0": "2026-10-30T19:09:41.703774+00:00",
+  "Company boards (Ashby):openai-1a17baf0-8b00-4020-acfa-fd530f20881f": "2026-11-19T23:08:49.947651+00:00",
   "Company boards (Ashby):openai-1dade0fb-23c9-4a85-927e-9e8030826303": "2026-09-24T11:14:33.924382+00:00",
   "Company boards (Ashby):openai-20b2d81c-943b-4be7-a304-39c29bf33923": "2026-10-23T23:28:44.548124+00:00",
   "Company boards (Ashby):openai-20df76c8-aa7e-40d1-8602-28605ed5431b": "2026-11-05T18:09:51.160698+00:00",
@@ -2255,6 +2251,7 @@
   "Company boards (Ashby):openai-9747412d-a23d-48ba-bddd-ad1247c360f5": "2026-10-09T21:10:49.319537+00:00",
   "Company boards (Ashby):openai-98cdff28-940d-48e8-b1d7-a0df38dd16d8": "2026-10-27T20:10:20.041652+00:00",
   "Company boards (Ashby):openai-a00fce27-16ef-47f0-a584-a1ea37adbc96": "2026-11-12T06:08:47.645531+00:00",
+  "Company boards (Ashby):openai-a1f5372d-a912-479d-8d12-7fc22298083d": "2026-11-19T23:08:49.947651+00:00",
   "Company boards (Ashby):openai-a6815609-594d-4f22-93a2-610a69e861a2": "2026-10-14T20:53:02.374355+00:00",
   "Company boards (Ashby):openai-afebc24f-c6b8-4c66-a344-b1661fc77570": "2026-09-29T07:00:19.141617+00:00",
   "Company boards (Ashby):openai-b1a5980d-1c52-4af5-8596-5951b584ca37": "2026-10-15T06:32:13.275540+00:00",
@@ -2709,6 +2706,7 @@
   "Company boards (Greenhouse):pinterest-8347997": "2026-11-17T19:09:06.477742+00:00",
   "Company boards (Greenhouse):pinterest-8350415": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Greenhouse):reddit-8187521": "2026-10-02T18:09:10.774871+00:00",
+  "Company boards (Greenhouse):reddit-8237375": "2026-11-19T23:08:49.947651+00:00",
   "Company boards (Greenhouse):reddit-8239905": "2026-10-01T19:08:49.260098+00:00",
   "Company boards (Greenhouse):reddit-8249259": "2026-10-02T18:09:10.774871+00:00",
   "Company boards (Greenhouse):reddit-8282305": "2026-10-23T20:34:49.233535+00:00",
