@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 93,
-   "t": "2026-09-22T12:05:43.805270+00:00"
-  },
-  {
    "s": 92,
    "t": "2026-09-22T12:05:43.805270+00:00"
   },
@@ -799,47 +795,55 @@
   {
    "s": 84,
    "t": "2026-11-19T01:08:34.533398+00:00"
+  },
+  {
+   "s": 85,
+   "t": "2026-11-19T18:09:18.451565+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 41,
+   "fails": 42,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "LinkedIn": {
-   "fails": 18,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 77 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Nordstrom": {
+  "King County (gov)": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+  },
+  "LinkedIn": {
+   "fails": 19,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 78 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 60,
+   "fails": 61,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Starbucks": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
   },
   "T-Mobile": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 42,
+   "fails": 43,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1061,6 +1065,7 @@
   "8a380c1f5ec89efc": "2026-09-19T18:31:08.637985+00:00",
   "8a50df8bf74c8aa3": "2026-10-13T03:46:36.728560+00:00",
   "8a87278ed6537c94": "2026-11-13T16:26:24.658224+00:00",
+  "8a8969624010a40a": "2026-11-19T18:09:18.451565+00:00",
   "8ac1fbe8ed111748": "2026-10-24T19:48:01.511113+00:00",
   "8afeaf413b85346d": "2026-09-19T18:31:08.637985+00:00",
   "8b621a710e471d32": "2026-10-08T18:52:59.131833+00:00",
@@ -1522,6 +1527,7 @@
   "LinkedIn:4491004487": "2026-11-14T01:08:41.988679+00:00",
   "LinkedIn:4491532954": "2026-11-17T00:08:44.841465+00:00",
   "LinkedIn:4492114278": "2026-11-19T01:08:34.533398+00:00",
+  "LinkedIn:4492186384": "2026-11-19T18:09:18.451565+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
@@ -2153,14 +2159,12 @@
   "City of Seattle (gov):5527279": "2026-10-23T20:34:49.233535+00:00",
   "City of Seattle (gov):5538774": "2026-11-03T20:09:14.296688+00:00",
   "City of Tacoma (gov):5111125": "2026-09-28T21:36:51.568421+00:00",
-  "Company boards (Ashby):benchling-49454722-ea62-41da-80f8-864ff06e9265": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):benchling-73e23228-5162-4444-ba96-05aaeefd902f": "2026-11-15T21:09:16.284551+00:00",
   "Company boards (Ashby):benchling-9ff817e6-9274-4613-9ac3-1bc012b7ff8a": "2026-10-22T20:38:56.897100+00:00",
   "Company boards (Ashby):benchling-ac6d50a7-8a73-43ab-98ac-591bcca1742b": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):benchling-febb0539-70a3-49f4-b649-92d254f7c223": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Ashby):cohere-3898333d-fcbe-4d3f-afad-8be721b08319": "2026-11-09T20:08:53.328185+00:00",
   "Company boards (Ashby):cohere-41cb2a12-e33a-4368-a9f8-0ae0d19c023e": "2026-11-19T04:23:53.000564+00:00",
-  "Company boards (Ashby):cohere-595a2d50-46a5-4ff9-af1c-d58cea9d8e68": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):cohere-6d2d5e2e-46bd-4da5-9e03-573578424976": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Ashby):cohere-81450c5f-8495-439b-a1b3-ce7ef9739437": "2026-10-13T16:12:05.953748+00:00",
   "Company boards (Ashby):cohere-9f8d2b51-7fe9-470d-8108-fe5fb48c8a89": "2026-11-19T13:43:46.602368+00:00",
@@ -2175,13 +2179,10 @@
   "Company boards (Ashby):notion-414aea17-4326-4e95-84e6-09f87cb79468": "2026-10-26T04:58:00.971364+00:00",
   "Company boards (Ashby):notion-4e7b3471-20b7-4a37-8455-8b2735bfaf26": "2026-09-30T22:08:58.173147+00:00",
   "Company boards (Ashby):notion-73b0e05e-317f-4f84-8fb2-58dc8c3790a6": "2026-11-06T17:54:34.410016+00:00",
-  "Company boards (Ashby):notion-7ec83090-7c5b-4691-bf20-e11e892cede1": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-8d2532a9-a1a8-48ec-8de3-b3646bd70423": "2026-10-30T18:08:58.806463+00:00",
   "Company boards (Ashby):notion-a13fa271-f819-4421-b5fa-a9777672758e": "2026-11-06T17:54:34.410016+00:00",
   "Company boards (Ashby):notion-a9b33d2b-cfef-435f-8fff-5b79aad19d3b": "2026-11-13T11:31:13.694505+00:00",
   "Company boards (Ashby):notion-b393c25a-2ce7-458d-800a-bf9e75ed070b": "2026-10-19T06:47:11.321072+00:00",
-  "Company boards (Ashby):notion-be994bb4-c680-4f57-b3bd-7e689175317f": "2026-09-20T18:03:35.867206+00:00",
-  "Company boards (Ashby):notion-c5c69246-74db-4960-a0e0-7945be6c30ae": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):notion-da9a9a45-10e3-4c6a-916f-f89ee4cf29a4": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Ashby):notion-e4b7c4d5-9c71-4f82-bf32-0af60e1f2a9f": "2026-11-10T19:12:34.667575+00:00",
   "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
@@ -2216,8 +2217,6 @@
   "Company boards (Ashby):openai-4197587e-c0d0-46e4-b86a-25a87d22b056": "2026-11-12T12:11:47.453712+00:00",
   "Company boards (Ashby):openai-41db3c21-abe1-4db7-91ee-da704537b685": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):openai-4444d839-3f58-4369-a241-985acbbbf2f9": "2026-11-13T17:16:51.257726+00:00",
-  "Company boards (Ashby):openai-4705a853-46e6-4f91-884c-61e54de91b0e": "2026-09-20T18:03:35.867206+00:00",
-  "Company boards (Ashby):openai-4a4a2604-b4b3-4944-a2a2-4ec4c5261d7d": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-4bcc25ef-cf03-47db-896c-0fd9122afab1": "2026-10-30T00:09:14.644929+00:00",
   "Company boards (Ashby):openai-50053f7b-c154-45af-b497-3298c826a15f": "2026-11-02T20:10:18.887664+00:00",
   "Company boards (Ashby):openai-513e213c-2cb1-40d2-950d-3919ff5a68b5": "2026-11-18T19:09:13.450380+00:00",
@@ -2253,7 +2252,6 @@
   "Company boards (Ashby):openai-8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-960ceb65-dc44-4354-b13c-c1df8591e875": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-9747412d-a23d-48ba-bddd-ad1247c360f5": "2026-10-09T21:10:49.319537+00:00",
-  "Company boards (Ashby):openai-989d85db-2f7e-4833-8934-9e64b652675f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-98cdff28-940d-48e8-b1d7-a0df38dd16d8": "2026-10-27T20:10:20.041652+00:00",
   "Company boards (Ashby):openai-a00fce27-16ef-47f0-a584-a1ea37adbc96": "2026-11-12T06:08:47.645531+00:00",
   "Company boards (Ashby):openai-a6815609-594d-4f22-93a2-610a69e861a2": "2026-10-14T20:53:02.374355+00:00",
@@ -2261,7 +2259,6 @@
   "Company boards (Ashby):openai-b1a5980d-1c52-4af5-8596-5951b584ca37": "2026-10-15T06:32:13.275540+00:00",
   "Company boards (Ashby):openai-bd4cdb4e-ecd7-45d6-8cab-0e9fa155104e": "2026-09-21T19:34:41.546264+00:00",
   "Company boards (Ashby):openai-c0586c46-6b10-482f-af1c-a5b7eb196b3b": "2026-11-10T12:57:13.375824+00:00",
-  "Company boards (Ashby):openai-c0f0136e-f4e7-43ca-b3d5-4d7aee5eed7f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-c3f0fb07-2153-4ba9-b812-cd7ceb363ae8": "2026-10-28T05:31:46.928501+00:00",
   "Company boards (Ashby):openai-c46d8648-b921-4b71-bb9a-f7d5c8e989f4": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-c717b98e-5394-4ad1-ae3f-e036717ad9b5": "2026-11-19T04:23:53.000564+00:00",
@@ -2288,22 +2285,15 @@
   "Company boards (Ashby):openai-fa42ad51-0ffa-4ec4-a004-3f24d790a3d4": "2026-10-15T16:05:04.783327+00:00",
   "Company boards (Ashby):openai-fd0a10a9-80e5-48c4-b313-c2403f009761": "2026-10-20T19:10:30.498097+00:00",
   "Company boards (Ashby):openai-fe7039ce-51e2-4cfa-9ea5-507eb7a0eee1": "2026-10-02T20:09:46.624972+00:00",
-  "Company boards (Ashby):ramp-081dbe29-8a06-4cb2-bda5-4b0bfb35c2e8": "2026-09-20T18:03:35.867206+00:00",
-  "Company boards (Ashby):ramp-196e4e25-c452-430d-8b2f-36a40f88a2ae": "2026-09-20T18:03:35.867206+00:00",
-  "Company boards (Ashby):ramp-2d2c336c-16e7-4f27-b0cd-5bb6055cdf21": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-390f4cd0-e0e4-451c-ae28-e6b19861dda9": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):ramp-657dedaa-a828-4f4f-ae67-9e976127d907": "2026-11-10T20:09:02.006811+00:00",
   "Company boards (Ashby):ramp-871d2fc8-def8-4837-a9b0-7cc4fe126c2b": "2026-09-23T04:08:06.723349+00:00",
   "Company boards (Ashby):ramp-8be55ffc-d512-4ef3-a14d-3a4cb29a60d4": "2026-10-16T18:09:35.459946+00:00",
-  "Company boards (Ashby):ramp-9226150c-47df-42f4-8626-7a0aea6b9991": "2026-09-20T18:03:35.867206+00:00",
-  "Company boards (Ashby):ramp-925fce22-61af-4d26-8f20-90696a3b6704": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-9bdecd09-5a15-47d1-83bc-21cf86a54d02": "2026-10-26T17:01:32.270577+00:00",
-  "Company boards (Ashby):ramp-aa433e44-f095-484b-a46a-a330583d84b0": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-b4908db8-ac21-4c7f-b544-a66fffbfb97e": "2026-09-25T18:09:34.891854+00:00",
   "Company boards (Ashby):ramp-b599c5a9-9c9d-4826-b67a-ca5e012faaad": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):ramp-cc0af88a-2a19-493d-93cf-c5090f986f1f": "2026-10-06T15:09:34.366357+00:00",
   "Company boards (Ashby):ramp-d2beca4a-7409-404b-8382-761e5db6e917": "2026-09-25T18:09:34.891854+00:00",
-  "Company boards (Ashby):ramp-dba53e68-4c96-449d-af4d-27dc475b814c": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):ramp-e0cca3aa-24f7-46ca-9493-9984a7ae2285": "2026-10-23T20:34:49.233535+00:00",
   "Company boards (Ashby):ramp-fc753f8d-7f2f-4b12-9db2-a5694ce4e74c": "2026-10-16T18:26:28.839702+00:00",
   "Company boards (Ashby):ramp-fe280d10-4258-420a-b0bb-0dc9021bd803": "2026-11-04T02:33:50.098881+00:00",
@@ -2908,6 +2898,7 @@
   "Indeed:5ea1aba39acca889": "2026-10-19T23:09:43.739420+00:00",
   "Indeed:5f58c1d8741b148b": "2026-11-02T19:12:12.848760+00:00",
   "Indeed:5fb948c602fbdb2b": "2026-10-23T06:13:20.388436+00:00",
+  "Indeed:60ff58e2fde10be9": "2026-11-19T18:09:18.451565+00:00",
   "Indeed:685592aa546dc486": "2026-11-01T20:09:31.907633+00:00",
   "Indeed:6d45b0d12442a911": "2026-10-20T17:18:27.607230+00:00",
   "Indeed:71c65f45ea348632": "2026-10-15T20:01:21.325490+00:00",
@@ -2994,7 +2985,6 @@
   "LinkedIn:4420127672": "2026-09-24T19:31:20.122338+00:00",
   "LinkedIn:4420669937": "2026-10-04T18:44:59.701329+00:00",
   "LinkedIn:4420685537": "2026-10-04T15:31:01.497479+00:00",
-  "LinkedIn:4422627859": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4422646367": "2026-09-22T20:05:39.582823+00:00",
   "LinkedIn:4423413206": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4424106558": "2026-10-02T11:19:57.899671+00:00",
@@ -3040,12 +3030,10 @@
   "LinkedIn:4440991406": "2026-10-09T10:09:06.596506+00:00",
   "LinkedIn:4440993487": "2026-10-11T10:08:37.445890+00:00",
   "LinkedIn:4440994418": "2026-10-09T10:09:06.596506+00:00",
-  "LinkedIn:4441165305": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4441202205": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4441205103": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4441411662": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4441502841": "2026-09-27T17:34:10.344740+00:00",
-  "LinkedIn:4441656651": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4442211515": "2026-09-22T12:05:43.805270+00:00",
   "LinkedIn:4442224085": "2026-10-15T13:10:35.810153+00:00",
   "LinkedIn:4442224089": "2026-09-22T12:05:43.805270+00:00",
@@ -3075,10 +3063,7 @@
   "LinkedIn:4447843746": "2026-10-05T17:09:04.989402+00:00",
   "LinkedIn:4448043206": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4448609178": "2026-09-21T19:34:41.546264+00:00",
-  "LinkedIn:4449231605": "2026-09-20T18:07:04.190883+00:00",
   "LinkedIn:4450193861": "2026-10-03T00:15:39.452085+00:00",
-  "LinkedIn:4450274161": "2026-09-20T18:03:35.867206+00:00",
-  "LinkedIn:4450307324": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4450406140": "2026-10-03T00:15:39.452085+00:00",
   "LinkedIn:4450429851": "2026-10-03T05:26:45.450541+00:00",
   "LinkedIn:4450430782": "2026-10-18T16:09:07.426622+00:00",
@@ -3088,7 +3073,6 @@
   "LinkedIn:4450522840": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4450630830": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4450833450": "2026-09-26T14:33:23.963059+00:00",
-  "LinkedIn:4451063093": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4451269868": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4451488813": "2026-09-22T20:05:39.582823+00:00",
   "LinkedIn:4452037396": "2026-09-22T20:05:39.582823+00:00",
@@ -3176,7 +3160,6 @@
   "LinkedIn:4459366640": "2026-10-05T06:08:17.320649+00:00",
   "LinkedIn:4459377342": "2026-10-09T17:09:14.971022+00:00",
   "LinkedIn:4459410930": "2026-10-12T12:24:19.095867+00:00",
-  "LinkedIn:4459412621": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4459698569": "2026-10-11T16:08:40.182338+00:00",
   "LinkedIn:4459750981": "2026-09-29T23:10:06.097354+00:00",
   "LinkedIn:4459992059": "2026-10-17T21:16:48.679070+00:00",
@@ -3297,10 +3280,7 @@
   "LinkedIn:4466873247": "2026-09-26T19:08:19.989517+00:00",
   "LinkedIn:4466914966": "2026-10-11T06:09:05.151966+00:00",
   "LinkedIn:4466931810": "2026-10-11T18:08:59.959652+00:00",
-  "LinkedIn:4466954912": "2026-09-20T18:03:35.867206+00:00",
-  "LinkedIn:4466962151": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4466968678": "2026-09-21T01:33:13.932809+00:00",
-  "LinkedIn:4466988081": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4467114206": "2026-09-24T00:08:13.025580+00:00",
   "LinkedIn:4467177594": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4467348358": "2026-09-21T19:34:41.546264+00:00",
@@ -3329,7 +3309,6 @@
   "LinkedIn:4468042916": "2026-10-12T10:09:28.915026+00:00",
   "LinkedIn:4468043561": "2026-09-21T01:33:13.932809+00:00",
   "LinkedIn:4468051090": "2026-10-11T18:18:40.637034+00:00",
-  "LinkedIn:4468069194": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4468135848": "2026-09-22T12:05:43.805270+00:00",
   "LinkedIn:4468144362": "2026-09-22T12:05:43.805270+00:00",
   "LinkedIn:4468158260": "2026-09-22T12:05:43.805270+00:00",
@@ -3342,7 +3321,6 @@
   "LinkedIn:4468310271": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468350225": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468364001": "2026-09-22T12:05:43.805270+00:00",
-  "LinkedIn:4468433628": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4468472788": "2026-09-21T01:33:13.932809+00:00",
   "LinkedIn:4468481605": "2026-09-21T01:33:13.932809+00:00",
   "LinkedIn:4468483479": "2026-09-21T07:09:53.992684+00:00",
@@ -3351,7 +3329,6 @@
   "LinkedIn:4468608919": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4468758723": "2026-09-21T19:34:41.546264+00:00",
   "LinkedIn:4468768095": "2026-09-21T19:34:41.546264+00:00",
-  "LinkedIn:4468851146": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4468900490": "2026-09-22T20:05:39.582823+00:00",
   "LinkedIn:4468914231": "2026-09-22T20:05:39.582823+00:00",
   "LinkedIn:4468928940": "2026-09-23T00:08:33.567522+00:00",
@@ -3363,12 +3340,8 @@
   "LinkedIn:4469039348": "2026-09-22T20:05:39.582823+00:00",
   "LinkedIn:4469051640": "2026-09-22T21:08:10.415761+00:00",
   "LinkedIn:4469066606": "2026-09-23T00:08:33.567522+00:00",
-  "LinkedIn:4469156127": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4469191557": "2026-09-21T19:34:41.546264+00:00",
   "LinkedIn:4469220942": "2026-10-12T03:08:36.615651+00:00",
-  "LinkedIn:4469257798": "2026-09-20T18:03:35.867206+00:00",
-  "LinkedIn:4469289136": "2026-09-20T18:03:35.867206+00:00",
-  "LinkedIn:4469294925": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4469338183": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4469338906": "2026-09-23T20:08:18.343014+00:00",
   "LinkedIn:4469382269": "2026-09-24T02:08:15.840556+00:00",
@@ -3385,7 +3358,6 @@
   "LinkedIn:4469498561": "2026-09-23T21:08:34.650540+00:00",
   "LinkedIn:4469512943": "2026-10-12T13:29:23.437019+00:00",
   "LinkedIn:4469512957": "2026-10-11T18:08:59.959652+00:00",
-  "LinkedIn:4469516021": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4469524621": "2026-10-19T14:03:20.543143+00:00",
   "LinkedIn:4469549098": "2026-09-21T01:33:13.932809+00:00",
   "LinkedIn:4469568220": "2026-09-21T01:33:13.932809+00:00",
@@ -3405,7 +3377,6 @@
   "LinkedIn:4469785659": "2026-09-25T18:09:34.891854+00:00",
   "LinkedIn:4469786405": "2026-09-25T00:09:00.331625+00:00",
   "LinkedIn:4469799091": "2026-09-24T22:08:49.761675+00:00",
-  "LinkedIn:4469800935": "2026-09-20T18:03:35.867206+00:00",
   "LinkedIn:4469824693": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4469833099": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4469862622": "2026-09-21T19:34:41.546264+00:00",
