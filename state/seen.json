@@ -803,35 +803,31 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 14,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 105 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 15,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 56,
+   "fails": 57,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 38,
+   "fails": 39,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1740,7 +1736,11 @@
   "ff0f0f161a991561": "2026-09-23T18:08:12.160394+00:00"
  },
  "skip": {
+  "Accelerators (BambooHR):plugandplaytechcenter-1492": "2026-11-19T04:23:53.000564+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1508": "2026-11-19T04:23:53.000564+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1512": "2026-10-06T15:09:34.366357+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1521": "2026-11-19T04:23:53.000564+00:00",
+  "Accelerators (BambooHR):plugandplaytechcenter-1530": "2026-11-19T04:23:53.000564+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1533": "2026-09-30T09:28:49.275635+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1537": "2026-10-08T14:49:43.189216+00:00",
   "Accelerators (BambooHR):plugandplaytechcenter-1540": "2026-11-09T13:39:13.805377+00:00",
@@ -2142,11 +2142,14 @@
   "Company boards (Ashby):benchling-ac6d50a7-8a73-43ab-98ac-591bcca1742b": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):benchling-febb0539-70a3-49f4-b649-92d254f7c223": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Ashby):cohere-3898333d-fcbe-4d3f-afad-8be721b08319": "2026-11-09T20:08:53.328185+00:00",
+  "Company boards (Ashby):cohere-41cb2a12-e33a-4368-a9f8-0ae0d19c023e": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):cohere-595a2d50-46a5-4ff9-af1c-d58cea9d8e68": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):cohere-6d2d5e2e-46bd-4da5-9e03-573578424976": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Ashby):cohere-81450c5f-8495-439b-a1b3-ce7ef9739437": "2026-10-13T16:12:05.953748+00:00",
+  "Company boards (Ashby):cohere-a3a69960-3c85-4b11-b9b7-d4056d406c2e": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):cohere-ab45a550-14a2-4a74-abfb-83688d4508c1": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Ashby):cohere-b04cf265-c4f7-48bf-88ec-d4d71f3bdfaa": "2026-10-20T01:47:30.853418+00:00",
+  "Company boards (Ashby):cohere-d28fbc03-cb09-49da-84b9-e12c16182695": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):cohere-f74933db-e97f-41c9-97ab-daa57880a12b": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Ashby):notion-11ea8ad6-b380-4041-a4cc-40eeccddffef": "2026-11-06T16:12:37.062790+00:00",
   "Company boards (Ashby):notion-20490f51-73af-402e-b25c-47ee10b9b055": "2026-11-13T16:26:24.658224+00:00",
@@ -2218,10 +2221,12 @@
   "Company boards (Ashby):openai-695f73a5-00f5-416a-8939-78571263819b": "2026-11-14T05:16:14.084710+00:00",
   "Company boards (Ashby):openai-6ebd3534-d65b-4d90-ba96-6a54de31409d": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
+  "Company boards (Ashby):openai-70eba6e4-73e0-4cf9-a0d5-e49caeca9d7b": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-73a111f9-e83d-4cce-9148-2a32ccf1d251": "2026-11-04T17:36:19.849810+00:00",
   "Company boards (Ashby):openai-76583c87-78ea-4886-906d-81b0a9c05bfe": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Ashby):openai-7aee5d38-6543-4fd7-b110-8cdb609c5c9e": "2026-09-22T20:05:39.582823+00:00",
   "Company boards (Ashby):openai-7b70517d-8c96-4c4a-8e4a-37859cf68747": "2026-10-27T23:10:50.594432+00:00",
+  "Company boards (Ashby):openai-83ac3381-99c0-46a0-897c-abcd8699b466": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-87ef8476-e930-47ed-abc2-a1bedcc074fb": "2026-09-30T18:53:00.441731+00:00",
   "Company boards (Ashby):openai-88d4dce1-a3ef-495f-b711-54988812336b": "2026-10-29T18:11:24.342560+00:00",
   "Company boards (Ashby):openai-8ad567c5-70ca-46bf-85ae-eb5bbc8a2a39": "2026-10-13T22:09:24.538281+00:00",
@@ -2240,6 +2245,8 @@
   "Company boards (Ashby):openai-c0586c46-6b10-482f-af1c-a5b7eb196b3b": "2026-11-10T12:57:13.375824+00:00",
   "Company boards (Ashby):openai-c0f0136e-f4e7-43ca-b3d5-4d7aee5eed7f": "2026-09-20T18:03:35.867206+00:00",
   "Company boards (Ashby):openai-c3f0fb07-2153-4ba9-b812-cd7ceb363ae8": "2026-10-28T05:31:46.928501+00:00",
+  "Company boards (Ashby):openai-c46d8648-b921-4b71-bb9a-f7d5c8e989f4": "2026-11-19T04:23:53.000564+00:00",
+  "Company boards (Ashby):openai-c717b98e-5394-4ad1-ae3f-e036717ad9b5": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-c9832989-edc1-4f2f-8a79-8fa29f5623e2": "2026-11-05T19:50:27.386727+00:00",
   "Company boards (Ashby):openai-cd3c9c99-9527-4ba2-bea7-9f8f4892bc62": "2026-09-28T18:09:05.543892+00:00",
   "Company boards (Ashby):openai-cda6eab0-edab-4dfc-8923-40ca3b0928b5": "2026-11-06T02:08:42.793997+00:00",
@@ -2312,6 +2319,7 @@
   "Company boards (Ashby):vanta-29e92503-fecf-4ac4-9de7-683390fb74c6": "2026-11-09T22:09:55.868024+00:00",
   "Company boards (Ashby):vanta-2f2ad814-2437-46bc-8829-9413f1840db0": "2026-09-21T19:34:41.546264+00:00",
   "Company boards (Ashby):vanta-b64b6e72-7c71-446f-b6ce-662330b910e8": "2026-10-29T19:10:19.617572+00:00",
+  "Company boards (Ashby):vanta-c6090572-cbca-4b11-810e-127bf0183abf": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):watershed-4328ff96-702a-426d-810a-fd47a495620b": "2026-10-14T19:06:33.226202+00:00",
   "Company boards (Ashby):watershed-98e4174e-c31f-4da7-9f4f-d18114aa7db7": "2026-09-30T22:08:58.173147+00:00",
   "Company boards (Greenhouse):affirm-8009661003": "2026-10-14T17:17:53.545643+00:00",
@@ -4854,6 +4862,7 @@
   "Microsoft:1970393557048169": "2026-10-28T17:18:13.210720+00:00",
   "Microsoft:1970393557050167": "2026-11-16T21:59:39.075248+00:00",
   "Microsoft:1970393557050696": "2026-11-02T20:10:18.887664+00:00",
+  "Microsoft:1970393557050905": "2026-11-19T04:23:53.000564+00:00",
   "Microsoft:1970393557053735": "2026-11-04T22:34:33.618911+00:00",
   "Microsoft:1970393557053845": "2026-11-05T19:50:27.386727+00:00",
   "Microsoft:1970393557053874": "2026-11-09T22:09:55.868024+00:00",
