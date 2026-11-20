@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 86,
-   "t": "2026-09-22T20:05:39.582823+00:00"
-  },
-  {
    "s": 84,
    "t": "2026-09-22T20:05:39.582823+00:00"
   },
@@ -799,39 +795,39 @@
   {
    "s": 87,
    "t": "2026-11-20T10:30:17.846870+00:00"
+  },
+  {
+   "s": 79,
+   "t": "2026-11-20T18:44:29.378076+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 58,
+   "fails": 59,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 45,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 46,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
-  "Salesforce": {
-   "fails": 11,
-   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "T-Mobile": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1308,6 +1304,7 @@
   "Indeed:80f604afec14329b": "2026-10-13T05:08:50.999681+00:00",
   "Indeed:8f01f77367aff491": "2026-09-28T18:09:05.543892+00:00",
   "Indeed:93ecbd17b2fe665e": "2026-11-06T03:39:02.930091+00:00",
+  "Indeed:968a77e3d7be357e": "2026-11-20T18:44:29.378076+00:00",
   "Indeed:a0d6dea6073eb12c": "2026-11-04T17:36:19.849810+00:00",
   "Indeed:a54d834a88d4c06a": "2026-11-12T02:43:25.976586+00:00",
   "Indeed:a846c8e89634ade5": "2026-10-13T13:21:15.732534+00:00",
@@ -1635,6 +1632,7 @@
   "b693542e73255ab1": "2026-09-19T18:31:08.637985+00:00",
   "b6a085a4688654a2": "2026-11-19T23:08:49.947651+00:00",
   "b6b4632b484b1c52": "2026-09-28T16:05:18.088598+00:00",
+  "b7923e5b3cd52492": "2026-11-20T18:44:29.378076+00:00",
   "b93332b04bd17d8f": "2026-10-30T15:13:06.054317+00:00",
   "b9a73d0f5b98aa04": "2026-09-19T18:31:08.637985+00:00",
   "bc68a6a529fa3a93": "2026-09-19T18:31:08.637985+00:00",
@@ -2026,6 +2024,7 @@
   "Amazon:10609581": "2026-11-19T19:09:27.519008+00:00",
   "Amazon:10609730": "2026-11-19T20:08:44.554159+00:00",
   "Amazon:10610322": "2026-11-20T17:09:35.950636+00:00",
+  "Amazon:10610520": "2026-11-20T18:44:29.378076+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026514172": "2026-09-23T12:06:38.430577+00:00",
   "Boeing:JR2026514740": "2026-09-24T15:50:46.636267+00:00",
@@ -2165,6 +2164,7 @@
   "City of Seattle (gov):5538774": "2026-11-03T20:09:14.296688+00:00",
   "City of Tacoma (gov):5111125": "2026-09-28T21:36:51.568421+00:00",
   "Company boards (Ashby):benchling-73e23228-5162-4444-ba96-05aaeefd902f": "2026-11-15T21:09:16.284551+00:00",
+  "Company boards (Ashby):benchling-89a58a83-82ee-4d9f-8d9d-a8056af04531": "2026-11-20T18:44:29.378076+00:00",
   "Company boards (Ashby):benchling-9ff817e6-9274-4613-9ac3-1bc012b7ff8a": "2026-10-22T20:38:56.897100+00:00",
   "Company boards (Ashby):benchling-ac6d50a7-8a73-43ab-98ac-591bcca1742b": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):benchling-febb0539-70a3-49f4-b649-92d254f7c223": "2026-10-02T00:09:16.487928+00:00",
@@ -2429,6 +2429,7 @@
   "Company boards (Greenhouse):anthropic-5481842008": "2026-11-16T19:09:39.662937+00:00",
   "Company boards (Greenhouse):anthropic-5483359008": "2026-11-17T21:08:50.794615+00:00",
   "Company boards (Greenhouse):anthropic-5485582008": "2026-11-18T00:08:40.583513+00:00",
+  "Company boards (Greenhouse):anthropic-5485591008": "2026-11-20T18:44:29.378076+00:00",
   "Company boards (Greenhouse):anthropic-5486656008": "2026-11-19T16:09:59.091415+00:00",
   "Company boards (Greenhouse):asana-8194380": "2026-10-07T21:09:26.560531+00:00",
   "Company boards (Greenhouse):asana-8227150": "2026-09-24T15:50:46.636267+00:00",
