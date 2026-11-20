@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:17:24.941440+00:00",
+  "generated_at": "2026-11-20T14:24:19.875Z",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -156,21 +156,12 @@
       "remote": false
     },
     {
-      "id": "c1b4852f1bfe2569",
-      "title": "Email Marketing Strategist",
-      "company": "Join Marathon",
-      "url": "https://www.indeed.com/viewjob?jk=c1b4852f1bfe2569",
-      "location": "United States",
-      "snippet": "This role will begin as a contractor but may quickly turn into a full time role. That means owning the strategy, copy, creative direction, client communication,…",
-      "remote": false
-    },
-    {
-      "id": "56c53f2c91888525",
-      "title": "Program Coordinator",
-      "company": "University of Washington",
-      "url": "https://www.indeed.com/viewjob?jk=56c53f2c91888525",
-      "location": "Seattle, WA",
-      "snippet": "Technical assistance and related program coordination – 85%. Reporting to Katie Warden, Director of the NW ADA Center, the Program Coordinator is responsible…",
+      "id": "77aca1e4fc52076b",
+      "title": "PreConstruction Coordinator — Residential Renovation",
+      "company": "JCC Concierge",
+      "url": "https://www.indeed.com/viewjob?jk=77aca1e4fc52076b",
+      "location": "Bellevue, WA 98005",
+      "snippet": "When you’re not assessing homes, you’ll help our estimating team build takeoffs for upcoming bids and document progress on ongoing projects.",
       "remote": false
     },
     {
@@ -228,15 +219,6 @@
       "remote": false
     },
     {
-      "id": "49fcddde51b59f40",
-      "title": "Project Manager, O&M",
-      "company": "LEHI Washington LLC",
-      "url": "https://www.indeed.com/viewjob?jk=49fcddde51b59f40",
-      "location": "Seattle, WA 98101",
-      "snippet": "You will own the maintenance program : scheduling, staff, the CMMS, reporting and the client relationship. Pay:* $92,500 to $105,000 per year.",
-      "remote": false
-    },
-    {
       "id": "4d1179b51a019dc5",
       "title": "Project Manager",
       "company": "AppleOne",
@@ -246,21 +228,30 @@
       "remote": false
     },
     {
-      "id": "8e5436a0b9bbb556",
-      "title": "Volunteer Program Coordinator",
-      "company": "Habitat for Humanity SKKC",
-      "url": "https://www.indeed.com/viewjob?jk=8e5436a0b9bbb556",
-      "location": "Renton, WA 98057",
-      "snippet": "Work with the Development staff on building and marketing the program for our audience. Work closely with all program and department managers in King and…",
+      "id": "49fcddde51b59f40",
+      "title": "Project Manager, O&M",
+      "company": "LEHI Washington LLC",
+      "url": "https://www.indeed.com/viewjob?jk=49fcddde51b59f40",
+      "location": "Seattle, WA 98101",
+      "snippet": "You will own the maintenance program : scheduling, staff, the CMMS, reporting and the client relationship. Pay:* $92,500 to $105,000 per year.",
       "remote": false
     },
     {
-      "id": "4c6de30e5c1e3ce5",
-      "title": "Revenue Enablement Manager",
-      "company": "Crusoe",
-      "url": "https://www.indeed.com/viewjob?jk=4c6de30e5c1e3ce5",
+      "id": "56c53f2c91888525",
+      "title": "Program Coordinator",
+      "company": "University of Washington",
+      "url": "https://www.indeed.com/viewjob?jk=56c53f2c91888525",
       "location": "Seattle, WA",
-      "snippet": "The Revenue Enablement Manager owns the programs, content, processes, and tools that keep Crusoe's go-to-market team selling effectively as we introduce new AI…",
+      "snippet": "Technical assistance and related program coordination – 85%. Reporting to Katie Warden, Director of the NW ADA Center, the Program Coordinator is responsible…",
+      "remote": false
+    },
+    {
+      "id": "e23a5f9fa19c9bb0",
+      "title": "Senior Director of Training",
+      "company": "Crisis Connections",
+      "url": "https://www.indeed.com/viewjob?jk=e23a5f9fa19c9bb0",
+      "location": "Seattle, WA 98101",
+      "snippet": "Candidates within approximately a two-hour drive of Seattle or willing to relocate are welcome. Medical and vision coverage starting at just $21.95/month…",
       "remote": false
     },
     {
@@ -309,6 +300,15 @@
       "remote": false
     },
     {
+      "id": "eb9b14bc879f333a",
+      "title": "Business Development Manager - Custom Steel Plate & Value-Added Processing",
+      "company": "Vanguard Acquisitions LLC",
+      "url": "https://www.indeed.com/viewjob?jk=eb9b14bc879f333a",
+      "location": "United States",
+      "snippet": "Every new customer starts with someone opening the door. You will build new customer relationships from the ground up, get those customers sending us…",
+      "remote": false
+    },
+    {
       "id": "6a5b0a713d959a2c",
       "title": "Sales Operations Coordinator",
       "company": "Custom Cones USA and DaySavers",
@@ -333,6 +333,24 @@
       "url": "https://www.indeed.com/viewjob?jk=bef01097e5fbf59d",
       "location": "Tacoma, WA",
       "snippet": "City Wide Facility Solutions is seeking a dependable, self-directed Night Operations Manager to oversee service quality across multiple client locations.",
+      "remote": false
+    },
+    {
+      "id": "8e5436a0b9bbb556",
+      "title": "Volunteer Program Coordinator",
+      "company": "Habitat for Humanity SKKC",
+      "url": "https://www.indeed.com/viewjob?jk=8e5436a0b9bbb556",
+      "location": "Renton, WA 98057",
+      "snippet": "Work with the Development staff on building and marketing the program for our audience. Work closely with all program and department managers in King and…",
+      "remote": false
+    },
+    {
+      "id": "4c6de30e5c1e3ce5",
+      "title": "Revenue Enablement Manager",
+      "company": "Crusoe",
+      "url": "https://www.indeed.com/viewjob?jk=4c6de30e5c1e3ce5",
+      "location": "Seattle, WA",
+      "snippet": "The Revenue Enablement Manager owns the programs, content, processes, and tools that keep Crusoe's go-to-market team selling effectively as we introduce new AI…",
       "remote": false
     },
     {
@@ -377,7 +395,7 @@
       "company": "Logiserve Freight LLC",
       "url": "https://www.indeed.com/viewjob?jk=a666df3a11ba2a79",
       "location": "United States",
-      "snippet": "Ability to quote freight independently or utilize company-provided quoting tools to secure competitive ratesStrong communication and negotiation skills Self-…",
+      "snippet": "Ability to quote freight independently or utilize company-provided quoting tools to secure competitive rates. Strong communication and negotiation skills Self-…",
       "remote": false
     },
     {
@@ -387,6 +405,15 @@
       "url": "https://www.indeed.com/viewjob?jk=9c94b7572c09d9b4",
       "location": "Seattle, WA",
       "snippet": "Experience with design of modern, scalable delivery models for technology consulting services. Managing practice P&L, ensuring on-time and within-budget…",
+      "remote": false
+    },
+    {
+      "id": "2039677c659f4a1e",
+      "title": "Software Development Manager, EC2 UltraServer Delivery Team",
+      "company": "Amazon Development Center U.S., Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=2039677c659f4a1e",
+      "location": "Seattle, WA",
+      "snippet": "Manage stakeholder expectations and build trust through consistent delivery and transparent communication. Balance short-term delivery commitments with long-…",
       "remote": false
     },
     {
@@ -408,15 +435,6 @@
       "remote": false
     },
     {
-      "id": "2039677c659f4a1e",
-      "title": "Software Development Manager, EC2 UltraServer Delivery Team",
-      "company": "Amazon Development Center U.S., Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=2039677c659f4a1e",
-      "location": "Seattle, WA",
-      "snippet": "Manage stakeholder expectations and build trust through consistent delivery and transparent communication. Balance short-term delivery commitments with long-…",
-      "remote": false
-    },
-    {
       "id": "f87d722f7698f447",
       "title": "Technical Infrastructure Program Manager , Network Delivery Team",
       "company": "Amazon.com Services LLC",
@@ -435,12 +453,12 @@
       "remote": false
     },
     {
-      "id": "f0430b9af9036f1c",
-      "title": "Senior Purchasing Agent",
-      "company": "Matrix Finance and Accounting",
-      "url": "https://www.indeed.com/viewjob?jk=f0430b9af9036f1c",
-      "location": "Tukwila, WA 98188",
-      "snippet": "Terrific new Purchasing Agent opportunity, with a long-standing, financially successful distributor in Tukwila.",
+      "id": "38e9c05c6c67a2ff",
+      "title": "Purchasing Agent - Construction",
+      "company": "Confidential",
+      "url": "https://www.indeed.com/viewjob?jk=38e9c05c6c67a2ff",
+      "location": "Tacoma, WA 98409",
+      "snippet": "Track incoming shipments and communicate delivery updates to appropriate departments. Work with internal departments to determine purchasing requirements and…",
       "remote": false
     },
     {
@@ -498,15 +516,6 @@
       "remote": false
     },
     {
-      "id": "528478ee9665afd2",
-      "title": "Sr Partner Sales Executive, West Region",
-      "company": "T-Mobile USA, Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=528478ee9665afd2",
-      "location": "Bellevue, WA 98006",
-      "snippet": "Pipeline & Forecast Management: Manage and optimize the sales pipeline for new and renewal business to ensure accurate forecasting of indirect business.",
-      "remote": false
-    },
-    {
       "id": "509d0dbdebcd2621",
       "title": "Office Manager for Medical Office",
       "company": "Lakeside-Milam Recovery Centers",
@@ -534,21 +543,21 @@
       "remote": false
     },
     {
+      "id": "528478ee9665afd2",
+      "title": "Sr Partner Sales Executive, West Region",
+      "company": "T-Mobile USA, Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=528478ee9665afd2",
+      "location": "Bellevue, WA 98006",
+      "snippet": "Pipeline & Forecast Management: Manage and optimize the sales pipeline for new and renewal business to ensure accurate forecasting of indirect business.",
+      "remote": false
+    },
+    {
       "id": "7cce5d901b8c3937",
       "title": "Shelter Operations Manager",
       "company": "Low Income Housing Institute",
       "url": "https://www.indeed.com/viewjob?jk=7cce5d901b8c3937",
       "location": "Seattle, WA 98115",
       "snippet": "Hours: Full-time, 40 hours per week 8am to 4:30pm. Position Type: Non-exempt, non-union position. This position supervises activities at the site and maintains…",
-      "remote": false
-    },
-    {
-      "id": "5536855e95bc1dc1",
-      "title": "Manager, USMC Growth",
-      "company": "Overland AI",
-      "url": "https://www.indeed.com/viewjob?jk=5536855e95bc1dc1",
-      "location": "Seattle, WA",
-      "snippet": "Familiarity with defense-first or dual-use technology business models. Master’s degree in business administration, Public Policy, or related field.",
       "remote": false
     },
     {
@@ -579,12 +588,12 @@
       "remote": false
     },
     {
-      "id": "0bba5432ba534269",
-      "title": "Sales Executive - Commercial Business Solutions",
-      "company": "City Wide Facility Solutions",
-      "url": "https://www.indeed.com/viewjob?jk=0bba5432ba534269",
+      "id": "5536855e95bc1dc1",
+      "title": "Manager, USMC Growth",
+      "company": "Overland AI",
+      "url": "https://www.indeed.com/viewjob?jk=5536855e95bc1dc1",
       "location": "Seattle, WA",
-      "snippet": "Strong mathematical skills, including the ability to perform operations with whole numbers, fractions, and decimals. Minimum of 2 years B2B Sales experience.",
+      "snippet": "Familiarity with defense-first or dual-use technology business models. Master’s degree in business administration, Public Policy, or related field.",
       "remote": false
     },
     {
@@ -597,30 +606,12 @@
       "remote": false
     },
     {
-      "id": "e72c16e6118edf01",
-      "title": "Remediation Business Development Manager",
-      "company": "GRAYMAR ENVIRONMENTAL SERVICES LLC",
-      "url": "https://www.indeed.com/viewjob?jk=e72c16e6118edf01",
-      "location": "Auburn, WA 98002",
-      "snippet": "Remote work flexibility and company-supported business travel. Leverage existing industry relationships to generate qualified leads and new business…",
-      "remote": false
-    },
-    {
       "id": "13f6a974f55c02cc",
       "title": "HTS General Manager",
       "company": "HomeTowne Studios & Suites by Red Roof",
       "url": "https://www.indeed.com/viewjob?jk=13f6a974f55c02cc",
       "location": "Kent, WA 98032",
       "snippet": "Health insurance (Employee contributions starting as low as $54 individual and $297 family (Semi Monthly)). Maintain the hotel's quality by inspecting rooms,…",
-      "remote": false
-    },
-    {
-      "id": "88195202d9d98b51",
-      "title": "Restaurant & Operations Manager",
-      "company": "Lucky Strike",
-      "url": "https://www.indeed.com/viewjob?jk=88195202d9d98b51",
-      "location": "Bellevue, WA 98004",
-      "snippet": "3 or more years of leadership experience in restaurant, hospitality, or high-volume food and beverage operations. Vacation, Paid Sick Leave, and Holidays.",
       "remote": false
     },
     {
@@ -675,6 +666,15 @@
       "url": "https://www.indeed.com/viewjob?jk=4805c953cf1a9f90",
       "location": "Seattle, WA 98109",
       "snippet": "Knowledge of business development, partnerships , and project management. Demonstrated track record of success in sales and/or relationship management.",
+      "remote": false
+    },
+    {
+      "id": "e72c16e6118edf01",
+      "title": "Remediation Business Development Manager",
+      "company": "GRAYMAR ENVIRONMENTAL SERVICES LLC",
+      "url": "https://www.indeed.com/viewjob?jk=e72c16e6118edf01",
+      "location": "Auburn, WA 98002",
+      "snippet": "Identify, pursue, and secure new environmental remediation projects and strategic partnerships. Bachelor's degree in Environmental Science, Engineering, Geology…",
       "remote": false
     },
     {
@@ -759,30 +759,12 @@
       "remote": false
     },
     {
-      "id": "80950c180ab83621",
-      "title": "Senior Manager - Azure Directory Operations",
-      "company": "CVS Health",
-      "url": "https://www.indeed.com/viewjob?jk=80950c180ab83621",
-      "location": "Washington State",
-      "snippet": "This position is eligible for a CVS Health bonus, commission or short-term incentive program in addition to the base pay range listed above.",
-      "remote": false
-    },
-    {
-      "id": "8b8801764233124b",
-      "title": "Associate Project Manager",
-      "company": "The Odigo Group",
-      "url": "https://www.indeed.com/viewjob?jk=8b8801764233124b",
-      "location": "Langley, WA",
-      "snippet": "Support project managers and program leads with day-to-day project coordination and execution. Working closely with project managers and program leads, this…",
-      "remote": false
-    },
-    {
-      "id": "15ef50bb66d107cc",
-      "title": "Senior Proposal Manager",
-      "company": "Atlas",
-      "url": "https://www.indeed.com/viewjob?jk=15ef50bb66d107cc",
-      "location": "Washington State",
-      "snippet": "10+ years of experience in proposal management in the specifically AEC industry, with at least 3 years in a senior or leadership role.",
+      "id": "3a3772a046d2358d",
+      "title": "Scientific Project and Alliance Manager",
+      "company": "Allen Institute",
+      "url": "https://www.indeed.com/viewjob?jk=3a3772a046d2358d",
+      "location": "Seattle, WA 98109",
+      "snippet": "Ability to explain plans, tradeoffs and results in plain language to scientists and senior leaders. Communicate complex technical, operational and financial…",
       "remote": false
     },
     {
@@ -795,6 +777,15 @@
       "remote": false
     },
     {
+      "id": "8b8801764233124b",
+      "title": "Associate Project Manager",
+      "company": "The Odigo Group",
+      "url": "https://www.indeed.com/viewjob?jk=8b8801764233124b",
+      "location": "Langley, WA",
+      "snippet": "Support project managers and program leads with day-to-day project coordination and execution. Working closely with project managers and program leads, this…",
+      "remote": false
+    },
+    {
       "id": "58affca96983a489",
       "title": "Senior Attorney (3687300)",
       "company": "Resnick & Louis, P.C.",
@@ -804,12 +795,21 @@
       "remote": false
     },
     {
-      "id": "3a3772a046d2358d",
-      "title": "Scientific Project and Alliance Manager",
-      "company": "Allen Institute",
-      "url": "https://www.indeed.com/viewjob?jk=3a3772a046d2358d",
-      "location": "Seattle, WA 98109",
-      "snippet": "Ability to explain plans, tradeoffs and results in plain language to scientists and senior leaders. Communicate complex technical, operational and financial…",
+      "id": "15ef50bb66d107cc",
+      "title": "Senior Proposal Manager",
+      "company": "Atlas",
+      "url": "https://www.indeed.com/viewjob?jk=15ef50bb66d107cc",
+      "location": "Washington State",
+      "snippet": "10+ years of experience in proposal management in the specifically AEC industry, with at least 3 years in a senior or leadership role.",
+      "remote": false
+    },
+    {
+      "id": "80950c180ab83621",
+      "title": "Senior Manager - Azure Directory Operations",
+      "company": "CVS Health",
+      "url": "https://www.indeed.com/viewjob?jk=80950c180ab83621",
+      "location": "Washington State",
+      "snippet": "This position is eligible for a CVS Health bonus, commission or short-term incentive program in addition to the base pay range listed above.",
       "remote": false
     }
   ]
