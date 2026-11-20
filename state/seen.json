@@ -802,41 +802,29 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
   "Boeing": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 46,
+   "fails": 47,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 33,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+   "fails": 34,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
-  "Salesforce": {
-   "fails": 75,
-   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
   },
   "T-Mobile": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
-  },
-  "Zillow": {
-   "fails": 57,
-   "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
  "initialized": true,
@@ -2905,10 +2893,12 @@
   "CrowdStrike:R30816": "2026-11-12T09:01:28.058364+00:00",
   "Indeed:0091bb92d0117f74": "2026-10-15T22:08:41.491499+00:00",
   "Indeed:13913c8a3865a858": "2026-11-06T18:08:40.555947+00:00",
+  "Indeed:154711e90f92f86c": "2026-11-20T07:09:20.386736+00:00",
   "Indeed:1bb75b47b33043ea": "2026-11-20T00:08:33.125408+00:00",
   "Indeed:209f828012edbfe2": "2026-11-08T05:29:30.377408+00:00",
   "Indeed:28b48a2ac7532e03": "2026-10-30T20:52:47.802732+00:00",
   "Indeed:3055f6c5e6724edc": "2026-10-11T16:08:40.182338+00:00",
+  "Indeed:33335f510d62fa81": "2026-11-20T07:09:20.386736+00:00",
   "Indeed:3495aa78395eb450": "2026-11-20T05:09:15.124352+00:00",
   "Indeed:3b8a1ed61007b4cf": "2026-10-23T06:13:20.388436+00:00",
   "Indeed:4255f684c2d3f133": "2026-11-11T00:08:50.153493+00:00",
@@ -4878,6 +4868,7 @@
   "Nordstrom:R-899183": "2026-11-17T21:08:50.794615+00:00",
   "Nordstrom:R-899744": "2026-11-19T21:51:24.998089+00:00",
   "Salesforce:JR243174": "2026-10-12T05:40:27.342479+00:00",
+  "Salesforce:JR264377": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR273144": "2026-10-09T01:09:46.668444+00:00",
   "Salesforce:JR302067": "2026-11-09T04:57:58.587071+00:00",
   "Salesforce:JR317907": "2026-10-30T09:41:11.093479+00:00",
@@ -5028,6 +5019,7 @@
   "Salesforce:JR365396": "2026-10-26T17:01:32.270577+00:00",
   "Salesforce:JR365398": "2026-10-26T17:01:32.270577+00:00",
   "Salesforce:JR365405": "2026-10-26T17:01:32.270577+00:00",
+  "Salesforce:JR365436": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR365511": "2026-10-23T05:09:27.147567+00:00",
   "Salesforce:JR365526": "2026-10-29T17:11:38.734301+00:00",
   "Salesforce:JR365531": "2026-10-23T10:09:28.374478+00:00",
@@ -5065,7 +5057,9 @@
   "Salesforce:JR366784": "2026-11-11T15:07:39.068346+00:00",
   "Salesforce:JR366798": "2026-11-06T01:08:33.449456+00:00",
   "Salesforce:JR366812": "2026-11-06T01:08:33.449456+00:00",
+  "Salesforce:JR366838": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR366840": "2026-11-05T18:09:51.160698+00:00",
+  "Salesforce:JR366841": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR366864": "2026-11-03T09:52:43.640832+00:00",
   "Salesforce:JR366866": "2026-11-03T09:52:43.640832+00:00",
   "Salesforce:JR366868": "2026-11-03T15:11:10.399789+00:00",
@@ -5083,9 +5077,16 @@
   "Salesforce:JR367539": "2026-11-06T00:09:15.284436+00:00",
   "Salesforce:JR367623": "2026-11-06T22:03:41.145209+00:00",
   "Salesforce:JR367864": "2026-11-10T16:10:53.821124+00:00",
+  "Salesforce:JR368187": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368199": "2026-11-12T17:10:01.966419+00:00",
   "Salesforce:JR368200": "2026-11-12T17:10:01.966419+00:00",
+  "Salesforce:JR368316": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368325": "2026-11-13T16:26:24.658224+00:00",
+  "Salesforce:JR368711": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR368851": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR368852": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR368894": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR368956": "2026-11-20T07:09:20.386736+00:00",
   "Starbucks:481080833513": "2026-09-22T20:05:39.582823+00:00",
   "Starbucks:481080833517": "2026-09-22T23:08:21.166019+00:00",
   "Starbucks:481080852315": "2026-09-22T20:05:39.582823+00:00",
