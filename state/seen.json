@@ -802,29 +802,37 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
+  },
   "Boeing": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 47,
+   "fails": 48,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 34,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 35,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Starbucks": {
+  "Salesforce": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
+  },
+  "Zillow": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
  "initialized": true,
@@ -2766,7 +2774,6 @@
   "Company boards (Greenhouse):stripe-8163532": "2026-09-22T23:08:21.166019+00:00",
   "Company boards (Greenhouse):stripe-8175637": "2026-10-28T02:36:47.152343+00:00",
   "Company boards (Greenhouse):stripe-8176733": "2026-09-24T08:49:25.461986+00:00",
-  "Company boards (Greenhouse):stripe-8203653": "2026-09-21T07:09:53.992684+00:00",
   "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8208523": "2026-09-21T14:13:46.061280+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
@@ -3045,7 +3052,6 @@
   "LinkedIn:4440993487": "2026-10-11T10:08:37.445890+00:00",
   "LinkedIn:4440994418": "2026-10-09T10:09:06.596506+00:00",
   "LinkedIn:4441202205": "2026-10-08T14:49:43.189216+00:00",
-  "LinkedIn:4441205103": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4441411662": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4441502841": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4442211515": "2026-09-22T12:05:43.805270+00:00",
@@ -3329,7 +3335,6 @@
   "LinkedIn:4468310271": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468350225": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468364001": "2026-09-22T12:05:43.805270+00:00",
-  "LinkedIn:4468483479": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4468502336": "2026-09-22T12:05:43.805270+00:00",
   "LinkedIn:4468541986": "2026-09-22T12:05:43.805270+00:00",
   "LinkedIn:4468608919": "2026-10-08T18:52:59.131833+00:00",
@@ -3366,7 +3371,6 @@
   "LinkedIn:4469512957": "2026-10-11T18:08:59.959652+00:00",
   "LinkedIn:4469524621": "2026-10-19T14:03:20.543143+00:00",
   "LinkedIn:4469571230": "2026-09-21T19:34:41.546264+00:00",
-  "LinkedIn:4469582443": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4469617057": "2026-09-25T00:09:00.331625+00:00",
   "LinkedIn:4469634314": "2026-09-24T02:08:15.840556+00:00",
   "LinkedIn:4469651735": "2026-09-25T18:09:34.891854+00:00",
@@ -3381,8 +3385,6 @@
   "LinkedIn:4469785659": "2026-09-25T18:09:34.891854+00:00",
   "LinkedIn:4469786405": "2026-09-25T00:09:00.331625+00:00",
   "LinkedIn:4469799091": "2026-09-24T22:08:49.761675+00:00",
-  "LinkedIn:4469824693": "2026-09-21T07:09:53.992684+00:00",
-  "LinkedIn:4469833099": "2026-09-21T07:09:53.992684+00:00",
   "LinkedIn:4469862622": "2026-09-21T19:34:41.546264+00:00",
   "LinkedIn:4469876226": "2026-09-21T19:34:41.546264+00:00",
   "LinkedIn:4469899631": "2026-09-21T19:34:41.546264+00:00",
@@ -4711,6 +4713,7 @@
   "LinkedIn:4492237441": "2026-11-19T02:08:20.884142+00:00",
   "LinkedIn:4492423856": "2026-11-19T17:09:07.050872+00:00",
   "LinkedIn:4492442957": "2026-11-19T17:09:07.050872+00:00",
+  "LinkedIn:4492551819": "2026-11-20T08:11:50.949860+00:00",
   "LinkedIn:4492726126": "2026-11-19T21:09:10.238247+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
