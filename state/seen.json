@@ -802,24 +802,36 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
+  },
+  "Boeing": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
+  },
   "CrowdStrike": {
-   "fails": 72,
+   "fails": 73,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "Indeed": {
-   "fails": 6,
-   "last_error": "relay data is 20.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
   "LinkedIn": {
-   "fails": 9,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+   "fails": 10,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
-  "Microsoft": {
+  "Nordstrom": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
+  "Salesforce": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
+  },
+  "T-Mobile": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -3263,10 +3275,8 @@
   "LinkedIn:4468350225": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468608919": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4468928940": "2026-09-23T00:08:33.567522+00:00",
-  "LinkedIn:4468934267": "2026-09-22T21:08:10.415761+00:00",
   "LinkedIn:4468949456": "2026-09-23T04:08:06.723349+00:00",
   "LinkedIn:4468987031": "2026-09-23T04:08:06.723349+00:00",
-  "LinkedIn:4469051640": "2026-09-22T21:08:10.415761+00:00",
   "LinkedIn:4469066606": "2026-09-23T00:08:33.567522+00:00",
   "LinkedIn:4469220942": "2026-10-12T03:08:36.615651+00:00",
   "LinkedIn:4469338183": "2026-09-23T18:08:12.160394+00:00",
