@@ -802,40 +802,24 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
-  "Boeing": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
-  },
   "CrowdStrike": {
-   "fails": 71,
+   "fails": 72,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 5,
-   "last_error": "relay data is 20.8h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 6,
+   "last_error": "relay data is 20.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
-  "Nordstrom": {
+  "Microsoft": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
-  "Salesforce": {
-   "fails": 12,
-   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
-  },
-  "T-Mobile": {
-   "fails": 29,
-   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Zillow": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -5003,13 +4987,18 @@
   "Salesforce:JR368187": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368199": "2026-11-12T17:10:01.966419+00:00",
   "Salesforce:JR368200": "2026-11-12T17:10:01.966419+00:00",
+  "Salesforce:JR368218": "2026-11-21T21:02:02.746371+00:00",
   "Salesforce:JR368316": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368325": "2026-11-13T16:26:24.658224+00:00",
+  "Salesforce:JR368398": "2026-11-21T21:02:02.746371+00:00",
+  "Salesforce:JR368454": "2026-11-21T21:02:02.746371+00:00",
+  "Salesforce:JR368695": "2026-11-21T21:02:02.746371+00:00",
   "Salesforce:JR368711": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368851": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368852": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368894": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368956": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR369213": "2026-11-21T21:02:02.746371+00:00",
   "Starbucks:481080833517": "2026-09-22T23:08:21.166019+00:00",
   "Starbucks:481080882301": "2026-09-30T22:08:58.173147+00:00",
   "Starbucks:481080882314": "2026-09-25T19:26:16.685539+00:00",
@@ -5045,6 +5034,7 @@
   "T-Mobile:REQ380508": "2026-11-10T16:10:53.821124+00:00",
   "T-Mobile:REQ381683": "2026-11-19T01:08:34.533398+00:00",
   "T-Mobile:REQ381692": "2026-11-19T01:08:34.533398+00:00",
+  "T-Mobile:REQ381743": "2026-11-21T21:02:02.746371+00:00",
   "T-Mobile:REQ382341": "2026-11-20T02:41:25.354841+00:00",
   "T-Mobile:REQ383048": "2026-11-20T02:41:25.354841+00:00",
   "T-Mobile:REQ383584": "2026-11-20T02:41:25.354841+00:00",
