@@ -802,24 +802,40 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
+  },
+  "Boeing": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
+  },
   "CrowdStrike": {
-   "fails": 66,
+   "fails": 67,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 7.2h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
   "LinkedIn": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 4,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1790,7 +1806,6 @@
   "Amazon:10547072": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10551350": "2026-10-08T19:09:01.291512+00:00",
   "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
-  "Amazon:10555665": "2026-09-22T01:21:27.831526+00:00",
   "Amazon:10556594": "2026-09-22T20:05:39.582823+00:00",
   "Amazon:10556607": "2026-09-22T20:05:39.582823+00:00",
   "Amazon:10556609": "2026-09-22T20:05:39.582823+00:00",
@@ -2213,7 +2228,6 @@
   "Company boards (Ashby):openai-320f6132-7a72-425e-8045-4fd59f99f31c": "2026-11-11T16:10:49.149197+00:00",
   "Company boards (Ashby):openai-3228eed1-9cb3-4330-82c3-19fb3dbb4408": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Ashby):openai-32ca0028-c12d-4def-a200-946ec8d4ea5f": "2026-09-28T21:36:51.568421+00:00",
-  "Company boards (Ashby):openai-356c5dca-472d-458e-826e-51d923e93eaa": "2026-09-22T01:21:27.831526+00:00",
   "Company boards (Ashby):openai-38e66047-7d81-4347-8e64-2c16bc9a803a": "2026-11-13T17:16:51.257726+00:00",
   "Company boards (Ashby):openai-3a24a9a2-47e1-427c-ac76-81b5c59b638b": "2026-10-08T18:52:59.131833+00:00",
   "Company boards (Ashby):openai-3b2d32bd-2549-43d0-8dc2-8469bece5336": "2026-09-23T19:53:36.704875+00:00",
@@ -2490,6 +2504,9 @@
   "Company boards (Greenhouse):cloudflare-8359292": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Greenhouse):cloudflare-8372387": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Greenhouse):cloudflare-8382884": "2026-11-18T00:57:13.756574+00:00",
+  "Company boards (Greenhouse):cloudflare-8400599": "2026-11-21T07:24:26.397974+00:00",
+  "Company boards (Greenhouse):cloudflare-8400651": "2026-11-21T07:24:26.397974+00:00",
+  "Company boards (Greenhouse):cloudflare-8400689": "2026-11-21T07:24:26.397974+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
   "Company boards (Greenhouse):coinbase-8238602": "2026-10-02T18:09:10.774871+00:00",
@@ -2950,8 +2967,6 @@
   "Indeed:f0ed9038e172b638": "2026-11-05T18:09:51.160698+00:00",
   "Indeed:f797b4101fe48084": "2026-10-10T06:09:43.754998+00:00",
   "Indeed:fe0f8147bea49e71": "2026-09-30T10:09:09.259204+00:00",
-  "King County (gov):5479073": "2026-09-22T01:21:27.831526+00:00",
-  "King County (gov):5490335": "2026-09-22T06:42:21.712138+00:00",
   "King County (gov):5493518": "2026-09-28T15:55:49.931317+00:00",
   "King County (gov):5496848": "2026-09-29T13:55:16.417993+00:00",
   "King County (gov):5503430": "2026-10-03T01:08:55.857527+00:00",
@@ -4829,6 +4844,7 @@
   "Microsoft:1970393557074418": "2026-11-17T21:08:50.794615+00:00",
   "Microsoft:1970393557074733": "2026-11-18T17:09:24.076679+00:00",
   "Microsoft:1970393557075444": "2026-11-21T00:19:27.173020+00:00",
+  "Microsoft:1970393557076499": "2026-11-21T07:24:26.397974+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
   "Nordstrom:R-879623": "2026-09-23T04:08:06.723349+00:00",
@@ -4917,7 +4933,6 @@
   "Salesforce:JR360276": "2026-09-23T15:08:39.594354+00:00",
   "Salesforce:JR360321": "2026-09-25T15:26:19.805489+00:00",
   "Salesforce:JR360406": "2026-09-24T21:08:28.838967+00:00",
-  "Salesforce:JR360847": "2026-09-22T01:21:27.831526+00:00",
   "Salesforce:JR360926": "2026-10-01T15:43:50.514781+00:00",
   "Salesforce:JR360959": "2026-09-23T21:08:34.650540+00:00",
   "Salesforce:JR361095": "2026-09-28T18:09:05.543892+00:00",
