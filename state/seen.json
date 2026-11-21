@@ -803,35 +803,39 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 68,
+   "fails": 69,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 2,
-   "last_error": "relay data is 15.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 3,
+   "last_error": "relay data is 18.7h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 22 jobs collected before the block"
+   "fails": 6,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 26,
+   "fails": 27,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1796,8 +1800,6 @@
   "Adobe:R173700": "2026-11-20T02:41:25.354841+00:00",
   "Adobe:R173701": "2026-11-20T02:41:25.354841+00:00",
   "Alaska Air Group:AC1571A1EC3C4113818FB2E12BA8D3EF": "2026-11-12T20:09:24.610500+00:00",
-  "Amazon:10522848": "2026-09-22T16:55:36.047014+00:00",
-  "Amazon:10541234": "2026-09-22T16:55:36.047014+00:00",
   "Amazon:10547072": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10551350": "2026-10-08T19:09:01.291512+00:00",
   "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
@@ -2379,10 +2381,8 @@
   "Company boards (Greenhouse):anthropic-5390992008": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):anthropic-5391253008": "2026-09-25T00:50:16.096440+00:00",
   "Company boards (Greenhouse):anthropic-5391277008": "2026-09-24T19:31:20.122338+00:00",
-  "Company boards (Greenhouse):anthropic-5393268008": "2026-09-22T16:55:36.047014+00:00",
   "Company boards (Greenhouse):anthropic-5394780008": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Greenhouse):anthropic-5398328008": "2026-10-06T00:09:54.844388+00:00",
-  "Company boards (Greenhouse):anthropic-5409108008": "2026-09-22T16:55:36.047014+00:00",
   "Company boards (Greenhouse):anthropic-5427236008": "2026-09-24T17:08:34.169066+00:00",
   "Company boards (Greenhouse):anthropic-5427938008": "2026-09-30T22:08:58.173147+00:00",
   "Company boards (Greenhouse):anthropic-5428790008": "2026-09-22T23:17:44.453774+00:00",
@@ -2672,7 +2672,6 @@
   "Company boards (Greenhouse):mongodb-8399041": "2026-11-18T22:08:53.001318+00:00",
   "Company boards (Greenhouse):okta-8212003": "2026-09-25T14:10:32.176299+00:00",
   "Company boards (Greenhouse):okta-8213755": "2026-10-02T00:09:16.487928+00:00",
-  "Company boards (Greenhouse):okta-8220226": "2026-09-22T16:55:36.047014+00:00",
   "Company boards (Greenhouse):okta-8226936": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):okta-8239973": "2026-09-29T18:29:42.364371+00:00",
   "Company boards (Greenhouse):okta-8245295": "2026-10-02T16:42:22.792146+00:00",
@@ -2747,7 +2746,6 @@
   "Company boards (Greenhouse):roblox-8359634": "2026-11-10T12:57:13.375824+00:00",
   "Company boards (Greenhouse):roblox-8383958": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Greenhouse):rubrik-8114559": "2026-09-22T20:05:39.582823+00:00",
-  "Company boards (Greenhouse):rubrik-8209069": "2026-09-22T16:55:36.047014+00:00",
   "Company boards (Greenhouse):rubrik-8222564": "2026-10-13T05:08:50.999681+00:00",
   "Company boards (Greenhouse):rubrik-8229860": "2026-09-30T07:32:07.248675+00:00",
   "Company boards (Greenhouse):rubrik-8255803": "2026-10-05T14:28:22.130549+00:00",
@@ -4812,7 +4810,6 @@
   "Microsoft:1970393557075444": "2026-11-21T00:19:27.173020+00:00",
   "Microsoft:1970393557076499": "2026-11-21T07:24:26.397974+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
-  "Nordstrom:R-876819": "2026-09-22T16:55:36.047014+00:00",
   "Nordstrom:R-879623": "2026-09-23T04:08:06.723349+00:00",
   "Nordstrom:R-880864": "2026-09-25T20:09:29.632362+00:00",
   "Nordstrom:R-881551": "2026-09-30T15:09:05.432295+00:00",
@@ -4859,7 +4856,6 @@
   "Salesforce:JR349478": "2026-09-30T15:09:05.432295+00:00",
   "Salesforce:JR349493": "2026-10-14T17:17:53.545643+00:00",
   "Salesforce:JR350903": "2026-11-06T16:12:37.062790+00:00",
-  "Salesforce:JR350925": "2026-09-22T16:55:36.047014+00:00",
   "Salesforce:JR351656": "2026-10-30T20:52:47.802732+00:00",
   "Salesforce:JR351732": "2026-09-23T12:06:38.430577+00:00",
   "Salesforce:JR351752": "2026-10-07T16:41:18.237442+00:00",
@@ -5067,7 +5063,6 @@
   "Starbucks:481081543229": "2026-11-04T21:08:27.418133+00:00",
   "Starbucks:481081829065": "2026-11-12T13:12:15.591594+00:00",
   "T-Mobile:REQ349332": "2026-10-27T16:19:05.095066+00:00",
-  "T-Mobile:REQ362630": "2026-09-22T16:55:36.047014+00:00",
   "T-Mobile:REQ364040": "2026-10-01T19:08:49.260098+00:00",
   "T-Mobile:REQ365679": "2026-10-30T18:08:58.806463+00:00",
   "T-Mobile:REQ367196": "2026-10-26T17:01:32.270577+00:00",
