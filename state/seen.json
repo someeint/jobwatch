@@ -803,51 +803,27 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
-  "Boeing": {
-   "fails": 15,
-   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
-  },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 32,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
-  },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "fails": 33,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 31 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 48,
+   "fails": 49,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1818,11 +1794,8 @@
   "Adobe:R173700": "2026-11-20T02:41:25.354841+00:00",
   "Adobe:R173701": "2026-11-20T02:41:25.354841+00:00",
   "Alaska Air Group:AC1571A1EC3C4113818FB2E12BA8D3EF": "2026-11-12T20:09:24.610500+00:00",
-  "Amazon:10547072": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10551350": "2026-10-08T19:09:01.291512+00:00",
   "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
-  "Amazon:10558313": "2026-09-23T21:08:34.650540+00:00",
-  "Amazon:10558314": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10558386": "2026-09-23T22:08:17.527950+00:00",
   "Amazon:10558493": "2026-10-14T19:06:33.226202+00:00",
   "Amazon:10558495": "2026-10-14T19:06:33.226202+00:00",
@@ -2079,7 +2052,6 @@
   "Boeing:JR2026523310": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026523346": "2026-09-30T16:09:21.123030+00:00",
   "Boeing:JR2026523575": "2026-11-03T00:08:59.152075+00:00",
-  "Boeing:JR2026523700": "2026-09-23T21:08:34.650540+00:00",
   "Boeing:JR2026523712": "2026-09-24T22:41:19.303548+00:00",
   "Boeing:JR2026523800": "2026-10-06T20:09:13.575994+00:00",
   "Boeing:JR2026523805": "2026-10-07T21:35:08.199738+00:00",
@@ -3268,7 +3240,6 @@
   "LinkedIn:4469383838": "2026-11-06T19:09:34.476156+00:00",
   "LinkedIn:4469386503": "2026-09-24T17:08:34.169066+00:00",
   "LinkedIn:4469474605": "2026-10-18T13:47:37.593234+00:00",
-  "LinkedIn:4469498561": "2026-09-23T21:08:34.650540+00:00",
   "LinkedIn:4469512943": "2026-10-12T13:29:23.437019+00:00",
   "LinkedIn:4469512957": "2026-10-11T18:08:59.959652+00:00",
   "LinkedIn:4469524621": "2026-10-19T14:03:20.543143+00:00",
@@ -4606,6 +4577,7 @@
   "LinkedIn:4492780953": "2026-11-20T10:30:17.846870+00:00",
   "LinkedIn:4492792185": "2026-11-20T10:30:17.846870+00:00",
   "LinkedIn:4492836370": "2026-11-20T21:09:56.803459+00:00",
+  "LinkedIn:4492858286": "2026-11-22T21:09:00.406293+00:00",
   "LinkedIn:4492884737": "2026-11-22T07:57:32.123183+00:00",
   "LinkedIn:4492930921": "2026-11-20T21:09:56.803459+00:00",
   "LinkedIn:4492999384": "2026-11-21T15:31:03.637357+00:00",
@@ -4815,7 +4787,6 @@
   "Salesforce:JR360321": "2026-09-25T15:26:19.805489+00:00",
   "Salesforce:JR360406": "2026-09-24T21:08:28.838967+00:00",
   "Salesforce:JR360926": "2026-10-01T15:43:50.514781+00:00",
-  "Salesforce:JR360959": "2026-09-23T21:08:34.650540+00:00",
   "Salesforce:JR361095": "2026-09-28T18:09:05.543892+00:00",
   "Salesforce:JR361163": "2026-10-13T03:46:36.728560+00:00",
   "Salesforce:JR361263": "2026-10-08T14:49:43.189216+00:00",
