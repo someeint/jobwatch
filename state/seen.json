@@ -803,35 +803,31 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 44,
+   "fails": 45,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2227,6 +2223,7 @@
   "Company boards (Ashby):openai-513e213c-2cb1-40d2-950d-3919ff5a68b5": "2026-11-18T19:09:13.450380+00:00",
   "Company boards (Ashby):openai-533659ff-2272-4683-87c9-b07d00feea4c": "2026-10-27T19:12:10.632653+00:00",
   "Company boards (Ashby):openai-57486b6e-0b23-4fec-9c35-5efb63fa521a": "2026-11-13T23:53:28.220118+00:00",
+  "Company boards (Ashby):openai-5899e8d5-132f-40b3-9ff6-37830644743f": "2026-11-22T17:08:50.148753+00:00",
   "Company boards (Ashby):openai-58b0c1ff-9a9a-4a8a-a7eb-97618713574d": "2026-11-13T23:09:27.753888+00:00",
   "Company boards (Ashby):openai-5c869fa0-fe05-42b3-ab94-1f6218b1ccf3": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Ashby):openai-5cc72bc7-e6a0-40e0-9f60-23474cd9acdb": "2026-11-05T02:54:28.200176+00:00",
@@ -2556,7 +2553,6 @@
   "Company boards (Greenhouse):flexport-8396840": "2026-11-18T08:14:58.457938+00:00",
   "Company boards (Greenhouse):gitlab-8691770002": "2026-09-23T18:08:12.160394+00:00",
   "Company boards (Greenhouse):gitlab-8770661002": "2026-10-09T17:09:14.971022+00:00",
-  "Company boards (Greenhouse):gitlab-8811842002": "2026-09-23T16:36:11.059151+00:00",
   "Company boards (Greenhouse):gitlab-8845972002": "2026-10-09T15:09:58.524674+00:00",
   "Company boards (Greenhouse):gitlab-8859694002": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):gitlab-8863314002": "2026-10-15T20:01:21.325490+00:00",
