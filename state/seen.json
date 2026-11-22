@@ -803,35 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 27,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 21 jobs collected before the block"
+   "fails": 28,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
-  "Microsoft": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 18,
+   "fails": 19,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 43,
+   "fails": 44,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2227,7 +2227,6 @@
   "Company boards (Ashby):openai-513e213c-2cb1-40d2-950d-3919ff5a68b5": "2026-11-18T19:09:13.450380+00:00",
   "Company boards (Ashby):openai-533659ff-2272-4683-87c9-b07d00feea4c": "2026-10-27T19:12:10.632653+00:00",
   "Company boards (Ashby):openai-57486b6e-0b23-4fec-9c35-5efb63fa521a": "2026-11-13T23:53:28.220118+00:00",
-  "Company boards (Ashby):openai-5899e8d5-132f-40b3-9ff6-37830644743f": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-58b0c1ff-9a9a-4a8a-a7eb-97618713574d": "2026-11-13T23:09:27.753888+00:00",
   "Company boards (Ashby):openai-5c869fa0-fe05-42b3-ab94-1f6218b1ccf3": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Ashby):openai-5cc72bc7-e6a0-40e0-9f60-23474cd9acdb": "2026-11-05T02:54:28.200176+00:00",
@@ -2253,7 +2252,6 @@
   "Company boards (Ashby):openai-8d332d03-1f38-40e3-85be-b4c99231a896": "2026-11-03T20:09:14.296688+00:00",
   "Company boards (Ashby):openai-8f2d7c1e-7a76-4145-9a9d-b71a12ef9ad4": "2026-11-10T04:35:55.750448+00:00",
   "Company boards (Ashby):openai-8fb1615c-34bf-47c4-a1d1-b7b2f836bbd3": "2026-11-05T02:54:28.200176+00:00",
-  "Company boards (Ashby):openai-960ceb65-dc44-4354-b13c-c1df8591e875": "2026-09-23T16:08:13.756169+00:00",
   "Company boards (Ashby):openai-970e547c-5eda-4ab3-8a4d-c080a18eb4ac": "2026-11-20T19:53:41.456357+00:00",
   "Company boards (Ashby):openai-9747412d-a23d-48ba-bddd-ad1247c360f5": "2026-10-09T21:10:49.319537+00:00",
   "Company boards (Ashby):openai-98cdff28-940d-48e8-b1d7-a0df38dd16d8": "2026-10-27T20:10:20.041652+00:00",
@@ -2908,7 +2906,6 @@
   "Indeed:921c785e884abb97": "2026-11-06T18:08:40.555947+00:00",
   "Indeed:93eb32fd3591b5d8": "2026-10-12T20:09:27.176684+00:00",
   "Indeed:9bc19a593f88bf52": "2026-10-01T15:43:50.514781+00:00",
-  "Indeed:9fb5c248889def8e": "2026-09-23T16:08:13.756169+00:00",
   "Indeed:a1aa5dde4bc5357d": "2026-10-23T09:03:14.207353+00:00",
   "Indeed:a7c6ea42821b7f81": "2026-10-19T19:09:12.441006+00:00",
   "Indeed:abb4b038135137a4": "2026-10-27T22:11:28.857080+00:00",
