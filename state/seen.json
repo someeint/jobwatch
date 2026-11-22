@@ -803,35 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 74,
+   "fails": 75,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 11,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 12,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2370,7 +2370,6 @@
   "Company boards (Greenhouse):anthropic-5398328008": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Greenhouse):anthropic-5427236008": "2026-09-24T17:08:34.169066+00:00",
   "Company boards (Greenhouse):anthropic-5427938008": "2026-09-30T22:08:58.173147+00:00",
-  "Company boards (Greenhouse):anthropic-5428790008": "2026-09-22T23:17:44.453774+00:00",
   "Company boards (Greenhouse):anthropic-5431235008": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):anthropic-5431285008": "2026-09-23T04:08:06.723349+00:00",
   "Company boards (Greenhouse):anthropic-5432573008": "2026-09-23T12:06:38.430577+00:00",
@@ -2751,16 +2750,12 @@
   "Company boards (Greenhouse):samsara-8375354": "2026-11-15T21:09:16.284551+00:00",
   "Company boards (Greenhouse):squarespace-8286760": "2026-11-17T16:09:50.275718+00:00",
   "Company boards (Greenhouse):stripe-8160890": "2026-09-25T16:09:23.143404+00:00",
-  "Company boards (Greenhouse):stripe-8163532": "2026-09-22T23:08:21.166019+00:00",
   "Company boards (Greenhouse):stripe-8175637": "2026-10-28T02:36:47.152343+00:00",
   "Company boards (Greenhouse):stripe-8176733": "2026-09-24T08:49:25.461986+00:00",
   "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
   "Company boards (Greenhouse):stripe-8209637": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):stripe-8209641": "2026-09-23T12:06:38.430577+00:00",
-  "Company boards (Greenhouse):stripe-8209647": "2026-09-23T00:08:33.567522+00:00",
-  "Company boards (Greenhouse):stripe-8210226": "2026-09-23T00:08:33.567522+00:00",
-  "Company boards (Greenhouse):stripe-8212667": "2026-09-22T23:08:21.166019+00:00",
   "Company boards (Greenhouse):stripe-8213951": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Greenhouse):stripe-8214620": "2026-09-29T17:08:45.517828+00:00",
   "Company boards (Greenhouse):stripe-8221776": "2026-09-24T22:41:19.303548+00:00",
@@ -3045,6 +3040,7 @@
   "LinkedIn:4447792861": "2026-10-03T21:27:34.924165+00:00",
   "LinkedIn:4447843746": "2026-10-05T17:09:04.989402+00:00",
   "LinkedIn:4448043206": "2026-10-08T18:52:59.131833+00:00",
+  "LinkedIn:4448084094": "2026-11-22T01:08:04.476438+00:00",
   "LinkedIn:4450193861": "2026-10-03T00:15:39.452085+00:00",
   "LinkedIn:4450406140": "2026-10-03T00:15:39.452085+00:00",
   "LinkedIn:4450429851": "2026-10-03T05:26:45.450541+00:00",
@@ -3274,10 +3270,8 @@
   "LinkedIn:4468310271": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468350225": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468608919": "2026-10-08T18:52:59.131833+00:00",
-  "LinkedIn:4468928940": "2026-09-23T00:08:33.567522+00:00",
   "LinkedIn:4468949456": "2026-09-23T04:08:06.723349+00:00",
   "LinkedIn:4468987031": "2026-09-23T04:08:06.723349+00:00",
-  "LinkedIn:4469066606": "2026-09-23T00:08:33.567522+00:00",
   "LinkedIn:4469220942": "2026-10-12T03:08:36.615651+00:00",
   "LinkedIn:4469338183": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4469338906": "2026-09-23T20:08:18.343014+00:00",
@@ -3333,8 +3327,6 @@
   "LinkedIn:4470559749": "2026-09-27T23:09:47.227377+00:00",
   "LinkedIn:4470560910": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4470572803": "2026-09-26T23:08:04.276926+00:00",
-  "LinkedIn:4470640718": "2026-09-23T00:08:33.567522+00:00",
-  "LinkedIn:4470644170": "2026-09-23T00:08:33.567522+00:00",
   "LinkedIn:4470648989": "2026-09-25T00:09:00.331625+00:00",
   "LinkedIn:4470664124": "2026-09-23T04:08:06.723349+00:00",
   "LinkedIn:4470678915": "2026-09-23T20:08:18.343014+00:00",
@@ -4642,7 +4634,9 @@
   "LinkedIn:4492836370": "2026-11-20T21:09:56.803459+00:00",
   "LinkedIn:4492930921": "2026-11-20T21:09:56.803459+00:00",
   "LinkedIn:4492999384": "2026-11-21T15:31:03.637357+00:00",
+  "LinkedIn:4493206269": "2026-11-22T01:08:04.476438+00:00",
   "LinkedIn:4493214019": "2026-11-20T23:08:38.817715+00:00",
+  "LinkedIn:4493292385": "2026-11-22T01:08:04.476438+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
@@ -5008,7 +5002,6 @@
   "Salesforce:JR368894": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368956": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR369213": "2026-11-21T21:02:02.746371+00:00",
-  "Starbucks:481080833517": "2026-09-22T23:08:21.166019+00:00",
   "Starbucks:481080882301": "2026-09-30T22:08:58.173147+00:00",
   "Starbucks:481080882314": "2026-09-25T19:26:16.685539+00:00",
   "Starbucks:481080977556": "2026-09-28T20:08:20.739406+00:00",
