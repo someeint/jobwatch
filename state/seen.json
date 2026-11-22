@@ -803,39 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 26,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
+   "fails": 27,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 21 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
-  },
   "T-Mobile": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 42,
+   "fails": 43,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2057,7 +2053,6 @@
   "Boeing:JR2026520629": "2026-11-02T20:10:18.887664+00:00",
   "Boeing:JR2026520704": "2026-11-10T21:09:13.911995+00:00",
   "Boeing:JR2026521649": "2026-10-27T23:10:50.594432+00:00",
-  "Boeing:JR2026521828": "2026-09-23T15:08:39.594354+00:00",
   "Boeing:JR2026522247": "2026-10-06T15:09:34.366357+00:00",
   "Boeing:JR2026522398": "2026-10-15T19:08:30.526361+00:00",
   "Boeing:JR2026522540": "2026-10-12T19:09:44.943756+00:00",
@@ -2377,7 +2372,6 @@
   "Company boards (Greenhouse):anthropic-5398328008": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Greenhouse):anthropic-5427236008": "2026-09-24T17:08:34.169066+00:00",
   "Company boards (Greenhouse):anthropic-5427938008": "2026-09-30T22:08:58.173147+00:00",
-  "Company boards (Greenhouse):anthropic-5431235008": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):anthropic-5432583008": "2026-09-28T07:36:22.833456+00:00",
   "Company boards (Greenhouse):anthropic-5433952008": "2026-09-25T19:26:16.685539+00:00",
   "Company boards (Greenhouse):anthropic-5436196008": "2026-09-29T18:09:04.357837+00:00",
@@ -2457,7 +2451,6 @@
   "Company boards (Greenhouse):chime-8922747002": "2026-10-28T21:09:01.520939+00:00",
   "Company boards (Greenhouse):chime-8945757002": "2026-11-16T21:59:39.075248+00:00",
   "Company boards (Greenhouse):chime-8948694002": "2026-11-19T17:09:07.050872+00:00",
-  "Company boards (Greenhouse):cloudflare-8212368": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):cloudflare-8232768": "2026-09-29T13:55:16.417993+00:00",
   "Company boards (Greenhouse):cloudflare-8233538": "2026-10-16T17:28:06.731197+00:00",
   "Company boards (Greenhouse):cloudflare-8234270": "2026-09-29T18:29:42.364371+00:00",
@@ -2603,9 +2596,6 @@
   "Company boards (Greenhouse):instacart-8275378": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Greenhouse):instacart-8292840": "2026-10-16T23:08:46.851887+00:00",
   "Company boards (Greenhouse):instacart-8337981": "2026-10-30T22:09:39.945932+00:00",
-  "Company boards (Greenhouse):lyft-8831199002": "2026-09-23T15:08:39.594354+00:00",
-  "Company boards (Greenhouse):lyft-8831340002": "2026-09-23T15:08:39.594354+00:00",
-  "Company boards (Greenhouse):lyft-8831404002": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):lyft-8838923002": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):lyft-8839156002": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):lyft-8860284002": "2026-10-01T20:34:35.890371+00:00",
@@ -2758,7 +2748,6 @@
   "Company boards (Greenhouse):stripe-8176733": "2026-09-24T08:49:25.461986+00:00",
   "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
-  "Company boards (Greenhouse):stripe-8209637": "2026-09-23T15:08:39.594354+00:00",
   "Company boards (Greenhouse):stripe-8213951": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Greenhouse):stripe-8214620": "2026-09-29T17:08:45.517828+00:00",
   "Company boards (Greenhouse):stripe-8221776": "2026-09-24T22:41:19.303548+00:00",
@@ -3272,7 +3261,6 @@
   "LinkedIn:4469382269": "2026-09-24T02:08:15.840556+00:00",
   "LinkedIn:4469383838": "2026-11-06T19:09:34.476156+00:00",
   "LinkedIn:4469386503": "2026-09-24T17:08:34.169066+00:00",
-  "LinkedIn:4469448966": "2026-09-23T15:08:39.594354+00:00",
   "LinkedIn:4469471818": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4469474605": "2026-10-18T13:47:37.593234+00:00",
   "LinkedIn:4469478355": "2026-09-23T18:08:12.160394+00:00",
@@ -3328,11 +3316,7 @@
   "LinkedIn:4470776147": "2026-09-26T05:37:18.685981+00:00",
   "LinkedIn:4470810212": "2026-10-19T18:09:19.613474+00:00",
   "LinkedIn:4470859378": "2026-09-28T16:05:18.088598+00:00",
-  "LinkedIn:4470923873": "2026-09-23T15:08:39.594354+00:00",
-  "LinkedIn:4470923897": "2026-09-23T15:08:39.594354+00:00",
-  "LinkedIn:4470925840": "2026-09-23T15:08:39.594354+00:00",
   "LinkedIn:4470936131": "2026-09-24T17:08:34.169066+00:00",
-  "LinkedIn:4470955748": "2026-09-23T15:08:39.594354+00:00",
   "LinkedIn:4470966576": "2026-09-25T02:46:28.979937+00:00",
   "LinkedIn:4470972275": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4471003872": "2026-09-28T07:36:22.833456+00:00",
@@ -4831,7 +4815,6 @@
   "Salesforce:JR360050": "2026-09-24T11:14:33.924382+00:00",
   "Salesforce:JR360223": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR360243": "2026-10-06T21:09:29.745691+00:00",
-  "Salesforce:JR360276": "2026-09-23T15:08:39.594354+00:00",
   "Salesforce:JR360321": "2026-09-25T15:26:19.805489+00:00",
   "Salesforce:JR360406": "2026-09-24T21:08:28.838967+00:00",
   "Salesforce:JR360926": "2026-10-01T15:43:50.514781+00:00",
