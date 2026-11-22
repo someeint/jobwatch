@@ -802,36 +802,32 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
-  "Boeing": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
-  },
   "CrowdStrike": {
-   "fails": 77,
+   "fails": 78,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 14,
+   "fails": 15,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 30,
+   "fails": 31,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2288,7 +2284,6 @@
   "Company boards (Ashby):openai-fe7039ce-51e2-4cfa-9ea5-507eb7a0eee1": "2026-10-02T20:09:46.624972+00:00",
   "Company boards (Ashby):ramp-390f4cd0-e0e4-451c-ae28-e6b19861dda9": "2026-11-04T16:09:50.571524+00:00",
   "Company boards (Ashby):ramp-657dedaa-a828-4f4f-ae67-9e976127d907": "2026-11-10T20:09:02.006811+00:00",
-  "Company boards (Ashby):ramp-871d2fc8-def8-4837-a9b0-7cc4fe126c2b": "2026-09-23T04:08:06.723349+00:00",
   "Company boards (Ashby):ramp-8be55ffc-d512-4ef3-a14d-3a4cb29a60d4": "2026-10-16T18:09:35.459946+00:00",
   "Company boards (Ashby):ramp-9bdecd09-5a15-47d1-83bc-21cf86a54d02": "2026-10-26T17:01:32.270577+00:00",
   "Company boards (Ashby):ramp-aa433e44-f095-484b-a46a-a330583d84b0": "2026-11-19T19:09:27.519008+00:00",
@@ -2371,7 +2366,6 @@
   "Company boards (Greenhouse):anthropic-5427236008": "2026-09-24T17:08:34.169066+00:00",
   "Company boards (Greenhouse):anthropic-5427938008": "2026-09-30T22:08:58.173147+00:00",
   "Company boards (Greenhouse):anthropic-5431235008": "2026-09-23T15:08:39.594354+00:00",
-  "Company boards (Greenhouse):anthropic-5431285008": "2026-09-23T04:08:06.723349+00:00",
   "Company boards (Greenhouse):anthropic-5432573008": "2026-09-23T12:06:38.430577+00:00",
   "Company boards (Greenhouse):anthropic-5432583008": "2026-09-28T07:36:22.833456+00:00",
   "Company boards (Greenhouse):anthropic-5433952008": "2026-09-25T19:26:16.685539+00:00",
@@ -3269,8 +3263,6 @@
   "LinkedIn:4468310271": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468350225": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468608919": "2026-10-08T18:52:59.131833+00:00",
-  "LinkedIn:4468949456": "2026-09-23T04:08:06.723349+00:00",
-  "LinkedIn:4468987031": "2026-09-23T04:08:06.723349+00:00",
   "LinkedIn:4469220942": "2026-10-12T03:08:36.615651+00:00",
   "LinkedIn:4469338183": "2026-09-23T18:08:12.160394+00:00",
   "LinkedIn:4469338906": "2026-09-23T20:08:18.343014+00:00",
@@ -3327,9 +3319,7 @@
   "LinkedIn:4470560910": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4470572803": "2026-09-26T23:08:04.276926+00:00",
   "LinkedIn:4470648989": "2026-09-25T00:09:00.331625+00:00",
-  "LinkedIn:4470664124": "2026-09-23T04:08:06.723349+00:00",
   "LinkedIn:4470678915": "2026-09-23T20:08:18.343014+00:00",
-  "LinkedIn:4470686128": "2026-09-23T04:08:06.723349+00:00",
   "LinkedIn:4470708663": "2026-09-26T02:08:16.605769+00:00",
   "LinkedIn:4470717583": "2026-09-26T02:08:16.605769+00:00",
   "LinkedIn:4470719129": "2026-09-25T21:43:34.260220+00:00",
@@ -4760,7 +4750,6 @@
   "Microsoft:1970393557075444": "2026-11-21T00:19:27.173020+00:00",
   "Microsoft:1970393557076499": "2026-11-21T07:24:26.397974+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
-  "Nordstrom:R-879623": "2026-09-23T04:08:06.723349+00:00",
   "Nordstrom:R-880864": "2026-09-25T20:09:29.632362+00:00",
   "Nordstrom:R-881551": "2026-09-30T15:09:05.432295+00:00",
   "Nordstrom:R-885233": "2026-10-08T21:10:48.498897+00:00",
