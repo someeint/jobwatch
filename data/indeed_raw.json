@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T14:12:20+00:00",
+  "generated_at": "2026-11-22T15:14:18+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -8,7 +8,7 @@
       "company": "Pike Place Market, PDA",
       "url": "https://www.indeed.com/viewjob?jk=bcdae4b4ae7c4385",
       "location": "Seattle, WA 98101",
-      "snippet": "As a member of the farm program team, the CSA Program Manager will oversee every aspect of the Market's summer CSA program and the Farm to Preschool program,…",
+      "snippet": "Build deep, trusted relationships with Market farmers as a senior farm program staff member; serve as a primary point of contact for their participation,…",
       "remote": false
     },
     {
@@ -17,7 +17,16 @@
       "company": "Healthpro Heritage, LLC",
       "url": "https://www.indeed.com/viewjob?jk=43b4920b5a59bbd0",
       "location": "Bellevue, WA 98008",
-      "snippet": "Lead marketing efforts with local hospitals, physicians, and the community to promote the therapy program. HealthPro Heritage has a great Rehab Program Manager…",
+      "snippet": "Lead marketing efforts with local hospitals, physicians, and the community to promote the therapy program. We offer flexible schedules and full time benefits at…",
+      "remote": false
+    },
+    {
+      "id": "52363fcbb8674f6a",
+      "title": "Technical Lead (Remote)",
+      "company": "Dogwood Logic Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=52363fcbb8674f6a",
+      "location": "United States",
+      "snippet": "DLinc is seeking a Technical Lead to help drive advanced software and R&D programs from concept to operational deployment.",
       "remote": false
     },
     {
@@ -53,7 +62,7 @@
       "company": "Rippling",
       "url": "https://www.indeed.com/viewjob?jk=76b44e033982c60b",
       "location": "Seattle, WA 98121",
-      "snippet": "Rippling gives businesses one place to run HR, IT, and Finance. It brings together all of the workforce systems that are normally scattered across a company,…",
+      "snippet": "For the first time ever, you can manage and automate every part of the employee lifecycle in a single system. Implementation is an essential differentiator for…",
       "remote": false
     },
     {
@@ -89,7 +98,7 @@
       "company": "Tacoma-Pierce County Health Department",
       "url": "https://www.indeed.com/viewjob?jk=c2b561aee6a9b238",
       "location": "Tacoma, WA 98418",
-      "snippet": "Ensures financial accountability and program fiscal viability. Three years of experience in public health program management. Performs other duties as assigned.",
+      "snippet": "Ensures financial accountability and program fiscal viability. Three years of experience in public health program management.",
       "remote": false
     },
     {
@@ -116,7 +125,7 @@
       "company": "Boeing",
       "url": "https://www.indeed.com/viewjob?jk=08731fb217c2f361",
       "location": "Tukwila, WA",
-      "snippet": "3+ years' experience with program or project management. 1+ years' experience developing and delivering presentations to senior leaders.",
+      "snippet": "3+ years’ experience with program or project management. 1+ years’ experience developing and delivering presentations to senior leaders.",
       "remote": false
     },
     {
@@ -126,15 +135,6 @@
       "url": "https://www.indeed.com/viewjob?jk=72e64e27420ab975",
       "location": "Seattle, WA",
       "snippet": "Delivering communication about program direction, status and future that is simple, precise and actionable to various levels of senior leaders, internal…",
-      "remote": false
-    },
-    {
-      "id": "d8a147a55cb05b1d",
-      "title": "Senior Program Manager, Relay Trust",
-      "company": "Amazon.com Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=d8a147a55cb05b1d",
-      "location": "Bellevue, WA 98006",
-      "snippet": "5+ years of program or project management experience. Experience managing, analyzing and communicating results to senior leadership.",
       "remote": false
     },
     {
@@ -161,7 +161,7 @@
       "company": "University of Washington",
       "url": "https://www.indeed.com/viewjob?jk=38304dc16b2932c4",
       "location": "Seattle, WA",
-      "snippet": "By the time of appointment, candidates must possess at least three years' experience as a core physician faculty member in an ACGME-accredited emergency…",
+      "snippet": "By the time of appointment, candidates must possess at least three years’ experience as a core physician faculty member in an ACGME-accredited emergency…",
       "remote": false
     },
     {
@@ -196,15 +196,6 @@
       "title": "Program Director of Discovery",
       "company": "Camp Fire Central Puget Sound",
       "url": "https://www.indeed.com/viewjob?jk=f81e1abc833ce8c0",
-      "location": "Seattle, WA",
-      "snippet": "The Camp Sealth Program Directors help to oversee the pre-season preparation and summer daily operations of Camp Sealth overnight and day camps supporting the…",
-      "remote": false
-    },
-    {
-      "id": "9ea7274681d25726",
-      "title": "Program Director of Mentorship",
-      "company": "Camp Fire Central Puget Sound",
-      "url": "https://www.indeed.com/viewjob?jk=9ea7274681d25726",
       "location": "Seattle, WA",
       "snippet": "The Camp Sealth Program Directors help to oversee the pre-season preparation and summer daily operations of Camp Sealth overnight and day camps supporting the…",
       "remote": false
@@ -300,24 +291,6 @@
       "remote": false
     },
     {
-      "id": "1d670864ab91f540",
-      "title": "Director of Business Development",
-      "company": "BTBK Accounting Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=1d670864ab91f540",
-      "location": "United States",
-      "snippet": "Full-Time | Remote (US), travel 25% to 30% | Reports to Brad Schuchardt, Founder. Expect to travel 25% to 30% of the time. Introductory call with the founder.",
-      "remote": false
-    },
-    {
-      "id": "408fc5f772cae3b4",
-      "title": "Account Manager",
-      "company": "Electric Mirror LLC",
-      "url": "https://www.indeed.com/viewjob?jk=408fc5f772cae3b4",
-      "location": "Everett, WA 98203",
-      "snippet": "Experience working with CRM systems, ERP platforms, or other sales and business management software preferred. Status: Non-exempt, Full-Time.",
-      "remote": false
-    },
-    {
       "id": "87ef69664a492657",
       "title": "Sales Manager",
       "company": "Brightside Windows",
@@ -354,15 +327,6 @@
       "remote": false
     },
     {
-      "id": "773347945a2970e2",
-      "title": "Spa Receptionist",
-      "company": "Olympus Spa",
-      "url": "https://www.indeed.com/viewjob?jk=773347945a2970e2",
-      "location": "Lynnwood, WA 98036",
-      "snippet": "The Spa Receptionist position will require you to be able to lead in a fast paced environment while also displaying exceptional customer service skills.",
-      "remote": false
-    },
-    {
       "id": "ff1ce06d98fc3dd9",
       "title": "General Manager",
       "company": "Bon Appetit",
@@ -390,6 +354,15 @@
       "remote": false
     },
     {
+      "id": "60b9525ba407e18f",
+      "title": "Security Channel Strategy Leader",
+      "company": "Microsoft",
+      "url": "https://www.indeed.com/viewjob?jk=60b9525ba407e18f",
+      "location": "Redmond, WA 98052",
+      "snippet": "Partner with finance and operations teams to track business progress and leverage monthly review cadence, KPI reporting and ongoing business improvement.",
+      "remote": false
+    },
+    {
       "id": "10bcc959b9ed70d3",
       "title": "Business Development Director",
       "company": "Medzam Consulting",
@@ -405,15 +378,6 @@
       "url": "https://www.indeed.com/viewjob?jk=5e9402677f60adec",
       "location": "Seattle, WA 98103",
       "snippet": "The Business Development Director builds client relationships, leads business development, and advances opportunities from initial communication through…",
-      "remote": false
-    },
-    {
-      "id": "60b9525ba407e18f",
-      "title": "Security Channel Strategy Leader",
-      "company": "Microsoft",
-      "url": "https://www.indeed.com/viewjob?jk=60b9525ba407e18f",
-      "location": "Redmond, WA 98052",
-      "snippet": "If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process.",
       "remote": false
     },
     {
@@ -444,15 +408,6 @@
       "remote": false
     },
     {
-      "id": "2462c555c0e44e2d",
-      "title": "Manager, Hardware Commodity, Amazon Leo Supply Chain & Procurement",
-      "company": "Amazon Kuiper Manufacturing Enterprises LLC",
-      "url": "https://www.indeed.com/viewjob?jk=2462c555c0e44e2d",
-      "location": "Bellevue, WA",
-      "snippet": "Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e.,…",
-      "remote": false
-    },
-    {
       "id": "f974a5348d85d57e",
       "title": "Sourcing Engineer",
       "company": "Microsoft",
@@ -467,7 +422,7 @@
       "company": "Microsoft",
       "url": "https://www.indeed.com/viewjob?jk=a05bfd3b7602dc66",
       "location": "Redmond, WA 98052",
-      "snippet": "8+ years' experience in vendor management, sourcing, procurement, supplier governance, finance, business operations, or consulting.",
+      "snippet": "8+ years’ experience in vendor management, sourcing, procurement, supplier governance, finance, business operations, or consulting.",
       "remote": false
     },
     {
@@ -498,6 +453,15 @@
       "remote": false
     },
     {
+      "id": "2462c555c0e44e2d",
+      "title": "Manager, Hardware Commodity, Amazon Leo Supply Chain & Procurement",
+      "company": "Amazon Kuiper Manufacturing Enterprises LLC",
+      "url": "https://www.indeed.com/viewjob?jk=2462c555c0e44e2d",
+      "location": "Bellevue, WA",
+      "snippet": "Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e.,…",
+      "remote": false
+    },
+    {
       "id": "12091e8f8a6eb5e1",
       "title": "Manager, Revenue Programs",
       "company": "SecureW2",
@@ -516,12 +480,21 @@
       "remote": false
     },
     {
+      "id": "e6e93867f0f884e1",
+      "title": "Senior Surescripts E-Prescribing Integration Consultant (AI-Forward) — Pharmacy",
+      "company": "Proactive Logic Consulting Inc",
+      "url": "https://www.indeed.com/viewjob?jk=e6e93867f0f884e1",
+      "location": "United States",
+      "snippet": "We build the systems and capacity behind our clients' value creation plans, working with private-equity-backed companies and operators in healthcare, insurance…",
+      "remote": false
+    },
+    {
       "id": "6ae82792541acea1",
       "title": "Field Marketing & Business Development Manager, Public Sector",
       "company": "Autessa",
       "url": "https://www.indeed.com/viewjob?jk=6ae82792541acea1",
       "location": "Redmond, WA 98052",
-      "snippet": "Field Marketing & Business Development Manager , Public Sector. To applicants: If you meet the requirements below, we want to hear from you.",
+      "snippet": "Field Marketing & Business Development Manager , Public Sector*. Plan and run campaigns to Washington agencies across email, LinkedIn, and direct outreach, and…",
       "remote": false
     },
     {
@@ -530,7 +503,7 @@
       "company": "Valeo Vocation",
       "url": "https://www.indeed.com/viewjob?jk=05b2d4be1e0eb12d",
       "location": "Tacoma, WA 98402",
-      "snippet": "Monitor program expenditures and spend-down plans. Minimum three years supervising managers or multiple program teams. Pay: $85,000.00 - $89,303.00 per year.",
+      "snippet": "Monitor program expenditures and spend-down plans. Minimum three years supervising managers or multiple program teams.",
       "remote": false
     },
     {
@@ -540,15 +513,6 @@
       "url": "https://www.indeed.com/viewjob?jk=fcafdf6ec045ef5a",
       "location": "Seattle, WA 98127",
       "snippet": "7+ years of technical product or program management experience. Develop and own the roadmap for AI-driven customer solutions, coordinating effectively with…",
-      "remote": false
-    },
-    {
-      "id": "7cc46346625bec39",
-      "title": "Program Manager Tech 4",
-      "company": "Experis",
-      "url": "https://www.indeed.com/viewjob?jk=7cc46346625bec39",
-      "location": "Redmond, WA 98052",
-      "snippet": "8+ years of experience in technical program management, preferably in infrastructure, cloud, or data center environments. Job Title: Program Manager Tech 4.",
       "remote": false
     }
   ]
