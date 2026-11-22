@@ -802,32 +802,52 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
+  },
   "Boeing": {
-   "fails": 14,
+   "fails": 15,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "LinkedIn": {
-   "fails": 31,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
-  "Starbucks": {
+  "King County (gov)": {
    "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+  },
+  "LinkedIn": {
+   "fails": 32,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+  },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
+  "Salesforce": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
+  },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
   },
   "T-Mobile": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 47,
+   "fails": 48,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1801,7 +1821,6 @@
   "Amazon:10547072": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10551350": "2026-10-08T19:09:01.291512+00:00",
   "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
-  "Amazon:10558222": "2026-09-23T19:53:36.704875+00:00",
   "Amazon:10558313": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10558314": "2026-09-23T21:08:34.650540+00:00",
   "Amazon:10558386": "2026-09-23T22:08:17.527950+00:00",
@@ -2211,7 +2230,6 @@
   "Company boards (Ashby):openai-32ca0028-c12d-4def-a200-946ec8d4ea5f": "2026-09-28T21:36:51.568421+00:00",
   "Company boards (Ashby):openai-38e66047-7d81-4347-8e64-2c16bc9a803a": "2026-11-13T17:16:51.257726+00:00",
   "Company boards (Ashby):openai-3a24a9a2-47e1-427c-ac76-81b5c59b638b": "2026-10-08T18:52:59.131833+00:00",
-  "Company boards (Ashby):openai-3b2d32bd-2549-43d0-8dc2-8469bece5336": "2026-09-23T19:53:36.704875+00:00",
   "Company boards (Ashby):openai-3b85fc17-403b-4ca0-81e3-21c2aec9c052": "2026-11-06T11:28:20.278089+00:00",
   "Company boards (Ashby):openai-41408133-b45f-4c7b-a0df-c050f16d92de": "2026-11-06T22:03:41.145209+00:00",
   "Company boards (Ashby):openai-4197587e-c0d0-46e4-b86a-25a87d22b056": "2026-11-12T12:11:47.453712+00:00",
@@ -2414,6 +2432,7 @@
   "Company boards (Greenhouse):anthropic-5485582008": "2026-11-18T00:08:40.583513+00:00",
   "Company boards (Greenhouse):anthropic-5485591008": "2026-11-20T18:44:29.378076+00:00",
   "Company boards (Greenhouse):anthropic-5486656008": "2026-11-19T16:09:59.091415+00:00",
+  "Company boards (Greenhouse):anthropic-5491573008": "2026-11-22T20:24:41.919533+00:00",
   "Company boards (Greenhouse):asana-8194380": "2026-10-07T21:09:26.560531+00:00",
   "Company boards (Greenhouse):asana-8227150": "2026-09-24T15:50:46.636267+00:00",
   "Company boards (Greenhouse):asana-8241249": "2026-10-02T22:09:11.154537+00:00",
@@ -3245,7 +3264,6 @@
   "LinkedIn:4468350225": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4468608919": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4469220942": "2026-10-12T03:08:36.615651+00:00",
-  "LinkedIn:4469338906": "2026-09-23T20:08:18.343014+00:00",
   "LinkedIn:4469382269": "2026-09-24T02:08:15.840556+00:00",
   "LinkedIn:4469383838": "2026-11-06T19:09:34.476156+00:00",
   "LinkedIn:4469386503": "2026-09-24T17:08:34.169066+00:00",
@@ -3292,7 +3310,6 @@
   "LinkedIn:4470560910": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4470572803": "2026-09-26T23:08:04.276926+00:00",
   "LinkedIn:4470648989": "2026-09-25T00:09:00.331625+00:00",
-  "LinkedIn:4470678915": "2026-09-23T20:08:18.343014+00:00",
   "LinkedIn:4470708663": "2026-09-26T02:08:16.605769+00:00",
   "LinkedIn:4470717583": "2026-09-26T02:08:16.605769+00:00",
   "LinkedIn:4470719129": "2026-09-25T21:43:34.260220+00:00",
@@ -4598,6 +4615,7 @@
   "LinkedIn:4493270326": "2026-11-22T07:57:32.123183+00:00",
   "LinkedIn:4493290545": "2026-11-22T07:57:32.123183+00:00",
   "LinkedIn:4493292385": "2026-11-22T01:08:04.476438+00:00",
+  "LinkedIn:4493385704": "2026-11-22T20:24:41.919533+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
@@ -4625,11 +4643,9 @@
   "Microsoft:1970393557001415": "2026-09-23T22:08:17.527950+00:00",
   "Microsoft:1970393557001418": "2026-09-23T22:08:17.527950+00:00",
   "Microsoft:1970393557001667": "2026-09-30T22:08:58.173147+00:00",
-  "Microsoft:1970393557002663": "2026-09-23T19:53:36.704875+00:00",
   "Microsoft:1970393557002691": "2026-09-25T19:26:16.685539+00:00",
   "Microsoft:1970393557002698": "2026-09-24T20:08:57.797024+00:00",
   "Microsoft:1970393557006518": "2026-09-25T15:26:19.805489+00:00",
-  "Microsoft:1970393557006592": "2026-09-23T20:08:18.343014+00:00",
   "Microsoft:1970393557006835": "2026-09-25T00:09:00.331625+00:00",
   "Microsoft:1970393557008037": "2026-09-28T20:08:20.739406+00:00",
   "Microsoft:1970393557008593": "2026-10-07T19:06:50.961237+00:00",
@@ -4789,7 +4805,6 @@
   "Salesforce:JR358862": "2026-10-02T16:42:22.792146+00:00",
   "Salesforce:JR359324": "2026-09-29T07:00:19.141617+00:00",
   "Salesforce:JR359393": "2026-10-08T18:52:59.131833+00:00",
-  "Salesforce:JR359415": "2026-09-23T19:53:36.704875+00:00",
   "Salesforce:JR359840": "2026-09-24T15:50:46.636267+00:00",
   "Salesforce:JR359859": "2026-09-28T19:09:35.991736+00:00",
   "Salesforce:JR360020": "2026-09-25T20:09:29.632362+00:00",
