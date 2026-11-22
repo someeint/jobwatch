@@ -1,16 +1,7 @@
 {
-  "generated_at": "2026-11-22T08:12:03+00:00",
+  "generated_at": "2026-11-22T10:07:15+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
-    {
-      "id": "43b4920b5a59bbd0",
-      "title": "Rehab Program Manager PTA, OT",
-      "company": "Healthpro Heritage, LLC",
-      "url": "https://www.indeed.com/viewjob?jk=43b4920b5a59bbd0",
-      "location": "Bellevue, WA 98008",
-      "snippet": "Lead marketing efforts with local hospitals, physicians, and the community to promote the therapy program. We offer flexible schedules and full time benefits at…",
-      "remote": false
-    },
     {
       "id": "5ba563d345eb2f7b",
       "title": "Senior Business Program Manager",
@@ -36,6 +27,15 @@
       "url": "https://www.indeed.com/viewjob?jk=bcdae4b4ae7c4385",
       "location": "Seattle, WA 98101",
       "snippet": "Build deep, trusted relationships with Market farmers as a senior farm program staff member; serve as a primary point of contact for their participation,…",
+      "remote": false
+    },
+    {
+      "id": "43b4920b5a59bbd0",
+      "title": "Rehab Program Manager PTA, OT",
+      "company": "Healthpro Heritage, LLC",
+      "url": "https://www.indeed.com/viewjob?jk=43b4920b5a59bbd0",
+      "location": "Bellevue, WA 98008",
+      "snippet": "Lead marketing efforts with local hospitals, physicians, and the community to promote the therapy program. We offer flexible schedules and full time benefits at…",
       "remote": false
     },
     {
@@ -125,7 +125,7 @@
       "company": "Boeing",
       "url": "https://www.indeed.com/viewjob?jk=08731fb217c2f361",
       "location": "Tukwila, WA",
-      "snippet": "3+ years' experience with program or project management. 1+ years' experience developing and delivering presentations to senior leaders.",
+      "snippet": "3+ years’ experience with program or project management. 1+ years’ experience developing and delivering presentations to senior leaders.",
       "remote": false
     },
     {
@@ -161,7 +161,7 @@
       "company": "University of Washington",
       "url": "https://www.indeed.com/viewjob?jk=38304dc16b2932c4",
       "location": "Seattle, WA",
-      "snippet": "By the time of appointment, candidates must possess at least three years' experience as a core physician faculty member in an ACGME-accredited emergency…",
+      "snippet": "By the time of appointment, candidates must possess at least three years’ experience as a core physician faculty member in an ACGME-accredited emergency…",
       "remote": false
     },
     {
@@ -170,7 +170,16 @@
       "company": "Hasbro Inc.",
       "url": "https://www.indeed.com/viewjob?jk=334dab629e828c1a",
       "location": "Renton, WA",
-      "snippet": "As a Business Coordinator, you'll work with the Secret Lair team to plan product launches, own sale event schedules, handle our website assets, maintain…",
+      "snippet": "As a Business Coordinator, you’ll work with the Secret Lair team to plan product launches, own sale event schedules, handle our website assets, maintain…",
+      "remote": false
+    },
+    {
+      "id": "0cdd13177c8b440e",
+      "title": "Residential Construction Production Manager – Remodeling",
+      "company": "WRK Construction",
+      "url": "https://www.indeed.com/viewjob?jk=0cdd13177c8b440e",
+      "location": "Poulsbo, WA 98370",
+      "snippet": "Poulsbo, WA | Full-Time | On-Site. WRK Construction is looking for an experienced Residential Construction Production Manager to lead the execution of…",
       "remote": false
     },
     {
@@ -180,15 +189,6 @@
       "url": "https://www.indeed.com/viewjob?jk=51df0c438c4c36b8",
       "location": "Bellevue, WA 98007",
       "snippet": "Conduct in-home visits to assess for appropriateness with program and provide enrollment materials to clients on program policies and guidelines.",
-      "remote": false
-    },
-    {
-      "id": "92b27eb7df34103e",
-      "title": "Senior Contact Center & AI Telephony Strategy Consultant (AI-Forward) — Healthcare",
-      "company": "Proactive Logic Consulting Inc",
-      "url": "https://www.indeed.com/viewjob?jk=92b27eb7df34103e",
-      "location": "United States",
-      "snippet": "We build the systems and capacity behind our clients' value creation plans, working with private-equity-backed companies and operators in healthcare, insurance…",
       "remote": false
     },
     {
@@ -207,15 +207,6 @@
       "url": "https://www.indeed.com/viewjob?jk=0dff6b69ea9fa103",
       "location": "Seattle, WA 98101",
       "snippet": "Support SAP Enterprise Asset Management (EAM) and Work Management activities within an SAP transformation or implementation.",
-      "remote": false
-    },
-    {
-      "id": "6b47fb3d603ccab1",
-      "title": "Restaurant Manager",
-      "company": "Dave & Buster's",
-      "url": "https://www.indeed.com/viewjob?jk=6b47fb3d603ccab1",
-      "location": "Lynnwood, WA 98037",
-      "snippet": "THE RESTAURANT & OPERATIONS MANAGER : provides overall leadership, supervision, and direction on strategic initiatives and operating standards to positively…",
       "remote": false
     },
     {
@@ -255,21 +246,30 @@
       "remote": false
     },
     {
-      "id": "58bf77b2fc1b4f92",
-      "title": "Logistics Admin",
-      "company": "Averro",
-      "url": "https://www.indeed.com/viewjob?jk=58bf77b2fc1b4f92",
-      "location": "Seattle, WA 98199",
-      "snippet": "Employment Type: Contract-to-Hire. Benefits: Medical insurance, 401K, sick leave, and EAP. Manage inbound and outbound air and ground freight, including…",
-      "remote": false
-    },
-    {
       "id": "2bf3428769bc2d9f",
       "title": "Parts Coordinator Multi-Tasker",
       "company": "Marlon Recreational Products USA Ltd.",
       "url": "https://www.indeed.com/viewjob?jk=2bf3428769bc2d9f",
       "location": "Spanaway, WA",
       "snippet": "Experienced with computer programs and use. - Take dealer parts calls and inquiries.*. - Process incoming parts orders from our dealers, internet, phone and…",
+      "remote": false
+    },
+    {
+      "id": "9a4bee2461c1b619",
+      "title": "Shift Supervisor",
+      "company": "Monster Mini Golf | Washington",
+      "url": "https://www.indeed.com/viewjob?jk=9a4bee2461c1b619",
+      "location": "Bellevue, WA 98006",
+      "snippet": "Monster Mini Golf Shift Supervisors will assist in delivery our high standard of Guest Experience, while working with store ownership/management in opening and…",
+      "remote": false
+    },
+    {
+      "id": "6ba966f919b5faf6",
+      "title": "Special And Tactical Operations Leader, WARFARE ANALYST EA-18G",
+      "company": "General Dynamics Information Technology",
+      "url": "https://www.indeed.com/viewjob?jk=6ba966f919b5faf6",
+      "location": "Everett, WA",
+      "snippet": "Applies knowledge from experience as a fixed-wing or rotary wing military aircrew or equivalent civilian experience to identify, define, and document technical…",
       "remote": false
     },
     {
@@ -327,6 +327,15 @@
       "remote": false
     },
     {
+      "id": "3f38595dae328810",
+      "title": "Director, Strategic Partnerships",
+      "company": "Dollar For",
+      "url": "https://www.indeed.com/viewjob?jk=3f38595dae328810",
+      "location": "United States",
+      "snippet": "35-hour workweek with flexible scheduling within core business hours. 6–10+ years of experience in business development, strategic partnerships, or a related…",
+      "remote": false
+    },
+    {
       "id": "87ef69664a492657",
       "title": "Sales Manager",
       "company": "Brightside Windows",
@@ -342,15 +351,6 @@
       "url": "https://www.indeed.com/viewjob?jk=458977f4b7d97041",
       "location": "Redmond, WA",
       "snippet": "Conduct regular client visits to identify needs and uncover new business. Grow commercial maintenance revenue within an assigned territory.",
-      "remote": false
-    },
-    {
-      "id": "1d670864ab91f540",
-      "title": "Director of Business Development",
-      "company": "BTBK Accounting Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=1d670864ab91f540",
-      "location": "United States",
-      "snippet": "Full-Time | Remote (US), travel 25% to 30% | Reports to Brad Schuchardt, Founder. Expect to travel 25% to 30% of the time. Introductory call with the founder.",
       "remote": false
     },
     {
@@ -378,6 +378,33 @@
       "url": "https://www.indeed.com/viewjob?jk=a8e2da8f4c4c45b3",
       "location": "Seattle, WA",
       "snippet": "3+ years' experience as an engagement manager. 4+ years of experience in generating new client business. We partner with CIOs, tech executives, and service…",
+      "remote": false
+    },
+    {
+      "id": "e232086c9601bb08",
+      "title": "Manager, Local Tech BD, Local Ads",
+      "company": "Amazon Advertising LLC",
+      "url": "https://www.indeed.com/viewjob?jk=e232086c9601bb08",
+      "location": "Seattle, WA",
+      "snippet": "Experience in strategic thinking about business , enterprise software products, and new technology platforms and architectures or equivalent.",
+      "remote": false
+    },
+    {
+      "id": "889c3986b4d1fb8b",
+      "title": "Senior Consultant, Functional Transformation",
+      "company": "Deloitte",
+      "url": "https://www.indeed.com/viewjob?jk=889c3986b4d1fb8b",
+      "location": "Seattle, WA",
+      "snippet": "3+ years of professional experience in consulting or relevant Life Sciences industry roles, such as commercial operations , field operations , medical affairs, or…",
+      "remote": false
+    },
+    {
+      "id": "b7119a21291efe86",
+      "title": "General Manager",
+      "company": "Puget Collision",
+      "url": "https://www.indeed.com/viewjob?jk=b7119a21291efe86",
+      "location": "Marysville, WA 98270",
+      "snippet": "Ability to manage business plans and adjust strategies based on reporting metrics. Ability to frequently move throughout the shop to inspect work, monitor…",
       "remote": false
     },
     {
@@ -413,7 +440,7 @@
       "company": "Microsoft",
       "url": "https://www.indeed.com/viewjob?jk=a05bfd3b7602dc66",
       "location": "Redmond, WA 98052",
-      "snippet": "8+ years' experience in vendor management, sourcing, procurement, supplier governance, finance, business operations, or consulting.",
+      "snippet": "8+ years’ experience in vendor management, sourcing, procurement, supplier governance, finance, business operations, or consulting.",
       "remote": false
     },
     {
@@ -426,21 +453,21 @@
       "remote": false
     },
     {
-      "id": "e232086c9601bb08",
-      "title": "Manager, Local Tech BD, Local Ads",
-      "company": "Amazon Advertising LLC",
-      "url": "https://www.indeed.com/viewjob?jk=e232086c9601bb08",
-      "location": "Seattle, WA",
-      "snippet": "Bachelor's degree or equivalent. Evaluate the economic and strategic cost-benefit of the partnerships. Experience working and communicating with multiple…",
-      "remote": false
-    },
-    {
       "id": "08aff210928f8761",
       "title": "Specialist Manager, Channel Sales - Anthropic -C_MAT",
       "company": "Deloitte",
       "url": "https://www.indeed.com/viewjob?jk=08aff210928f8761",
       "location": "Seattle, WA",
       "snippet": "Experience selling or supporting the sale of complex, project-based professional services. Established relationships with Anthropic sales representatives,…",
+      "remote": false
+    },
+    {
+      "id": "7923172f19040d75",
+      "title": "Director, Business Development - East Coast Based",
+      "company": "Evotec",
+      "url": "https://www.indeed.com/viewjob?jk=7923172f19040d75",
+      "location": "Seattle, WA",
+      "snippet": "Minimum BSc, MSc or PhD preferable, in a Life Sciences discipline or other advanced degrees (i.e. MBA). Achieve a yearly sales goal for your region by executing…",
       "remote": false
     },
     {
@@ -512,7 +539,7 @@
       "company": "Autessa",
       "url": "https://www.indeed.com/viewjob?jk=6ae82792541acea1",
       "location": "Redmond, WA 98052",
-      "snippet": "Field Marketing & Business Development Manager , Public Sector*. Plan and run campaigns to Washington agencies across email, LinkedIn, and direct outreach, and…",
+      "snippet": "Field Marketing &amp; Business Development Manager , Public Sector*. Plan and run campaigns to Washington agencies across email, LinkedIn, and direct outreach, and…",
       "remote": false
     },
     {
@@ -525,12 +552,12 @@
       "remote": false
     },
     {
-      "id": "8ddd4a3f2e7eae18",
-      "title": "Advanced Practice Provider: Survivorship Senior Program Manager",
-      "company": "Fred Hutchinson Cancer Center",
-      "url": "https://www.indeed.com/viewjob?jk=8ddd4a3f2e7eae18",
-      "location": "Seattle, WA 98109",
-      "snippet": "Support program leadership in monitoring and evaluating program effectiveness and patient outcomes. Collaborating with philanthropy to identify resources that…",
+      "id": "fcafdf6ec045ef5a",
+      "title": "Principal TPM, Customer 360, Amazon Personalization",
+      "company": "Amazon.com Services LLC",
+      "url": "https://www.indeed.com/viewjob?jk=fcafdf6ec045ef5a",
+      "location": "Seattle, WA 98127",
+      "snippet": "7+ years of technical product or program management experience. Develop and own the roadmap for AI-driven customer solutions, coordinating effectively with…",
       "remote": false
     }
   ]
