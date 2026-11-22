@@ -803,35 +803,31 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 35,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 38 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 36,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 51,
+   "fails": 52,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1804,7 +1800,6 @@
   "Alaska Air Group:AC1571A1EC3C4113818FB2E12BA8D3EF": "2026-11-12T20:09:24.610500+00:00",
   "Amazon:10551350": "2026-10-08T19:09:01.291512+00:00",
   "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
-  "Amazon:10558386": "2026-09-23T22:08:17.527950+00:00",
   "Amazon:10558493": "2026-10-14T19:06:33.226202+00:00",
   "Amazon:10558495": "2026-10-14T19:06:33.226202+00:00",
   "Amazon:10559336": "2026-09-24T19:31:20.122338+00:00",
@@ -2238,7 +2233,6 @@
   "Company boards (Ashby):openai-6fd50ace-941b-4559-992f-e53f9b76c9a0": "2026-09-25T00:09:00.331625+00:00",
   "Company boards (Ashby):openai-70eba6e4-73e0-4cf9-a0d5-e49caeca9d7b": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-73a111f9-e83d-4cce-9148-2a32ccf1d251": "2026-11-04T17:36:19.849810+00:00",
-  "Company boards (Ashby):openai-76583c87-78ea-4886-906d-81b0a9c05bfe": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Ashby):openai-7b70517d-8c96-4c4a-8e4a-37859cf68747": "2026-10-27T23:10:50.594432+00:00",
   "Company boards (Ashby):openai-83ac3381-99c0-46a0-897c-abcd8699b466": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-87ef8476-e930-47ed-abc2-a1bedcc074fb": "2026-09-30T18:53:00.441731+00:00",
@@ -2740,7 +2734,6 @@
   "Company boards (Greenhouse):stripe-8176733": "2026-09-24T08:49:25.461986+00:00",
   "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
-  "Company boards (Greenhouse):stripe-8213951": "2026-09-23T22:08:17.527950+00:00",
   "Company boards (Greenhouse):stripe-8214620": "2026-09-29T17:08:45.517828+00:00",
   "Company boards (Greenhouse):stripe-8221776": "2026-09-24T22:41:19.303548+00:00",
   "Company boards (Greenhouse):stripe-8223113": "2026-11-04T21:08:27.418133+00:00",
@@ -3304,7 +3297,6 @@
   "LinkedIn:4471084962": "2026-09-27T23:09:47.227377+00:00",
   "LinkedIn:4471098024": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4471112925": "2026-09-24T02:08:15.840556+00:00",
-  "LinkedIn:4471116791": "2026-09-23T23:08:40.574206+00:00",
   "LinkedIn:4471124566": "2026-09-24T17:08:34.169066+00:00",
   "LinkedIn:4471142114": "2026-09-24T00:08:13.025580+00:00",
   "LinkedIn:4471152638": "2026-09-24T00:08:13.025580+00:00",
@@ -4620,8 +4612,6 @@
   "Microsoft:1970393556988739": "2026-10-09T00:27:27.543496+00:00",
   "Microsoft:1970393556998147": "2026-09-24T03:08:00.016291+00:00",
   "Microsoft:1970393556999267": "2026-10-27T20:47:12.496631+00:00",
-  "Microsoft:1970393557001415": "2026-09-23T22:08:17.527950+00:00",
-  "Microsoft:1970393557001418": "2026-09-23T22:08:17.527950+00:00",
   "Microsoft:1970393557001667": "2026-09-30T22:08:58.173147+00:00",
   "Microsoft:1970393557002691": "2026-09-25T19:26:16.685539+00:00",
   "Microsoft:1970393557002698": "2026-09-24T20:08:57.797024+00:00",
