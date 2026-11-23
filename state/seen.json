@@ -803,31 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 36,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
+   "fails": 37,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 20,
+   "fails": 21,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 52,
+   "fails": 53,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2329,7 +2333,6 @@
   "Company boards (Greenhouse):affirm-8048121003": "2026-10-30T15:13:06.054317+00:00",
   "Company boards (Greenhouse):affirm-8182228003": "2026-11-10T21:09:13.911995+00:00",
   "Company boards (Greenhouse):affirm-8199159003": "2026-11-13T19:09:59.510231+00:00",
-  "Company boards (Greenhouse):airbnb-8163100": "2026-09-24T00:08:13.025580+00:00",
   "Company boards (Greenhouse):airbnb-8231416": "2026-09-24T22:41:19.303548+00:00",
   "Company boards (Greenhouse):airbnb-8231975": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):airbnb-8242459": "2026-10-08T07:30:05.026771+00:00",
@@ -3095,7 +3098,6 @@
   "LinkedIn:4457813490": "2026-10-05T06:08:17.320649+00:00",
   "LinkedIn:4458273489": "2026-10-06T15:09:34.366357+00:00",
   "LinkedIn:4458526859": "2026-10-07T16:41:18.237442+00:00",
-  "LinkedIn:4458597303": "2026-09-24T00:08:13.025580+00:00",
   "LinkedIn:4458727945": "2026-10-11T18:08:59.959652+00:00",
   "LinkedIn:4458743699": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4459037602": "2026-09-27T17:34:10.344740+00:00",
@@ -3218,7 +3220,6 @@
   "LinkedIn:4466873247": "2026-09-26T19:08:19.989517+00:00",
   "LinkedIn:4466914966": "2026-10-11T06:09:05.151966+00:00",
   "LinkedIn:4466931810": "2026-10-11T18:08:59.959652+00:00",
-  "LinkedIn:4467114206": "2026-09-24T00:08:13.025580+00:00",
   "LinkedIn:4467177594": "2026-10-08T18:52:59.131833+00:00",
   "LinkedIn:4467400685": "2026-10-06T20:09:13.575994+00:00",
   "LinkedIn:4467426950": "2026-10-06T20:09:13.575994+00:00",
@@ -3298,8 +3299,6 @@
   "LinkedIn:4471098024": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4471112925": "2026-09-24T02:08:15.840556+00:00",
   "LinkedIn:4471124566": "2026-09-24T17:08:34.169066+00:00",
-  "LinkedIn:4471142114": "2026-09-24T00:08:13.025580+00:00",
-  "LinkedIn:4471152638": "2026-09-24T00:08:13.025580+00:00",
   "LinkedIn:4471201550": "2026-09-28T20:08:20.739406+00:00",
   "LinkedIn:4471207845": "2026-09-30T11:09:01.742472+00:00",
   "LinkedIn:4471218367": "2026-09-28T21:36:51.568421+00:00",
