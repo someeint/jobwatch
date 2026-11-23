@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:12:09+00:00",
+  "generated_at": "2026-11-23T01:12:10+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -27,15 +27,6 @@
       "url": "https://www.indeed.com/viewjob?jk=97987d3ae2869b65",
       "location": "Seattle, WA",
       "snippet": "Partner closely with Recruiting contracts manager to ensure supplier onboarding or transition of seats from systems (e.g. LinkedIn Recruiter).",
-      "remote": false
-    },
-    {
-      "id": "954cf994daea52e1",
-      "title": "Clinical Program Manager- Child and Family Outpatient Services",
-      "company": "Kitsap Mental Health Services",
-      "url": "https://www.indeed.com/viewjob?jk=954cf994daea52e1",
-      "location": "Bremerton, WA 98310",
-      "snippet": "Collaborate with program director in annual performance review process. Work with the C&F Director to ensure contract compliance, monitor program budgets,…",
       "remote": false
     },
     {
@@ -111,15 +102,6 @@
       "remote": false
     },
     {
-      "id": "3db2b74c78a11694",
-      "title": "Traveling Mechanical PM/SPM - Mission-Critical Construction",
-      "company": "Engtal",
-      "url": "https://www.indeed.com/viewjob?jk=3db2b74c78a11694",
-      "location": "United States",
-      "snippet": "Compensation:* $105,000–$155,000 Base Salary (DOE) + Annual Bonus + Vehicle Allowance + Travel Package + Industry Leading Benefits Package.",
-      "remote": false
-    },
-    {
       "id": "4f442ed30aa2e8cf",
       "title": "Technical Program Manager, AI Network Infra",
       "company": "Meta",
@@ -135,6 +117,24 @@
       "url": "https://www.indeed.com/viewjob?jk=56bf3445d1ec18a7",
       "location": "Seattle, WA 98109",
       "snippet": "Experience mentoring and developing other technical program managers. Experience with executive-level communication, including presenting to senior leadership.",
+      "remote": false
+    },
+    {
+      "id": "b8518fd7cc85a4ba",
+      "title": "Principal Technical Program Manager - AI-Enabled Incident Response & Eviction",
+      "company": "Microsoft",
+      "url": "https://www.indeed.com/viewjob?jk=b8518fd7cc85a4ba",
+      "location": "Redmond, WA 98052",
+      "snippet": "Bachelor's Degree AND 6+ years experience in engineering, product/technical program management, data analysis, or product development.",
+      "remote": false
+    },
+    {
+      "id": "76b44e033982c60b",
+      "title": "Manager, Implementation (Strategic)",
+      "company": "Rippling",
+      "url": "https://www.indeed.com/viewjob?jk=76b44e033982c60b",
+      "location": "Seattle, WA 98121",
+      "snippet": "For the first time ever, you can manage and automate every part of the employee lifecycle in a single system. Implementation is an essential differentiator for…",
       "remote": false
     },
     {
@@ -165,6 +165,15 @@
       "remote": false
     },
     {
+      "id": "38304dc16b2932c4",
+      "title": "Open Rank Faculty Position, Emergency Medical Services (EMS) Fellowship Program Director, Department of Emergency Medicine",
+      "company": "University of Washington",
+      "url": "https://www.indeed.com/viewjob?jk=38304dc16b2932c4",
+      "location": "Seattle, WA",
+      "snippet": "By the time of appointment, candidates must possess at least three years’ experience as a core physician faculty member in an ACGME-accredited emergency…",
+      "remote": false
+    },
+    {
       "id": "77aca1e4fc52076b",
       "title": "PreConstruction Coordinator — Residential Renovation",
       "company": "JCC Concierge",
@@ -174,12 +183,12 @@
       "remote": false
     },
     {
-      "id": "38304dc16b2932c4",
-      "title": "Open Rank Faculty Position, Emergency Medical Services (EMS) Fellowship Program Director, Department of Emergency Medicine",
-      "company": "University of Washington",
-      "url": "https://www.indeed.com/viewjob?jk=38304dc16b2932c4",
-      "location": "Seattle, WA",
-      "snippet": "By the time of appointment, candidates must possess at least three years’ experience as a core physician faculty member in an ACGME-accredited emergency…",
+      "id": "334dab629e828c1a",
+      "title": "Business Coordinator, Secret Lair",
+      "company": "Hasbro Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=334dab629e828c1a",
+      "location": "Renton, WA",
+      "snippet": "As a Business Coordinator, you’ll work with the Secret Lair team to plan product launches, own sale event schedules, handle our website assets, maintain…",
       "remote": false
     },
     {
@@ -192,15 +201,6 @@
       "remote": false
     },
     {
-      "id": "e2a6509c1bb61586",
-      "title": "Assistant Community Director",
-      "company": "American Property Management",
-      "url": "https://www.indeed.com/viewjob?jk=e2a6509c1bb61586",
-      "location": "Tacoma, WA 98445",
-      "snippet": "Schedule – Tuesday - Friday from 9am-6pm, Saturday from 8am-5pm - Flexibility to work additional hours may be required to meet company/project needs.",
-      "remote": false
-    },
-    {
       "id": "b31b91df2e8c7dbe",
       "title": "District Manager",
       "company": "First Cash",
@@ -210,12 +210,12 @@
       "remote": false
     },
     {
-      "id": "334dab629e828c1a",
-      "title": "Business Coordinator, Secret Lair",
-      "company": "Hasbro Inc.",
-      "url": "https://www.indeed.com/viewjob?jk=334dab629e828c1a",
-      "location": "Renton, WA",
-      "snippet": "As a Business Coordinator, you’ll work with the Secret Lair team to plan product launches, own sale event schedules, handle our website assets, maintain…",
+      "id": "0dff6b69ea9fa103",
+      "title": "SAP EAM Business Analyst",
+      "company": "Experis",
+      "url": "https://www.indeed.com/viewjob?jk=0dff6b69ea9fa103",
+      "location": "Seattle, WA 98101",
+      "snippet": "Support SAP Enterprise Asset Management (EAM) and Work Management activities within an SAP transformation or implementation.",
       "remote": false
     },
     {
@@ -252,6 +252,15 @@
       "url": "https://www.indeed.com/viewjob?jk=6ba966f919b5faf6",
       "location": "Everett, WA",
       "snippet": "Applies knowledge from experience as a fixed-wing or rotary wing military aircrew or equivalent civilian experience to identify, define, and document technical…",
+      "remote": false
+    },
+    {
+      "id": "843deb89cc14d089",
+      "title": "Interim Chief Information Officer",
+      "company": "New Alchemy",
+      "url": "https://www.indeed.com/viewjob?jk=843deb89cc14d089",
+      "location": "Seattle, WA 98104",
+      "snippet": "Required: Executive leadership, senior leadership, IT management, strategic management, team management, and supervisory experience as a technical project or…",
       "remote": false
     },
     {
@@ -309,15 +318,6 @@
       "remote": false
     },
     {
-      "id": "8f8cd47d33c6f94a",
-      "title": "Bilingual (English / Chinese) Front Office & Treatment Coordinator – Office Manager Track",
-      "company": "Teng Smiles Orthodontics, PC",
-      "url": "https://www.indeed.com/viewjob?jk=8f8cd47d33c6f94a",
-      "location": "Bellevue, WA 98006",
-      "snippet": "Handle front-desk operations and grow into full Office Manager duties over time. You will step into a supportive, well-run clinic with comprehensive paid…",
-      "remote": false
-    },
-    {
       "id": "87ef69664a492657",
       "title": "Sales Manager",
       "company": "Brightside Windows",
@@ -333,6 +333,15 @@
       "url": "https://www.indeed.com/viewjob?jk=1d670864ab91f540",
       "location": "United States",
       "snippet": "Full-Time | Remote (US), travel 25% to 30% | Reports to Brad Schuchardt, Founder. Expect to travel 25% to 30% of the time. Introductory call with the founder.",
+      "remote": false
+    },
+    {
+      "id": "8f8cd47d33c6f94a",
+      "title": "Bilingual (English / Chinese) Front Office & Treatment Coordinator – Office Manager Track",
+      "company": "Teng Smiles Orthodontics, PC",
+      "url": "https://www.indeed.com/viewjob?jk=8f8cd47d33c6f94a",
+      "location": "Bellevue, WA 98006",
+      "snippet": "Handle front-desk operations and grow into full Office Manager duties over time. You will step into a supportive, well-run clinic with comprehensive paid…",
       "remote": false
     },
     {
@@ -354,15 +363,6 @@
       "remote": false
     },
     {
-      "id": "928a94dce263e67c",
-      "title": "Vehicle Operations Manager",
-      "company": "Hertz",
-      "url": "https://www.indeed.com/viewjob?jk=928a94dce263e67c",
-      "location": "SeaTac, WA",
-      "snippet": "Responsible for daily vehicle operations and revenue generation for their assigned function. Actively engages in effective communication plans focused on…",
-      "remote": false
-    },
-    {
       "id": "b7119a21291efe86",
       "title": "General Manager",
       "company": "Puget Collision",
@@ -381,12 +381,12 @@
       "remote": false
     },
     {
-      "id": "f1524d7c110a1912",
-      "title": "Senior Director, Enterprise Process Excellence",
-      "company": "SSA Marine, Inc",
-      "url": "https://www.indeed.com/viewjob?jk=f1524d7c110a1912",
-      "location": "Seattle, WA 98134",
-      "snippet": "Graduate degree in business , engineering, operations , or a related field. Bachelor's degree in business , engineering, operations , finance, information systems,…",
+      "id": "e2a6509c1bb61586",
+      "title": "Assistant Community Director",
+      "company": "American Property Management",
+      "url": "https://www.indeed.com/viewjob?jk=e2a6509c1bb61586",
+      "location": "Tacoma, WA 98445",
+      "snippet": "Contributing to running property operations by preparing reports for the Community Director. Schedule – Tuesday - Friday from 9am-6pm, Saturday from 8am-5pm -…",
       "remote": false
     },
     {
@@ -396,6 +396,24 @@
       "url": "https://www.indeed.com/viewjob?jk=8759d3c8b3b4ed95",
       "location": "Bellevue, WA 98006",
       "snippet": "Own Full Bars’ creative operations tech stack agency-wide — the platforms and tools that power how the team works — and provide broader operations support as…",
+      "remote": false
+    },
+    {
+      "id": "ec9a4f328feb8689",
+      "title": "TC/ASSISTANT MANAGER - SIGNATURE DINING",
+      "company": "Tulalip Gaming Organization (TGO)",
+      "url": "https://www.indeed.com/viewjob?jk=ec9a4f328feb8689",
+      "location": "Tulalip, WA 98271",
+      "snippet": "Oversees the daily administrative and operational tasks of assigned Signature Dining venues to include within the Tulalip Resort Casino.",
+      "remote": false
+    },
+    {
+      "id": "7923172f19040d75",
+      "title": "Director, Business Development - East Coast Based",
+      "company": "Evotec",
+      "url": "https://www.indeed.com/viewjob?jk=7923172f19040d75",
+      "location": "Seattle, WA",
+      "snippet": "Minimum BSc, MSc or PhD preferable, in a Life Sciences discipline or other advanced degrees (i.e. MBA). Achieve a yearly sales goal for your region by executing…",
       "remote": false
     },
     {
@@ -414,15 +432,6 @@
       "url": "https://www.indeed.com/viewjob?jk=5e9402677f60adec",
       "location": "Seattle, WA 98103",
       "snippet": "The Business Development Director builds client relationships, leads business development, and advances opportunities from initial communication through…",
-      "remote": false
-    },
-    {
-      "id": "7923172f19040d75",
-      "title": "Director, Business Development - East Coast Based",
-      "company": "Evotec",
-      "url": "https://www.indeed.com/viewjob?jk=7923172f19040d75",
-      "location": "Seattle, WA",
-      "snippet": "Minimum BSc, MSc or PhD preferable, in a Life Sciences discipline or other advanced degrees (i.e. MBA). Achieve a yearly sales goal for your region by executing…",
       "remote": false
     },
     {
@@ -530,7 +539,7 @@
       "company": "Autessa",
       "url": "https://www.indeed.com/viewjob?jk=6ae82792541acea1",
       "location": "Redmond, WA 98052",
-      "snippet": "Field Marketing &amp; Business Development Manager , Public Sector. To applicants: If you meet the requirements below, we want to hear from you.",
+      "snippet": "Field Marketing &amp; Business Development Manager , Public Sector*. Plan and run campaigns to Washington agencies across email, LinkedIn, and direct outreach, and…",
       "remote": false
     },
     {
@@ -552,12 +561,12 @@
       "remote": false
     },
     {
-      "id": "f09bde7e9c6ec093",
-      "title": "Substance Use Disorder Professional (SUDP) - PACT",
-      "company": "DESC",
-      "url": "https://www.indeed.com/viewjob?jk=f09bde7e9c6ec093",
-      "location": "Seattle, WA 98144",
-      "snippet": "Comply with applicable program research and evaluation procedures. Facilitate PACT’s SUD program as described above.",
+      "id": "1af3039619ec9ecb",
+      "title": "Military Service - U.S. Air Force, Biomedical Laboratory Officer",
+      "company": "Military Service - U.S. Air Force",
+      "url": "https://www.indeed.com/viewjob?jk=1af3039619ec9ecb",
+      "location": "United States",
+      "snippet": "Perform duties as principal investigator, research scientist, program manager and acquisition specialist in areas of laboratory science.",
       "remote": false
     }
   ]
