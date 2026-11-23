@@ -803,35 +803,31 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 48,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 46 jobs collected before the block"
-  },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+   "fails": 49,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 48 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 64,
+   "fails": 65,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2068,14 +2064,12 @@
   "Boeing:JR2026523310": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026523346": "2026-09-30T16:09:21.123030+00:00",
   "Boeing:JR2026523575": "2026-11-03T00:08:59.152075+00:00",
-  "Boeing:JR2026523712": "2026-09-24T22:41:19.303548+00:00",
   "Boeing:JR2026523800": "2026-10-06T20:09:13.575994+00:00",
   "Boeing:JR2026523805": "2026-10-07T21:35:08.199738+00:00",
   "Boeing:JR2026524095": "2026-10-01T19:08:49.260098+00:00",
   "Boeing:JR2026524331": "2026-11-20T02:41:25.354841+00:00",
   "Boeing:JR2026524396": "2026-11-19T01:08:34.533398+00:00",
   "Boeing:JR2026524442": "2026-11-10T17:48:39.834606+00:00",
-  "Boeing:JR2026524491": "2026-09-24T22:41:19.303548+00:00",
   "Boeing:JR2026524532": "2026-10-06T21:09:29.745691+00:00",
   "Boeing:JR2026524585": "2026-10-02T16:42:22.792146+00:00",
   "Boeing:JR2026524811": "2026-10-08T14:49:43.189216+00:00",
@@ -2342,7 +2336,6 @@
   "Company boards (Greenhouse):affirm-8048121003": "2026-10-30T15:13:06.054317+00:00",
   "Company boards (Greenhouse):affirm-8182228003": "2026-11-10T21:09:13.911995+00:00",
   "Company boards (Greenhouse):affirm-8199159003": "2026-11-13T19:09:59.510231+00:00",
-  "Company boards (Greenhouse):airbnb-8231416": "2026-09-24T22:41:19.303548+00:00",
   "Company boards (Greenhouse):airbnb-8231975": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Greenhouse):airbnb-8242459": "2026-10-08T07:30:05.026771+00:00",
   "Company boards (Greenhouse):airbnb-8242793": "2026-09-30T14:09:29.947538+00:00",
@@ -2750,7 +2743,6 @@
   "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
   "Company boards (Greenhouse):stripe-8214620": "2026-09-29T17:08:45.517828+00:00",
-  "Company boards (Greenhouse):stripe-8221776": "2026-09-24T22:41:19.303548+00:00",
   "Company boards (Greenhouse):stripe-8223113": "2026-11-04T21:08:27.418133+00:00",
   "Company boards (Greenhouse):stripe-8224617": "2026-11-04T02:33:50.098881+00:00",
   "Company boards (Greenhouse):stripe-8224620": "2026-09-25T16:09:23.143404+00:00",
@@ -2925,6 +2917,7 @@
   "Indeed:f00076929aedc3d5": "2026-11-11T02:38:24.459564+00:00",
   "Indeed:f0ed9038e172b638": "2026-11-05T18:09:51.160698+00:00",
   "Indeed:f797b4101fe48084": "2026-10-10T06:09:43.754998+00:00",
+  "Indeed:f97108745adc4040": "2026-11-23T23:08:39.281232+00:00",
   "Indeed:fe0f8147bea49e71": "2026-09-30T10:09:09.259204+00:00",
   "King County (gov):5490335": "2026-11-21T15:31:03.637357+00:00",
   "King County (gov):5493518": "2026-09-28T15:55:49.931317+00:00",
@@ -4549,6 +4542,7 @@
   "LinkedIn:4492527114": "2026-11-20T10:30:17.846870+00:00",
   "LinkedIn:4492551819": "2026-11-20T08:11:50.949860+00:00",
   "LinkedIn:4492606329": "2026-11-23T21:09:11.575695+00:00",
+  "LinkedIn:4492659347": "2026-11-23T23:08:39.281232+00:00",
   "LinkedIn:4492702557": "2026-11-20T21:09:56.803459+00:00",
   "LinkedIn:4492707220": "2026-11-20T21:09:56.803459+00:00",
   "LinkedIn:4492726126": "2026-11-19T21:09:10.238247+00:00",
