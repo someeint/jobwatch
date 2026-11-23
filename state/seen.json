@@ -803,51 +803,39 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 46,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 81 jobs collected before the block"
+   "fails": 47,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
   "Salesforce": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 62,
+   "fails": 63,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2614,6 +2602,7 @@
   "Company boards (Greenhouse):instacart-8275378": "2026-10-13T17:35:56.440883+00:00",
   "Company boards (Greenhouse):instacart-8292840": "2026-10-16T23:08:46.851887+00:00",
   "Company boards (Greenhouse):instacart-8337981": "2026-10-30T22:09:39.945932+00:00",
+  "Company boards (Greenhouse):instacart-8412535": "2026-11-23T22:08:44.730325+00:00",
   "Company boards (Greenhouse):lyft-8838923002": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):lyft-8839156002": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):lyft-8860284002": "2026-10-01T20:34:35.890371+00:00",
@@ -2761,6 +2750,7 @@
   "Company boards (Greenhouse):samsara-8358633": "2026-11-06T16:12:37.062790+00:00",
   "Company boards (Greenhouse):samsara-8359984": "2026-11-06T20:08:47.896499+00:00",
   "Company boards (Greenhouse):samsara-8375354": "2026-11-15T21:09:16.284551+00:00",
+  "Company boards (Greenhouse):samsara-8393540": "2026-11-23T22:08:44.730325+00:00",
   "Company boards (Greenhouse):squarespace-8286760": "2026-11-17T16:09:50.275718+00:00",
   "Company boards (Greenhouse):stripe-8160890": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):stripe-8175637": "2026-10-28T02:36:47.152343+00:00",
@@ -4592,6 +4582,7 @@
   "LinkedIn:4493699404": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493782765": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493784682": "2026-11-23T16:40:29.113176+00:00",
+  "LinkedIn:4493911502": "2026-11-23T22:08:44.730325+00:00",
   "LinkedIn:4494037521": "2026-11-23T18:29:04.827582+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
