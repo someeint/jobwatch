@@ -803,39 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 47,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 48,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 46 jobs collected before the block"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 63,
+   "fails": 64,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2448,7 +2444,6 @@
   "Company boards (Greenhouse):carta-8032568003": "2026-10-28T23:42:01.229138+00:00",
   "Company boards (Greenhouse):carta-8046185003": "2026-10-27T18:32:42.558929+00:00",
   "Company boards (Greenhouse):carta-8203811003": "2026-11-13T23:09:27.753888+00:00",
-  "Company boards (Greenhouse):chime-8806197002": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):chime-8868950002": "2026-10-08T18:52:59.131833+00:00",
   "Company boards (Greenhouse):chime-8869139002": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):chime-8882463002": "2026-10-15T22:08:41.491499+00:00",
@@ -2539,7 +2534,6 @@
   "Company boards (Greenhouse):datadog-8335262": "2026-11-05T19:50:27.386727+00:00",
   "Company boards (Greenhouse):datadog-8384194": "2026-11-19T20:08:44.554159+00:00",
   "Company boards (Greenhouse):datadog-8402937": "2026-11-19T20:08:44.554159+00:00",
-  "Company boards (Greenhouse):discord-8771034002": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):dropbox-8048844": "2026-11-18T21:08:51.671935+00:00",
   "Company boards (Greenhouse):dropbox-8234201": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):dropbox-8234202": "2026-10-01T15:43:50.514781+00:00",
@@ -2655,7 +2649,6 @@
   "Company boards (Greenhouse):mongodb-8399041": "2026-11-18T22:08:53.001318+00:00",
   "Company boards (Greenhouse):okta-8212003": "2026-09-25T14:10:32.176299+00:00",
   "Company boards (Greenhouse):okta-8213755": "2026-10-02T00:09:16.487928+00:00",
-  "Company boards (Greenhouse):okta-8226936": "2026-09-24T22:08:49.761675+00:00",
   "Company boards (Greenhouse):okta-8239973": "2026-09-29T18:29:42.364371+00:00",
   "Company boards (Greenhouse):okta-8245295": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Greenhouse):okta-8245298": "2026-10-02T16:42:22.792146+00:00",
@@ -2920,7 +2913,6 @@
   "Indeed:abb4b038135137a4": "2026-10-27T22:11:28.857080+00:00",
   "Indeed:b80dfcfabf75981c": "2026-10-01T19:08:49.260098+00:00",
   "Indeed:b9d2728998e6b176": "2026-10-02T01:08:58.756463+00:00",
-  "Indeed:bd2698807b15546e": "2026-09-24T22:08:49.761675+00:00",
   "Indeed:c798ce755916d79d": "2026-11-19T01:08:34.533398+00:00",
   "Indeed:d837e5888e983ebe": "2026-11-08T12:41:56.711767+00:00",
   "Indeed:dacc324c33f3d4cb": "2026-09-28T18:09:05.543892+00:00",
@@ -3262,7 +3254,6 @@
   "LinkedIn:4469783024": "2026-09-25T02:46:28.979937+00:00",
   "LinkedIn:4469785659": "2026-09-25T18:09:34.891854+00:00",
   "LinkedIn:4469786405": "2026-09-25T00:09:00.331625+00:00",
-  "LinkedIn:4469799091": "2026-09-24T22:08:49.761675+00:00",
   "LinkedIn:4470037870": "2026-09-25T00:09:00.331625+00:00",
   "LinkedIn:4470042522": "2026-09-25T00:09:00.331625+00:00",
   "LinkedIn:4470179243": "2026-10-19T00:08:59.976985+00:00",
