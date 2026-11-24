@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 89,
-   "t": "2026-09-23T16:08:13.756169+00:00"
-  },
-  {
    "s": 82,
    "t": "2026-09-23T18:08:12.160394+00:00"
   },
@@ -799,39 +795,35 @@
   {
    "s": 80,
    "t": "2026-11-24T03:07:58.764320+00:00"
+  },
+  {
+   "s": 76,
+   "t": "2026-11-24T07:08:59.953724+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
   "Salesforce": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "T-Mobile": {
-   "fails": 18,
-   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
-  },
   "Zillow": {
-   "fails": 73,
+   "fails": 74,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1023,6 +1015,7 @@
   "74a894b9e283178a": "2026-09-29T23:10:06.097354+00:00",
   "74f81bd9fff1b18d": "2026-09-19T18:31:08.637985+00:00",
   "762153849d599ba0": "2026-09-19T18:31:08.637985+00:00",
+  "76e2e36a75c81840": "2026-11-24T07:08:59.953724+00:00",
   "7710cdaa4af426f9": "2026-10-08T20:09:31.100923+00:00",
   "771b128ca8a8e1e8": "2026-09-19T18:31:08.637985+00:00",
   "775198dd404cd09a": "2026-11-13T17:16:51.257726+00:00",
@@ -1256,6 +1249,7 @@
   "Boeing:JR2026524911": "2026-09-19T18:31:08.637985+00:00",
   "Company boards (Ashby):openai-910b44fb-6af7-4d26-8e25-9ba814fe5fd5": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):openai-aaf9aa75-e782-49a0-8820-79b96f343bb0": "2026-10-26T23:55:33.488420+00:00",
+  "Company boards (Ashby):openai-f5a29cef-1699-4619-ab8f-06b7038038ff": "2026-11-24T07:08:59.953724+00:00",
   "Company boards (Ashby):snowflake-452349cf-7114-4234-9fa5-1b5d0e8e7ce6": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Ashby):snowflake-570cbac3-875a-4ce4-83b4-3c19e4b279db": "2026-10-14T20:53:02.374355+00:00",
   "Company boards (Ashby):vanta-ffdee1c4-c463-4e6f-a98a-ef8240e34868": "2026-09-20T01:42:03.941384+00:00",
@@ -2206,6 +2200,7 @@
   "Company boards (Ashby):openai-20df76c8-aa7e-40d1-8602-28605ed5431b": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Ashby):openai-2475c6c9-97c1-461b-8c73-0b9ce993860a": "2026-09-29T13:55:16.417993+00:00",
   "Company boards (Ashby):openai-25c2d971-56b4-43c2-8d17-8e168d45add5": "2026-10-22T01:56:36.745076+00:00",
+  "Company boards (Ashby):openai-27ffc700-ce7c-47e1-bb92-7a9ed846669b": "2026-11-24T07:08:59.953724+00:00",
   "Company boards (Ashby):openai-2928f960-8f97-4bb6-aafd-3ffbe70d5ea8": "2026-11-17T20:09:09.655155+00:00",
   "Company boards (Ashby):openai-2b4aa186-a90c-4e6c-a544-5f2cc8558525": "2026-10-29T20:10:38.298445+00:00",
   "Company boards (Ashby):openai-2bdd1b8b-2883-40fb-b006-583959ad4c5f": "2026-10-13T22:09:24.538281+00:00",
@@ -2929,6 +2924,7 @@
   "Indeed:f0ed9038e172b638": "2026-11-05T18:09:51.160698+00:00",
   "Indeed:f797b4101fe48084": "2026-10-10T06:09:43.754998+00:00",
   "Indeed:f97108745adc4040": "2026-11-23T23:08:39.281232+00:00",
+  "Indeed:fc8badeb24cfcb68": "2026-11-24T07:08:59.953724+00:00",
   "Indeed:fe0f8147bea49e71": "2026-09-30T10:09:09.259204+00:00",
   "King County (gov):5490335": "2026-11-21T15:31:03.637357+00:00",
   "King County (gov):5493518": "2026-09-28T15:55:49.931317+00:00",
@@ -4943,6 +4939,7 @@
   "Starbucks:481081543229": "2026-11-04T21:08:27.418133+00:00",
   "Starbucks:481081829065": "2026-11-12T13:12:15.591594+00:00",
   "T-Mobile:REQ349332": "2026-10-27T16:19:05.095066+00:00",
+  "T-Mobile:REQ362630": "2026-11-24T07:08:59.953724+00:00",
   "T-Mobile:REQ364040": "2026-10-01T19:08:49.260098+00:00",
   "T-Mobile:REQ365679": "2026-10-30T18:08:58.806463+00:00",
   "T-Mobile:REQ367196": "2026-10-26T17:01:32.270577+00:00",
