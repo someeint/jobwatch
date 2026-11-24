@@ -803,31 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
   "Salesforce": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 76,
+   "fails": 77,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2522,6 +2526,7 @@
   "Company boards (Greenhouse):databricks-8937105002": "2026-11-11T00:08:50.153493+00:00",
   "Company boards (Greenhouse):databricks-8948986002": "2026-11-20T19:53:41.456357+00:00",
   "Company boards (Greenhouse):databricks-8949593002": "2026-11-19T00:08:54.705917+00:00",
+  "Company boards (Greenhouse):databricks-8958450002": "2026-11-24T10:35:00.012663+00:00",
   "Company boards (Greenhouse):datadog-8226352": "2026-10-20T18:10:11.726414+00:00",
   "Company boards (Greenhouse):datadog-8237428": "2026-09-30T19:16:24.128197+00:00",
   "Company boards (Greenhouse):datadog-8238495": "2026-10-07T20:09:14.842706+00:00",
