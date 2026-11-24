@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:13:30+00:00",
+  "generated_at": "2026-11-24T23:12:24+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
     {
@@ -9,6 +9,15 @@
       "url": "https://www.indeed.com/viewjob?jk=2ab32d082b9e3a72",
       "location": "Seattle, WA 98127",
       "snippet": "As an experienced technology program/project manager , you will be responsible for: Possessing strong technology and program/project management experience, you\u2026",
+      "remote": false
+    },
+    {
+      "id": "38d8603d79429310",
+      "title": "Project Manager",
+      "company": "RAINIER ASPHALT SEALING LLC",
+      "url": "https://www.indeed.com/viewjob?jk=38d8603d79429310",
+      "location": "North Bend, WA 98045",
+      "snippet": "Lead construction projects from planning through delivery, coordinating teams, schedules, budgets, contracts, and compliance.",
       "remote": false
     },
     {
@@ -53,7 +62,7 @@
       "company": "Amazon.com Services LLC",
       "url": "https://www.indeed.com/viewjob?jk=82904ae1fabd91b3",
       "location": "Bellevue, WA 98009",
-      "snippet": "Establish and maintain scalable program management practices that balance efficiency with appropriate oversight.",
+      "snippet": "Establish and maintain scalable program management practices that balance efficiency with appropriate oversight. If so, we have the job for you!",
       "remote": false
     },
     {
@@ -62,7 +71,7 @@
       "company": "Google",
       "url": "https://www.indeed.com/viewjob?jk=c3d3d2cf4aacc1cb",
       "location": "Redmond, WA",
-      "snippet": "8 years of experience in program management. Drive the cross-functional program to scale and standardize our frameworks. Baby Bonding Leave: 18 weeks.",
+      "snippet": "8 years of experience in program management. Drive the cross-functional program to scale and standardize our frameworks. Benefits for this role include:",
       "remote": false
     },
     {
@@ -89,7 +98,7 @@
       "company": "Amazon.com Services LLC",
       "url": "https://www.indeed.com/viewjob?jk=31a20637de0b5969",
       "location": "Seattle, WA",
-      "snippet": "5+ years of technical product or program management experience. Experience defining KPI's/SLA's used to drive multi-million dollar businesses and reporting to\u2026",
+      "snippet": "Utilize those insights to identify specific program requirements, create a program vision, and own the product development roadmap for critical segments of the\u2026",
       "remote": false
     },
     {
@@ -129,15 +138,6 @@
       "remote": false
     },
     {
-      "id": "d30b6f0f1b3a81f0",
-      "title": "Lead Principal Technical Program Manager",
-      "company": "Oracle",
-      "url": "https://www.indeed.com/viewjob?jk=d30b6f0f1b3a81f0",
-      "location": "Seattle, WA",
-      "snippet": "Collaborates across organizational boundaries to establish program management standards and support teams in achieving them. May supervise the work of others.",
-      "remote": false
-    },
-    {
       "id": "85f7802eb3879c6b",
       "title": "Operations Program Manager, Electronics Supply Chain, Amazon Leo",
       "company": "Amazon Kuiper Manufacturing Enterprises LLC",
@@ -174,24 +174,6 @@
       "remote": false
     },
     {
-      "id": "7cb7ff3c0e7cfa67",
-      "title": "Project Scheduler P6",
-      "company": "System One",
-      "url": "https://www.indeed.com/viewjob?jk=7cb7ff3c0e7cfa67",
-      "location": "Bellevue, WA 98008",
-      "snippet": "Develop and maintain an integrated baseline lifecycle schedule in P6. Regularly update and provide weekly progress reports, layouts and publication of the\u2026",
-      "remote": false
-    },
-    {
-      "id": "143da3ac633db7ee",
-      "title": "Program Coordinator mids",
-      "company": "Eating Recovery Center",
-      "url": "https://www.indeed.com/viewjob?jk=143da3ac633db7ee",
-      "location": "Bellevue, WA",
-      "snippet": "Maintains daily program structure by following program schedule. Provides patient transportation as needed for medical appointments (may vary by location and\u2026",
-      "remote": false
-    },
-    {
       "id": "1f72feeadc551cb3",
       "title": "Estimator/Sales Manager",
       "company": "Instant Auto Body, Inc.",
@@ -216,6 +198,15 @@
       "url": "https://www.indeed.com/viewjob?jk=0f3fa653dffb17c9",
       "location": "Bothell, WA 98011",
       "snippet": "This role combines hands-on food preparation with team management, ensuring that every pizza is crafted to perfection and every guest receives exceptional\u2026",
+      "remote": false
+    },
+    {
+      "id": "143da3ac633db7ee",
+      "title": "Program Coordinator mids",
+      "company": "Eating Recovery Center",
+      "url": "https://www.indeed.com/viewjob?jk=143da3ac633db7ee",
+      "location": "Bellevue, WA",
+      "snippet": "Maintains daily program structure by following program schedule. Provides patient transportation as needed for medical appointments (may vary by location and\u2026",
       "remote": false
     },
     {
@@ -291,6 +282,15 @@
       "remote": false
     },
     {
+      "id": "2407c6b62f51071b",
+      "title": "Shift Supervisor",
+      "company": "K-1 Speed Inc",
+      "url": "https://www.indeed.com/viewjob?jk=2407c6b62f51071b",
+      "location": "Tukwila, WA 98188",
+      "snippet": "As a Shift Supervisor, you will train staff on being the best they can be. Cash handling duties including preparation of tills, change fund maintenance, and\u2026",
+      "remote": false
+    },
+    {
       "id": "d293d546d53fa068",
       "title": "Business Development Representative",
       "company": "SERVPRO of Arlington & Lynnwood",
@@ -345,30 +345,21 @@
       "remote": false
     },
     {
-      "id": "d4cec0191a90f46d",
-      "title": "Accounting & Office Manager (Full-Charge Bookkeeper)",
-      "company": "Analytical Laboratory",
-      "url": "https://www.indeed.com/viewjob?jk=d4cec0191a90f46d",
-      "location": "Fife, WA 98424",
-      "snippet": "Spectra Laboratories is a privately held, full-service analytical laboratory serving public and private clients since the mid-1980s.",
-      "remote": false
-    },
-    {
-      "id": "83369c0cccfb33ef",
-      "title": "Front Desk Receptionist",
-      "company": "BreCyn Salon",
-      "url": "https://www.indeed.com/viewjob?jk=83369c0cccfb33ef",
-      "location": "Everett, WA 98203",
-      "snippet": "Schedule: Part-time (1\u20132 days per week, 6\u20138 hour shifts). Availability: Must be available on Saturdays; likely one weekday closing shift.",
-      "remote": false
-    },
-    {
       "id": "0b331a1db1a33b4f",
       "title": "Sr Risk Manager, RISC",
       "company": "Amazon.com Services LLC",
       "url": "https://www.indeed.com/viewjob?jk=0b331a1db1a33b4f",
       "location": "Seattle, WA",
       "snippet": "You will design the controls and operations that let products sell safely across many countries. You'll stand up new operations , make sure automated decisions\u2026",
+      "remote": false
+    },
+    {
+      "id": "d4cec0191a90f46d",
+      "title": "Accounting & Office Manager (Full-Charge Bookkeeper)",
+      "company": "Analytical Laboratory",
+      "url": "https://www.indeed.com/viewjob?jk=d4cec0191a90f46d",
+      "location": "Fife, WA 98424",
+      "snippet": "Spectra Laboratories is a privately held, full-service analytical laboratory serving public and private clients since the mid-1980s.",
       "remote": false
     },
     {
@@ -390,12 +381,12 @@
       "remote": false
     },
     {
-      "id": "17b7557e51907e5a",
-      "title": "Prefabrication Manager \u2013 New Electrical Hyperscale Data Center Construction",
-      "company": "Owen Electric",
-      "url": "https://www.indeed.com/viewjob?jk=17b7557e51907e5a",
-      "location": "United States",
-      "snippet": "Oversee prefabrication shop operations , workflows, and production schedules. Location:* Southeast U.S. (Flexible within regional markets).",
+      "id": "c140101759fcbbb9",
+      "title": "Nuclear Plant Program Specialist",
+      "company": "System One",
+      "url": "https://www.indeed.com/viewjob?jk=c140101759fcbbb9",
+      "location": "Bellevue, WA 98008",
+      "snippet": "5 years of experience as a team lead, supervisor, or manager. 5 years of implementing nuclear power plant operations , maintenance, administrative, or\u2026",
       "remote": false
     },
     {
@@ -414,6 +405,15 @@
       "url": "https://www.indeed.com/viewjob?jk=277212e2ca5c286c",
       "location": "Redmond, WA 98052",
       "snippet": "Assess the adequacy of controls over automated business processes and system-generated reporting. Influence stakeholders to adopt scalable, sustainable control\u2026",
+      "remote": false
+    },
+    {
+      "id": "905ae6ede7b3aa5f",
+      "title": "Senior Finance Manager, Cloud Infrastructure Operations",
+      "company": "Microsoft",
+      "url": "https://www.indeed.com/viewjob?jk=905ae6ede7b3aa5f",
+      "location": "Redmond, WA 98052",
+      "snippet": "Collaborate with manager to identify high impact projects that will drive business success and align to your personal development goals.",
       "remote": false
     },
     {
@@ -471,15 +471,6 @@
       "remote": false
     },
     {
-      "id": "3130caf86f5ef69f",
-      "title": "Receiving Specialist",
-      "company": "AppleOne",
-      "url": "https://www.indeed.com/viewjob?jk=3130caf86f5ef69f",
-      "location": "Kent, WA 98032",
-      "snippet": "Previous receiving experience in a manufacturing or warehouse environment. Experience operating a forklift and manual or electric pallet jack.",
-      "remote": false
-    },
-    {
       "id": "16ac920c185456c2",
       "title": "Senior Category Sourcing Manager, Ground Systems Supply Chain, Amazon Leo",
       "company": "Amazon Kuiper Manufacturing Enterprises LLC",
@@ -498,11 +489,11 @@
       "remote": false
     },
     {
-      "id": "dc96386d175aea5e",
+      "id": "37b2771859177cfa",
       "title": "Senior Supply Chain Manager, Equipment, Global Supplier Managment",
       "company": "Amazon US Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=dc96386d175aea5e",
-      "location": "Bellevue, WA",
+      "url": "https://www.indeed.com/viewjob?jk=37b2771859177cfa",
+      "location": "Seattle, WA",
       "snippet": "5+ years of program or project management experience. Master's degree, or MBA in business, operations, human resources, adult education, organizational\u2026",
       "remote": false
     },
@@ -525,21 +516,21 @@
       "remote": false
     },
     {
+      "id": "fba6f97b5bb5d45a",
+      "title": "Procurement Director - Gas Turbines / Power Generation",
+      "company": "Liberty Personnel Services, Inc, LP90864",
+      "url": "https://www.indeed.com/viewjob?jk=fba6f97b5bb5d45a",
+      "location": "United States",
+      "snippet": "Manage commercial true-ups resulting from changes in Division of Responsibility (DOR) or project scope. Work Authorization: Must be authorized to work in the\u2026",
+      "remote": false
+    },
+    {
       "id": "68f6985ce62b64b7",
       "title": "Business Development Manager",
       "company": "MAGNIX USA INC",
       "url": "https://www.indeed.com/viewjob?jk=68f6985ce62b64b7",
       "location": "Everett, WA 98203",
       "snippet": "Experience with battery, power electronics, or energy storage systems in data center, hyperscale, or grid-scale markets. Ability to travel as needed.",
-      "remote": false
-    },
-    {
-      "id": "46002cd89dc4067d",
-      "title": "Senior Business Development Lead , Amazon Shipping",
-      "company": "Amazon.com Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=46002cd89dc4067d",
-      "location": "Bellevue, WA 98006",
-      "snippet": "Experience driving new business segment or services launches. Experience partnering with product, operations, or technical teams to scope and deliver customer\u2026",
       "remote": false
     },
     {
