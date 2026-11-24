@@ -803,35 +803,47 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 14,
+   "fails": 15,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "CrowdStrike": {
-   "fails": 3,
-   "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
+  "King County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
   "LinkedIn": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
+   "fails": 3,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
   "T-Mobile": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 71,
+   "fails": 72,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2193,6 +2205,7 @@
   "Company boards (Ashby):notion-e7c18c11-c8ab-47cf-afb6-6bfc61b5e74f": "2026-09-30T23:04:10.684639+00:00",
   "Company boards (Ashby):openai-04bdc05a-de4b-4fc3-9520-714018f25c76": "2026-10-22T17:52:03.404379+00:00",
   "Company boards (Ashby):openai-08e8d03a-df94-46af-8664-cd9aab1af445": "2026-11-19T23:08:49.947651+00:00",
+  "Company boards (Ashby):openai-0c190360-7ba6-423d-94da-5ffa33e4ddf3": "2026-11-24T05:58:35.228423+00:00",
   "Company boards (Ashby):openai-0cf4a8f4-a57a-494b-aad8-4df8ac096939": "2026-11-20T20:09:09.310045+00:00",
   "Company boards (Ashby):openai-0dc614c9-4eec-475f-b215-5480fe41317a": "2026-11-05T19:50:27.386727+00:00",
   "Company boards (Ashby):openai-0fca3b36-8aaa-491a-be87-09efacfeca5e": "2026-10-29T14:20:05.066021+00:00",
@@ -2221,6 +2234,7 @@
   "Company boards (Ashby):openai-41db3c21-abe1-4db7-91ee-da704537b685": "2026-10-06T20:09:13.575994+00:00",
   "Company boards (Ashby):openai-4311ea62-f628-4689-bec5-de886bb1f191": "2026-11-19T21:51:24.998089+00:00",
   "Company boards (Ashby):openai-4444d839-3f58-4369-a241-985acbbbf2f9": "2026-11-13T17:16:51.257726+00:00",
+  "Company boards (Ashby):openai-45729308-98e6-4104-8899-2392a76ddb2f": "2026-11-24T05:58:35.228423+00:00",
   "Company boards (Ashby):openai-490c443e-d555-4fd0-a5c8-d754f6ba6d23": "2026-11-23T21:09:11.575695+00:00",
   "Company boards (Ashby):openai-4bcc25ef-cf03-47db-896c-0fd9122afab1": "2026-10-30T00:09:14.644929+00:00",
   "Company boards (Ashby):openai-50053f7b-c154-45af-b497-3298c826a15f": "2026-11-02T20:10:18.887664+00:00",
@@ -2243,6 +2257,7 @@
   "Company boards (Ashby):openai-6ebd3534-d65b-4d90-ba96-6a54de31409d": "2026-10-29T21:12:49.428006+00:00",
   "Company boards (Ashby):openai-70eba6e4-73e0-4cf9-a0d5-e49caeca9d7b": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-73a111f9-e83d-4cce-9148-2a32ccf1d251": "2026-11-04T17:36:19.849810+00:00",
+  "Company boards (Ashby):openai-78822bd3-039e-4eb6-8957-75bc86e6c341": "2026-11-24T05:58:35.228423+00:00",
   "Company boards (Ashby):openai-7b70517d-8c96-4c4a-8e4a-37859cf68747": "2026-10-27T23:10:50.594432+00:00",
   "Company boards (Ashby):openai-811d3085-41fb-4e6d-8003-617fbde96818": "2026-11-23T16:40:29.113176+00:00",
   "Company boards (Ashby):openai-83ac3381-99c0-46a0-897c-abcd8699b466": "2026-11-19T04:23:53.000564+00:00",
@@ -2261,6 +2276,7 @@
   "Company boards (Ashby):openai-afebc24f-c6b8-4c66-a344-b1661fc77570": "2026-09-29T07:00:19.141617+00:00",
   "Company boards (Ashby):openai-b1a5980d-1c52-4af5-8596-5951b584ca37": "2026-10-15T06:32:13.275540+00:00",
   "Company boards (Ashby):openai-c0586c46-6b10-482f-af1c-a5b7eb196b3b": "2026-11-10T12:57:13.375824+00:00",
+  "Company boards (Ashby):openai-c233b365-dcda-4104-b6c1-793cf20c2b1b": "2026-11-24T05:58:35.228423+00:00",
   "Company boards (Ashby):openai-c3f0fb07-2153-4ba9-b812-cd7ceb363ae8": "2026-10-28T05:31:46.928501+00:00",
   "Company boards (Ashby):openai-c46d8648-b921-4b71-bb9a-f7d5c8e989f4": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-c717b98e-5394-4ad1-ae3f-e036717ad9b5": "2026-11-19T04:23:53.000564+00:00",
@@ -2270,10 +2286,12 @@
   "Company boards (Ashby):openai-ceca6916-b8d8-42cc-a32a-c27e06744b31": "2026-11-10T12:57:13.375824+00:00",
   "Company boards (Ashby):openai-d1e4178d-8eb6-4727-9601-e230cb96eeee": "2026-10-19T18:09:19.613474+00:00",
   "Company boards (Ashby):openai-d1f21456-f0bf-48ad-bb8d-ae0020a10600": "2026-10-29T17:11:38.734301+00:00",
+  "Company boards (Ashby):openai-d2dbafba-8ef1-48ac-82b2-ad44d34a6c08": "2026-11-24T05:58:35.228423+00:00",
   "Company boards (Ashby):openai-d4fed8a0-cf2a-49b1-b216-80d710827e16": "2026-10-28T00:05:07.188381+00:00",
   "Company boards (Ashby):openai-d5ee28a8-079f-4113-9430-79fb747877b6": "2026-11-17T17:09:23.147830+00:00",
   "Company boards (Ashby):openai-d6fbe4bd-1b55-40b6-93c0-a296ea747ecf": "2026-11-09T23:08:32.231102+00:00",
   "Company boards (Ashby):openai-d769a04e-c300-454a-8c68-1c93d04a6bb6": "2026-10-30T18:08:58.806463+00:00",
+  "Company boards (Ashby):openai-da30ac77-307b-4ffb-9e47-d5df9dd191d2": "2026-11-24T05:58:35.228423+00:00",
   "Company boards (Ashby):openai-df242b29-6a84-4968-8d57-cbeec20dee67": "2026-11-05T02:54:28.200176+00:00",
   "Company boards (Ashby):openai-df688f65-0159-4f0b-9944-0d9492c0b001": "2026-11-06T11:28:20.278089+00:00",
   "Company boards (Ashby):openai-e0f50751-123c-4200-adf2-aada78c3a6bb": "2026-10-26T21:10:19.037457+00:00",
