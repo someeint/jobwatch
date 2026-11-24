@@ -802,40 +802,32 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 19,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
   "Boeing": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 50,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 28 jobs collected before the block"
+   "fails": 51,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
   "Salesforce": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 66,
+   "fails": 67,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1805,6 +1797,7 @@
   "Adobe:R173235": "2026-11-13T01:08:48.221651+00:00",
   "Adobe:R173430": "2026-11-03T01:09:21.913654+00:00",
   "Adobe:R173447": "2026-11-05T18:09:51.160698+00:00",
+  "Adobe:R173463": "2026-11-24T02:05:46.026967+00:00",
   "Adobe:R173699": "2026-11-20T02:41:25.354841+00:00",
   "Adobe:R173700": "2026-11-20T02:41:25.354841+00:00",
   "Adobe:R173701": "2026-11-20T02:41:25.354841+00:00",
@@ -1813,7 +1806,6 @@
   "Amazon:10553710": "2026-10-08T07:30:05.026771+00:00",
   "Amazon:10558493": "2026-10-14T19:06:33.226202+00:00",
   "Amazon:10558495": "2026-10-14T19:06:33.226202+00:00",
-  "Amazon:10560111": "2026-09-25T00:50:16.096440+00:00",
   "Amazon:10560151": "2026-09-25T03:37:55.351898+00:00",
   "Amazon:10560541": "2026-09-25T17:09:31.865848+00:00",
   "Amazon:10560572": "2026-09-25T18:09:34.891854+00:00",
@@ -2366,7 +2358,6 @@
   "Company boards (Greenhouse):airbnb-8402949": "2026-11-19T21:09:10.238247+00:00",
   "Company boards (Greenhouse):airbnb-8403001": "2026-11-19T21:09:10.238247+00:00",
   "Company boards (Greenhouse):anthropic-5390992008": "2026-10-19T17:09:10.922234+00:00",
-  "Company boards (Greenhouse):anthropic-5391253008": "2026-09-25T00:50:16.096440+00:00",
   "Company boards (Greenhouse):anthropic-5394780008": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Greenhouse):anthropic-5398328008": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Greenhouse):anthropic-5427938008": "2026-09-30T22:08:58.173147+00:00",
@@ -2579,6 +2570,7 @@
   "Company boards (Greenhouse):gitlab-8936091002": "2026-11-11T16:10:49.149197+00:00",
   "Company boards (Greenhouse):gitlab-8939857002": "2026-11-16T16:00:57.589874+00:00",
   "Company boards (Greenhouse):gitlab-8943456002": "2026-11-16T23:09:11.069090+00:00",
+  "Company boards (Greenhouse):gitlab-8950909002": "2026-11-24T02:05:46.026967+00:00",
   "Company boards (Greenhouse):gitlab-8957093002": "2026-11-20T19:53:41.456357+00:00",
   "Company boards (Greenhouse):gitlab-8957097002": "2026-11-20T19:53:41.456357+00:00",
   "Company boards (Greenhouse):gusto-8209666": "2026-10-02T22:09:11.154537+00:00",
