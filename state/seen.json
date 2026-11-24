@@ -802,32 +802,36 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
   "Boeing": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 13,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 14,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 82,
+   "fails": 83,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1954,6 +1958,7 @@
   "Amazon:10595248": "2026-11-04T02:33:50.098881+00:00",
   "Amazon:10595988": "2026-11-03T22:09:07.629550+00:00",
   "Amazon:10596057": "2026-11-04T02:33:50.098881+00:00",
+  "Amazon:10596441": "2026-11-24T16:09:57.965816+00:00",
   "Amazon:10596521": "2026-11-04T16:09:50.571524+00:00",
   "Amazon:10596603": "2026-11-06T00:09:15.284436+00:00",
   "Amazon:10596697": "2026-11-04T20:10:13.259905+00:00",
@@ -2081,7 +2086,6 @@
   "Boeing:JR2026525136": "2026-09-29T22:09:00.261713+00:00",
   "Boeing:JR2026525337": "2026-10-13T05:08:50.999681+00:00",
   "Boeing:JR2026525390": "2026-10-13T05:08:50.999681+00:00",
-  "Boeing:JR2026525417": "2026-09-25T16:09:23.143404+00:00",
   "Boeing:JR2026525484": "2026-10-15T16:05:04.783327+00:00",
   "Boeing:JR2026525494": "2026-11-11T23:27:39.711167+00:00",
   "Boeing:JR2026525516": "2026-10-02T20:59:08.692661+00:00",
@@ -2487,6 +2491,7 @@
   "Company boards (Greenhouse):cloudflare-8400599": "2026-11-21T07:24:26.397974+00:00",
   "Company boards (Greenhouse):cloudflare-8400651": "2026-11-21T07:24:26.397974+00:00",
   "Company boards (Greenhouse):cloudflare-8400689": "2026-11-21T07:24:26.397974+00:00",
+  "Company boards (Greenhouse):cloudflare-8412125": "2026-11-24T16:09:57.965816+00:00",
   "Company boards (Greenhouse):coinbase-8207241": "2026-09-30T15:09:05.432295+00:00",
   "Company boards (Greenhouse):coinbase-8232211": "2026-09-29T01:14:43.318649+00:00",
   "Company boards (Greenhouse):coinbase-8238602": "2026-10-02T18:09:10.774871+00:00",
@@ -2601,7 +2606,6 @@
   "Company boards (Greenhouse):instacart-8337981": "2026-10-30T22:09:39.945932+00:00",
   "Company boards (Greenhouse):instacart-8412535": "2026-11-23T22:08:44.730325+00:00",
   "Company boards (Greenhouse):lyft-8838923002": "2026-10-02T00:09:16.487928+00:00",
-  "Company boards (Greenhouse):lyft-8839156002": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):lyft-8860284002": "2026-10-01T20:34:35.890371+00:00",
   "Company boards (Greenhouse):lyft-8863960002": "2026-10-05T06:08:17.320649+00:00",
   "Company boards (Greenhouse):lyft-8865403002": "2026-10-06T16:11:58.127634+00:00",
@@ -2747,14 +2751,12 @@
   "Company boards (Greenhouse):samsara-8375354": "2026-11-15T21:09:16.284551+00:00",
   "Company boards (Greenhouse):samsara-8393540": "2026-11-23T22:08:44.730325+00:00",
   "Company boards (Greenhouse):squarespace-8286760": "2026-11-17T16:09:50.275718+00:00",
-  "Company boards (Greenhouse):stripe-8160890": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):stripe-8175637": "2026-10-28T02:36:47.152343+00:00",
   "Company boards (Greenhouse):stripe-8204652": "2026-10-16T20:09:53.312802+00:00",
   "Company boards (Greenhouse):stripe-8209633": "2026-09-25T21:43:34.260220+00:00",
   "Company boards (Greenhouse):stripe-8214620": "2026-09-29T17:08:45.517828+00:00",
   "Company boards (Greenhouse):stripe-8223113": "2026-11-04T21:08:27.418133+00:00",
   "Company boards (Greenhouse):stripe-8224617": "2026-11-04T02:33:50.098881+00:00",
-  "Company boards (Greenhouse):stripe-8224620": "2026-09-25T16:09:23.143404+00:00",
   "Company boards (Greenhouse):stripe-8230276": "2026-09-30T09:28:49.275635+00:00",
   "Company boards (Greenhouse):stripe-8231202": "2026-10-06T08:11:29.827578+00:00",
   "Company boards (Greenhouse):stripe-8234703": "2026-10-07T16:41:18.237442+00:00",
@@ -4955,7 +4957,6 @@
   "T-Mobile:REQ383048": "2026-11-20T02:41:25.354841+00:00",
   "T-Mobile:REQ383584": "2026-11-20T02:41:25.354841+00:00",
   "Zillow:P751127": "2026-10-04T18:44:59.701329+00:00",
-  "Zillow:P751305": "2026-10-05T14:28:22.130549+00:00",
-  "Zillow:P751334": "2026-09-25T16:09:23.143404+00:00"
+  "Zillow:P751305": "2026-10-05T14:28:22.130549+00:00"
  }
 }
