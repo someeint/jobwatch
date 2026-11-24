@@ -802,48 +802,28 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 12,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
   "Boeing": {
-   "fails": 22,
+   "fails": 23,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 10,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 106 jobs collected before the block"
+   "fails": 11,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
-  "T-Mobile": {
-   "fails": 5,
-   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
-  },
   "Zillow": {
-   "fails": 79,
+   "fails": 80,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2945,6 +2925,7 @@
   "Indeed:f0ed9038e172b638": "2026-11-05T18:09:51.160698+00:00",
   "Indeed:f797b4101fe48084": "2026-10-10T06:09:43.754998+00:00",
   "Indeed:f97108745adc4040": "2026-11-23T23:08:39.281232+00:00",
+  "Indeed:fba6f97b5bb5d45a": "2026-11-24T13:12:09.750913+00:00",
   "Indeed:fc8badeb24cfcb68": "2026-11-24T07:08:59.953724+00:00",
   "Indeed:fe0f8147bea49e71": "2026-09-30T10:09:09.259204+00:00",
   "King County (gov):5490335": "2026-11-21T15:31:03.637357+00:00",
