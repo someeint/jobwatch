@@ -803,35 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 22,
+   "fails": 23,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 25,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+   "fails": 26,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
   "Salesforce": {
-   "fails": 24,
+   "fails": 25,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 94,
+   "fails": 95,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2808,6 +2816,7 @@
   "Company boards (Greenhouse):toast-8326864": "2026-11-02T10:04:11.045846+00:00",
   "Company boards (Greenhouse):toast-8327113": "2026-11-04T21:08:27.418133+00:00",
   "Company boards (Greenhouse):toast-8392824": "2026-11-20T15:10:21.360479+00:00",
+  "Company boards (Greenhouse):toast-8412581": "2026-11-25T03:46:17.591806+00:00",
   "Company boards (Greenhouse):twilio-8190719": "2026-10-05T21:34:20.019911+00:00",
   "Company boards (Greenhouse):twilio-8240491": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):twilio-8257820": "2026-10-15T22:08:41.491499+00:00",
@@ -4557,6 +4566,7 @@
   "LinkedIn:4494151438": "2026-11-24T15:44:35.826403+00:00",
   "LinkedIn:4494378770": "2026-11-24T17:06:00.336106+00:00",
   "LinkedIn:4494387795": "2026-11-24T17:06:00.336106+00:00",
+  "LinkedIn:4494773031": "2026-11-25T03:46:17.591806+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
