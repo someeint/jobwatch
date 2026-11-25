@@ -803,39 +803,39 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 35,
+   "fails": 36,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 20,
+   "fails": 21,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 23,
+   "fails": 24,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 22,
+   "fails": 23,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 92,
+   "fails": 93,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2316,6 +2316,7 @@
   "Company boards (Ashby):ramp-b5bd9c30-4bc3-435e-aec1-43405474d317": "2026-11-23T18:29:04.827582+00:00",
   "Company boards (Ashby):ramp-cc0af88a-2a19-493d-93cf-c5090f986f1f": "2026-10-06T15:09:34.366357+00:00",
   "Company boards (Ashby):ramp-e0cca3aa-24f7-46ca-9493-9984a7ae2285": "2026-10-23T20:34:49.233535+00:00",
+  "Company boards (Ashby):ramp-ed41c87a-f944-447c-b1aa-7d8a2c005560": "2026-11-25T01:23:42.239872+00:00",
   "Company boards (Ashby):ramp-f2495eb1-ca1c-48ee-bdac-d50b0c8c0d16": "2026-11-20T23:08:38.817715+00:00",
   "Company boards (Ashby):ramp-fc753f8d-7f2f-4b12-9db2-a5694ce4e74c": "2026-10-16T18:26:28.839702+00:00",
   "Company boards (Ashby):ramp-fe280d10-4258-420a-b0bb-0dc9021bd803": "2026-11-04T02:33:50.098881+00:00",
@@ -2714,7 +2715,6 @@
   "Company boards (Greenhouse):reddit-8319764": "2026-10-30T23:08:23.199961+00:00",
   "Company boards (Greenhouse):reddit-8329278": "2026-10-28T20:34:38.477357+00:00",
   "Company boards (Greenhouse):reddit-8337323": "2026-11-05T02:54:28.200176+00:00",
-  "Company boards (Greenhouse):robinhood-7804542": "2026-09-26T00:52:41.416610+00:00",
   "Company boards (Greenhouse):robinhood-8231449": "2026-11-03T01:09:21.913654+00:00",
   "Company boards (Greenhouse):robinhood-8244634": "2026-10-05T22:06:21.141746+00:00",
   "Company boards (Greenhouse):robinhood-8259652": "2026-10-07T19:06:50.961237+00:00",
@@ -2845,7 +2845,6 @@
   "Company boards (Lever):zoox-11a8089e-0c7b-473a-bda5-810b8ba8acc7": "2026-11-13T20:51:04.647848+00:00",
   "Company boards (Lever):zoox-26dfcdd9-12e8-40f6-b8f2-ff91088390e6": "2026-10-06T16:11:58.127634+00:00",
   "Company boards (Lever):zoox-33225e1d-dd21-4ffe-b2bd-164d5a602457": "2026-10-22T17:52:03.404379+00:00",
-  "Company boards (Lever):zoox-42bb084b-e5a0-47d7-bdf7-90a24026e4c5": "2026-09-26T00:52:41.416610+00:00",
   "Company boards (Lever):zoox-4645fddd-019c-470c-96c8-552496b30450": "2026-10-05T23:08:42.174848+00:00",
   "Company boards (Lever):zoox-51af47c0-7243-4f27-b13b-dbcde4c06781": "2026-10-14T00:09:04.150223+00:00",
   "Company boards (Lever):zoox-94942f6a-46a9-43c3-8584-840158ec8cd6": "2026-11-12T21:52:58.077118+00:00",
@@ -4579,7 +4578,6 @@
   "Microsoft:1970393556956273": "2026-10-24T01:50:30.312822+00:00",
   "Microsoft:1970393556958329": "2026-10-01T15:43:50.514781+00:00",
   "Microsoft:1970393556958332": "2026-10-01T15:43:50.514781+00:00",
-  "Microsoft:1970393556977315": "2026-09-26T00:52:41.416610+00:00",
   "Microsoft:1970393556977327": "2026-10-01T22:08:44.884574+00:00",
   "Microsoft:1970393556978143": "2026-10-16T18:26:28.839702+00:00",
   "Microsoft:1970393556978171": "2026-10-08T19:09:01.291512+00:00",
