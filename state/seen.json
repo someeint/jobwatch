@@ -803,27 +803,55 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
+  "City of Seattle (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
   "CrowdStrike": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "King County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+  },
   "LinkedIn": {
-   "fails": 39,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 103 jobs collected before the block"
+   "fails": 40,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
+  "Nordstrom": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  },
+  "Salesforce": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
+  },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
+  "T-Mobile": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
+  },
   "Zillow": {
-   "fails": 108,
+   "fails": 109,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2037,6 +2065,7 @@
   "Amazon:10612266": "2026-11-24T00:12:10.289587+00:00",
   "Amazon:10613219": "2026-11-24T20:35:28.093765+00:00",
   "Amazon:10613507": "2026-11-24T23:08:58.077937+00:00",
+  "Amazon:10614138": "2026-11-25T18:09:54.114601+00:00",
   "Boeing:JR2026510311": "2026-10-16T17:28:06.731197+00:00",
   "Boeing:JR2026512782": "2026-11-21T00:19:27.173020+00:00",
   "Boeing:JR2026515431": "2026-10-23T14:13:33.243839+00:00",
