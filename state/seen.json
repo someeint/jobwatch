@@ -803,31 +803,39 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 35,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
+   "fails": 36,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 104,
+   "fails": 105,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2660,6 +2668,7 @@
   "Company boards (Greenhouse):mongodb-8395822": "2026-11-19T16:09:59.091415+00:00",
   "Company boards (Greenhouse):mongodb-8397251": "2026-11-19T16:09:59.091415+00:00",
   "Company boards (Greenhouse):mongodb-8399041": "2026-11-18T22:08:53.001318+00:00",
+  "Company boards (Greenhouse):mongodb-8411524": "2026-11-25T12:09:55.163670+00:00",
   "Company boards (Greenhouse):okta-8213755": "2026-10-02T00:09:16.487928+00:00",
   "Company boards (Greenhouse):okta-8239973": "2026-09-29T18:29:42.364371+00:00",
   "Company boards (Greenhouse):okta-8245295": "2026-10-02T16:42:22.792146+00:00",
