@@ -803,27 +803,31 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
+  "Boeing": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
+  },
   "CrowdStrike": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 34,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+   "fails": 35,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+  "Salesforce": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 16,
+   "fails": 17,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 103,
+   "fails": 104,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
