@@ -1,14 +1,6 @@
 {
  "alerts": [
   {
-   "s": 78,
-   "t": "2026-09-23T18:08:12.160394+00:00"
-  },
-  {
-   "s": 78,
-   "t": "2026-09-23T23:08:40.574206+00:00"
-  },
-  {
    "s": 84,
    "t": "2026-09-24T17:08:34.169066+00:00"
   },
@@ -799,59 +791,39 @@
   {
    "s": 76,
    "t": "2026-11-24T18:08:44.659248+00:00"
+  },
+  {
+   "s": 79,
+   "t": "2026-11-25T17:10:02.372702+00:00"
+  },
+  {
+   "s": 75,
+   "t": "2026-11-25T17:10:02.372702+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 38,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 68 jobs collected before the block"
+   "fails": 39,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 103 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Nordstrom": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
-  },
-  "Salesforce": {
-   "fails": 4,
-   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
-  },
-  "Snohomish County (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
-  "T-Mobile": {
-   "fails": 20,
-   "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
-  },
   "Zillow": {
-   "fails": 107,
+   "fails": 108,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -860,6 +832,7 @@
   "00ea8aa31efaabb5": "2026-09-19T18:31:08.637985+00:00",
   "01b5ee7d59600c38": "2026-09-19T18:31:08.637985+00:00",
   "02569ff0f9318b82": "2026-09-22T12:05:43.805270+00:00",
+  "03233117c226f5de": "2026-11-25T17:10:02.372702+00:00",
   "03626a39aa2c4d37": "2026-09-28T18:09:05.543892+00:00",
   "03820f46ccb372e6": "2026-09-19T18:31:08.637985+00:00",
   "048cd57c6d65a0ec": "2026-09-20T18:07:04.190883+00:00",
@@ -1026,6 +999,7 @@
   "67135491205333e2": "2026-09-19T18:31:08.637985+00:00",
   "6770ccd8c90572a1": "2026-09-19T18:31:08.637985+00:00",
   "6a5feeda38dad9d6": "2026-09-29T17:08:45.517828+00:00",
+  "6bbd75456feb2a09": "2026-11-25T17:10:02.372702+00:00",
   "6bebf0b66c86d542": "2026-09-20T01:42:03.941384+00:00",
   "6c62ac04f561fa8f": "2026-09-24T19:31:20.122338+00:00",
   "6cfd664324aa937c": "2026-09-19T18:31:08.637985+00:00",
@@ -1289,6 +1263,7 @@
   "Company boards (Greenhouse):coinbase-8198059": "2026-09-20T01:42:03.941384+00:00",
   "Company boards (Greenhouse):coinbase-8230848": "2026-10-12T19:09:44.943756+00:00",
   "Company boards (Greenhouse):databricks-8922572002": "2026-11-17T21:08:50.794615+00:00",
+  "Company boards (Greenhouse):datadog-8417469": "2026-11-25T17:10:02.372702+00:00",
   "Company boards (Greenhouse):dropbox-8356674": "2026-11-10T21:09:13.911995+00:00",
   "Company boards (Greenhouse):gitlab-8907028002": "2026-10-22T01:56:36.745076+00:00",
   "Company boards (Greenhouse):instacart-8205692": "2026-09-20T01:42:03.941384+00:00",
@@ -1559,6 +1534,7 @@
   "LinkedIn:4493684657": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493904474": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493951772": "2026-11-24T03:07:58.764320+00:00",
+  "LinkedIn:4494796711": "2026-11-25T17:10:02.372702+00:00",
   "Microsoft:1970393556924491": "2026-10-05T23:08:42.174848+00:00",
   "Microsoft:1970393556929416": "2026-09-19T18:31:08.637985+00:00",
   "Microsoft:1970393556941469": "2026-09-19T18:31:08.637985+00:00",
@@ -2395,6 +2371,8 @@
   "Company boards (Greenhouse):airbnb-8355483": "2026-11-11T19:09:56.521236+00:00",
   "Company boards (Greenhouse):airbnb-8356141": "2026-11-11T19:09:56.521236+00:00",
   "Company boards (Greenhouse):airbnb-8357059": "2026-11-06T11:28:20.278089+00:00",
+  "Company boards (Greenhouse):airbnb-8358646": "2026-11-25T17:10:02.372702+00:00",
+  "Company boards (Greenhouse):airbnb-8358671": "2026-11-25T17:10:02.372702+00:00",
   "Company boards (Greenhouse):airbnb-8383877": "2026-11-18T17:09:24.076679+00:00",
   "Company boards (Greenhouse):airbnb-8393253": "2026-11-16T17:29:46.187570+00:00",
   "Company boards (Greenhouse):airbnb-8394471": "2026-11-23T21:09:11.575695+00:00",
@@ -2571,10 +2549,12 @@
   "Company boards (Greenhouse):datadog-8335262": "2026-11-05T19:50:27.386727+00:00",
   "Company boards (Greenhouse):datadog-8384194": "2026-11-19T20:08:44.554159+00:00",
   "Company boards (Greenhouse):datadog-8402937": "2026-11-19T20:08:44.554159+00:00",
+  "Company boards (Greenhouse):datadog-8417250": "2026-11-25T17:10:02.372702+00:00",
   "Company boards (Greenhouse):dropbox-8048844": "2026-11-18T21:08:51.671935+00:00",
   "Company boards (Greenhouse):dropbox-8234201": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):dropbox-8234202": "2026-10-01T15:43:50.514781+00:00",
   "Company boards (Greenhouse):dropbox-8356675": "2026-11-10T21:09:13.911995+00:00",
+  "Company boards (Greenhouse):dropbox-8366661": "2026-11-25T17:10:02.372702+00:00",
   "Company boards (Greenhouse):duolingo-8875080002": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Greenhouse):duolingo-8883563002": "2026-10-12T16:54:32.569743+00:00",
   "Company boards (Greenhouse):duolingo-8933285002": "2026-11-06T16:12:37.062790+00:00",
@@ -2922,6 +2902,7 @@
   "Indeed:5f58c1d8741b148b": "2026-11-02T19:12:12.848760+00:00",
   "Indeed:5fb948c602fbdb2b": "2026-10-23T06:13:20.388436+00:00",
   "Indeed:60ff58e2fde10be9": "2026-11-19T18:09:18.451565+00:00",
+  "Indeed:6482458a728f3aaf": "2026-11-25T17:10:02.372702+00:00",
   "Indeed:685592aa546dc486": "2026-11-01T20:09:31.907633+00:00",
   "Indeed:6d45b0d12442a911": "2026-10-20T17:18:27.607230+00:00",
   "Indeed:71c65f45ea348632": "2026-10-15T20:01:21.325490+00:00",
@@ -3717,6 +3698,7 @@
   "LinkedIn:4478675221": "2026-10-20T17:18:27.607230+00:00",
   "LinkedIn:4478709785": "2026-10-13T00:10:31.247672+00:00",
   "LinkedIn:4478718157": "2026-10-12T23:31:16.059564+00:00",
+  "LinkedIn:4478733631": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4478799522": "2026-10-13T13:21:15.732534+00:00",
   "LinkedIn:4478868265": "2026-10-15T11:59:23.453726+00:00",
   "LinkedIn:4478925030": "2026-10-20T19:10:30.498097+00:00",
@@ -4555,6 +4537,7 @@
   "LinkedIn:4493361752": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493365279": "2026-11-24T03:07:58.764320+00:00",
   "LinkedIn:4493385704": "2026-11-22T20:24:41.919533+00:00",
+  "LinkedIn:4493410329": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4493669613": "2026-11-24T03:07:58.764320+00:00",
   "LinkedIn:4493699404": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493782765": "2026-11-23T21:09:11.575695+00:00",
@@ -4576,15 +4559,25 @@
   "LinkedIn:4494094241": "2026-11-24T08:09:06.631366+00:00",
   "LinkedIn:4494118684": "2026-11-24T12:10:11.889351+00:00",
   "LinkedIn:4494151438": "2026-11-24T15:44:35.826403+00:00",
+  "LinkedIn:4494183687": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494378770": "2026-11-24T17:06:00.336106+00:00",
+  "LinkedIn:4494383929": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494387795": "2026-11-24T17:06:00.336106+00:00",
+  "LinkedIn:4494401355": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494417292": "2026-11-25T15:09:43.474298+00:00",
+  "LinkedIn:4494442699": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4494447111": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494454235": "2026-11-25T15:09:43.474298+00:00",
   "LinkedIn:4494457353": "2026-11-25T15:09:43.474298+00:00",
+  "LinkedIn:4494729139": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4494737573": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494773031": "2026-11-25T03:46:17.591806+00:00",
   "LinkedIn:4494793269": "2026-11-25T10:09:35.407594+00:00",
   "LinkedIn:4494793838": "2026-11-25T15:09:43.474298+00:00",
   "LinkedIn:4494911707": "2026-11-25T15:09:43.474298+00:00",
+  "LinkedIn:4494918899": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4494924667": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4494943010": "2026-11-25T17:10:02.372702+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
@@ -4941,6 +4934,7 @@
   "T-Mobile:REQ362630": "2026-11-24T07:08:59.953724+00:00",
   "T-Mobile:REQ364040": "2026-10-01T19:08:49.260098+00:00",
   "T-Mobile:REQ365679": "2026-10-30T18:08:58.806463+00:00",
+  "T-Mobile:REQ366092": "2026-11-25T17:10:02.372702+00:00",
   "T-Mobile:REQ367196": "2026-10-26T17:01:32.270577+00:00",
   "T-Mobile:REQ370818": "2026-11-02T20:10:18.887664+00:00",
   "T-Mobile:REQ372297": "2026-10-23T20:34:49.233535+00:00",
