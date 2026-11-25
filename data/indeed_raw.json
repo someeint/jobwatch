@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-11-25T08:45:22+00:00",
+  "generated_at": "2026-11-25T09:14:11+00:00",
   "note": "Populated by a Cowork task running a browser on Olia's computer (Indeed blocks GitHub's IPs). Do not hand-edit.",
   "jobs": [
+    {
+      "id": "9499e036e5b0b4fe",
+      "title": "Program Manager - Strategic & Corporate Finance",
+      "company": "REI (Recreational Equipment Inc.)",
+      "url": "https://www.indeed.com/viewjob?jk=9499e036e5b0b4fe",
+      "location": "Seattle, WA 98109",
+      "snippet": "Proficiency with program management tools, collaboration platforms, status reporting methods, and data-driven program tracking.",
+      "remote": false
+    },
     {
       "id": "c9705140f7667edf",
       "title": "Sr. Program Manager, Worldwide Ergonomics and Safety Experience, Worldwide Ergonomics and Safety Experience",
@@ -53,7 +62,7 @@
       "company": "Sound Transit",
       "url": "https://www.indeed.com/viewjob?jk=805dc5e51715efe9",
       "location": "Seattle, WA 98104",
-      "snippet": "Monitoring program/project operating budgets, costs, and schedules. Bachelor's Degree in business administration, public administration, communications,…",
+      "snippet": "Monitoring program/project operating budgets, costs, and schedules. Bachelor’s Degree in business administration, public administration, communications,…",
       "remote": false
     },
     {
@@ -72,15 +81,6 @@
       "url": "https://www.indeed.com/viewjob?jk=82904ae1fabd91b3",
       "location": "Bellevue, WA 98009",
       "snippet": "Establish and maintain scalable program management practices that balance efficiency with appropriate oversight.",
-      "remote": false
-    },
-    {
-      "id": "eac3016a70d3a778",
-      "title": "Senior Project Manager – New Electrical Hyperscale Data Center Construction",
-      "company": "Owen Electric",
-      "url": "https://www.indeed.com/viewjob?jk=eac3016a70d3a778",
-      "location": "United States",
-      "snippet": "This role is ideal for a senior operator who can manage multiple phases, buildings, or workstreams while driving schedule, cost, and execution discipline across…",
       "remote": false
     },
     {
@@ -129,12 +129,12 @@
       "remote": false
     },
     {
-      "id": "4623a10fd245eecd",
-      "title": "Senior Program Manager, Change Management, WWEI NA Last Mile Launch & Expansion",
-      "company": "Amazon.com Services LLC",
-      "url": "https://www.indeed.com/viewjob?jk=4623a10fd245eecd",
-      "location": "Bellevue, WA 98006",
-      "snippet": "Experience owning program strategy, end to end delivery, and communicating results to senior leadership. 5+ years of program or project management experience.",
+      "id": "d7ee96f435d9ce92",
+      "title": "Project Manager - LAT/PTE/URB/VIM/HTS",
+      "company": "Allied Residential",
+      "url": "https://www.indeed.com/viewjob?jk=d7ee96f435d9ce92",
+      "location": "Renton, WA 98057",
+      "snippet": "We're seeking a highly skilled and motivated Project Manager to oversee and coordinate maintenance projects across multiple properties.",
       "remote": false
     },
     {
@@ -174,39 +174,12 @@
       "remote": false
     },
     {
-      "id": "8327be01e1caf225",
-      "title": "Service Coordinator/Dispatcher",
-      "company": "Titan Electric",
-      "url": "https://www.indeed.com/viewjob?jk=8327be01e1caf225",
-      "location": "Bellevue, WA 98005",
-      "snippet": "The Service Coordinator/Dispatcher provides support to internal and external customers in a fast paced, high volume department. Material Orders for T&M jobs.",
-      "remote": false
-    },
-    {
-      "id": "d7ee96f435d9ce92",
-      "title": "Project Manager - LAT/PTE/URB/VIM/HTS",
-      "company": "Allied Residential",
-      "url": "https://www.indeed.com/viewjob?jk=d7ee96f435d9ce92",
-      "location": "Renton, WA 98057",
-      "snippet": "We're seeking a highly skilled and motivated Project Manager to oversee and coordinate maintenance projects across multiple properties.",
-      "remote": false
-    },
-    {
       "id": "85f7802eb3879c6b",
       "title": "Operations Program Manager, Electronics Supply Chain, Amazon Leo",
       "company": "Amazon Kuiper Manufacturing Enterprises LLC",
       "url": "https://www.indeed.com/viewjob?jk=85f7802eb3879c6b",
       "location": "Bellevue, WA",
       "snippet": "3+ years of technical product or program management experience. As the team develops new products and scales production, we are looking for a collaborative,…",
-      "remote": false
-    },
-    {
-      "id": "e645f005cd3ea03e",
-      "title": "Family Time Program Coordinator - West Seattle",
-      "company": "Washington State Health Care Authority",
-      "url": "https://www.indeed.com/viewjob?jk=e645f005cd3ea03e",
-      "location": "Seattle, WA",
-      "snippet": "Maintains statistical data to monitor program activities in relation to established program parameters. This position provides support to the regional family…",
       "remote": false
     },
     {
@@ -228,12 +201,30 @@
       "remote": false
     },
     {
+      "id": "e645f005cd3ea03e",
+      "title": "Family Time Program Coordinator - West Seattle",
+      "company": "Washington State Health Care Authority",
+      "url": "https://www.indeed.com/viewjob?jk=e645f005cd3ea03e",
+      "location": "Seattle, WA",
+      "snippet": "Maintains statistical data to monitor program activities in relation to established program parameters. This position provides support to the regional family…",
+      "remote": false
+    },
+    {
       "id": "61f17cf0eedd7fd3",
       "title": "Distribution Supervisor",
       "company": "Mclane Company, Inc.",
       "url": "https://www.indeed.com/viewjob?jk=61f17cf0eedd7fd3",
       "location": "Lakewood, WA 98499",
       "snippet": "The Distribution Supervisor is responsible for establishing and maintaining successful operations of an assigned area, department, or shift of the warehouse/…",
+      "remote": false
+    },
+    {
+      "id": "35abfa7670fa2be3",
+      "title": "Freight Forwarding Agent with Air Cargo exp",
+      "company": "All StarZ Staffing",
+      "url": "https://www.indeed.com/viewjob?jk=35abfa7670fa2be3",
+      "location": "SeaTac, WA 98188",
+      "snippet": "In this role, you will coordinate and manage the transportation of goods across domestic and international markets, ensuring compliance with trade regulations…",
       "remote": false
     },
     {
@@ -279,6 +270,15 @@
       "url": "https://www.indeed.com/viewjob?jk=590171ff0cd37eff",
       "location": "Kirkland, WA",
       "snippet": "Health, dental, vision, life, disability insurance. Retirement Benefits: 401(k) with company match. Paid Time Off: 20 days of vacation per year, accruing at a…",
+      "remote": false
+    },
+    {
+      "id": "a6d3938066aed7cf",
+      "title": "Senior Account Manager",
+      "company": "Pinkerton",
+      "url": "https://www.indeed.com/viewjob?jk=a6d3938066aed7cf",
+      "location": "Redmond, WA 98053",
+      "snippet": "This role also manages vendor relationships, equipment logistics, and timekeeping functions to ensure consistent, high-quality service delivery and client…",
       "remote": false
     },
     {
@@ -377,16 +377,7 @@
       "company": "PNE",
       "url": "https://www.indeed.com/viewjob?jk=bf1dd2d442305831",
       "location": "Lakewood, WA 98499",
-      "snippet": "This could include developing detailed financial models, risk assessments and strategic justifications for major partnerships or market expansion.",
-      "remote": false
-    },
-    {
-      "id": "c6e02eb53c94f2ba",
-      "title": "Marketing Operations Manager",
-      "company": "Expedia",
-      "url": "https://www.indeed.com/viewjob?jk=c6e02eb53c94f2ba",
-      "location": "Seattle, WA",
-      "snippet": "Support data migration projects and system updates/changes, ensuring business requirements are met; assist with data validation (e.g., field values, picklists,…",
+      "snippet": "Lead Generation: Proactively identify and generate new business opportunities and qualified leads. Develop and maintain comprehensive market strategy for…",
       "remote": false
     },
     {
@@ -399,12 +390,21 @@
       "remote": false
     },
     {
-      "id": "76dbb4ba4fdfbaa9",
-      "title": "Senior Provider Operations Manager",
-      "company": "Maven Clinic",
-      "url": "https://www.indeed.com/viewjob?jk=76dbb4ba4fdfbaa9",
+      "id": "c6e02eb53c94f2ba",
+      "title": "Marketing Operations Manager",
+      "company": "Expedia",
+      "url": "https://www.indeed.com/viewjob?jk=c6e02eb53c94f2ba",
       "location": "Seattle, WA",
-      "snippet": "Run recurring business reviews that show leaders network trends, risks, and where to invest. 2+ years experience with provider or network operations for a multi…",
+      "snippet": "Support data migration projects and system updates/changes, ensuring business requirements are met; assist with data validation (e.g., field values, picklists,…",
+      "remote": false
+    },
+    {
+      "id": "330100dbb4176c68",
+      "title": "Division Manager - Electrical Data Center Construction",
+      "company": "Owen Electric Company, Inc.",
+      "url": "https://www.indeed.com/viewjob?jk=330100dbb4176c68",
+      "location": "United States",
+      "snippet": "We are looking for a results-driven Electrical Data Center Division Manager to oversee the planning, execution, and successful completion of construction…",
       "remote": false
     },
     {
@@ -414,6 +414,15 @@
       "url": "https://www.indeed.com/viewjob?jk=c140101759fcbbb9",
       "location": "Bellevue, WA 98008",
       "snippet": "5 years of experience as a team lead, supervisor, or manager. 5 years of implementing nuclear power plant operations , maintenance, administrative, or…",
+      "remote": false
+    },
+    {
+      "id": "76dbb4ba4fdfbaa9",
+      "title": "Senior Provider Operations Manager",
+      "company": "Maven Clinic",
+      "url": "https://www.indeed.com/viewjob?jk=76dbb4ba4fdfbaa9",
+      "location": "Seattle, WA",
+      "snippet": "Run recurring business reviews that show leaders network trends, risks, and where to invest. 2+ years experience with provider or network operations for a multi…",
       "remote": false
     },
     {
@@ -435,15 +444,6 @@
       "remote": false
     },
     {
-      "id": "0a74f6d0d6873595",
-      "title": "Security Operations Manager - Full Time",
-      "company": "Securitas Security Services",
-      "url": "https://www.indeed.com/viewjob?jk=0a74f6d0d6873595",
-      "location": "Renton, WA",
-      "snippet": "Support projects and initiatives by providing analytical and operations input and tracking progress. Oversee day-to-day operations and team performance within…",
-      "remote": false
-    },
-    {
       "id": "8683329b6470c577",
       "title": "Senior Programmatic Development Manager, Amazon Digital Advertisement",
       "company": "Amazon.com Services LLC",
@@ -458,7 +458,7 @@
       "company": "Boeing",
       "url": "https://www.indeed.com/viewjob?jk=0a5e71325de72123",
       "location": "Everett, WA",
-      "snippet": "Typically 6 or more years' related work experience or relevant military experience. Bachelor's degree or higher. This position is for 1st shift.",
+      "snippet": "Typically 6 or more years’ related work experience or relevant military experience. Bachelor’s degree or higher. This position is for 1st shift.",
       "remote": false
     },
     {
@@ -467,7 +467,7 @@
       "company": "Boeing",
       "url": "https://www.indeed.com/viewjob?jk=b3df4c1fdbb1702c",
       "location": "Tukwila, WA",
-      "snippet": "Typically 3 or more years' related work experience or relevant military experience. 2 or more years of experience in procurement, purchasing, or supply chain.",
+      "snippet": "Typically 3 or more years’ related work experience or relevant military experience. 2 or more years of experience in procurement, purchasing, or supply chain.",
       "remote": false
     },
     {
@@ -476,7 +476,7 @@
       "company": "Boeing",
       "url": "https://www.indeed.com/viewjob?jk=dbab6f04456d2104",
       "location": "Everett, WA",
-      "snippet": "Typically 10 or more years' related work experience or relevant military experience. Bachelor's degree or higher. This position is for 1st shift.",
+      "snippet": "Typically 10 or more years’ related work experience or relevant military experience. Bachelor’s degree or higher. This position is for 1st shift.",
       "remote": false
     },
     {
