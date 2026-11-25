@@ -802,32 +802,56 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
+  },
   "Boeing": {
-   "fails": 44,
+   "fails": 45,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "CrowdStrike": {
+  "City of Seattle (gov)": {
    "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
+  },
+  "City of Tacoma (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
+  },
+  "CrowdStrike": {
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "King County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
+  },
   "LinkedIn": {
-   "fails": 32,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
+   "fails": 33,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 50 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 31,
+   "fails": 32,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Snohomish County (gov)": {
+   "fails": 1,
+   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
+  },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 14,
+   "fails": 15,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 101,
+   "fails": 102,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2566,6 +2590,7 @@
   "Company boards (Greenhouse):flexport-8384368": "2026-11-13T01:08:48.221651+00:00",
   "Company boards (Greenhouse):flexport-8386921": "2026-11-17T16:09:50.275718+00:00",
   "Company boards (Greenhouse):flexport-8396840": "2026-11-18T08:14:58.457938+00:00",
+  "Company boards (Greenhouse):flexport-8399604": "2026-11-25T10:09:35.407594+00:00",
   "Company boards (Greenhouse):gitlab-8770661002": "2026-10-09T17:09:14.971022+00:00",
   "Company boards (Greenhouse):gitlab-8845972002": "2026-10-09T15:09:58.524674+00:00",
   "Company boards (Greenhouse):gitlab-8859694002": "2026-10-02T00:09:16.487928+00:00",
@@ -4555,6 +4580,7 @@
   "LinkedIn:4494378770": "2026-11-24T17:06:00.336106+00:00",
   "LinkedIn:4494387795": "2026-11-24T17:06:00.336106+00:00",
   "LinkedIn:4494773031": "2026-11-25T03:46:17.591806+00:00",
+  "LinkedIn:4494793269": "2026-11-25T10:09:35.407594+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393556941919": "2026-10-12T23:31:16.059564+00:00",
