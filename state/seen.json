@@ -803,55 +803,27 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
-  "Boeing": {
-   "fails": 45,
-   "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
-  },
-  "City of Seattle (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 33,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 50 jobs collected before the block"
+   "fails": 34,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Microsoft": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
-  "Salesforce": {
-   "fails": 32,
-   "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
-  },
-  "Snohomish County (gov)": {
-   "fails": 1,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
-  "Starbucks": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
-  },
   "T-Mobile": {
-   "fails": 15,
+   "fails": 16,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 102,
+   "fails": 103,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2075,6 +2047,7 @@
   "Boeing:JR2026519118": "2026-10-05T22:06:21.141746+00:00",
   "Boeing:JR2026519212": "2026-11-05T21:09:28.804126+00:00",
   "Boeing:JR2026519407": "2026-10-22T20:38:56.897100+00:00",
+  "Boeing:JR2026519568": "2026-11-25T10:12:21.358265+00:00",
   "Boeing:JR2026519660": "2026-10-21T22:08:35.999291+00:00",
   "Boeing:JR2026519953": "2026-10-08T18:52:59.131833+00:00",
   "Boeing:JR2026520412": "2026-10-22T23:09:26.246947+00:00",
@@ -2178,6 +2151,8 @@
   "Boeing:JR2026529675": "2026-11-16T23:09:11.069090+00:00",
   "Boeing:JR2026529725": "2026-11-20T02:41:25.354841+00:00",
   "Boeing:JR2026529797": "2026-11-16T23:09:11.069090+00:00",
+  "Boeing:JR2026530170": "2026-11-25T10:12:21.358265+00:00",
+  "Boeing:JR2026530257": "2026-11-25T10:12:21.358265+00:00",
   "City of Seattle (gov):5451530": "2026-11-19T16:09:59.091415+00:00",
   "City of Seattle (gov):5467576": "2026-11-05T18:09:51.160698+00:00",
   "City of Seattle (gov):5507608": "2026-10-06T23:52:55.846499+00:00",
@@ -4772,6 +4747,7 @@
   "Salesforce:JR361386": "2026-10-12T13:29:23.437019+00:00",
   "Salesforce:JR361423": "2026-10-06T20:09:13.575994+00:00",
   "Salesforce:JR361668": "2026-10-09T17:09:14.971022+00:00",
+  "Salesforce:JR361669": "2026-11-25T10:12:21.358265+00:00",
   "Salesforce:JR361752": "2026-10-02T11:19:57.899671+00:00",
   "Salesforce:JR362015": "2026-09-30T22:08:58.173147+00:00",
   "Salesforce:JR362030": "2026-10-20T02:48:08.507343+00:00",
@@ -4908,12 +4884,17 @@
   "Salesforce:JR368325": "2026-11-13T16:26:24.658224+00:00",
   "Salesforce:JR368398": "2026-11-21T21:02:02.746371+00:00",
   "Salesforce:JR368454": "2026-11-21T21:02:02.746371+00:00",
+  "Salesforce:JR368576": "2026-11-25T10:12:21.358265+00:00",
   "Salesforce:JR368695": "2026-11-21T21:02:02.746371+00:00",
   "Salesforce:JR368711": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR368726": "2026-11-25T10:12:21.358265+00:00",
   "Salesforce:JR368851": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368852": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368894": "2026-11-20T07:09:20.386736+00:00",
   "Salesforce:JR368956": "2026-11-20T07:09:20.386736+00:00",
+  "Salesforce:JR368972": "2026-11-25T10:12:21.358265+00:00",
+  "Salesforce:JR368997": "2026-11-25T10:12:21.358265+00:00",
+  "Salesforce:JR369146": "2026-11-25T10:12:21.358265+00:00",
   "Salesforce:JR369213": "2026-11-21T21:02:02.746371+00:00",
   "Starbucks:481080882301": "2026-09-30T22:08:58.173147+00:00",
   "Starbucks:481080977556": "2026-09-28T20:08:20.739406+00:00",
