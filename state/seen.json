@@ -803,51 +803,55 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 8,
+   "fails": 9,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "City of Seattle (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
   },
   "City of Tacoma (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
   },
   "CrowdStrike": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "King County (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
   },
   "LinkedIn": {
-   "fails": 42,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 40 jobs collected before the block"
+   "fails": 43,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 106 jobs collected before the block"
+  },
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "Snohomish County (gov)": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
   },
   "T-Mobile": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 111,
+   "fails": 112,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -3269,7 +3273,6 @@
   "LinkedIn:4470534495": "2026-09-27T23:09:47.227377+00:00",
   "LinkedIn:4470559749": "2026-09-27T23:09:47.227377+00:00",
   "LinkedIn:4470560910": "2026-09-27T17:34:10.344740+00:00",
-  "LinkedIn:4470572803": "2026-09-26T23:08:04.276926+00:00",
   "LinkedIn:4470810212": "2026-10-19T18:09:19.613474+00:00",
   "LinkedIn:4470859378": "2026-09-28T16:05:18.088598+00:00",
   "LinkedIn:4471003872": "2026-09-28T07:36:22.833456+00:00",
@@ -4337,6 +4340,7 @@
   "LinkedIn:4489175060": "2026-11-19T02:08:20.884142+00:00",
   "LinkedIn:4489175061": "2026-11-20T10:30:17.846870+00:00",
   "LinkedIn:4489176018": "2026-11-10T01:10:05.396083+00:00",
+  "LinkedIn:4489179006": "2026-11-25T23:09:23.125550+00:00",
   "LinkedIn:4489183619": "2026-11-10T18:09:30.210296+00:00",
   "LinkedIn:4489185290": "2026-11-10T17:48:39.834606+00:00",
   "LinkedIn:4489191371": "2026-11-10T01:10:05.396083+00:00",
@@ -4536,6 +4540,7 @@
   "LinkedIn:4492780953": "2026-11-20T10:30:17.846870+00:00",
   "LinkedIn:4492792185": "2026-11-20T10:30:17.846870+00:00",
   "LinkedIn:4492836370": "2026-11-20T21:09:56.803459+00:00",
+  "LinkedIn:4492840926": "2026-11-25T23:09:23.125550+00:00",
   "LinkedIn:4492858286": "2026-11-22T21:09:00.406293+00:00",
   "LinkedIn:4492884737": "2026-11-22T07:57:32.123183+00:00",
   "LinkedIn:4492930921": "2026-11-20T21:09:56.803459+00:00",
@@ -4551,6 +4556,7 @@
   "LinkedIn:4493365279": "2026-11-24T03:07:58.764320+00:00",
   "LinkedIn:4493385704": "2026-11-22T20:24:41.919533+00:00",
   "LinkedIn:4493410329": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4493458573": "2026-11-25T23:09:23.125550+00:00",
   "LinkedIn:4493466174": "2026-11-25T22:09:31.006587+00:00",
   "LinkedIn:4493669613": "2026-11-24T03:07:58.764320+00:00",
   "LinkedIn:4493699404": "2026-11-23T21:09:11.575695+00:00",
@@ -4583,6 +4589,7 @@
   "LinkedIn:4494447111": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494454235": "2026-11-25T15:09:43.474298+00:00",
   "LinkedIn:4494457353": "2026-11-25T15:09:43.474298+00:00",
+  "LinkedIn:4494667950": "2026-11-25T23:09:23.125550+00:00",
   "LinkedIn:4494697386": "2026-11-25T19:56:11.367110+00:00",
   "LinkedIn:4494729139": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494737573": "2026-11-25T17:10:02.372702+00:00",
@@ -4592,8 +4599,12 @@
   "LinkedIn:4494911707": "2026-11-25T15:09:43.474298+00:00",
   "LinkedIn:4494918899": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4494924667": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4494939502": "2026-11-25T23:09:23.125550+00:00",
   "LinkedIn:4494941848": "2026-11-25T22:09:31.006587+00:00",
   "LinkedIn:4494943010": "2026-11-25T17:10:02.372702+00:00",
+  "LinkedIn:4494946614": "2026-11-25T23:09:23.125550+00:00",
+  "LinkedIn:4494948653": "2026-11-25T23:09:23.125550+00:00",
+  "LinkedIn:4494961463": "2026-11-25T23:09:23.125550+00:00",
   "LinkedIn:4495210105": "2026-11-25T22:09:31.006587+00:00",
   "Microsoft:1970393556753333": "2026-09-29T20:09:34.982033+00:00",
   "Microsoft:1970393556858332": "2026-10-27T20:47:12.496631+00:00",
