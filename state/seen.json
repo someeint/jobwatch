@@ -802,36 +802,28 @@
   }
  ],
  "health": {
-  "Adobe": {
-   "fails": 14,
-   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
-  },
   "Boeing": {
-   "fails": 40,
+   "fails": 41,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 7,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
   "Salesforce": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 97,
+   "fails": 98,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2593,6 +2585,7 @@
   "Company boards (Greenhouse):gitlab-8950909002": "2026-11-24T02:05:46.026967+00:00",
   "Company boards (Greenhouse):gitlab-8957093002": "2026-11-20T19:53:41.456357+00:00",
   "Company boards (Greenhouse):gitlab-8957097002": "2026-11-20T19:53:41.456357+00:00",
+  "Company boards (Greenhouse):gitlab-8959549002": "2026-11-25T06:09:49.503637+00:00",
   "Company boards (Greenhouse):gusto-8209666": "2026-10-02T22:09:11.154537+00:00",
   "Company boards (Greenhouse):gusto-8232302": "2026-09-30T18:53:00.441731+00:00",
   "Company boards (Greenhouse):gusto-8260095": "2026-10-08T21:10:48.498897+00:00",
@@ -3248,7 +3241,6 @@
   "LinkedIn:4470559749": "2026-09-27T23:09:47.227377+00:00",
   "LinkedIn:4470560910": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4470572803": "2026-09-26T23:08:04.276926+00:00",
-  "LinkedIn:4470776147": "2026-09-26T05:37:18.685981+00:00",
   "LinkedIn:4470810212": "2026-10-19T18:09:19.613474+00:00",
   "LinkedIn:4470859378": "2026-09-28T16:05:18.088598+00:00",
   "LinkedIn:4471003872": "2026-09-28T07:36:22.833456+00:00",
@@ -3304,7 +3296,6 @@
   "LinkedIn:4472220922": "2026-09-28T01:37:45.454310+00:00",
   "LinkedIn:4472226722": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4472234292": "2026-09-26T19:08:19.989517+00:00",
-  "LinkedIn:4472237915": "2026-09-26T05:37:18.685981+00:00",
   "LinkedIn:4472242813": "2026-09-27T17:34:10.344740+00:00",
   "LinkedIn:4472257771": "2026-09-26T14:33:23.963059+00:00",
   "LinkedIn:4472262678": "2026-09-27T23:09:47.227377+00:00",
@@ -4667,6 +4658,7 @@
   "Microsoft:1970393557074418": "2026-11-17T21:08:50.794615+00:00",
   "Microsoft:1970393557074733": "2026-11-18T17:09:24.076679+00:00",
   "Microsoft:1970393557075444": "2026-11-21T00:19:27.173020+00:00",
+  "Microsoft:1970393557075509": "2026-11-25T06:09:49.503637+00:00",
   "Microsoft:1970393557076499": "2026-11-21T07:24:26.397974+00:00",
   "Nordstrom:R-872034": "2026-10-28T17:18:13.210720+00:00",
   "Nordstrom:R-881551": "2026-09-30T15:09:05.432295+00:00",
