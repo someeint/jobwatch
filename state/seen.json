@@ -802,28 +802,36 @@
   }
  ],
  "health": {
+  "Adobe": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
+  },
   "Boeing": {
-   "fails": 41,
+   "fails": 42,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 26,
+   "fails": 27,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 29,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
+   "fails": 30,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
   "Salesforce": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
+  "Starbucks": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.starbucks.com"
+  },
   "T-Mobile": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 98,
+   "fails": 99,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2889,6 +2897,7 @@
   "Indeed:685592aa546dc486": "2026-11-01T20:09:31.907633+00:00",
   "Indeed:6d45b0d12442a911": "2026-10-20T17:18:27.607230+00:00",
   "Indeed:71c65f45ea348632": "2026-10-15T20:01:21.325490+00:00",
+  "Indeed:722a426d58501e0f": "2026-11-25T07:09:29.530907+00:00",
   "Indeed:73d44596a2695dac": "2026-10-28T23:42:01.229138+00:00",
   "Indeed:7524795326fa55f2": "2026-10-11T09:08:39.390562+00:00",
   "Indeed:793cb6f762e7041f": "2026-09-26T20:59:42.840350+00:00",
