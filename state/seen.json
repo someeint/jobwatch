@@ -803,35 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
+  "Indeed": {
+   "fails": 1,
+   "last_error": "relay data is 8.3h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+  },
   "LinkedIn": {
-   "fails": 48,
+   "fails": 49,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
-  },
   "Salesforce": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 117,
+   "fails": 118,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -4730,7 +4730,6 @@
   "Salesforce:JR302067": "2026-11-09T04:57:58.587071+00:00",
   "Salesforce:JR317907": "2026-10-30T09:41:11.093479+00:00",
   "Salesforce:JR323094": "2026-10-24T01:50:30.312822+00:00",
-  "Salesforce:JR327797": "2026-09-27T07:04:51.904322+00:00",
   "Salesforce:JR332505": "2026-10-07T19:06:50.961237+00:00",
   "Salesforce:JR336161": "2026-10-23T04:52:55.724244+00:00",
   "Salesforce:JR337669": "2026-10-15T06:32:13.275540+00:00",
