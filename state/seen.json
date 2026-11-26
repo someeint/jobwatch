@@ -1,10 +1,6 @@
 {
  "alerts": [
   {
-   "s": 84,
-   "t": "2026-09-24T17:08:34.169066+00:00"
-  },
-  {
    "s": 88,
    "t": "2026-09-24T19:31:20.122338+00:00"
   },
@@ -799,43 +795,43 @@
   {
    "s": 75,
    "t": "2026-11-25T17:10:02.372702+00:00"
+  },
+  {
+   "s": 75,
+   "t": "2026-11-26T01:08:50.660995+00:00"
   }
  ],
  "health": {
   "Adobe": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 10,
+   "fails": 11,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "LinkedIn": {
-   "fails": 44,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 2,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 45,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
   },
   "Nordstrom": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 113,
+   "fails": 114,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1314,6 +1310,7 @@
   "Indeed:3c531131c8fbdb16": "2026-10-29T03:36:58.220144+00:00",
   "Indeed:3d8c3246b9151eeb": "2026-09-26T18:00:53.245317+00:00",
   "Indeed:3f2e113ea024b8c8": "2026-10-05T17:09:04.989402+00:00",
+  "Indeed:3fd33a7f411abfcf": "2026-11-26T01:08:50.660995+00:00",
   "Indeed:4b12f22a1c2d6d68": "2026-10-08T18:52:59.131833+00:00",
   "Indeed:4bc870178cdc9c21": "2026-10-06T16:11:58.127634+00:00",
   "Indeed:6bb3442eb5981057": "2026-11-06T01:08:33.449456+00:00",
@@ -1673,6 +1670,7 @@
   "bcff1a7c17f5c956": "2026-09-19T18:31:08.637985+00:00",
   "bd1b1dc1d63fd6ed": "2026-10-13T09:09:19.990036+00:00",
   "bd2dde75fcda4409": "2026-10-06T20:09:13.575994+00:00",
+  "be99d90d70ff4c7e": "2026-11-26T01:08:50.660995+00:00",
   "bf6106e25da0edb1": "2026-09-25T17:09:31.865848+00:00",
   "c0c72c8283a70e0a": "2026-10-26T23:55:33.488420+00:00",
   "c0df9cbf88bc1650": "2026-09-19T18:31:08.637985+00:00",
