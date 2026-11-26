@@ -803,55 +803,39 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
-  "City of Seattle (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=seattle&sort=PostingDate&isDescendingSort=true&page=1 (Caused by"
-  },
-  "City of Tacoma (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=tacoma&sort=PostingDate&isDescendingSort=true&page=1 (Caused by "
-  },
   "CrowdStrike": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "King County (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=kingcounty&sort=PostingDate&isDescendingSort=true&page=1 (Caused"
-  },
   "LinkedIn": {
-   "fails": 43,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 106 jobs collected before the block"
+   "fails": 44,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
   "Microsoft": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
-  "Snohomish County (gov)": {
-   "fails": 2,
-   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='www.governmentjobs.com', port=443): Max retries exceeded with url: /careers/home/index?agency=snohomish&sort=PostingDate&isDescendingSort=true&page=1 (Caused "
-  },
   "T-Mobile": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 112,
+   "fails": 113,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2988,6 +2972,7 @@
   "King County (gov):5525780": "2026-10-22T20:38:56.897100+00:00",
   "King County (gov):5546662": "2026-11-13T11:31:13.694505+00:00",
   "King County (gov):5551108": "2026-11-16T20:09:18.062353+00:00",
+  "King County (gov):5561389": "2026-11-26T00:08:55.372802+00:00",
   "LinkedIn:2148455051": "2026-10-14T17:17:53.545643+00:00",
   "LinkedIn:3482555647": "2026-10-22T15:48:27.201077+00:00",
   "LinkedIn:4271760505": "2026-09-28T16:05:18.088598+00:00",
@@ -4557,6 +4542,7 @@
   "LinkedIn:4493385704": "2026-11-22T20:24:41.919533+00:00",
   "LinkedIn:4493410329": "2026-11-25T17:10:02.372702+00:00",
   "LinkedIn:4493458573": "2026-11-25T23:09:23.125550+00:00",
+  "LinkedIn:4493462529": "2026-11-26T00:08:55.372802+00:00",
   "LinkedIn:4493466174": "2026-11-25T22:09:31.006587+00:00",
   "LinkedIn:4493669613": "2026-11-24T03:07:58.764320+00:00",
   "LinkedIn:4493699404": "2026-11-23T21:09:11.575695+00:00",
