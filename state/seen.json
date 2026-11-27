@@ -803,35 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 5,
-   "last_error": "relay data is 23.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 6,
+   "last_error": "relay data is 24.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 7,
+   "fails": 8,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Salesforce": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -3215,7 +3215,6 @@
   "LinkedIn:4470179243": "2026-10-19T00:08:59.976985+00:00",
   "LinkedIn:4470188296": "2026-10-19T00:08:59.976985+00:00",
   "LinkedIn:4470810212": "2026-10-19T18:09:19.613474+00:00",
-  "LinkedIn:4471201550": "2026-09-28T20:08:20.739406+00:00",
   "LinkedIn:4471207845": "2026-09-30T11:09:01.742472+00:00",
   "LinkedIn:4471218367": "2026-09-28T21:36:51.568421+00:00",
   "LinkedIn:4471221790": "2026-09-29T17:08:45.517828+00:00",
@@ -4548,7 +4547,6 @@
   "Microsoft:1970393556988739": "2026-10-09T00:27:27.543496+00:00",
   "Microsoft:1970393556999267": "2026-10-27T20:47:12.496631+00:00",
   "Microsoft:1970393557001667": "2026-09-30T22:08:58.173147+00:00",
-  "Microsoft:1970393557008037": "2026-09-28T20:08:20.739406+00:00",
   "Microsoft:1970393557008593": "2026-10-07T19:06:50.961237+00:00",
   "Microsoft:1970393557016409": "2026-10-12T22:10:17.785465+00:00",
   "Microsoft:1970393557016565": "2026-10-05T21:34:20.019911+00:00",
@@ -4678,7 +4676,6 @@
   "Salesforce:JR344986": "2026-10-23T20:34:49.233535+00:00",
   "Salesforce:JR345316": "2026-10-30T20:10:01.686285+00:00",
   "Salesforce:JR345988": "2026-10-12T08:36:15.323940+00:00",
-  "Salesforce:JR347430": "2026-09-28T20:08:20.739406+00:00",
   "Salesforce:JR348387": "2026-09-28T22:09:01.161460+00:00",
   "Salesforce:JR349478": "2026-09-30T15:09:05.432295+00:00",
   "Salesforce:JR349493": "2026-10-14T17:17:53.545643+00:00",
@@ -4868,7 +4865,6 @@
   "Salesforce:JR369146": "2026-11-25T10:12:21.358265+00:00",
   "Salesforce:JR369213": "2026-11-21T21:02:02.746371+00:00",
   "Starbucks:481080882301": "2026-09-30T22:08:58.173147+00:00",
-  "Starbucks:481080977556": "2026-09-28T20:08:20.739406+00:00",
   "Starbucks:481081088872": "2026-10-09T03:00:43.290470+00:00",
   "Starbucks:481081104905": "2026-10-02T19:09:02.722183+00:00",
   "Starbucks:481081171846": "2026-10-13T17:35:56.440883+00:00",
