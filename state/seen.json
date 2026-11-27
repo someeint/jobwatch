@@ -803,39 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 12,
+   "fails": 13,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 28,
+   "fails": 29,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 4,
-   "last_error": "relay data is 22.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 5,
+   "last_error": "relay data is 23.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 6,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 7,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Salesforce": {
-   "fails": 20,
+   "fails": 21,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 20,
+   "fails": 21,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 4,
+   "fails": 5,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2821,6 +2817,7 @@
   "Company boards (Greenhouse):stripe-8368621": "2026-11-10T17:48:39.834606+00:00",
   "Company boards (Greenhouse):stripe-8368638": "2026-11-10T17:48:39.834606+00:00",
   "Company boards (Greenhouse):stripe-8404667": "2026-11-24T00:12:10.289587+00:00",
+  "Company boards (Greenhouse):stripe-8421263": "2026-11-27T19:09:51.261855+00:00",
   "Company boards (Greenhouse):toast-8226770": "2026-09-29T20:09:34.982033+00:00",
   "Company boards (Greenhouse):toast-8246146": "2026-10-09T20:10:23.691425+00:00",
   "Company boards (Greenhouse):toast-8250182": "2026-10-05T17:09:04.989402+00:00",
@@ -3176,7 +3173,6 @@
   "LinkedIn:4466042042": "2026-10-03T18:20:38.809405+00:00",
   "LinkedIn:4466071674": "2026-10-03T18:20:38.809405+00:00",
   "LinkedIn:4466071681": "2026-10-05T17:09:04.989402+00:00",
-  "LinkedIn:4466111825": "2026-09-28T19:09:35.991736+00:00",
   "LinkedIn:4466248200": "2026-10-08T14:49:43.189216+00:00",
   "LinkedIn:4466321493": "2026-10-25T19:44:24.987960+00:00",
   "LinkedIn:4466343580": "2026-10-05T00:32:59.099187+00:00",
@@ -3224,10 +3220,7 @@
   "LinkedIn:4471218367": "2026-09-28T21:36:51.568421+00:00",
   "LinkedIn:4471221790": "2026-09-29T17:08:45.517828+00:00",
   "LinkedIn:4471241035": "2026-09-29T07:00:19.141617+00:00",
-  "LinkedIn:4471508711": "2026-09-28T19:09:35.991736+00:00",
   "LinkedIn:4471512073": "2026-09-28T21:36:51.568421+00:00",
-  "LinkedIn:4471514642": "2026-09-28T19:09:35.991736+00:00",
-  "LinkedIn:4471535148": "2026-09-28T19:09:35.991736+00:00",
   "LinkedIn:4471561284": "2026-09-28T21:36:51.568421+00:00",
   "LinkedIn:4471561475": "2026-09-29T07:00:19.141617+00:00",
   "LinkedIn:4471561477": "2026-09-29T07:00:19.141617+00:00",
@@ -3269,11 +3262,7 @@
   "LinkedIn:4472630841": "2026-09-30T22:08:58.173147+00:00",
   "LinkedIn:4472644159": "2026-10-05T17:09:04.989402+00:00",
   "LinkedIn:4472648144": "2026-09-30T22:08:58.173147+00:00",
-  "LinkedIn:4472749997": "2026-09-28T19:09:35.991736+00:00",
-  "LinkedIn:4472759966": "2026-09-28T19:09:35.991736+00:00",
-  "LinkedIn:4472775957": "2026-09-28T19:09:35.991736+00:00",
   "LinkedIn:4472790676": "2026-09-28T21:36:51.568421+00:00",
-  "LinkedIn:4472792214": "2026-09-28T19:09:35.991736+00:00",
   "LinkedIn:4472796893": "2026-09-28T21:36:51.568421+00:00",
   "LinkedIn:4472796917": "2026-09-28T21:36:51.568421+00:00",
   "LinkedIn:4472803334": "2026-10-01T19:08:49.260098+00:00",
@@ -4561,7 +4550,6 @@
   "Microsoft:1970393557001667": "2026-09-30T22:08:58.173147+00:00",
   "Microsoft:1970393557008037": "2026-09-28T20:08:20.739406+00:00",
   "Microsoft:1970393557008593": "2026-10-07T19:06:50.961237+00:00",
-  "Microsoft:1970393557008710": "2026-09-28T19:09:35.991736+00:00",
   "Microsoft:1970393557016409": "2026-10-12T22:10:17.785465+00:00",
   "Microsoft:1970393557016565": "2026-10-05T21:34:20.019911+00:00",
   "Microsoft:1970393557019352": "2026-10-05T22:08:49.742417+00:00",
@@ -4718,7 +4706,6 @@
   "Salesforce:JR358862": "2026-10-02T16:42:22.792146+00:00",
   "Salesforce:JR359324": "2026-09-29T07:00:19.141617+00:00",
   "Salesforce:JR359393": "2026-10-08T18:52:59.131833+00:00",
-  "Salesforce:JR359859": "2026-09-28T19:09:35.991736+00:00",
   "Salesforce:JR360049": "2026-10-02T11:19:57.899671+00:00",
   "Salesforce:JR360223": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR360243": "2026-10-06T21:09:29.745691+00:00",
