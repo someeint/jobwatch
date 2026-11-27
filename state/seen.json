@@ -803,43 +803,43 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 9,
+   "fails": 10,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 25,
+   "fails": 26,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 1,
-   "last_error": "relay data is 7.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 2,
+   "last_error": "relay data is 16.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com"
   },
   "Microsoft": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Nordstrom": {
-   "fails": 6,
+   "fails": 7,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 17,
+   "fails": 18,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -1811,7 +1811,6 @@
   "Adobe:R171630": "2026-11-13T01:08:48.221651+00:00",
   "Adobe:R171637": "2026-09-29T07:00:19.141617+00:00",
   "Adobe:R171683": "2026-09-28T15:55:49.931317+00:00",
-  "Adobe:R171802": "2026-09-28T07:36:22.833456+00:00",
   "Adobe:R172057": "2026-10-05T14:28:22.130549+00:00",
   "Adobe:R172266": "2026-10-02T11:19:57.899671+00:00",
   "Adobe:R172301": "2026-10-02T11:19:57.899671+00:00",
@@ -2406,7 +2405,6 @@
   "Company boards (Greenhouse):anthropic-5394780008": "2026-10-07T16:41:18.237442+00:00",
   "Company boards (Greenhouse):anthropic-5398328008": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Greenhouse):anthropic-5427938008": "2026-09-30T22:08:58.173147+00:00",
-  "Company boards (Greenhouse):anthropic-5432583008": "2026-09-28T07:36:22.833456+00:00",
   "Company boards (Greenhouse):anthropic-5436196008": "2026-09-29T18:09:04.357837+00:00",
   "Company boards (Greenhouse):anthropic-5439391008": "2026-10-02T03:08:39.690474+00:00",
   "Company boards (Greenhouse):anthropic-5439844008": "2026-10-01T08:49:15.274454+00:00",
@@ -2980,6 +2978,7 @@
   "King County (gov):5525780": "2026-10-22T20:38:56.897100+00:00",
   "King County (gov):5546662": "2026-11-13T11:31:13.694505+00:00",
   "King County (gov):5551108": "2026-11-16T20:09:18.062353+00:00",
+  "King County (gov):5560747": "2026-11-27T12:05:54.772309+00:00",
   "King County (gov):5561389": "2026-11-26T00:08:55.372802+00:00",
   "LinkedIn:2148455051": "2026-10-14T17:17:53.545643+00:00",
   "LinkedIn:3482555647": "2026-10-22T15:48:27.201077+00:00",
@@ -3242,7 +3241,6 @@
   "LinkedIn:4470188296": "2026-10-19T00:08:59.976985+00:00",
   "LinkedIn:4470810212": "2026-10-19T18:09:19.613474+00:00",
   "LinkedIn:4470859378": "2026-09-28T16:05:18.088598+00:00",
-  "LinkedIn:4471003872": "2026-09-28T07:36:22.833456+00:00",
   "LinkedIn:4471201550": "2026-09-28T20:08:20.739406+00:00",
   "LinkedIn:4471207845": "2026-09-30T11:09:01.742472+00:00",
   "LinkedIn:4471218367": "2026-09-28T21:36:51.568421+00:00",
@@ -3294,8 +3292,6 @@
   "LinkedIn:4472385169": "2026-10-01T02:04:40.113291+00:00",
   "LinkedIn:4472387318": "2026-10-01T08:49:15.274454+00:00",
   "LinkedIn:4472463720": "2026-09-28T16:05:18.088598+00:00",
-  "LinkedIn:4472474833": "2026-09-28T07:36:22.833456+00:00",
-  "LinkedIn:4472489639": "2026-09-28T07:36:22.833456+00:00",
   "LinkedIn:4472552569": "2026-10-01T15:43:50.514781+00:00",
   "LinkedIn:4472581368": "2026-10-01T15:43:50.514781+00:00",
   "LinkedIn:4472592430": "2026-10-03T05:26:45.450541+00:00",
