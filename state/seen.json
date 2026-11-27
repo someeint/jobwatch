@@ -803,39 +803,39 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 11,
+   "fails": 12,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 27,
+   "fails": 28,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
   "Indeed": {
-   "fails": 3,
-   "last_error": "relay data is 21.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
+   "fails": 4,
+   "last_error": "relay data is 22.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
   },
   "LinkedIn": {
-   "fails": 5,
+   "fails": 6,
    "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 20 jobs collected before the block"
   },
-  "Nordstrom": {
-   "fails": 8,
-   "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
+  "Microsoft": {
+   "fails": 1,
+   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
   },
   "Salesforce": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 19,
+   "fails": 20,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 3,
+   "fails": 4,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2217,11 +2217,11 @@
   "Company boards (Ashby):openai-0cf4a8f4-a57a-494b-aad8-4df8ac096939": "2026-11-20T20:09:09.310045+00:00",
   "Company boards (Ashby):openai-0dc614c9-4eec-475f-b215-5480fe41317a": "2026-11-05T19:50:27.386727+00:00",
   "Company boards (Ashby):openai-0fca3b36-8aaa-491a-be87-09efacfeca5e": "2026-10-29T14:20:05.066021+00:00",
-  "Company boards (Ashby):openai-125db0ea-d5e1-4c49-bc1a-e6ffc8ea71ff": "2026-09-28T18:09:05.543892+00:00",
   "Company boards (Ashby):openai-12d722f9-79da-4d92-a34b-52619146f5da": "2026-10-06T00:09:54.844388+00:00",
   "Company boards (Ashby):openai-1566f1cb-dd46-4753-a8e3-7890c55882a3": "2026-11-20T03:08:25.485477+00:00",
   "Company boards (Ashby):openai-18b4427e-b168-475e-a1e2-92a86c73f0f0": "2026-10-30T19:09:41.703774+00:00",
   "Company boards (Ashby):openai-1a17baf0-8b00-4020-acfa-fd530f20881f": "2026-11-19T23:08:49.947651+00:00",
+  "Company boards (Ashby):openai-1f1ea997-283b-4d49-b25b-e8dbe2491938": "2026-11-27T18:10:14.660387+00:00",
   "Company boards (Ashby):openai-20b2d81c-943b-4be7-a304-39c29bf33923": "2026-10-23T23:28:44.548124+00:00",
   "Company boards (Ashby):openai-20df76c8-aa7e-40d1-8602-28605ed5431b": "2026-11-05T18:09:51.160698+00:00",
   "Company boards (Ashby):openai-2475c6c9-97c1-461b-8c73-0b9ce993860a": "2026-09-29T13:55:16.417993+00:00",
@@ -2294,7 +2294,6 @@
   "Company boards (Ashby):openai-c46d8648-b921-4b71-bb9a-f7d5c8e989f4": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-c717b98e-5394-4ad1-ae3f-e036717ad9b5": "2026-11-19T04:23:53.000564+00:00",
   "Company boards (Ashby):openai-c9832989-edc1-4f2f-8a79-8fa29f5623e2": "2026-11-05T19:50:27.386727+00:00",
-  "Company boards (Ashby):openai-cd3c9c99-9527-4ba2-bea7-9f8f4892bc62": "2026-09-28T18:09:05.543892+00:00",
   "Company boards (Ashby):openai-cda6eab0-edab-4dfc-8923-40ca3b0928b5": "2026-11-06T02:08:42.793997+00:00",
   "Company boards (Ashby):openai-ceca6916-b8d8-42cc-a32a-c27e06744b31": "2026-11-10T12:57:13.375824+00:00",
   "Company boards (Ashby):openai-d1e4178d-8eb6-4727-9601-e230cb96eeee": "2026-10-19T18:09:19.613474+00:00",
@@ -2579,7 +2578,6 @@
   "Company boards (Greenhouse):elastic-8246948": "2026-10-06T15:09:34.366357+00:00",
   "Company boards (Greenhouse):elastic-8285461": "2026-10-19T17:09:10.922234+00:00",
   "Company boards (Greenhouse):elastic-8327970": "2026-10-28T20:34:38.477357+00:00",
-  "Company boards (Greenhouse):figma-6208999004": "2026-09-28T18:09:05.543892+00:00",
   "Company boards (Greenhouse):figma-6211088004": "2026-10-14T17:17:53.545643+00:00",
   "Company boards (Greenhouse):figma-6211910004": "2026-10-02T16:42:22.792146+00:00",
   "Company boards (Greenhouse):figma-6214991004": "2026-10-05T17:09:04.989402+00:00",
@@ -2589,7 +2587,6 @@
   "Company boards (Greenhouse):figma-6261622004": "2026-11-17T19:09:06.477742+00:00",
   "Company boards (Greenhouse):flexport-8160591": "2026-10-15T18:41:25.302041+00:00",
   "Company boards (Greenhouse):flexport-8214366": "2026-10-10T17:08:37.983619+00:00",
-  "Company boards (Greenhouse):flexport-8237417": "2026-09-28T18:09:05.543892+00:00",
   "Company boards (Greenhouse):flexport-8364510": "2026-11-10T04:35:55.750448+00:00",
   "Company boards (Greenhouse):flexport-8384368": "2026-11-13T01:08:48.221651+00:00",
   "Company boards (Greenhouse):flexport-8386921": "2026-11-17T16:09:50.275718+00:00",
@@ -2946,7 +2943,6 @@
   "Indeed:b9d2728998e6b176": "2026-10-02T01:08:58.756463+00:00",
   "Indeed:c798ce755916d79d": "2026-11-19T01:08:34.533398+00:00",
   "Indeed:d837e5888e983ebe": "2026-11-08T12:41:56.711767+00:00",
-  "Indeed:dacc324c33f3d4cb": "2026-09-28T18:09:05.543892+00:00",
   "Indeed:db8e35e5763c7e88": "2026-10-21T01:51:10.940056+00:00",
   "Indeed:dc20b398eaae8f48": "2026-11-19T01:08:34.533398+00:00",
   "Indeed:e8c4007f15b85242": "2026-09-29T18:09:04.357837+00:00",
@@ -3021,7 +3017,6 @@
   "LinkedIn:4442224085": "2026-10-15T13:10:35.810153+00:00",
   "LinkedIn:4442639073": "2026-11-08T23:54:16.248364+00:00",
   "LinkedIn:4443022712": "2026-10-09T00:09:06.497235+00:00",
-  "LinkedIn:4445232548": "2026-09-28T18:09:05.543892+00:00",
   "LinkedIn:4445517575": "2026-10-04T10:46:44.672100+00:00",
   "LinkedIn:4445521766": "2026-10-04T10:46:44.672100+00:00",
   "LinkedIn:4445794611": "2026-09-30T18:53:00.441731+00:00",
@@ -4490,6 +4485,7 @@
   "LinkedIn:4493699404": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493782765": "2026-11-23T21:09:11.575695+00:00",
   "LinkedIn:4493784682": "2026-11-23T16:40:29.113176+00:00",
+  "LinkedIn:4493886770": "2026-11-27T18:10:14.660387+00:00",
   "LinkedIn:4493911502": "2026-11-23T22:08:44.730325+00:00",
   "LinkedIn:4493913464": "2026-11-24T03:07:58.764320+00:00",
   "LinkedIn:4493926095": "2026-11-24T03:07:58.764320+00:00",
@@ -4727,7 +4723,6 @@
   "Salesforce:JR360223": "2026-10-21T12:23:14.491775+00:00",
   "Salesforce:JR360243": "2026-10-06T21:09:29.745691+00:00",
   "Salesforce:JR360926": "2026-10-01T15:43:50.514781+00:00",
-  "Salesforce:JR361095": "2026-09-28T18:09:05.543892+00:00",
   "Salesforce:JR361163": "2026-10-13T03:46:36.728560+00:00",
   "Salesforce:JR361263": "2026-10-08T14:49:43.189216+00:00",
   "Salesforce:JR361287": "2026-10-05T17:09:04.989402+00:00",
