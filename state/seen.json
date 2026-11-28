@@ -803,43 +803,35 @@
  ],
  "health": {
   "Adobe": {
-   "fails": 2,
+   "fails": 3,
    "last_error": "rate-limited/blocked (HTTP 429) by adobe.wd5.myworkdayjobs.com"
   },
   "Boeing": {
-   "fails": 21,
+   "fails": 22,
    "last_error": "rate-limited/blocked (HTTP 429) by boeing.wd1.myworkdayjobs.com"
   },
   "CrowdStrike": {
-   "fails": 37,
+   "fails": 38,
    "last_error": "rate-limited/blocked (HTTP 429) by crowdstrike.wd5.myworkdayjobs.com"
   },
-  "Indeed": {
-   "fails": 13,
-   "last_error": "relay data is 8.9h old (>6h) - Olia's computer/Claude app needs to be online for this to refresh"
-  },
   "LinkedIn": {
-   "fails": 15,
-   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 10 jobs collected before the block"
-  },
-  "Microsoft": {
-   "fails": 1,
-   "last_error": "rate-limited/blocked (HTTP 429) by apply.careers.microsoft.com"
+   "fails": 16,
+   "last_error": "rate-limited/blocked (HTTP 429) by www.linkedin.com - only 30 jobs collected before the block"
   },
   "Nordstrom": {
-   "fails": 1,
+   "fails": 2,
    "last_error": "rate-limited/blocked (HTTP 429) by nordstrom.wd501.myworkdayjobs.com"
   },
   "Salesforce": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by salesforce.wd12.myworkdayjobs.com"
   },
   "T-Mobile": {
-   "fails": 29,
+   "fails": 30,
    "last_error": "rate-limited/blocked (HTTP 429) by tmobile.wd1.myworkdayjobs.com"
   },
   "Zillow": {
-   "fails": 13,
+   "fails": 14,
    "last_error": "rate-limited/blocked (HTTP 429) by zillow.wd5.myworkdayjobs.com"
   }
  },
@@ -2227,7 +2219,6 @@
   "Company boards (Ashby):openai-1f1ea997-283b-4d49-b25b-e8dbe2491938": "2026-11-27T18:10:14.660387+00:00",
   "Company boards (Ashby):openai-20b2d81c-943b-4be7-a304-39c29bf33923": "2026-10-23T23:28:44.548124+00:00",
   "Company boards (Ashby):openai-20df76c8-aa7e-40d1-8602-28605ed5431b": "2026-11-05T18:09:51.160698+00:00",
-  "Company boards (Ashby):openai-2475c6c9-97c1-461b-8c73-0b9ce993860a": "2026-09-29T13:55:16.417993+00:00",
   "Company boards (Ashby):openai-25c2d971-56b4-43c2-8d17-8e168d45add5": "2026-10-22T01:56:36.745076+00:00",
   "Company boards (Ashby):openai-27ffc700-ce7c-47e1-bb92-7a9ed846669b": "2026-11-24T07:08:59.953724+00:00",
   "Company boards (Ashby):openai-2928f960-8f97-4bb6-aafd-3ffbe70d5ea8": "2026-11-17T20:09:09.655155+00:00",
@@ -2481,7 +2472,6 @@
   "Company boards (Greenhouse):chime-8948694002": "2026-11-19T17:09:07.050872+00:00",
   "Company boards (Greenhouse):chime-8958817002": "2026-11-23T18:29:04.827582+00:00",
   "Company boards (Greenhouse):chime-8958818002": "2026-11-23T18:29:04.827582+00:00",
-  "Company boards (Greenhouse):cloudflare-8232768": "2026-09-29T13:55:16.417993+00:00",
   "Company boards (Greenhouse):cloudflare-8233538": "2026-10-16T17:28:06.731197+00:00",
   "Company boards (Greenhouse):cloudflare-8234270": "2026-09-29T18:29:42.364371+00:00",
   "Company boards (Greenhouse):cloudflare-8239352": "2026-10-02T16:42:22.792146+00:00",
@@ -2958,7 +2948,6 @@
   "Indeed:fc8badeb24cfcb68": "2026-11-24T07:08:59.953724+00:00",
   "Indeed:fe0f8147bea49e71": "2026-09-30T10:09:09.259204+00:00",
   "King County (gov):5490335": "2026-11-21T15:31:03.637357+00:00",
-  "King County (gov):5496848": "2026-09-29T13:55:16.417993+00:00",
   "King County (gov):5503430": "2026-10-03T01:08:55.857527+00:00",
   "King County (gov):5504036": "2026-10-07T19:06:50.961237+00:00",
   "King County (gov):5504596": "2026-10-04T15:31:01.497479+00:00",
